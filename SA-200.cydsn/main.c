@@ -214,7 +214,7 @@ int main(void)
             bleTimerExpired=0;
             SysWdtReset();
             CySysWdtDisable( CY_SYS_WDT_COUNTER0_MASK | CY_SYS_WDT_COUNTER1_MASK ); 
-            //GoToSleep();
+            GoToSleep();
         }
 #endif
         

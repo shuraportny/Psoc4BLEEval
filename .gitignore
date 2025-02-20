@@ -36,3 +36,6 @@ CortexM0/
 CortexM4/
 PSoC5/
 ARM_GCC_541/
+
+!*.c
+!*.h
