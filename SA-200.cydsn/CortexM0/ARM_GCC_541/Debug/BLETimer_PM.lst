@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
   24:Generated_Source\PSoC4/BLETimer_PM.c **** /*******************************************************************************
   25:Generated_Source\PSoC4/BLETimer_PM.c **** * Function Name: BLETimer_SaveConfig
   26:Generated_Source\PSoC4/BLETimer_PM.c **** ********************************************************************************
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 2
 
 
   27:Generated_Source\PSoC4/BLETimer_PM.c **** *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
   55:Generated_Source\PSoC4/BLETimer_PM.c **** *  None
   56:Generated_Source\PSoC4/BLETimer_PM.c **** *
   57:Generated_Source\PSoC4/BLETimer_PM.c **** *******************************************************************************/
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 3
 
 
   58:Generated_Source\PSoC4/BLETimer_PM.c **** void BLETimer_Sleep(void)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
   98 0030 00000000 		.word	BLETimer_backup
   99              		.cfi_endproc
  100              	.LFE3:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 4
 
 
  101              		.size	BLETimer_Sleep, .-BLETimer_Sleep
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  135              	.LFB5:
   92:Generated_Source\PSoC4/BLETimer_PM.c **** 
   93:Generated_Source\PSoC4/BLETimer_PM.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 5
 
 
   94:Generated_Source\PSoC4/BLETimer_PM.c **** /*******************************************************************************
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  167              		.size	BLETimer_Wakeup, .-BLETimer_Wakeup
  168              		.text
  169              	.Letext0:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 6
 
 
  170              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
@@ -310,37 +310,37 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  176 0006 00000000 		.4byte	.Ldebug_abbrev0
  177 000a 04       		.byte	0x4
  178 000b 01       		.uleb128 0x1
- 179 000c 99010000 		.4byte	.LASF22
+ 179 000c 6F010000 		.4byte	.LASF22
  180 0010 0C       		.byte	0xc
- 181 0011 2C010000 		.4byte	.LASF23
- 182 0015 DA000000 		.4byte	.LASF24
+ 181 0011 02010000 		.4byte	.LASF23
+ 182 0015 42000000 		.4byte	.LASF24
  183 0019 00000000 		.4byte	.Ldebug_ranges0+0
  184 001d 00000000 		.4byte	0
  185 0021 00000000 		.4byte	.Ldebug_line0
  186 0025 02       		.uleb128 0x2
  187 0026 01       		.byte	0x1
  188 0027 06       		.byte	0x6
- 189 0028 64010000 		.4byte	.LASF0
+ 189 0028 3A010000 		.4byte	.LASF0
  190 002c 02       		.uleb128 0x2
  191 002d 01       		.byte	0x1
  192 002e 08       		.byte	0x8
- 193 002f B1000000 		.4byte	.LASF1
+ 193 002f D9000000 		.4byte	.LASF1
  194 0033 02       		.uleb128 0x2
  195 0034 02       		.byte	0x2
  196 0035 05       		.byte	0x5
- 197 0036 5A000000 		.4byte	.LASF2
+ 197 0036 82000000 		.4byte	.LASF2
  198 003a 02       		.uleb128 0x2
  199 003b 02       		.byte	0x2
  200 003c 07       		.byte	0x7
- 201 003d 51010000 		.4byte	.LASF3
+ 201 003d 27010000 		.4byte	.LASF3
  202 0041 02       		.uleb128 0x2
  203 0042 04       		.byte	0x4
  204 0043 05       		.byte	0x5
- 205 0044 C4000000 		.4byte	.LASF4
+ 205 0044 EC000000 		.4byte	.LASF4
  206 0048 02       		.uleb128 0x2
  207 0049 04       		.byte	0x4
  208 004a 07       		.byte	0x7
- 209 004b 48000000 		.4byte	.LASF5
+ 209 004b 70000000 		.4byte	.LASF5
  210 004f 02       		.uleb128 0x2
  211 0050 08       		.byte	0x8
  212 0051 05       		.byte	0x5
@@ -348,7 +348,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  214 0056 02       		.uleb128 0x2
  215 0057 08       		.byte	0x8
  216 0058 07       		.byte	0x7
- 217 0059 64000000 		.4byte	.LASF7
+ 217 0059 8C000000 		.4byte	.LASF7
  218 005d 03       		.uleb128 0x3
  219 005e 04       		.byte	0x4
  220 005f 05       		.byte	0x5
@@ -358,10 +358,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  224 0066 07       		.byte	0x7
  225 0067 21000000 		.4byte	.LASF8
  226 006b 04       		.uleb128 0x4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 7
 
 
- 227 006c 42000000 		.4byte	.LASF9
+ 227 006c 6A000000 		.4byte	.LASF9
  228 0070 02       		.byte	0x2
  229 0071 FC01     		.2byte	0x1fc
  230 0073 2C000000 		.4byte	0x2c
@@ -373,17 +373,17 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  236 0083 02       		.uleb128 0x2
  237 0084 04       		.byte	0x4
  238 0085 04       		.byte	0x4
- 239 0086 93010000 		.4byte	.LASF11
+ 239 0086 69010000 		.4byte	.LASF11
  240 008a 02       		.uleb128 0x2
  241 008b 08       		.byte	0x8
  242 008c 04       		.byte	0x4
- 243 008d D3000000 		.4byte	.LASF12
+ 243 008d FB000000 		.4byte	.LASF12
  244 0091 02       		.uleb128 0x2
  245 0092 01       		.byte	0x1
  246 0093 08       		.byte	0x8
- 247 0094 BF000000 		.4byte	.LASF13
+ 247 0094 E7000000 		.4byte	.LASF13
  248 0098 04       		.uleb128 0x4
- 249 0099 CD000000 		.4byte	.LASF14
+ 249 0099 F5000000 		.4byte	.LASF14
  250 009d 02       		.byte	0x2
  251 009e A802     		.2byte	0x2a8
  252 00a0 A4000000 		.4byte	0xa4
@@ -392,11 +392,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  255 00a9 02       		.uleb128 0x2
  256 00aa 08       		.byte	0x8
  257 00ab 04       		.byte	0x4
- 258 00ac 87010000 		.4byte	.LASF15
+ 258 00ac 5D010000 		.4byte	.LASF15
  259 00b0 02       		.uleb128 0x2
  260 00b1 04       		.byte	0x4
  261 00b2 07       		.byte	0x7
- 262 00b3 27020000 		.4byte	.LASF16
+ 262 00b3 FD010000 		.4byte	.LASF16
  263 00b7 06       		.uleb128 0x6
  264 00b8 01       		.byte	0x1
  265 00b9 03       		.byte	0x3
@@ -410,7 +410,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  273 00ca 00       		.byte	0
  274 00cb 00       		.byte	0
  275 00cc 08       		.uleb128 0x8
- 276 00cd 8B000000 		.4byte	.LASF17
+ 276 00cd B3000000 		.4byte	.LASF17
  277 00d1 03       		.byte	0x3
  278 00d2 24       		.byte	0x24
  279 00d3 B7000000 		.4byte	0xb7
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  281 00d8 2E000000 		.4byte	.LASF18
  282 00dc 01       		.byte	0x1
  283 00dd 26       		.byte	0x26
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 8
 
 
  284 00de 00000000 		.4byte	.LFB2
@@ -426,7 +426,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  286 00e6 01       		.uleb128 0x1
  287 00e7 9C       		.byte	0x9c
  288 00e8 0A       		.uleb128 0xa
- 289 00e9 A2000000 		.4byte	.LASF19
+ 289 00e9 CA000000 		.4byte	.LASF19
  290 00ed 01       		.byte	0x1
  291 00ee 3A       		.byte	0x3a
  292 00ef 00000000 		.4byte	.LFB3
@@ -434,7 +434,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  294 00f7 01       		.uleb128 0x1
  295 00f8 9C       		.byte	0x9c
  296 00f9 09       		.uleb128 0x9
- 297 00fa 70010000 		.4byte	.LASF20
+ 297 00fa 46010000 		.4byte	.LASF20
  298 00fe 01       		.byte	0x1
  299 00ff 58       		.byte	0x58
  300 0100 00000000 		.4byte	.LFB4
@@ -442,7 +442,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  302 0108 01       		.uleb128 0x1
  303 0109 9C       		.byte	0x9c
  304 010a 0A       		.uleb128 0xa
- 305 010b 7B000000 		.4byte	.LASF21
+ 305 010b A3000000 		.4byte	.LASF21
  306 010f 01       		.byte	0x1
  307 0110 6C       		.byte	0x6c
  308 0111 00000000 		.4byte	.LFB5
@@ -450,7 +450,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  310 0119 01       		.uleb128 0x1
  311 011a 9C       		.byte	0x9c
  312 011b 0B       		.uleb128 0xb
- 313 011c 30020000 		.4byte	.LASF26
+ 313 011c 06020000 		.4byte	.LASF26
  314 0120 01       		.byte	0x1
  315 0121 15       		.byte	0x15
  316 0122 CC000000 		.4byte	0xcc
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  338 000f 10       		.uleb128 0x10
  339 0010 17       		.uleb128 0x17
  340 0011 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 9
 
 
  341 0012 00       		.byte	0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  395 0048 00       		.byte	0
  396 0049 00       		.byte	0
  397 004a 07       		.uleb128 0x7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 10
 
 
  398 004b 0D       		.uleb128 0xd
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  452 0082 19       		.uleb128 0x19
  453 0083 03       		.uleb128 0x3
  454 0084 0E       		.uleb128 0xe
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 11
 
 
  455 0085 3A       		.uleb128 0x3a
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  509 0008 00000000 		.4byte	.LFB3
  510 000c 34000000 		.4byte	.LFE3
  511 0010 00000000 		.4byte	.LFB4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 12
 
 
  512 0014 0A000000 		.4byte	.LFE4
@@ -696,128 +696,123 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 1
  529      5F536176 
  529      65436F6E 
  529      66696700 
- 530              	.LASF9:
- 531 0042 75696E74 		.ascii	"uint8\000"
- 531      3800
- 532              	.LASF5:
- 533 0048 6C6F6E67 		.ascii	"long unsigned int\000"
- 533      20756E73 
- 533      69676E65 
- 533      6420696E 
- 533      7400
- 534              	.LASF2:
- 535 005a 73686F72 		.ascii	"short int\000"
- 535      7420696E 
+ 530              	.LASF24:
+ 531 0042 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 531      4F524B5C 
+ 531      54455354 
+ 531      735C5073 
+ 531      6F633442 
+ 532              	.LASF9:
+ 533 006a 75696E74 		.ascii	"uint8\000"
+ 533      3800
+ 534              	.LASF5:
+ 535 0070 6C6F6E67 		.ascii	"long unsigned int\000"
+ 535      20756E73 
+ 535      69676E65 
+ 535      6420696E 
  535      7400
- 536              	.LASF7:
- 537 0064 6C6F6E67 		.ascii	"long long unsigned int\000"
- 537      206C6F6E 
- 537      6720756E 
- 537      7369676E 
- 537      65642069 
- 538              	.LASF21:
- 539 007b 424C4554 		.ascii	"BLETimer_Wakeup\000"
- 539      696D6572 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 13
+ 536              	.LASF2:
+ 537 0082 73686F72 		.ascii	"short int\000"
+ 537      7420696E 
+ 537      7400
+ 538              	.LASF7:
+ 539 008c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 539      206C6F6E 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 13
 
 
- 539      5F57616B 
- 539      65757000 
- 540              	.LASF17:
- 541 008b 424C4554 		.ascii	"BLETimer_BACKUP_STRUCT\000"
+ 539      6720756E 
+ 539      7369676E 
+ 539      65642069 
+ 540              	.LASF21:
+ 541 00a3 424C4554 		.ascii	"BLETimer_Wakeup\000"
  541      696D6572 
- 541      5F424143 
- 541      4B55505F 
- 541      53545255 
- 542              	.LASF19:
- 543 00a2 424C4554 		.ascii	"BLETimer_Sleep\000"
+ 541      5F57616B 
+ 541      65757000 
+ 542              	.LASF17:
+ 543 00b3 424C4554 		.ascii	"BLETimer_BACKUP_STRUCT\000"
  543      696D6572 
- 543      5F536C65 
- 543      657000
- 544              	.LASF1:
- 545 00b1 756E7369 		.ascii	"unsigned char\000"
- 545      676E6564 
- 545      20636861 
- 545      7200
- 546              	.LASF13:
- 547 00bf 63686172 		.ascii	"char\000"
- 547      00
- 548              	.LASF4:
- 549 00c4 6C6F6E67 		.ascii	"long int\000"
- 549      20696E74 
+ 543      5F424143 
+ 543      4B55505F 
+ 543      53545255 
+ 544              	.LASF19:
+ 545 00ca 424C4554 		.ascii	"BLETimer_Sleep\000"
+ 545      696D6572 
+ 545      5F536C65 
+ 545      657000
+ 546              	.LASF1:
+ 547 00d9 756E7369 		.ascii	"unsigned char\000"
+ 547      676E6564 
+ 547      20636861 
+ 547      7200
+ 548              	.LASF13:
+ 549 00e7 63686172 		.ascii	"char\000"
  549      00
- 550              	.LASF14:
- 551 00cd 72656733 		.ascii	"reg32\000"
- 551      3200
- 552              	.LASF12:
- 553 00d3 646F7562 		.ascii	"double\000"
- 553      6C6500
- 554              	.LASF24:
- 555 00da 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 555      73657273 
- 555      5C616C65 
- 555      78706F72 
- 555      745C4F6E 
- 556 010a 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 556      54735C55 
- 556      41525420 
- 556      55444220 
- 556      74657374 
- 557              	.LASF23:
- 558 012c 47656E65 		.ascii	"Generated_Source\\PSoC4\\BLETimer_PM.c\000"
- 558      72617465 
- 558      645F536F 
- 558      75726365 
- 558      5C50536F 
- 559              	.LASF3:
- 560 0151 73686F72 		.ascii	"short unsigned int\000"
- 560      7420756E 
- 560      7369676E 
- 560      65642069 
- 560      6E7400
- 561              	.LASF0:
- 562 0164 7369676E 		.ascii	"signed char\000"
- 562      65642063 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc7eEooX.s 			page 14
+ 550              	.LASF4:
+ 551 00ec 6C6F6E67 		.ascii	"long int\000"
+ 551      20696E74 
+ 551      00
+ 552              	.LASF14:
+ 553 00f5 72656733 		.ascii	"reg32\000"
+ 553      3200
+ 554              	.LASF12:
+ 555 00fb 646F7562 		.ascii	"double\000"
+ 555      6C6500
+ 556              	.LASF23:
+ 557 0102 47656E65 		.ascii	"Generated_Source\\PSoC4\\BLETimer_PM.c\000"
+ 557      72617465 
+ 557      645F536F 
+ 557      75726365 
+ 557      5C50536F 
+ 558              	.LASF3:
+ 559 0127 73686F72 		.ascii	"short unsigned int\000"
+ 559      7420756E 
+ 559      7369676E 
+ 559      65642069 
+ 559      6E7400
+ 560              	.LASF0:
+ 561 013a 7369676E 		.ascii	"signed char\000"
+ 561      65642063 
+ 561      68617200 
+ 562              	.LASF20:
+ 563 0146 424C4554 		.ascii	"BLETimer_RestoreConfig\000"
+ 563      696D6572 
+ 563      5F526573 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJncyDX.s 			page 14
 
 
- 562      68617200 
- 563              	.LASF20:
- 564 0170 424C4554 		.ascii	"BLETimer_RestoreConfig\000"
- 564      696D6572 
- 564      5F526573 
- 564      746F7265 
- 564      436F6E66 
- 565              	.LASF15:
- 566 0187 6C6F6E67 		.ascii	"long double\000"
- 566      20646F75 
- 566      626C6500 
- 567              	.LASF11:
- 568 0193 666C6F61 		.ascii	"float\000"
- 568      7400
- 569              	.LASF22:
- 570 0199 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 570      43313120 
- 570      352E342E 
- 570      31203230 
- 570      31363036 
- 571 01cc 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 571      20726576 
- 571      6973696F 
- 571      6E203233 
- 571      37373135 
- 572 01ff 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 572      66756E63 
- 572      74696F6E 
- 572      2D736563 
- 572      74696F6E 
- 573              	.LASF16:
- 574 0227 73697A65 		.ascii	"sizetype\000"
- 574      74797065 
- 574      00
- 575              	.LASF26:
- 576 0230 424C4554 		.ascii	"BLETimer_backup\000"
- 576      696D6572 
- 576      5F626163 
- 576      6B757000 
- 577              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 563      746F7265 
+ 563      436F6E66 
+ 564              	.LASF15:
+ 565 015d 6C6F6E67 		.ascii	"long double\000"
+ 565      20646F75 
+ 565      626C6500 
+ 566              	.LASF11:
+ 567 0169 666C6F61 		.ascii	"float\000"
+ 567      7400
+ 568              	.LASF22:
+ 569 016f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 569      43313120 
+ 569      352E342E 
+ 569      31203230 
+ 569      31363036 
+ 570 01a2 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 570      20726576 
+ 570      6973696F 
+ 570      6E203233 
+ 570      37373135 
+ 571 01d5 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 571      66756E63 
+ 571      74696F6E 
+ 571      2D736563 
+ 571      74696F6E 
+ 572              	.LASF16:
+ 573 01fd 73697A65 		.ascii	"sizetype\000"
+ 573      74797065 
+ 573      00
+ 574              	.LASF26:
+ 575 0206 424C4554 		.ascii	"BLETimer_backup\000"
+ 575      696D6572 
+ 575      5F626163 
+ 575      6B757000 
+ 576              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

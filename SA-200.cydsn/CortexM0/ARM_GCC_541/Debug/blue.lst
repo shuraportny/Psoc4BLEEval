@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
   51 000f 00       		.space	1
   52              		.global	cyBle_discoveryData
   53              		.align	2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 2
 
 
   54              		.type	cyBle_discoveryData, %object
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  104 0034 00000000 		.word	cyBle_discoveryParam
  105 0038 00000000 		.word	cyBle_discoveryData
  106 003c 00000000 		.word	cyBle_scanRspData
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 3
 
 
  107 0040 0000     		.short	0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
   19:Generated_Source\PSoC4/blue.c **** 
   20:Generated_Source\PSoC4/blue.c **** 
   21:Generated_Source\PSoC4/blue.c **** /***************************************
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 4
 
 
   22:Generated_Source\PSoC4/blue.c **** * Function Prototypes
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
   76:Generated_Source\PSoC4/blue.c ****     0x53u, 0x20u, 0x32u, 0x33u, 0x34u, 0x35u, 0x36u, 0x37u,
   77:Generated_Source\PSoC4/blue.c ****     0x38u, 0x39u, 0x30u, 0x03u, 0x02u, 0x2Cu, 0xB8u, 0x00u }, /* uint8 advertising_data[CYBLE_MAX_A
   78:Generated_Source\PSoC4/blue.c ****     0x1Eu,      /* uint8 adv_data_length */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 5
 
 
   79:Generated_Source\PSoC4/blue.c **** };
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  133:Generated_Source\PSoC4/blue.c **** #endif /* CYBLE_GATT_DB_CCCD_COUNT != 0u */
  134:Generated_Source\PSoC4/blue.c ****     
  135:Generated_Source\PSoC4/blue.c **** #endif  /* (CYBLE_BONDING_REQUIREMENT == CYBLE_BONDING_YES) */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 6
 
 
  136:Generated_Source\PSoC4/blue.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  168:Generated_Source\PSoC4/blue.c ****         cyBle_connectionParameters.scanWindow = cyBle_discoveryInfo.scanWindow;
  169:Generated_Source\PSoC4/blue.c ****         cyBle_connectionParameters.ownAddrType = cyBle_discoveryInfo.ownAddrType;
  170:Generated_Source\PSoC4/blue.c ****         cyBle_connectionParameters.initiatorFilterPolicy = cyBle_discoveryInfo.scanFilterPolicy;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 7
 
 
  171:Generated_Source\PSoC4/blue.c ****         cyBle_connectionParameters.connIntvMin = CYBLE_GAPC_CONNECTION_INTERVAL_MIN;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  191:Generated_Source\PSoC4/blue.c **** /******************************************************************************
  192:Generated_Source\PSoC4/blue.c **** * Function Name: CyBle_ServiceInit
  193:Generated_Source\PSoC4/blue.c **** ***************************************************************************//**
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 8
 
 
  194:Generated_Source\PSoC4/blue.c **** * 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  238:Generated_Source\PSoC4/blue.c ****     
  239:Generated_Source\PSoC4/blue.c ****     #ifdef CYBLE_BMS
  240:Generated_Source\PSoC4/blue.c ****         CyBle_BmsInit();
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 9
 
 
  241:Generated_Source\PSoC4/blue.c ****     #endif /* CYBLE_BMS */
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  291:Generated_Source\PSoC4/blue.c ****     #ifdef CYBLE_IAS
  292:Generated_Source\PSoC4/blue.c ****         CyBle_IasInit();
  293:Generated_Source\PSoC4/blue.c ****     #endif /* CYBLE_IAS */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 10
 
 
  294:Generated_Source\PSoC4/blue.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  214 000c C046     		nop
  215 000e BD46     		mov	sp, r7
  216              		@ sp needed
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 11
 
 
  217 0010 80BD     		pop	{r7, pc}
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  371:Generated_Source\PSoC4/blue.c **** *  CYBLE_API_RESULT_T : Return value indicates if the function succeeded or 
  372:Generated_Source\PSoC4/blue.c **** *  failed. Following are the possible error codes.
  373:Generated_Source\PSoC4/blue.c **** * 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 12
 
 
  374:Generated_Source\PSoC4/blue.c **** *   <table>
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  265 000c 0022     		movs	r2, #0
  266 000e 1A80     		strh	r2, [r3]
  410:Generated_Source\PSoC4/blue.c ****     
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 13
 
 
  411:Generated_Source\PSoC4/blue.c ****     #if(CYBLE_MODE_PROFILE)
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  436:Generated_Source\PSoC4/blue.c ****         if(cyBle_stackMemoryRam == NULL)
  437:Generated_Source\PSoC4/blue.c ****         {
  438:Generated_Source\PSoC4/blue.c ****             cyBle_stackMemoryRam = (uint8 *)malloc(CYBLE_STACK_RAM_SIZE);
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 14
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 14
 
 
  439:Generated_Source\PSoC4/blue.c ****             if(cyBle_stackMemoryRam == NULL)
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  327 0070 FB18     		adds	r3, r7, r3
  328 0072 1B22     		movs	r2, #27
  329 0074 5A80     		strh	r2, [r3, #2]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 15
 
 
  462:Generated_Source\PSoC4/blue.c ****             dleConfigParams.dleNumTxBuffer = CYBLE_LL_DEFAULT_NUM_ACL_TX_PACKETS;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  364 00ae FD18     		adds	r5, r7, r3
  365 00b0 AE23     		movs	r3, #174
  366 00b2 1A01     		lsls	r2, r3, #4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 16
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 16
 
 
  367 00b4 1849     		ldr	r1, .L12+12
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  514:Generated_Source\PSoC4/blue.c ****                 apiResult = CyBle_GattsDbRegister(cyBle_gattDB, CYBLE_GATT_DB_INDEX_COUNT, CYBLE_GA
  389              		.loc 1 514 0
  390 00de 3E23     		movs	r3, #62
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 17
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 17
 
 
  391 00e0 FC18     		adds	r4, r7, r3
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  434              		.global	CyBle_Stop
  435              		.code	16
  436              		.thumb_func
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 18
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 18
 
 
  437              		.type	CyBle_Stop, %function
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  466              	.LFE5:
  467              		.size	CyBle_Stop, .-CyBle_Stop
  468              		.section	.text.CyBle_StoreBondingData,"ax",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 19
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 19
 
 
  469              		.align	2
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  476              		.loc 1 597 0
  477              		.cfi_startproc
  478              		@ args = 0, pretend = 0, frame = 200
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 20
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 20
 
 
  479              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  524 0044 DAB2     		uxtb	r2, r3
  525 0046 534B     		ldr	r3, .L27
  526 0048 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 21
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 21
 
 
  607:Generated_Source\PSoC4/blue.c ****             /* Change apiResult if there are more pending data to store */
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  620:Generated_Source\PSoC4/blue.c ****         apiResult = CyBle_StoreAppData(cyBle_attValuesCCCD, cyBle_flashStorage.attValuesCCCDFlashMe
  621:Generated_Source\PSoC4/blue.c ****                         cyBle_connHandle.bdHandle], CYBLE_GATT_DB_CCCD_COUNT, isForceWrite);
  566              		.loc 1 621 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 22
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 22
 
 
  567 0084 444B     		ldr	r3, .L27+4
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  613 00d6 55D0     		beq	.L22
  614              	.L21:
  629:Generated_Source\PSoC4/blue.c ****         ((cyBle_pendingFlashWrite & CYBLE_PENDING_CCCD_FLASH_CLEAR_MASK) != 0u) )
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 23
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 23
 
 
  615              		.loc 1 629 0 is_stmt 1 discriminator 3
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  642:Generated_Source\PSoC4/blue.c ****                 cyBle_pendingFlashWrite &= (uint8)~CYBLE_PENDING_CCCD_FLASH_CLEAR_ALL_BIT;
  656              		.loc 1 642 0
  657 0120 1C4B     		ldr	r3, .L27
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 24
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 24
 
 
  658 0122 1B78     		ldrb	r3, [r3]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  703 0174 06D1     		bne	.L22
  652:Generated_Source\PSoC4/blue.c ****             {
  653:Generated_Source\PSoC4/blue.c ****                 cyBle_pendingFlashWrite &= (uint8)~CYBLE_PENDING_CCCD_FLASH_CLEAR_BIT;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 25
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 25
 
 
  704              		.loc 1 653 0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  668:Generated_Source\PSoC4/blue.c **** *  white list also when autopopulate white list with bonded devices option is
  669:Generated_Source\PSoC4/blue.c **** *  enabled.
  670:Generated_Source\PSoC4/blue.c **** * 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 26
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 26
 
 
  671:Generated_Source\PSoC4/blue.c **** *  This function is available only when Bonding requirement is selected in
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  700:Generated_Source\PSoC4/blue.c ****         
  701:Generated_Source\PSoC4/blue.c ****     #if(CYBLE_GATT_DB_CCCD_COUNT != 0u)
  702:Generated_Source\PSoC4/blue.c ****         /* Request to clear CCCD values which will be done by CyBle_StoreBondingData() */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 27
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 27
 
 
  703:Generated_Source\PSoC4/blue.c ****         uint8 bDevHandle;
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  810 0064 1B88     		ldrh	r3, [r3]
  811 0066 002B     		cmp	r3, #0
  812 0068 0BD1     		bne	.L32
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 28
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 28
 
 
  716:Generated_Source\PSoC4/blue.c ****             {
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  732:Generated_Source\PSoC4/blue.c ****     
  733:Generated_Source\PSoC4/blue.c ****     return(apiResult);
  851              		.loc 1 733 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 29
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 29
 
 
  852 00a6 1623     		movs	r3, #22
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  763:Generated_Source\PSoC4/blue.c ****     *                       advertising was initiated, or starts Slow advertising
  764:Generated_Source\PSoC4/blue.c ****     *                       after Fast advertising timeout occur.
  765:Generated_Source\PSoC4/blue.c ****     *  * CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP: If device started or stopped
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 30
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 30
 
 
  766:Generated_Source\PSoC4/blue.c ****     *                                               advertising. Use CyBle_GetState()
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  899 0014 0E23     		movs	r3, #14
  900 0016 FB18     		adds	r3, r7, r3
  901 0018 0122     		movs	r2, #1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 31
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 31
 
 
  902 001a 1A80     		strh	r2, [r3]
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  944              		.loc 1 809 0
  945 005c 1B4B     		ldr	r3, .L46+8
  946 005e 9622     		movs	r2, #150
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 32
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 32
 
 
  947 0060 1A82     		strh	r2, [r3, #16]
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  819:Generated_Source\PSoC4/blue.c ****             {
  989              		.loc 1 819 0
  990 00a8 04E0     		b	.L40
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 33
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 33
 
 
  991              	.L41:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  840:Generated_Source\PSoC4/blue.c ****     *   event. It is expected that the application layer tracks the function call 
  841:Generated_Source\PSoC4/blue.c ****     *   performed before occurrence of this event as this event can occur on making 
  842:Generated_Source\PSoC4/blue.c ****     *   a call to Cy_BleGappStartAdvertisement(), CyBle_GappEnterDiscoveryMode(), 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 34
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 34
 
 
  843:Generated_Source\PSoC4/blue.c ****     *   or CyBle_GappStartAdvertisement() functions as well.
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1067              	.LFB10:
  857:Generated_Source\PSoC4/blue.c ****     
  858:Generated_Source\PSoC4/blue.c ****     
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 35
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 35
 
 
  859:Generated_Source\PSoC4/blue.c ****     /******************************************************************************
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1088 0012 BB68     		ldr	r3, [r7, #8]
  1089 0014 002B     		cmp	r3, #0
  1090 0016 20D0     		beq	.L55
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 36
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 36
 
 
  893:Generated_Source\PSoC4/blue.c ****         {
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1133 005a C046     		nop
  1134 005c BD46     		mov	sp, r7
  1135 005e 04B0     		add	sp, sp, #16
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 37
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 37
 
 
  1136              		@ sp needed
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  945:Generated_Source\PSoC4/blue.c ****     *                                  CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT. This 
  946:Generated_Source\PSoC4/blue.c ****     *                                  procedure requires the scanType sub-parameter
  947:Generated_Source\PSoC4/blue.c ****     *                                  to be active scanning.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 38
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 38
 
 
  948:Generated_Source\PSoC4/blue.c ****     *   
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1002:Generated_Source\PSoC4/blue.c ****             else /* Do not update scanning intervals */
 1003:Generated_Source\PSoC4/blue.c ****             {
 1004:Generated_Source\PSoC4/blue.c ****             }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 39
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 39
 
 
 1005:Generated_Source\PSoC4/blue.c ****             
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1059:Generated_Source\PSoC4/blue.c ****     *  
 1060:Generated_Source\PSoC4/blue.c ****     *  On successful connection, the following events are generated at the GAP 
 1061:Generated_Source\PSoC4/blue.c ****     *  Central device (as well as the GAP Peripheral device), in the following order.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 40
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 40
 
 
 1062:Generated_Source\PSoC4/blue.c ****     *  * CYBLE_EVT_GATT_CONNECT_IND
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1116:Generated_Source\PSoC4/blue.c ****                     (void)CyBle_StartTimer(cyBle_connectingTimeout);
 1117:Generated_Source\PSoC4/blue.c ****                 }
 1118:Generated_Source\PSoC4/blue.c ****             }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 41
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 41
 
 
 1119:Generated_Source\PSoC4/blue.c ****         }
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1173:Generated_Source\PSoC4/blue.c **** 
 1174:Generated_Source\PSoC4/blue.c **** #if(CYBLE_GATT_ROLE_SERVER)
 1175:Generated_Source\PSoC4/blue.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 42
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 42
 
 
 1176:Generated_Source\PSoC4/blue.c **** #if(CYBLE_GAP_ROLE_PERIPHERAL)
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1199:Generated_Source\PSoC4/blue.c ****             uint8 *destBuffer;
 1200:Generated_Source\PSoC4/blue.c ****             uint8 maxLength;
 1201:Generated_Source\PSoC4/blue.c ****             
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 43
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 43
 
 
 1202:Generated_Source\PSoC4/blue.c ****             if(dest == 0u)      /* Destination - advertising structure */
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1217              		.loc 1 1217 0
  1218 0060 1523     		movs	r3, #21
  1219 0062 FB18     		adds	r3, r7, r3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 44
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 44
 
 
  1220 0064 1B78     		ldrb	r3, [r3]
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1260 00a4 FB18     		adds	r3, r7, r3
  1261 00a6 1422     		movs	r2, #20
  1262 00a8 B918     		adds	r1, r7, r2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 45
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 45
 
 
  1263 00aa 1522     		movs	r2, #21
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1301 00e6 1422     		movs	r2, #20
  1302 00e8 BA18     		adds	r2, r7, r2
  1303 00ea 0978     		ldrb	r1, [r1]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 46
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 46
 
 
  1304 00ec 1278     		ldrb	r2, [r2]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1350              	.L67:
 1249:Generated_Source\PSoC4/blue.c ****                 {
  1351              		.loc 1 1249 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 47
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 47
 
 
  1352 013e 1723     		movs	r3, #23
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1395 0186 1523     		movs	r3, #21
  1396 0188 FA18     		adds	r2, r7, r3
  1397 018a 1723     		movs	r3, #23
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 48
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 48
 
 
  1398 018c FB18     		adds	r3, r7, r3
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1287:Generated_Source\PSoC4/blue.c ****     *
 1288:Generated_Source\PSoC4/blue.c ****     *   Errors codes                       | Description
 1289:Generated_Source\PSoC4/blue.c ****     *   ------------                       | -----------
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 49
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 49
 
 
 1290:Generated_Source\PSoC4/blue.c ****     *   CYBLE_ERROR_OK                     | Function completed successfully.
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1308:Generated_Source\PSoC4/blue.c ****                 can't be longer than 248, so only the LSB of 16 bit of length is to
 1309:Generated_Source\PSoC4/blue.c ****                 be used. */
 1310:Generated_Source\PSoC4/blue.c ****             charLen = (uint8)CYBLE_GATT_DB_ATTR_GET_ATTR_GEN_MAX_LEN(cyBle_gaps.deviceNameCharHandl
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 50
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 50
 
 
  1462              		.loc 1 1310 0
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1509 0080 0F23     		movs	r3, #15
  1510 0082 FB18     		adds	r3, r7, r3
  1511 0084 1278     		ldrb	r2, [r2]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 51
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 51
 
 
  1512 0086 1B78     		ldrb	r3, [r3]
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1551 00c8 1800     		movs	r0, r3
  1552 00ca FFF7FEFF 		bl	CyBle_ChangeAdLocalName
  1553 00ce 03E0     		b	.L82
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 52
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 52
 
 
  1554              	.L77:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1351:Generated_Source\PSoC4/blue.c ****     *             string is entered into the component customizer and it can be set
 1352:Generated_Source\PSoC4/blue.c ****     *             to a value from 0 to 248 bytes. If the name contained in the
 1353:Generated_Source\PSoC4/blue.c ****     *             parameter is shorter than the length from the customizer, the end
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 53
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 53
 
 
 1354:Generated_Source\PSoC4/blue.c ****     *             of the name is indicated by a NULL octet (0x00).
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1618 0026 CB18     		adds	r3, r1, r3
  1619 0028 1033     		adds	r3, r3, #16
  1620 002a 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 54
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 54
 
 
  1621 002c 5B68     		ldr	r3, [r3, #4]
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1663 0076 1523     		movs	r3, #21
  1664 0078 FB18     		adds	r3, r7, r3
  1665 007a 0132     		adds	r2, r2, #1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 55
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 55
 
 
  1666 007c 1A70     		strb	r2, [r3]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
 1399:Generated_Source\PSoC4/blue.c ****     }
  1707              		.loc 1 1399 0
  1708 00bc 1800     		movs	r0, r3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 56
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 56
 
 
  1709 00be BD46     		mov	sp, r7
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1744 000a 1B78     		ldrb	r3, [r3]
  1745 000c 9AB2     		uxth	r2, r3
  1746 000e 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 57
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 57
 
 
  1747 0010 0133     		adds	r3, r3, #1
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1783 0006 7860     		str	r0, [r7, #4]
  1784 0008 0A00     		movs	r2, r1
  1785 000a BB1C     		adds	r3, r7, #2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 58
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 58
 
 
  1786 000c 1A80     		strh	r2, [r3]
@@ -3467,10 +3467,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1826 0006 00000000 		.4byte	.Ldebug_abbrev0
  1827 000a 04       		.byte	0x4
  1828 000b 01       		.uleb128 0x1
- 1829 000c 29090000 		.4byte	.LASF269
+ 1829 000c D7080000 		.4byte	.LASF269
  1830 0010 0C       		.byte	0xc
- 1831 0011 1F0A0000 		.4byte	.LASF270
- 1832 0015 67040000 		.4byte	.LASF271
+ 1831 0011 CD090000 		.4byte	.LASF270
+ 1832 0015 9A0E0000 		.4byte	.LASF271
  1833 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1834 001d 00000000 		.4byte	0
  1835 0021 00000000 		.4byte	.Ldebug_line0
@@ -3478,21 +3478,21 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1837 0026 01       		.byte	0x1
  1838 0027 06       		.byte	0x6
  1839 0028 3F040000 		.4byte	.LASF0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 59
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 59
 
 
  1840 002c 02       		.uleb128 0x2
  1841 002d 01       		.byte	0x1
  1842 002e 08       		.byte	0x8
- 1843 002f 28050000 		.4byte	.LASF1
+ 1843 002f D6040000 		.4byte	.LASF1
  1844 0033 02       		.uleb128 0x2
  1845 0034 02       		.byte	0x2
  1846 0035 05       		.byte	0x5
- 1847 0036 60140000 		.4byte	.LASF2
+ 1847 0036 36140000 		.4byte	.LASF2
  1848 003a 02       		.uleb128 0x2
  1849 003b 02       		.byte	0x2
  1850 003c 07       		.byte	0x7
- 1851 003d 83170000 		.4byte	.LASF3
+ 1851 003d 59170000 		.4byte	.LASF3
  1852 0041 02       		.uleb128 0x2
  1853 0042 04       		.byte	0x4
  1854 0043 05       		.byte	0x5
@@ -3500,15 +3500,15 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1856 0048 02       		.uleb128 0x2
  1857 0049 04       		.byte	0x4
  1858 004a 07       		.byte	0x7
- 1859 004b 7F0A0000 		.4byte	.LASF5
+ 1859 004b 2D0A0000 		.4byte	.LASF5
  1860 004f 02       		.uleb128 0x2
  1861 0050 08       		.byte	0x8
  1862 0051 05       		.byte	0x5
- 1863 0052 390C0000 		.4byte	.LASF6
+ 1863 0052 E70B0000 		.4byte	.LASF6
  1864 0056 02       		.uleb128 0x2
  1865 0057 08       		.byte	0x8
  1866 0058 07       		.byte	0x7
- 1867 0059 81110000 		.4byte	.LASF7
+ 1867 0059 57110000 		.4byte	.LASF7
  1868 005d 03       		.uleb128 0x3
  1869 005e 04       		.byte	0x4
  1870 005f 05       		.byte	0x5
@@ -3516,14 +3516,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1872 0064 02       		.uleb128 0x2
  1873 0065 04       		.byte	0x4
  1874 0066 07       		.byte	0x7
- 1875 0067 4B0E0000 		.4byte	.LASF8
+ 1875 0067 F90D0000 		.4byte	.LASF8
  1876 006b 04       		.uleb128 0x4
- 1877 006c 17140000 		.4byte	.LASF9
+ 1877 006c ED130000 		.4byte	.LASF9
  1878 0070 02       		.byte	0x2
  1879 0071 FC01     		.2byte	0x1fc
  1880 0073 2C000000 		.4byte	0x2c
  1881 0077 04       		.uleb128 0x4
- 1882 0078 E8180000 		.4byte	.LASF10
+ 1882 0078 BE180000 		.4byte	.LASF10
  1883 007c 02       		.byte	0x2
  1884 007d FD01     		.2byte	0x1fd
  1885 007f 3A000000 		.4byte	0x3a
@@ -3535,14 +3535,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1891 008f 02       		.uleb128 0x2
  1892 0090 04       		.byte	0x4
  1893 0091 04       		.byte	0x4
- 1894 0092 D60D0000 		.4byte	.LASF12
+ 1894 0092 840D0000 		.4byte	.LASF12
  1895 0096 02       		.uleb128 0x2
  1896 0097 08       		.byte	0x8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 60
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 60
 
 
  1897 0098 04       		.byte	0x4
- 1898 0099 B90C0000 		.4byte	.LASF13
+ 1898 0099 670C0000 		.4byte	.LASF13
  1899 009d 04       		.uleb128 0x4
  1900 009e 26010000 		.4byte	.LASF14
  1901 00a2 02       		.byte	0x2
@@ -3551,13 +3551,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1904 00a9 02       		.uleb128 0x2
  1905 00aa 01       		.byte	0x1
  1906 00ab 08       		.byte	0x8
- 1907 00ac 45060000 		.4byte	.LASF15
+ 1907 00ac F3050000 		.4byte	.LASF15
  1908 00b0 05       		.uleb128 0x5
  1909 00b1 6B000000 		.4byte	0x6b
  1910 00b5 02       		.uleb128 0x2
  1911 00b6 08       		.byte	0x8
  1912 00b7 04       		.byte	0x4
- 1913 00b8 9F100000 		.4byte	.LASF16
+ 1913 00b8 75100000 		.4byte	.LASF16
  1914 00bc 02       		.uleb128 0x2
  1915 00bd 04       		.byte	0x4
  1916 00be 07       		.byte	0x7
@@ -3581,208 +3581,208 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  1934 00e2 3501     		.2byte	0x135
  1935 00e4 99020000 		.4byte	0x299
  1936 00e8 0B       		.uleb128 0xb
- 1937 00e9 77060000 		.4byte	.LASF18
+ 1937 00e9 25060000 		.4byte	.LASF18
  1938 00ed 00       		.byte	0
  1939 00ee 0B       		.uleb128 0xb
  1940 00ef 33030000 		.4byte	.LASF19
  1941 00f3 01       		.byte	0x1
  1942 00f4 0B       		.uleb128 0xb
- 1943 00f5 98110000 		.4byte	.LASF20
+ 1943 00f5 6E110000 		.4byte	.LASF20
  1944 00f9 02       		.byte	0x2
  1945 00fa 0B       		.uleb128 0xb
- 1946 00fb C5040000 		.4byte	.LASF21
+ 1946 00fb 73040000 		.4byte	.LASF21
  1947 00ff 03       		.byte	0x3
  1948 0100 0B       		.uleb128 0xb
- 1949 0101 2B180000 		.4byte	.LASF22
+ 1949 0101 01180000 		.4byte	.LASF22
  1950 0105 04       		.byte	0x4
  1951 0106 0B       		.uleb128 0xb
- 1952 0107 F4160000 		.4byte	.LASF23
+ 1952 0107 CA160000 		.4byte	.LASF23
  1953 010b 05       		.byte	0x5
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 61
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 61
 
 
  1954 010c 0B       		.uleb128 0xb
- 1955 010d B6100000 		.4byte	.LASF24
+ 1955 010d 8C100000 		.4byte	.LASF24
  1956 0111 06       		.byte	0x6
  1957 0112 0B       		.uleb128 0xb
- 1958 0113 55150000 		.4byte	.LASF25
+ 1958 0113 2B150000 		.4byte	.LASF25
  1959 0117 20       		.byte	0x20
  1960 0118 0B       		.uleb128 0xb
  1961 0119 B3010000 		.4byte	.LASF26
  1962 011d 21       		.byte	0x21
  1963 011e 0B       		.uleb128 0xb
- 1964 011f D40B0000 		.4byte	.LASF27
+ 1964 011f 820B0000 		.4byte	.LASF27
  1965 0123 22       		.byte	0x22
  1966 0124 0B       		.uleb128 0xb
- 1967 0125 9A0F0000 		.4byte	.LASF28
+ 1967 0125 700F0000 		.4byte	.LASF28
  1968 0129 23       		.byte	0x23
  1969 012a 0B       		.uleb128 0xb
- 1970 012b D9090000 		.4byte	.LASF29
+ 1970 012b 87090000 		.4byte	.LASF29
  1971 012f 24       		.byte	0x24
  1972 0130 0B       		.uleb128 0xb
- 1973 0131 050A0000 		.4byte	.LASF30
+ 1973 0131 B3090000 		.4byte	.LASF30
  1974 0135 25       		.byte	0x25
  1975 0136 0B       		.uleb128 0xb
- 1976 0137 C1130000 		.4byte	.LASF31
+ 1976 0137 97130000 		.4byte	.LASF31
  1977 013b 26       		.byte	0x26
  1978 013c 0B       		.uleb128 0xb
  1979 013d 6F000000 		.4byte	.LASF32
  1980 0141 27       		.byte	0x27
  1981 0142 0B       		.uleb128 0xb
- 1982 0143 A5180000 		.4byte	.LASF33
+ 1982 0143 7B180000 		.4byte	.LASF33
  1983 0147 28       		.byte	0x28
  1984 0148 0B       		.uleb128 0xb
- 1985 0149 F5100000 		.4byte	.LASF34
+ 1985 0149 CB100000 		.4byte	.LASF34
  1986 014d 29       		.byte	0x29
  1987 014e 0B       		.uleb128 0xb
- 1988 014f 390B0000 		.4byte	.LASF35
+ 1988 014f E70A0000 		.4byte	.LASF35
  1989 0153 2A       		.byte	0x2a
  1990 0154 0B       		.uleb128 0xb
- 1991 0155 FA0E0000 		.4byte	.LASF36
+ 1991 0155 D00E0000 		.4byte	.LASF36
  1992 0159 2B       		.byte	0x2b
  1993 015a 0B       		.uleb128 0xb
- 1994 015b 10170000 		.4byte	.LASF37
+ 1994 015b E6160000 		.4byte	.LASF37
  1995 015f 2C       		.byte	0x2c
  1996 0160 0B       		.uleb128 0xb
  1997 0161 3C000000 		.4byte	.LASF38
  1998 0165 2D       		.byte	0x2d
  1999 0166 0B       		.uleb128 0xb
- 2000 0167 2B140000 		.4byte	.LASF39
+ 2000 0167 01140000 		.4byte	.LASF39
  2001 016b 2E       		.byte	0x2e
  2002 016c 0B       		.uleb128 0xb
  2003 016d 44020000 		.4byte	.LASF40
  2004 0171 2F       		.byte	0x2f
  2005 0172 0B       		.uleb128 0xb
- 2006 0173 24060000 		.4byte	.LASF41
+ 2006 0173 D2050000 		.4byte	.LASF41
  2007 0177 30       		.byte	0x30
  2008 0178 0B       		.uleb128 0xb
- 2009 0179 420D0000 		.4byte	.LASF42
+ 2009 0179 F00C0000 		.4byte	.LASF42
  2010 017d 31       		.byte	0x31
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 62
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 62
 
 
  2011 017e 0B       		.uleb128 0xb
- 2012 017f A4060000 		.4byte	.LASF43
+ 2012 017f 52060000 		.4byte	.LASF43
  2013 0183 32       		.byte	0x32
  2014 0184 0B       		.uleb128 0xb
- 2015 0185 54050000 		.4byte	.LASF44
+ 2015 0185 02050000 		.4byte	.LASF44
  2016 0189 33       		.byte	0x33
  2017 018a 0B       		.uleb128 0xb
- 2018 018b 7B050000 		.4byte	.LASF45
+ 2018 018b 29050000 		.4byte	.LASF45
  2019 018f 34       		.byte	0x34
  2020 0190 0B       		.uleb128 0xb
- 2021 0191 C5150000 		.4byte	.LASF46
+ 2021 0191 9B150000 		.4byte	.LASF46
  2022 0195 35       		.byte	0x35
  2023 0196 0B       		.uleb128 0xb
  2024 0197 0B020000 		.4byte	.LASF47
  2025 019b 36       		.byte	0x36
  2026 019c 0B       		.uleb128 0xb
- 2027 019d 30110000 		.4byte	.LASF48
+ 2027 019d 06110000 		.4byte	.LASF48
  2028 01a1 37       		.byte	0x37
  2029 01a2 0B       		.uleb128 0xb
- 2030 01a3 CC140000 		.4byte	.LASF49
+ 2030 01a3 A2140000 		.4byte	.LASF49
  2031 01a7 40       		.byte	0x40
  2032 01a8 0B       		.uleb128 0xb
  2033 01a9 8E000000 		.4byte	.LASF50
  2034 01ad 41       		.byte	0x41
  2035 01ae 0B       		.uleb128 0xb
- 2036 01af 40180000 		.4byte	.LASF51
+ 2036 01af 16180000 		.4byte	.LASF51
  2037 01b3 42       		.byte	0x42
  2038 01b4 0B       		.uleb128 0xb
- 2039 01b5 12110000 		.4byte	.LASF52
+ 2039 01b5 E8100000 		.4byte	.LASF52
  2040 01b9 43       		.byte	0x43
  2041 01ba 0B       		.uleb128 0xb
- 2042 01bb 36050000 		.4byte	.LASF53
+ 2042 01bb E4040000 		.4byte	.LASF53
  2043 01bf 44       		.byte	0x44
  2044 01c0 0B       		.uleb128 0xb
- 2045 01c1 ED040000 		.4byte	.LASF54
+ 2045 01c1 9B040000 		.4byte	.LASF54
  2046 01c5 45       		.byte	0x45
  2047 01c6 0B       		.uleb128 0xb
- 2048 01c7 E4120000 		.4byte	.LASF55
+ 2048 01c7 BA120000 		.4byte	.LASF55
  2049 01cb 46       		.byte	0x46
  2050 01cc 0B       		.uleb128 0xb
- 2051 01cd C6120000 		.4byte	.LASF56
+ 2051 01cd 9C120000 		.4byte	.LASF56
  2052 01d1 47       		.byte	0x47
  2053 01d2 0B       		.uleb128 0xb
- 2054 01d3 FD050000 		.4byte	.LASF57
+ 2054 01d3 AB050000 		.4byte	.LASF57
  2055 01d7 48       		.byte	0x48
  2056 01d8 0B       		.uleb128 0xb
- 2057 01d9 F20F0000 		.4byte	.LASF58
+ 2057 01d9 C80F0000 		.4byte	.LASF58
  2058 01dd 49       		.byte	0x49
  2059 01de 0B       		.uleb128 0xb
- 2060 01df E2060000 		.4byte	.LASF59
+ 2060 01df 90060000 		.4byte	.LASF59
  2061 01e3 4A       		.byte	0x4a
  2062 01e4 0B       		.uleb128 0xb
- 2063 01e5 58060000 		.4byte	.LASF60
+ 2063 01e5 06060000 		.4byte	.LASF60
  2064 01e9 4B       		.byte	0x4b
  2065 01ea 0B       		.uleb128 0xb
- 2066 01eb 2A0F0000 		.4byte	.LASF61
+ 2066 01eb 000F0000 		.4byte	.LASF61
  2067 01ef 4C       		.byte	0x4c
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 63
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 63
 
 
  2068 01f0 0B       		.uleb128 0xb
- 2069 01f1 57130000 		.4byte	.LASF62
+ 2069 01f1 2D130000 		.4byte	.LASF62
  2070 01f5 4D       		.byte	0x4d
  2071 01f6 0B       		.uleb128 0xb
  2072 01f7 8F020000 		.4byte	.LASF63
  2073 01fb 4E       		.byte	0x4e
  2074 01fc 0B       		.uleb128 0xb
- 2075 01fd 650E0000 		.4byte	.LASF64
+ 2075 01fd 130E0000 		.4byte	.LASF64
  2076 0201 4F       		.byte	0x4f
  2077 0202 0B       		.uleb128 0xb
- 2078 0203 36150000 		.4byte	.LASF65
+ 2078 0203 0C150000 		.4byte	.LASF65
  2079 0207 50       		.byte	0x50
  2080 0208 0B       		.uleb128 0xb
- 2081 0209 00070000 		.4byte	.LASF66
+ 2081 0209 AE060000 		.4byte	.LASF66
  2082 020d 51       		.byte	0x51
  2083 020e 0B       		.uleb128 0xb
  2084 020f 92010000 		.4byte	.LASF67
  2085 0213 52       		.byte	0x52
  2086 0214 0B       		.uleb128 0xb
- 2087 0215 AE160000 		.4byte	.LASF68
+ 2087 0215 84160000 		.4byte	.LASF68
  2088 0219 53       		.byte	0x53
  2089 021a 0B       		.uleb128 0xb
- 2090 021b C7180000 		.4byte	.LASF69
+ 2090 021b 9D180000 		.4byte	.LASF69
  2091 021f 54       		.byte	0x54
  2092 0220 0B       		.uleb128 0xb
- 2093 0221 4C0F0000 		.4byte	.LASF70
+ 2093 0221 220F0000 		.4byte	.LASF70
  2094 0225 55       		.byte	0x55
  2095 0226 0B       		.uleb128 0xb
- 2096 0227 41070000 		.4byte	.LASF71
+ 2096 0227 EF060000 		.4byte	.LASF71
  2097 022b 56       		.byte	0x56
  2098 022c 0B       		.uleb128 0xb
- 2099 022d 010E0000 		.4byte	.LASF72
+ 2099 022d AF0D0000 		.4byte	.LASF72
  2100 0231 57       		.byte	0x57
  2101 0232 0B       		.uleb128 0xb
- 2102 0233 82180000 		.4byte	.LASF73
+ 2102 0233 58180000 		.4byte	.LASF73
  2103 0237 58       		.byte	0x58
  2104 0238 0B       		.uleb128 0xb
- 2105 0239 34170000 		.4byte	.LASF74
+ 2105 0239 0A170000 		.4byte	.LASF74
  2106 023d 70       		.byte	0x70
  2107 023e 0B       		.uleb128 0xb
- 2108 023f E3080000 		.4byte	.LASF75
+ 2108 023f 91080000 		.4byte	.LASF75
  2109 0243 71       		.byte	0x71
  2110 0244 0B       		.uleb128 0xb
  2111 0245 E9030000 		.4byte	.LASF76
  2112 0249 72       		.byte	0x72
  2113 024a 0B       		.uleb128 0xb
- 2114 024b 18150000 		.4byte	.LASF77
+ 2114 024b EE140000 		.4byte	.LASF77
  2115 024f 73       		.byte	0x73
  2116 0250 0B       		.uleb128 0xb
- 2117 0251 37100000 		.4byte	.LASF78
+ 2117 0251 0D100000 		.4byte	.LASF78
  2118 0255 74       		.byte	0x74
  2119 0256 0B       		.uleb128 0xb
- 2120 0257 A80B0000 		.4byte	.LASF79
+ 2120 0257 560B0000 		.4byte	.LASF79
  2121 025b 75       		.byte	0x75
  2122 025c 0B       		.uleb128 0xb
- 2123 025d DC050000 		.4byte	.LASF80
+ 2123 025d 8A050000 		.4byte	.LASF80
  2124 0261 76       		.byte	0x76
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 64
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 64
 
 
  2125 0262 0B       		.uleb128 0xb
- 2126 0263 ED110000 		.4byte	.LASF81
+ 2126 0263 C3110000 		.4byte	.LASF81
  2127 0267 77       		.byte	0x77
  2128 0268 0B       		.uleb128 0xb
  2129 0269 2C010000 		.4byte	.LASF82
@@ -3791,22 +3791,22 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2132 026f AD020000 		.4byte	.LASF83
  2133 0273 79       		.byte	0x79
  2134 0274 0B       		.uleb128 0xb
- 2135 0275 5E180000 		.4byte	.LASF84
+ 2135 0275 34180000 		.4byte	.LASF84
  2136 0279 7A       		.byte	0x7a
  2137 027a 0B       		.uleb128 0xb
- 2138 027b E20C0000 		.4byte	.LASF85
+ 2138 027b 900C0000 		.4byte	.LASF85
  2139 027f FA       		.byte	0xfa
  2140 0280 0B       		.uleb128 0xb
- 2141 0281 68160000 		.4byte	.LASF86
+ 2141 0281 3E160000 		.4byte	.LASF86
  2142 0285 FB       		.byte	0xfb
  2143 0286 0B       		.uleb128 0xb
- 2144 0287 09090000 		.4byte	.LASF87
+ 2144 0287 B7080000 		.4byte	.LASF87
  2145 028b FC       		.byte	0xfc
  2146 028c 0B       		.uleb128 0xb
- 2147 028d 87100000 		.4byte	.LASF88
+ 2147 028d 5D100000 		.4byte	.LASF88
  2148 0291 FD       		.byte	0xfd
  2149 0292 0B       		.uleb128 0xb
- 2150 0293 EC0E0000 		.4byte	.LASF89
+ 2150 0293 C20E0000 		.4byte	.LASF89
  2151 0297 FF       		.byte	0xff
  2152 0298 00       		.byte	0
  2153 0299 0A       		.uleb128 0xa
@@ -3816,61 +3816,61 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2157 02a0 EA03     		.2byte	0x3ea
  2158 02a2 78030000 		.4byte	0x378
  2159 02a6 0B       		.uleb128 0xb
- 2160 02a7 DE040000 		.4byte	.LASF90
+ 2160 02a7 8C040000 		.4byte	.LASF90
  2161 02ab 00       		.byte	0
  2162 02ac 0B       		.uleb128 0xb
- 2163 02ad FF070000 		.4byte	.LASF91
+ 2163 02ad AD070000 		.4byte	.LASF91
  2164 02b1 01       		.byte	0x1
  2165 02b2 0B       		.uleb128 0xb
- 2166 02b3 04180000 		.4byte	.LASF92
+ 2166 02b3 DA170000 		.4byte	.LASF92
  2167 02b7 02       		.byte	0x2
  2168 02b8 0B       		.uleb128 0xb
- 2169 02b9 7B080000 		.4byte	.LASF93
+ 2169 02b9 29080000 		.4byte	.LASF93
  2170 02bd 03       		.byte	0x3
  2171 02be 0B       		.uleb128 0xb
- 2172 02bf 5C0A0000 		.4byte	.LASF94
+ 2172 02bf 0A0A0000 		.4byte	.LASF94
  2173 02c3 04       		.byte	0x4
  2174 02c4 0B       		.uleb128 0xb
- 2175 02c5 9B0C0000 		.4byte	.LASF95
+ 2175 02c5 490C0000 		.4byte	.LASF95
  2176 02c9 05       		.byte	0x5
  2177 02ca 0B       		.uleb128 0xb
- 2178 02cb 42160000 		.4byte	.LASF96
+ 2178 02cb 18160000 		.4byte	.LASF96
  2179 02cf 06       		.byte	0x6
  2180 02d0 0B       		.uleb128 0xb
- 2181 02d1 C5060000 		.4byte	.LASF97
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 65
+ 2181 02d1 73060000 		.4byte	.LASF97
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 65
 
 
  2182 02d5 07       		.byte	0x7
  2183 02d6 0B       		.uleb128 0xb
- 2184 02d7 B80D0000 		.4byte	.LASF98
+ 2184 02d7 660D0000 		.4byte	.LASF98
  2185 02db 08       		.byte	0x8
  2186 02dc 0B       		.uleb128 0xb
- 2187 02dd 9B150000 		.4byte	.LASF99
+ 2187 02dd 71150000 		.4byte	.LASF99
  2188 02e1 09       		.byte	0x9
  2189 02e2 0B       		.uleb128 0xb
- 2190 02e3 FB180000 		.4byte	.LASF100
+ 2190 02e3 D1180000 		.4byte	.LASF100
  2191 02e7 0A       		.byte	0xa
  2192 02e8 0B       		.uleb128 0xb
  2193 02e9 EB010000 		.4byte	.LASF101
  2194 02ed 0B       		.byte	0xb
  2195 02ee 0B       		.uleb128 0xb
- 2196 02ef CF160000 		.4byte	.LASF102
+ 2196 02ef A5160000 		.4byte	.LASF102
  2197 02f3 0C       		.byte	0xc
  2198 02f4 0B       		.uleb128 0xb
- 2199 02f5 BF0E0000 		.4byte	.LASF103
+ 2199 02f5 6D0E0000 		.4byte	.LASF103
  2200 02f9 0D       		.byte	0xd
  2201 02fa 0B       		.uleb128 0xb
- 2202 02fb EB0A0000 		.4byte	.LASF104
+ 2202 02fb 990A0000 		.4byte	.LASF104
  2203 02ff 0E       		.byte	0xe
  2204 0300 0B       		.uleb128 0xb
- 2205 0301 760C0000 		.4byte	.LASF105
+ 2205 0301 240C0000 		.4byte	.LASF105
  2206 0305 0F       		.byte	0xf
  2207 0306 0B       		.uleb128 0xb
  2208 0307 DC000000 		.4byte	.LASF106
  2209 030b 10       		.byte	0x10
  2210 030c 0B       		.uleb128 0xb
- 2211 030d 660D0000 		.4byte	.LASF107
+ 2211 030d 140D0000 		.4byte	.LASF107
  2212 0311 11       		.byte	0x11
  2213 0312 0B       		.uleb128 0xb
  2214 0313 46030000 		.4byte	.LASF108
@@ -3879,53 +3879,53 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2217 0319 17040000 		.4byte	.LASF109
  2218 031d 13       		.byte	0x13
  2219 031e 0B       		.uleb128 0xb
- 2220 031f C00C0000 		.4byte	.LASF110
+ 2220 031f 6E0C0000 		.4byte	.LASF110
  2221 0323 27       		.byte	0x27
  2222 0324 0B       		.uleb128 0xb
- 2223 0325 DC0D0000 		.4byte	.LASF111
+ 2223 0325 8A0D0000 		.4byte	.LASF111
  2224 0329 28       		.byte	0x28
  2225 032a 0B       		.uleb128 0xb
  2226 032b 0A010000 		.4byte	.LASF112
  2227 032f 29       		.byte	0x29
  2228 0330 0B       		.uleb128 0xb
- 2229 0331 AF140000 		.4byte	.LASF113
+ 2229 0331 85140000 		.4byte	.LASF113
  2230 0335 2A       		.byte	0x2a
  2231 0336 0B       		.uleb128 0xb
- 2232 0337 910A0000 		.4byte	.LASF114
+ 2232 0337 3F0A0000 		.4byte	.LASF114
  2233 033b 2B       		.byte	0x2b
  2234 033c 0B       		.uleb128 0xb
- 2235 033d 2E120000 		.4byte	.LASF115
+ 2235 033d 04120000 		.4byte	.LASF115
  2236 0341 2C       		.byte	0x2c
  2237 0342 0B       		.uleb128 0xb
- 2238 0343 2D130000 		.4byte	.LASF116
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 66
+ 2238 0343 03130000 		.4byte	.LASF116
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 66
 
 
  2239 0347 2D       		.byte	0x2d
  2240 0348 0B       		.uleb128 0xb
- 2241 0349 E3070000 		.4byte	.LASF117
+ 2241 0349 91070000 		.4byte	.LASF117
  2242 034d FE       		.byte	0xfe
  2243 034e 0B       		.uleb128 0xb
- 2244 034f D3080000 		.4byte	.LASF118
+ 2244 034f 81080000 		.4byte	.LASF118
  2245 0353 FF       		.byte	0xff
  2246 0354 0C       		.uleb128 0xc
- 2247 0355 D90F0000 		.4byte	.LASF119
+ 2247 0355 AF0F0000 		.4byte	.LASF119
  2248 0359 0001     		.2byte	0x100
  2249 035b 0C       		.uleb128 0xc
- 2250 035c C00F0000 		.4byte	.LASF120
+ 2250 035c 960F0000 		.4byte	.LASF120
  2251 0360 0101     		.2byte	0x101
  2252 0362 0C       		.uleb128 0xc
  2253 0363 94030000 		.4byte	.LASF121
  2254 0367 0201     		.2byte	0x102
  2255 0369 0C       		.uleb128 0xc
- 2256 036a B7110000 		.4byte	.LASF122
+ 2256 036a 8D110000 		.4byte	.LASF122
  2257 036e 0301     		.2byte	0x103
  2258 0370 0C       		.uleb128 0xc
- 2259 0371 3D0A0000 		.4byte	.LASF123
+ 2259 0371 EB090000 		.4byte	.LASF123
  2260 0375 0401     		.2byte	0x104
  2261 0377 00       		.byte	0
  2262 0378 04       		.uleb128 0x4
- 2263 0379 87160000 		.4byte	.LASF124
+ 2263 0379 5D160000 		.4byte	.LASF124
  2264 037d 03       		.byte	0x3
  2265 037e 5C04     		.2byte	0x45c
  2266 0380 99020000 		.4byte	0x299
@@ -3935,7 +3935,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2270 0387 2A05     		.2byte	0x52a
  2271 0389 A8030000 		.4byte	0x3a8
  2272 038d 0E       		.uleb128 0xe
- 2273 038e 02160000 		.4byte	.LASF125
+ 2273 038e D8150000 		.4byte	.LASF125
  2274 0392 03       		.byte	0x3
  2275 0393 2D05     		.2byte	0x52d
  2276 0395 A8030000 		.4byte	0x3a8
@@ -3955,10 +3955,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2290 03b6 05       		.byte	0x5
  2291 03b7 00       		.byte	0
  2292 03b8 04       		.uleb128 0x4
- 2293 03b9 53120000 		.4byte	.LASF127
+ 2293 03b9 29120000 		.4byte	.LASF127
  2294 03bd 03       		.byte	0x3
  2295 03be 3005     		.2byte	0x530
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 67
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 67
 
 
  2296 03c0 84030000 		.4byte	0x384
@@ -3968,13 +3968,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2300 03c7 3A05     		.2byte	0x53a
  2301 03c9 E8030000 		.4byte	0x3e8
  2302 03cd 0E       		.uleb128 0xe
- 2303 03ce AB100000 		.4byte	.LASF128
+ 2303 03ce 81100000 		.4byte	.LASF128
  2304 03d2 03       		.byte	0x3
  2305 03d3 3D05     		.2byte	0x53d
  2306 03d5 77000000 		.4byte	0x77
  2307 03d9 00       		.byte	0
  2308 03da 0E       		.uleb128 0xe
- 2309 03db B9040000 		.4byte	.LASF129
+ 2309 03db 67040000 		.4byte	.LASF129
  2310 03df 03       		.byte	0x3
  2311 03e0 3F05     		.2byte	0x53f
  2312 03e2 6B000000 		.4byte	0x6b
@@ -3991,19 +3991,19 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2323 03f7 4405     		.2byte	0x544
  2324 03f9 25040000 		.4byte	0x425
  2325 03fd 0E       		.uleb128 0xe
- 2326 03fe 130C0000 		.4byte	.LASF131
+ 2326 03fe C10B0000 		.4byte	.LASF131
  2327 0402 03       		.byte	0x3
  2328 0403 4705     		.2byte	0x547
  2329 0405 77000000 		.4byte	0x77
  2330 0409 00       		.byte	0
  2331 040a 0E       		.uleb128 0xe
- 2332 040b B7170000 		.4byte	.LASF132
+ 2332 040b 8D170000 		.4byte	.LASF132
  2333 040f 03       		.byte	0x3
  2334 0410 4A05     		.2byte	0x54a
  2335 0412 77000000 		.4byte	0x77
  2336 0416 02       		.byte	0x2
  2337 0417 0E       		.uleb128 0xe
- 2338 0418 3C0E0000 		.4byte	.LASF133
+ 2338 0418 EA0D0000 		.4byte	.LASF133
  2339 041c 03       		.byte	0x3
  2340 041d 4D05     		.2byte	0x54d
  2341 041f 6B000000 		.4byte	0x6b
@@ -4018,19 +4018,19 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2350 0432 01       		.byte	0x1
  2351 0433 03       		.byte	0x3
  2352 0434 5105     		.2byte	0x551
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 68
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 68
 
 
  2353 0436 48040000 		.4byte	0x448
  2354 043a 0E       		.uleb128 0xe
- 2355 043b D90A0000 		.4byte	.LASF135
+ 2355 043b 870A0000 		.4byte	.LASF135
  2356 043f 03       		.byte	0x3
  2357 0440 5405     		.2byte	0x554
  2358 0442 6B000000 		.4byte	0x6b
  2359 0446 00       		.byte	0
  2360 0447 00       		.byte	0
  2361 0448 04       		.uleb128 0x4
- 2362 0449 8A0D0000 		.4byte	.LASF136
+ 2362 0449 380D0000 		.4byte	.LASF136
  2363 044d 03       		.byte	0x3
  2364 044e 5505     		.2byte	0x555
  2365 0450 31040000 		.4byte	0x431
@@ -4046,13 +4046,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2375 0465 85040000 		.4byte	0x485
  2376 0469 00       		.byte	0
  2377 046a 0E       		.uleb128 0xe
- 2378 046b 67120000 		.4byte	.LASF138
+ 2378 046b 3D120000 		.4byte	.LASF138
  2379 046f 03       		.byte	0x3
  2380 0470 6105     		.2byte	0x561
  2381 0472 8B040000 		.4byte	0x48b
  2382 0476 04       		.byte	0x4
  2383 0477 0E       		.uleb128 0xe
- 2384 0478 580E0000 		.4byte	.LASF139
+ 2384 0478 060E0000 		.4byte	.LASF139
  2385 047c 03       		.byte	0x3
  2386 047d 6705     		.2byte	0x567
  2387 047f 77000000 		.4byte	0x77
@@ -4065,7 +4065,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2394 048c 04       		.byte	0x4
  2395 048d 48040000 		.4byte	0x448
  2396 0491 04       		.uleb128 0x4
- 2397 0492 F80B0000 		.4byte	.LASF140
+ 2397 0492 A60B0000 		.4byte	.LASF140
  2398 0496 03       		.byte	0x3
  2399 0497 6805     		.2byte	0x568
  2400 0499 54040000 		.4byte	0x454
@@ -4078,27 +4078,27 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2407 04a9 04       		.byte	0x4
  2408 04aa E0       		.byte	0xe0
  2409 04ab CE040000 		.4byte	0x4ce
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 69
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 69
 
 
  2410 04af 0B       		.uleb128 0xb
- 2411 04b0 D8170000 		.4byte	.LASF141
+ 2411 04b0 AE170000 		.4byte	.LASF141
  2412 04b4 00       		.byte	0
  2413 04b5 0B       		.uleb128 0xb
- 2414 04b6 0B100000 		.4byte	.LASF142
+ 2414 04b6 E10F0000 		.4byte	.LASF142
  2415 04ba 01       		.byte	0x1
  2416 04bb 0B       		.uleb128 0xb
- 2417 04bc F4140000 		.4byte	.LASF143
+ 2417 04bc CA140000 		.4byte	.LASF143
  2418 04c0 02       		.byte	0x2
  2419 04c1 0B       		.uleb128 0xb
  2420 04c2 BF030000 		.4byte	.LASF144
  2421 04c6 03       		.byte	0x3
  2422 04c7 0B       		.uleb128 0xb
- 2423 04c8 50080000 		.4byte	.LASF145
+ 2423 04c8 FE070000 		.4byte	.LASF145
  2424 04cc 04       		.byte	0x4
  2425 04cd 00       		.byte	0
  2426 04ce 12       		.uleb128 0x12
- 2427 04cf 190F0000 		.4byte	.LASF146
+ 2427 04cf EF0E0000 		.4byte	.LASF146
  2428 04d3 04       		.byte	0x4
  2429 04d4 F0       		.byte	0xf0
  2430 04d5 A3040000 		.4byte	0x4a3
@@ -4108,59 +4108,59 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2434 04dc 2102     		.2byte	0x221
  2435 04de 4B050000 		.4byte	0x54b
  2436 04e2 0E       		.uleb128 0xe
- 2437 04e3 93050000 		.4byte	.LASF147
+ 2437 04e3 41050000 		.4byte	.LASF147
  2438 04e7 04       		.byte	0x4
  2439 04e8 2702     		.2byte	0x227
  2440 04ea 77000000 		.4byte	0x77
  2441 04ee 00       		.byte	0
  2442 04ef 0E       		.uleb128 0xe
- 2443 04f0 15190000 		.4byte	.LASF148
+ 2443 04f0 EB180000 		.4byte	.LASF148
  2444 04f4 04       		.byte	0x4
  2445 04f5 2D02     		.2byte	0x22d
  2446 04f7 77000000 		.4byte	0x77
  2447 04fb 02       		.byte	0x2
  2448 04fc 0E       		.uleb128 0xe
- 2449 04fd 540A0000 		.4byte	.LASF149
+ 2449 04fd 020A0000 		.4byte	.LASF149
  2450 0501 04       		.byte	0x4
  2451 0502 3602     		.2byte	0x236
  2452 0504 CE040000 		.4byte	0x4ce
  2453 0508 04       		.byte	0x4
  2454 0509 0E       		.uleb128 0xe
- 2455 050a EF180000 		.4byte	.LASF150
+ 2455 050a C5180000 		.4byte	.LASF150
  2456 050e 04       		.byte	0x4
  2457 050f 3E02     		.2byte	0x23e
  2458 0511 6B000000 		.4byte	0x6b
  2459 0515 05       		.byte	0x5
  2460 0516 0E       		.uleb128 0xe
- 2461 0517 330D0000 		.4byte	.LASF151
+ 2461 0517 E10C0000 		.4byte	.LASF151
  2462 051b 04       		.byte	0x4
  2463 051c 4502     		.2byte	0x245
  2464 051e 6B000000 		.4byte	0x6b
  2465 0522 06       		.byte	0x6
  2466 0523 0E       		.uleb128 0xe
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 70
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 70
 
 
- 2467 0524 96170000 		.4byte	.LASF152
+ 2467 0524 6C170000 		.4byte	.LASF152
  2468 0528 04       		.byte	0x4
  2469 0529 4B02     		.2byte	0x24b
  2470 052b A8030000 		.4byte	0x3a8
  2471 052f 07       		.byte	0x7
  2472 0530 0E       		.uleb128 0xe
- 2473 0531 CA170000 		.4byte	.LASF153
+ 2473 0531 A0170000 		.4byte	.LASF153
  2474 0535 04       		.byte	0x4
  2475 0536 5302     		.2byte	0x253
  2476 0538 6B000000 		.4byte	0x6b
  2477 053c 0D       		.byte	0xd
  2478 053d 0E       		.uleb128 0xe
- 2479 053e F5090000 		.4byte	.LASF154
+ 2479 053e A3090000 		.4byte	.LASF154
  2480 0542 04       		.byte	0x4
  2481 0543 5F02     		.2byte	0x25f
  2482 0545 6B000000 		.4byte	0x6b
  2483 0549 0E       		.byte	0xe
  2484 054a 00       		.byte	0
  2485 054b 04       		.uleb128 0x4
- 2486 054c B7090000 		.4byte	.LASF155
+ 2486 054c 65090000 		.4byte	.LASF155
  2487 0550 04       		.byte	0x4
  2488 0551 6102     		.2byte	0x261
  2489 0553 D9040000 		.4byte	0x4d9
@@ -4170,13 +4170,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2493 055a 6402     		.2byte	0x264
  2494 055c 7B050000 		.4byte	0x57b
  2495 0560 0E       		.uleb128 0xe
- 2496 0561 440F0000 		.4byte	.LASF156
+ 2496 0561 1A0F0000 		.4byte	.LASF156
  2497 0565 04       		.byte	0x4
  2498 0566 6702     		.2byte	0x267
  2499 0568 7B050000 		.4byte	0x57b
  2500 056c 00       		.byte	0
  2501 056d 0E       		.uleb128 0xe
- 2502 056e 82120000 		.4byte	.LASF157
+ 2502 056e 58120000 		.4byte	.LASF157
  2503 0572 04       		.byte	0x4
  2504 0573 6A02     		.2byte	0x26a
  2505 0575 6B000000 		.4byte	0x6b
@@ -4190,7 +4190,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2513 0589 1E       		.byte	0x1e
  2514 058a 00       		.byte	0
  2515 058b 04       		.uleb128 0x4
- 2516 058c C5050000 		.4byte	.LASF158
+ 2516 058c 73050000 		.4byte	.LASF158
  2517 0590 04       		.byte	0x4
  2518 0591 6C02     		.2byte	0x26c
  2519 0593 57050000 		.4byte	0x557
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2521 0598 20       		.byte	0x20
  2522 0599 04       		.byte	0x4
  2523 059a 6F02     		.2byte	0x26f
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 71
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 71
 
 
  2524 059c BB050000 		.4byte	0x5bb
@@ -4209,14 +4209,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2529 05a8 7B050000 		.4byte	0x57b
  2530 05ac 00       		.byte	0
  2531 05ad 0E       		.uleb128 0xe
- 2532 05ae A0140000 		.4byte	.LASF160
+ 2532 05ae 76140000 		.4byte	.LASF160
  2533 05b2 04       		.byte	0x4
  2534 05b3 7602     		.2byte	0x276
  2535 05b5 6B000000 		.4byte	0x6b
  2536 05b9 1F       		.byte	0x1f
  2537 05ba 00       		.byte	0
  2538 05bb 04       		.uleb128 0x4
- 2539 05bc E9130000 		.4byte	.LASF161
+ 2539 05bc BF130000 		.4byte	.LASF161
  2540 05c0 04       		.byte	0x4
  2541 05c1 7802     		.2byte	0x278
  2542 05c3 97050000 		.4byte	0x597
@@ -4232,13 +4232,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2552 05d8 6B000000 		.4byte	0x6b
  2553 05dc 00       		.byte	0
  2554 05dd 0E       		.uleb128 0xe
- 2555 05de 6D0C0000 		.4byte	.LASF163
+ 2555 05de 1B0C0000 		.4byte	.LASF163
  2556 05e2 04       		.byte	0x4
  2557 05e3 8602     		.2byte	0x286
  2558 05e5 12060000 		.4byte	0x612
  2559 05e9 04       		.byte	0x4
  2560 05ea 0E       		.uleb128 0xe
- 2561 05eb 440F0000 		.4byte	.LASF156
+ 2561 05eb 1A0F0000 		.4byte	.LASF156
  2562 05ef 04       		.byte	0x4
  2563 05f0 8802     		.2byte	0x288
  2564 05f2 18060000 		.4byte	0x618
@@ -4250,7 +4250,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2570 05ff 1E060000 		.4byte	0x61e
  2571 0603 0C       		.byte	0xc
  2572 0604 0E       		.uleb128 0xe
- 2573 0605 63070000 		.4byte	.LASF164
+ 2573 0605 11070000 		.4byte	.LASF164
  2574 0609 04       		.byte	0x4
  2575 060a 9402     		.2byte	0x294
  2576 060c 77000000 		.4byte	0x77
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2578 0611 00       		.byte	0
  2579 0612 07       		.uleb128 0x7
  2580 0613 04       		.byte	0x4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 72
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 72
 
 
  2581 0614 4B050000 		.4byte	0x54b
@@ -4269,12 +4269,12 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2586 061f 04       		.byte	0x4
  2587 0620 BB050000 		.4byte	0x5bb
  2588 0624 04       		.uleb128 0x4
- 2589 0625 92120000 		.4byte	.LASF165
+ 2589 0625 68120000 		.4byte	.LASF165
  2590 0629 04       		.byte	0x4
  2591 062a 9602     		.2byte	0x296
  2592 062c C7050000 		.4byte	0x5c7
  2593 0630 04       		.uleb128 0x4
- 2594 0631 D1110000 		.4byte	.LASF166
+ 2594 0631 A7110000 		.4byte	.LASF166
  2595 0635 05       		.byte	0x5
  2596 0636 8901     		.2byte	0x189
  2597 0638 77000000 		.4byte	0x77
@@ -4290,7 +4290,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2607 064d 6B000000 		.4byte	0x6b
  2608 0651 00       		.byte	0
  2609 0652 0E       		.uleb128 0xe
- 2610 0653 FE170000 		.4byte	.LASF168
+ 2610 0653 D4170000 		.4byte	.LASF168
  2611 0657 05       		.byte	0x5
  2612 0658 A001     		.2byte	0x1a0
  2613 065a 6B000000 		.4byte	0x6b
@@ -4307,23 +4307,23 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2624 066f CE       		.byte	0xce
  2625 0670 8D060000 		.4byte	0x68d
  2626 0674 14       		.uleb128 0x14
- 2627 0675 75120000 		.4byte	.LASF170
+ 2627 0675 4B120000 		.4byte	.LASF170
  2628 0679 06       		.byte	0x6
  2629 067a D1       		.byte	0xd1
  2630 067b 77000000 		.4byte	0x77
  2631 067f 00       		.byte	0
  2632 0680 14       		.uleb128 0x14
- 2633 0681 04140000 		.4byte	.LASF171
+ 2633 0681 DA130000 		.4byte	.LASF171
  2634 0685 06       		.byte	0x6
  2635 0686 D6       		.byte	0xd6
  2636 0687 C3000000 		.4byte	0xc3
  2637 068b 04       		.byte	0x4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 73
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 73
 
 
  2638 068c 00       		.byte	0
  2639 068d 12       		.uleb128 0x12
- 2640 068e 69100000 		.4byte	.LASF172
+ 2640 068e 3F100000 		.4byte	.LASF172
  2641 0692 06       		.byte	0x6
  2642 0693 D8       		.byte	0xd8
  2643 0694 6C060000 		.4byte	0x66c
@@ -4333,13 +4333,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2647 069b DB       		.byte	0xdb
  2648 069c B9060000 		.4byte	0x6b9
  2649 06a0 14       		.uleb128 0x14
- 2650 06a1 4A060000 		.4byte	.LASF173
+ 2650 06a1 F8050000 		.4byte	.LASF173
  2651 06a5 06       		.byte	0x6
  2652 06a6 DE       		.byte	0xde
  2653 06a7 77000000 		.4byte	0x77
  2654 06ab 00       		.byte	0
  2655 06ac 14       		.uleb128 0x14
- 2656 06ad 80140000 		.4byte	.LASF174
+ 2656 06ad 56140000 		.4byte	.LASF174
  2657 06b1 06       		.byte	0x6
  2658 06b2 E3       		.byte	0xe3
  2659 06b3 B9060000 		.4byte	0x6b9
@@ -4349,7 +4349,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2663 06ba 04       		.byte	0x4
  2664 06bb 8D060000 		.4byte	0x68d
  2665 06bf 12       		.uleb128 0x12
- 2666 06c0 A2130000 		.4byte	.LASF175
+ 2666 06c0 78130000 		.4byte	.LASF175
  2667 06c4 06       		.byte	0x6
  2668 06c5 E5       		.byte	0xe5
  2669 06c6 98060000 		.4byte	0x698
@@ -4359,18 +4359,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2673 06cd E8       		.byte	0xe8
  2674 06ce E9060000 		.4byte	0x6e9
  2675 06d2 16       		.uleb128 0x16
- 2676 06d3 91140000 		.4byte	.LASF176
+ 2676 06d3 67140000 		.4byte	.LASF176
  2677 06d7 06       		.byte	0x6
  2678 06d8 EF       		.byte	0xef
  2679 06d9 BF060000 		.4byte	0x6bf
  2680 06dd 16       		.uleb128 0x16
- 2681 06de 140B0000 		.4byte	.LASF177
+ 2681 06de C20A0000 		.4byte	.LASF177
  2682 06e2 06       		.byte	0x6
  2683 06e3 F2       		.byte	0xf2
  2684 06e4 77000000 		.4byte	0x77
  2685 06e8 00       		.byte	0
  2686 06e9 12       		.uleb128 0x12
- 2687 06ea 8A130000 		.4byte	.LASF178
+ 2687 06ea 60130000 		.4byte	.LASF178
  2688 06ee 06       		.byte	0x6
  2689 06ef F4       		.byte	0xf4
  2690 06f0 CA060000 		.4byte	0x6ca
@@ -4378,12 +4378,12 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2692 06f5 14       		.byte	0x14
  2693 06f6 06       		.byte	0x6
  2694 06f7 F7       		.byte	0xf7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 74
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 74
 
 
  2695 06f8 3D070000 		.4byte	0x73d
  2696 06fc 14       		.uleb128 0x14
- 2697 06fd 9E050000 		.4byte	.LASF179
+ 2697 06fd 4C050000 		.4byte	.LASF179
  2698 0701 06       		.byte	0x6
  2699 0702 FA       		.byte	0xfa
  2700 0703 77000000 		.4byte	0x77
@@ -4401,20 +4401,20 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2712 071d 83000000 		.4byte	0x83
  2713 0721 04       		.byte	0x4
  2714 0722 0E       		.uleb128 0xe
- 2715 0723 840E0000 		.4byte	.LASF182
+ 2715 0723 320E0000 		.4byte	.LASF182
  2716 0727 06       		.byte	0x6
  2717 0728 0E01     		.2byte	0x10e
  2718 072a 77000000 		.4byte	0x77
  2719 072e 08       		.byte	0x8
  2720 072f 0E       		.uleb128 0xe
- 2721 0730 12120000 		.4byte	.LASF183
+ 2721 0730 E8110000 		.4byte	.LASF183
  2722 0734 06       		.byte	0x6
  2723 0735 1701     		.2byte	0x117
  2724 0737 E9060000 		.4byte	0x6e9
  2725 073b 0C       		.byte	0xc
  2726 073c 00       		.byte	0
  2727 073d 04       		.uleb128 0x4
- 2728 073e 80070000 		.4byte	.LASF184
+ 2728 073e 2E070000 		.4byte	.LASF184
  2729 0742 06       		.byte	0x6
  2730 0743 1801     		.2byte	0x118
  2731 0745 F4060000 		.4byte	0x6f4
@@ -4429,28 +4429,28 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2740 0759 9F       		.byte	0x9f
  2741 075a 92070000 		.4byte	0x792
  2742 075e 14       		.uleb128 0x14
- 2743 075f 1B090000 		.4byte	.LASF186
+ 2743 075f C9080000 		.4byte	.LASF186
  2744 0763 08       		.byte	0x8
  2745 0764 A2       		.byte	0xa2
  2746 0765 92070000 		.4byte	0x792
  2747 0769 00       		.byte	0
  2748 076a 18       		.uleb128 0x18
- 2749 076b BA080000 		.4byte	.LASF187
+ 2749 076b 68080000 		.4byte	.LASF187
  2750 076f 08       		.byte	0x8
  2751 0770 A5       		.byte	0xa5
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 75
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 75
 
 
  2752 0771 A3070000 		.4byte	0x7a3
  2753 0775 7902     		.2byte	0x279
  2754 0777 18       		.uleb128 0x18
- 2755 0778 79150000 		.4byte	.LASF188
+ 2755 0778 4F150000 		.4byte	.LASF188
  2756 077c 08       		.byte	0x8
  2757 077d A8       		.byte	0xa8
  2758 077e 6B000000 		.4byte	0x6b
  2759 0782 3703     		.2byte	0x337
  2760 0784 18       		.uleb128 0x18
- 2761 0785 31080000 		.4byte	.LASF189
+ 2761 0785 DF070000 		.4byte	.LASF189
  2762 0789 08       		.byte	0x8
  2763 078a AB       		.byte	0xab
  2764 078b 6B000000 		.4byte	0x6b
@@ -4474,7 +4474,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2782 07b7 25       		.byte	0x25
  2783 07b8 00       		.byte	0
  2784 07b9 12       		.uleb128 0x12
- 2785 07ba C40A0000 		.4byte	.LASF190
+ 2785 07ba 720A0000 		.4byte	.LASF190
  2786 07be 08       		.byte	0x8
  2787 07bf AC       		.byte	0xac
  2788 07c0 55070000 		.4byte	0x755
@@ -4485,34 +4485,34 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2793 07cb 22       		.byte	0x22
  2794 07cc 0D080000 		.4byte	0x80d
  2795 07d0 0B       		.uleb128 0xb
- 2796 07d1 65110000 		.4byte	.LASF191
+ 2796 07d1 3B110000 		.4byte	.LASF191
  2797 07d5 00       		.byte	0
  2798 07d6 0B       		.uleb128 0xb
- 2799 07d7 69070000 		.4byte	.LASF192
+ 2799 07d7 17070000 		.4byte	.LASF192
  2800 07db 01       		.byte	0x1
  2801 07dc 0B       		.uleb128 0xb
- 2802 07dd 210B0000 		.4byte	.LASF193
+ 2802 07dd CF0A0000 		.4byte	.LASF193
  2803 07e1 02       		.byte	0x2
  2804 07e2 0B       		.uleb128 0xb
  2805 07e3 69030000 		.4byte	.LASF194
  2806 07e7 03       		.byte	0x3
  2807 07e8 0B       		.uleb128 0xb
  2808 07e9 7B010000 		.4byte	.LASF195
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 76
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 76
 
 
  2809 07ed 04       		.byte	0x4
  2810 07ee 0B       		.uleb128 0xb
- 2811 07ef 2A070000 		.4byte	.LASF196
+ 2811 07ef D8060000 		.4byte	.LASF196
  2812 07f3 05       		.byte	0x5
  2813 07f4 0B       		.uleb128 0xb
- 2814 07f5 CF070000 		.4byte	.LASF197
+ 2814 07f5 7D070000 		.4byte	.LASF197
  2815 07f9 06       		.byte	0x6
  2816 07fa 0B       		.uleb128 0xb
- 2817 07fb 910E0000 		.4byte	.LASF198
+ 2817 07fb 3F0E0000 		.4byte	.LASF198
  2818 07ff 07       		.byte	0x7
  2819 0800 0B       		.uleb128 0xb
- 2820 0801 470C0000 		.4byte	.LASF199
+ 2820 0801 F50B0000 		.4byte	.LASF199
  2821 0805 08       		.byte	0x8
  2822 0806 0B       		.uleb128 0xb
  2823 0807 1E000000 		.4byte	.LASF200
@@ -4525,23 +4525,23 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2830 0814 5A08     		.2byte	0x85a
  2831 0816 39080000 		.4byte	0x839
  2832 081a 0B       		.uleb128 0xb
- 2833 081b 14050000 		.4byte	.LASF201
+ 2833 081b C2040000 		.4byte	.LASF201
  2834 081f 00       		.byte	0
  2835 0820 0B       		.uleb128 0xb
- 2836 0821 8F0B0000 		.4byte	.LASF202
+ 2836 0821 3D0B0000 		.4byte	.LASF202
  2837 0825 01       		.byte	0x1
  2838 0826 0B       		.uleb128 0xb
- 2839 0827 A1170000 		.4byte	.LASF203
+ 2839 0827 77170000 		.4byte	.LASF203
  2840 082b 02       		.byte	0x2
  2841 082c 0B       		.uleb128 0xb
  2842 082d 2C020000 		.4byte	.LASF204
  2843 0831 03       		.byte	0x3
  2844 0832 0B       		.uleb128 0xb
- 2845 0833 71130000 		.4byte	.LASF205
+ 2845 0833 47130000 		.4byte	.LASF205
  2846 0837 04       		.byte	0x4
  2847 0838 00       		.byte	0
  2848 0839 04       		.uleb128 0x4
- 2849 083a E6140000 		.4byte	.LASF206
+ 2849 083a BC140000 		.4byte	.LASF206
  2850 083e 0A       		.byte	0xa
  2851 083f 6808     		.2byte	0x868
  2852 0841 0D080000 		.4byte	0x80d
@@ -4551,14 +4551,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2856 0848 A309     		.2byte	0x9a3
  2857 084a 9D080000 		.4byte	0x89d
  2858 084e 0E       		.uleb128 0xe
- 2859 084f 6E170000 		.4byte	.LASF207
+ 2859 084f 44170000 		.4byte	.LASF207
  2860 0853 0A       		.byte	0xa
  2861 0854 A609     		.2byte	0x9a6
  2862 0856 30060000 		.4byte	0x630
  2863 085a 00       		.byte	0
  2864 085b 0E       		.uleb128 0xe
- 2865 085c 1E0D0000 		.4byte	.LASF208
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 77
+ 2865 085c CC0C0000 		.4byte	.LASF208
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 77
 
 
  2866 0860 0A       		.byte	0xa
@@ -4566,19 +4566,19 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2868 0863 30060000 		.4byte	0x630
  2869 0867 02       		.byte	0x2
  2870 0868 0E       		.uleb128 0xe
- 2871 0869 E0100000 		.4byte	.LASF209
+ 2871 0869 B6100000 		.4byte	.LASF209
  2872 086d 0A       		.byte	0xa
  2873 086e AA09     		.2byte	0x9aa
  2874 0870 30060000 		.4byte	0x630
  2875 0874 04       		.byte	0x4
  2876 0875 0E       		.uleb128 0xe
- 2877 0876 820F0000 		.4byte	.LASF210
+ 2877 0876 580F0000 		.4byte	.LASF210
  2878 087a 0A       		.byte	0xa
  2879 087b AD09     		.2byte	0x9ad
  2880 087d 30060000 		.4byte	0x630
  2881 0881 06       		.byte	0x6
  2882 0882 0E       		.uleb128 0xe
- 2883 0883 E2150000 		.4byte	.LASF211
+ 2883 0883 B8150000 		.4byte	.LASF211
  2884 0887 0A       		.byte	0xa
  2885 0888 AF09     		.2byte	0x9af
  2886 088a 30060000 		.4byte	0x630
@@ -4591,12 +4591,12 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2893 089b 0A       		.byte	0xa
  2894 089c 00       		.byte	0
  2895 089d 04       		.uleb128 0x4
- 2896 089e 46120000 		.4byte	.LASF213
+ 2896 089e 1C120000 		.4byte	.LASF213
  2897 08a2 0A       		.byte	0xa
  2898 08a3 B209     		.2byte	0x9b2
  2899 08a5 45080000 		.4byte	0x845
  2900 08a9 1A       		.uleb128 0x1a
- 2901 08aa 1F070000 		.4byte	.LASF214
+ 2901 08aa CD060000 		.4byte	.LASF214
  2902 08ae 01       		.byte	0x1
  2903 08af 98       		.byte	0x98
  2904 08b0 00000000 		.4byte	.LFB2
@@ -4612,13 +4612,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2914 08c9 01       		.uleb128 0x1
  2915 08ca 9C       		.byte	0x9c
  2916 08cb 1B       		.uleb128 0x1b
- 2917 08cc 05130000 		.4byte	.LASF223
+ 2917 08cc DB120000 		.4byte	.LASF223
  2918 08d0 01       		.byte	0x1
  2919 08d1 9701     		.2byte	0x197
  2920 08d3 78030000 		.4byte	0x378
  2921 08d7 00000000 		.4byte	.LFB4
  2922 08db 30010000 		.4byte	.LFE4-.LFB4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 78
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 78
 
 
  2923 08df 01       		.uleb128 0x1
@@ -4641,7 +4641,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2940 0902 91       		.byte	0x91
  2941 0903 6E       		.sleb128 -18
  2942 0904 1D       		.uleb128 0x1d
- 2943 0905 1D080000 		.4byte	.LASF217
+ 2943 0905 CB070000 		.4byte	.LASF217
  2944 0909 01       		.byte	0x1
  2945 090a 9D01     		.2byte	0x19d
  2946 090c 5B090000 		.4byte	0x95b
@@ -4652,7 +4652,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2951 0914 4A000000 		.4byte	.LBB2
  2952 0918 54000000 		.4byte	.LBE2-.LBB2
  2953 091c 1D       		.uleb128 0x1d
- 2954 091d 1D130000 		.4byte	.LASF218
+ 2954 091d F3120000 		.4byte	.LASF218
  2955 0921 01       		.byte	0x1
  2956 0922 BF01     		.2byte	0x1bf
  2957 0924 25040000 		.4byte	0x425
@@ -4660,7 +4660,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2959 0929 91       		.byte	0x91
  2960 092a 50       		.sleb128 -48
  2961 092b 1D       		.uleb128 0x1d
- 2962 092c 55100000 		.4byte	.LASF219
+ 2962 092c 2B100000 		.4byte	.LASF219
  2963 0930 01       		.byte	0x1
  2964 0931 C001     		.2byte	0x1c0
  2965 0933 48040000 		.4byte	0x448
@@ -4676,9 +4676,9 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2975 0947 91       		.byte	0x91
  2976 0948 40       		.sleb128 -64
  2977 0949 1D       		.uleb128 0x1d
- 2978 094a 41080000 		.4byte	.LASF221
+ 2978 094a EF070000 		.4byte	.LASF221
  2979 094e 01       		.byte	0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 79
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 79
 
 
  2980 094f C201     		.2byte	0x1c2
@@ -4696,7 +4696,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  2992 0969 04       		.byte	0x4
  2993 096a 00       		.byte	0
  2994 096b 1F       		.uleb128 0x1f
- 2995 096c C90B0000 		.4byte	.LASF222
+ 2995 096c 770B0000 		.4byte	.LASF222
  2996 0970 01       		.byte	0x1
  2997 0971 1C02     		.2byte	0x21c
  2998 0973 00000000 		.4byte	.LFB5
@@ -4704,7 +4704,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3000 097b 01       		.uleb128 0x1
  3001 097c 9C       		.byte	0x9c
  3002 097d 1B       		.uleb128 0x1b
- 3003 097e 2B160000 		.4byte	.LASF224
+ 3003 097e 01160000 		.4byte	.LASF224
  3004 0982 01       		.byte	0x1
  3005 0983 5402     		.2byte	0x254
  3006 0985 78030000 		.4byte	0x378
@@ -4714,7 +4714,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3010 0992 9C       		.byte	0x9c
  3011 0993 EF090000 		.4byte	0x9ef
  3012 0997 1C       		.uleb128 0x1c
- 3013 0998 AA110000 		.4byte	.LASF226
+ 3013 0998 80110000 		.4byte	.LASF226
  3014 099c 01       		.byte	0x1
  3015 099d 5402     		.2byte	0x254
  3016 099f 6B000000 		.4byte	0x6b
@@ -4734,11 +4734,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3030 09bb 40000000 		.4byte	.LBE3-.LBB3
  3031 09bf D4090000 		.4byte	0x9d4
  3032 09c3 1D       		.uleb128 0x1d
- 3033 09c4 2A0E0000 		.4byte	.LASF227
+ 3033 09c4 D80D0000 		.4byte	.LASF227
  3034 09c8 01       		.byte	0x1
  3035 09c9 7A02     		.2byte	0x27a
  3036 09cb A3070000 		.4byte	0x7a3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 80
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 80
 
 
  3037 09cf 03       		.uleb128 0x3
@@ -4749,7 +4749,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3042 09d5 30010000 		.4byte	.LBB4
  3043 09d9 54000000 		.4byte	.LBE4-.LBB4
  3044 09dd 1D       		.uleb128 0x1d
- 3045 09de 2A0E0000 		.4byte	.LASF227
+ 3045 09de D80D0000 		.4byte	.LASF227
  3046 09e2 01       		.byte	0x1
  3047 09e3 8702     		.2byte	0x287
  3048 09e5 EF090000 		.4byte	0x9ef
@@ -4776,7 +4776,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3069 0a14 9C       		.byte	0x9c
  3070 0a15 600A0000 		.4byte	0xa60
  3071 0a19 1C       		.uleb128 0x1c
- 3072 0a1a 02160000 		.4byte	.LASF125
+ 3072 0a1a D8150000 		.4byte	.LASF125
  3073 0a1e 01       		.byte	0x1
  3074 0a1f B602     		.2byte	0x2b6
  3075 0a21 600A0000 		.4byte	0xa60
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3091 0a41 4F010000 		.4byte	.LASF229
  3092 0a45 01       		.byte	0x1
  3093 0a46 BF02     		.2byte	0x2bf
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 81
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 81
 
 
  3094 0a48 6B000000 		.4byte	0x6b
@@ -4806,7 +4806,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3096 0a4d 91       		.byte	0x91
  3097 0a4e 6D       		.sleb128 -19
  3098 0a4f 1D       		.uleb128 0x1d
- 3099 0a50 E6160000 		.4byte	.LASF230
+ 3099 0a50 BC160000 		.4byte	.LASF230
  3100 0a54 01       		.byte	0x1
  3101 0a55 C002     		.2byte	0x2c0
  3102 0a57 B8030000 		.4byte	0x3b8
@@ -4819,7 +4819,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3109 0a61 04       		.byte	0x4
  3110 0a62 B8030000 		.4byte	0x3b8
  3111 0a66 1B       		.uleb128 0x1b
- 3112 0a67 A8050000 		.4byte	.LASF231
+ 3112 0a67 56050000 		.4byte	.LASF231
  3113 0a6b 01       		.byte	0x1
  3114 0a6c 1703     		.2byte	0x317
  3115 0a6e 78030000 		.4byte	0x378
@@ -4846,7 +4846,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3136 0a9d 6E       		.sleb128 -18
  3137 0a9e 00       		.byte	0
  3138 0a9f 1F       		.uleb128 0x1f
- 3139 0aa0 B3070000 		.4byte	.LASF233
+ 3139 0aa0 61070000 		.4byte	.LASF233
  3140 0aa4 01       		.byte	0x1
  3141 0aa5 5403     		.2byte	0x354
  3142 0aa7 00000000 		.4byte	.LFB9
@@ -4854,11 +4854,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3144 0aaf 01       		.uleb128 0x1
  3145 0ab0 9C       		.byte	0x9c
  3146 0ab1 21       		.uleb128 0x21
- 3147 0ab2 730B0000 		.4byte	.LASF245
+ 3147 0ab2 210B0000 		.4byte	.LASF245
  3148 0ab6 01       		.byte	0x1
  3149 0ab7 6A03     		.2byte	0x36a
  3150 0ab9 00000000 		.4byte	.LFB10
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 82
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 82
 
 
  3151 0abd 62000000 		.4byte	.LFE10-.LFB10
@@ -4866,7 +4866,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3153 0ac2 9C       		.byte	0x9c
  3154 0ac3 020B0000 		.4byte	0xb02
  3155 0ac7 1C       		.uleb128 0x1c
- 3156 0ac8 02160000 		.4byte	.LASF125
+ 3156 0ac8 D8150000 		.4byte	.LASF125
  3157 0acc 01       		.byte	0x1
  3158 0acd 6A03     		.2byte	0x36a
  3159 0acf 020B0000 		.4byte	0xb02
@@ -4874,7 +4874,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3161 0ad4 91       		.byte	0x91
  3162 0ad5 6C       		.sleb128 -20
  3163 0ad6 1C       		.uleb128 0x1c
- 3164 0ad7 8D120000 		.4byte	.LASF234
+ 3164 0ad7 63120000 		.4byte	.LASF234
  3165 0adb 01       		.byte	0x1
  3166 0adc 6A03     		.2byte	0x36a
  3167 0ade 6B000000 		.4byte	0x6b
@@ -4913,18 +4913,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3200 0b1e 9C       		.byte	0x9c
  3201 0b1f 9A0B0000 		.4byte	0xb9a
  3202 0b23 1C       		.uleb128 0x1c
- 3203 0b24 12140000 		.4byte	.LASF236
+ 3203 0b24 E8130000 		.4byte	.LASF236
  3204 0b28 01       		.byte	0x1
  3205 0b29 A904     		.2byte	0x4a9
  3206 0b2b 9A0B0000 		.4byte	0xb9a
  3207 0b2f 02       		.uleb128 0x2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 83
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 83
 
 
  3208 0b30 91       		.byte	0x91
  3209 0b31 64       		.sleb128 -28
  3210 0b32 1C       		.uleb128 0x1c
- 3211 0b33 8D120000 		.4byte	.LASF234
+ 3211 0b33 63120000 		.4byte	.LASF234
  3212 0b37 01       		.byte	0x1
  3213 0b38 A904     		.2byte	0x4a9
  3214 0b3a 6B000000 		.4byte	0x6b
@@ -4940,7 +4940,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3224 0b4c 91       		.byte	0x91
  3225 0b4d 77       		.sleb128 -9
  3226 0b4e 1D       		.uleb128 0x1d
- 3227 0b4f A90E0000 		.4byte	.LASF237
+ 3227 0b4f 570E0000 		.4byte	.LASF237
  3228 0b53 01       		.byte	0x1
  3229 0b54 AC04     		.2byte	0x4ac
  3230 0b56 6B000000 		.4byte	0x6b
@@ -4948,7 +4948,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3232 0b5b 91       		.byte	0x91
  3233 0b5c 76       		.sleb128 -10
  3234 0b5d 1D       		.uleb128 0x1d
- 3235 0b5e 22180000 		.4byte	.LASF238
+ 3235 0b5e F8170000 		.4byte	.LASF238
  3236 0b62 01       		.byte	0x1
  3237 0b63 AD04     		.2byte	0x4ad
  3238 0b65 6B000000 		.4byte	0x6b
@@ -4956,7 +4956,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3240 0b6a 91       		.byte	0x91
  3241 0b6b 75       		.sleb128 -11
  3242 0b6c 1D       		.uleb128 0x1d
- 3243 0b6d 5C160000 		.4byte	.LASF239
+ 3243 0b6d 32160000 		.4byte	.LASF239
  3244 0b71 01       		.byte	0x1
  3245 0b72 AE04     		.2byte	0x4ae
  3246 0b74 6B000000 		.4byte	0x6b
@@ -4972,13 +4972,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3256 0b88 91       		.byte	0x91
  3257 0b89 70       		.sleb128 -16
  3258 0b8a 1D       		.uleb128 0x1d
- 3259 0b8b CF090000 		.4byte	.LASF240
+ 3259 0b8b 7D090000 		.4byte	.LASF240
  3260 0b8f 01       		.byte	0x1
  3261 0b90 B004     		.2byte	0x4b0
  3262 0b92 6B000000 		.4byte	0x6b
  3263 0b96 02       		.uleb128 0x2
  3264 0b97 91       		.byte	0x91
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 84
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 84
 
 
  3265 0b98 6F       		.sleb128 -17
@@ -4989,7 +4989,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3270 0ba0 23       		.uleb128 0x23
  3271 0ba1 9D000000 		.4byte	0x9d
  3272 0ba5 1B       		.uleb128 0x1b
- 3273 0ba6 6A140000 		.4byte	.LASF241
+ 3273 0ba6 40140000 		.4byte	.LASF241
  3274 0baa 01       		.byte	0x1
  3275 0bab 0E05     		.2byte	0x50e
  3276 0bad 78030000 		.4byte	0x378
@@ -4999,7 +4999,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3280 0bba 9C       		.byte	0x9c
  3281 0bbb 090C0000 		.4byte	0xc09
  3282 0bbf 1C       		.uleb128 0x1c
- 3283 0bc0 12140000 		.4byte	.LASF236
+ 3283 0bc0 E8130000 		.4byte	.LASF236
  3284 0bc4 01       		.byte	0x1
  3285 0bc5 0E05     		.2byte	0x50e
  3286 0bc7 9A0B0000 		.4byte	0xb9a
@@ -5031,14 +5031,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3312 0bf7 91       		.byte	0x91
  3313 0bf8 70       		.sleb128 -16
  3314 0bf9 1D       		.uleb128 0x1d
- 3315 0bfa E40E0000 		.4byte	.LASF242
+ 3315 0bfa 920E0000 		.4byte	.LASF242
  3316 0bfe 01       		.byte	0x1
  3317 0bff 1305     		.2byte	0x513
  3318 0c01 6B000000 		.4byte	0x6b
  3319 0c05 02       		.uleb128 0x2
  3320 0c06 91       		.byte	0x91
  3321 0c07 6F       		.sleb128 -17
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 85
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 85
 
 
  3322 0c08 00       		.byte	0
@@ -5046,7 +5046,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3324 0c0a 04       		.byte	0x4
  3325 0c0b 9D000000 		.4byte	0x9d
  3326 0c0f 25       		.uleb128 0x25
- 3327 0c10 8E060000 		.4byte	.LASF243
+ 3327 0c10 3C060000 		.4byte	.LASF243
  3328 0c14 01       		.byte	0x1
  3329 0c15 5605     		.2byte	0x556
  3330 0c17 78030000 		.4byte	0x378
@@ -5056,7 +5056,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3334 0c24 9C       		.byte	0x9c
  3335 0c25 730C0000 		.4byte	0xc73
  3336 0c29 1C       		.uleb128 0x1c
- 3337 0c2a 12140000 		.4byte	.LASF236
+ 3337 0c2a E8130000 		.4byte	.LASF236
  3338 0c2e 01       		.byte	0x1
  3339 0c2f 5605     		.2byte	0x556
  3340 0c31 090C0000 		.4byte	0xc09
@@ -5072,7 +5072,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3350 0c45 91       		.byte	0x91
  3351 0c46 76       		.sleb128 -10
  3352 0c47 1D       		.uleb128 0x1d
- 3353 0c48 E40E0000 		.4byte	.LASF242
+ 3353 0c48 920E0000 		.4byte	.LASF242
  3354 0c4c 01       		.byte	0x1
  3355 0c4d 5905     		.2byte	0x559
  3356 0c4f 6B000000 		.4byte	0x6b
@@ -5097,8 +5097,8 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3375 0c71 70       		.sleb128 -16
  3376 0c72 00       		.byte	0
  3377 0c73 25       		.uleb128 0x25
- 3378 0c74 CF100000 		.4byte	.LASF244
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 86
+ 3378 0c74 A5100000 		.4byte	.LASF244
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 86
 
 
  3379 0c78 01       		.byte	0x1
@@ -5124,7 +5124,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3399 0ca3 23       		.uleb128 0x23
  3400 0ca4 6B000000 		.4byte	0x6b
  3401 0ca8 21       		.uleb128 0x21
- 3402 0ca9 AE0E0000 		.4byte	.LASF246
+ 3402 0ca9 5C0E0000 		.4byte	.LASF246
  3403 0cad 01       		.byte	0x1
  3404 0cae 9B05     		.2byte	0x59b
  3405 0cb0 00000000 		.4byte	.LFB15
@@ -5141,7 +5141,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3416 0ccb 91       		.byte	0x91
  3417 0ccc 74       		.sleb128 -12
  3418 0ccd 1C       		.uleb128 0x1c
- 3419 0cce 0C120000 		.4byte	.LASF247
+ 3419 0cce E2110000 		.4byte	.LASF247
  3420 0cd2 01       		.byte	0x1
  3421 0cd3 9B05     		.2byte	0x59b
  3422 0cd5 77000000 		.4byte	0x77
@@ -5150,7 +5150,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3425 0cdb 72       		.sleb128 -14
  3426 0cdc 00       		.byte	0
  3427 0cdd 27       		.uleb128 0x27
- 3428 0cde 91070000 		.4byte	.LASF248
+ 3428 0cde 3F070000 		.4byte	.LASF248
  3429 0ce2 01       		.byte	0x1
  3430 0ce3 84       		.byte	0x84
  3431 0ce4 6B000000 		.4byte	0x6b
@@ -5158,10 +5158,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3433 0ce9 03       		.byte	0x3
  3434 0cea 24000000 		.4byte	cyBle_pendingFlashClearCccdHandle
  3435 0cee 28       		.uleb128 0x28
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 87
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 87
 
 
- 3436 0cef 1B120000 		.4byte	.LASF249
+ 3436 0cef F1110000 		.4byte	.LASF249
  3437 0cf3 01       		.byte	0x1
  3438 0cf4 89       		.byte	0x89
  3439 0cf5 49070000 		.4byte	0x749
@@ -5169,7 +5169,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3441 0cfa 03       		.byte	0x3
  3442 0cfb 00000000 		.4byte	CyBle_ApplCallback
  3443 0cff 28       		.uleb128 0x28
- 3444 0d00 1D140000 		.4byte	.LASF250
+ 3444 0d00 F3130000 		.4byte	.LASF250
  3445 0d04 01       		.byte	0x1
  3446 0d05 2B       		.byte	0x2b
  3447 0d06 6B000000 		.4byte	0x6b
@@ -5184,7 +5184,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3456 0d1e 170B     		.2byte	0xb17
  3457 0d20 00       		.byte	0
  3458 0d21 28       		.uleb128 0x28
- 3459 0d22 B0150000 		.4byte	.LASF251
+ 3459 0d22 86150000 		.4byte	.LASF251
  3460 0d26 01       		.byte	0x1
  3461 0d27 36       		.byte	0x36
  3462 0d28 100D0000 		.4byte	0xd10
@@ -5192,7 +5192,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3464 0d2d 03       		.byte	0x3
  3465 0d2e 00000000 		.4byte	cyBle_stackMemoryRam
  3466 0d32 29       		.uleb128 0x29
- 3467 0d33 14160000 		.4byte	.LASF252
+ 3467 0d33 EA150000 		.4byte	.LASF252
  3468 0d37 07       		.byte	0x7
  3469 0d38 A302     		.2byte	0x2a3
  3470 0d3a B0000000 		.4byte	0xb0
@@ -5205,7 +5205,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3477 0d4a 03       		.byte	0x3
  3478 0d4b 00000000 		.4byte	cyBle_deviceAddress
  3479 0d4f 28       		.uleb128 0x28
- 3480 0d50 A0080000 		.4byte	.LASF254
+ 3480 0d50 4E080000 		.4byte	.LASF254
  3481 0d54 01       		.byte	0x1
  3482 0d55 8B       		.byte	0x8b
  3483 0d56 600A0000 		.4byte	0xa60
@@ -5213,18 +5213,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3485 0d5b 03       		.byte	0x3
  3486 0d5c 00000000 		.4byte	cyBle_sflashDeviceAddress
  3487 0d60 28       		.uleb128 0x28
- 3488 0d61 580C0000 		.4byte	.LASF255
+ 3488 0d61 060C0000 		.4byte	.LASF255
  3489 0d65 01       		.byte	0x1
  3490 0d66 3C       		.byte	0x3c
  3491 0d67 4B050000 		.4byte	0x54b
  3492 0d6b 05       		.uleb128 0x5
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 88
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 88
 
 
  3493 0d6c 03       		.byte	0x3
  3494 0d6d 00000000 		.4byte	cyBle_discoveryParam
  3495 0d71 28       		.uleb128 0x28
- 3496 0d72 5A170000 		.4byte	.LASF256
+ 3496 0d72 30170000 		.4byte	.LASF256
  3497 0d76 01       		.byte	0x1
  3498 0d77 48       		.byte	0x48
  3499 0d78 8B050000 		.4byte	0x58b
@@ -5232,7 +5232,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3501 0d7d 03       		.byte	0x3
  3502 0d7e 00000000 		.4byte	cyBle_discoveryData
  3503 0d82 28       		.uleb128 0x28
- 3504 0d83 700F0000 		.4byte	.LASF257
+ 3504 0d83 460F0000 		.4byte	.LASF257
  3505 0d87 01       		.byte	0x1
  3506 0d88 51       		.byte	0x51
  3507 0d89 BB050000 		.4byte	0x5bb
@@ -5240,7 +5240,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3509 0d8e 03       		.byte	0x3
  3510 0d8f 00000000 		.4byte	cyBle_scanRspData
  3511 0d93 28       		.uleb128 0x28
- 3512 0d94 83150000 		.4byte	.LASF258
+ 3512 0d94 59150000 		.4byte	.LASF258
  3513 0d98 01       		.byte	0x1
  3514 0d99 61       		.byte	0x61
  3515 0d9a 24060000 		.4byte	0x624
@@ -5248,7 +5248,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3517 0d9f 03       		.byte	0x3
  3518 0da0 00000000 		.4byte	cyBle_discoveryModeInfo
  3519 0da4 28       		.uleb128 0x28
- 3520 0da5 AE120000 		.4byte	.LASF259
+ 3520 0da5 84120000 		.4byte	.LASF259
  3521 0da9 01       		.byte	0x1
  3522 0daa 81       		.byte	0x81
  3523 0dab 6B000000 		.4byte	0x6b
@@ -5273,51 +5273,51 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3542 0dd6 23       		.uleb128 0x23
  3543 0dd7 3D070000 		.4byte	0x73d
  3544 0ddb 2A       		.uleb128 0x2a
- 3545 0ddc AB0D0000 		.4byte	.LASF261
+ 3545 0ddc 590D0000 		.4byte	.LASF261
  3546 0de0 08       		.byte	0x8
  3547 0de1 EB       		.byte	0xeb
  3548 0de2 E60D0000 		.4byte	0xde6
  3549 0de6 23       		.uleb128 0x23
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 89
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 89
 
 
  3550 0de7 C60D0000 		.4byte	0xdc6
  3551 0deb 2A       		.uleb128 0x2a
- 3552 0dec 9A160000 		.4byte	.LASF262
+ 3552 0dec 70160000 		.4byte	.LASF262
  3553 0df0 08       		.byte	0x8
  3554 0df1 EF       		.byte	0xef
  3555 0df2 EF090000 		.4byte	0x9ef
  3556 0df6 2A       		.uleb128 0x2a
- 3557 0df7 260C0000 		.4byte	.LASF263
+ 3557 0df7 D40B0000 		.4byte	.LASF263
  3558 0dfb 08       		.byte	0x8
  3559 0dfc F7       		.byte	0xf7
  3560 0dfd 010E0000 		.4byte	0xe01
  3561 0e01 23       		.uleb128 0x23
  3562 0e02 B9070000 		.4byte	0x7b9
  3563 0e06 29       		.uleb128 0x29
- 3564 0e07 11130000 		.4byte	.LASF264
+ 3564 0e07 E7120000 		.4byte	.LASF264
  3565 0e0b 0A       		.byte	0xa
  3566 0e0c B30A     		.2byte	0xab3
  3567 0e0e 39080000 		.4byte	0x839
  3568 0e12 29       		.uleb128 0x29
- 3569 0e13 4F140000 		.4byte	.LASF265
+ 3569 0e13 25140000 		.4byte	.LASF265
  3570 0e17 0A       		.byte	0xa
  3571 0e18 B40A     		.2byte	0xab4
  3572 0e1a 60060000 		.4byte	0x660
  3573 0e1e 29       		.uleb128 0x29
- 3574 0e1f 620B0000 		.4byte	.LASF266
+ 3574 0e1f 100B0000 		.4byte	.LASF266
  3575 0e23 0A       		.byte	0xa
  3576 0e24 B50A     		.2byte	0xab5
  3577 0e26 B0000000 		.4byte	0xb0
  3578 0e2a 29       		.uleb128 0x29
- 3579 0e2b 09160000 		.4byte	.LASF267
+ 3579 0e2b DF150000 		.4byte	.LASF267
  3580 0e2f 0A       		.byte	0xa
  3581 0e30 B60A     		.2byte	0xab6
  3582 0e32 360E0000 		.4byte	0xe36
  3583 0e36 23       		.uleb128 0x23
  3584 0e37 9D080000 		.4byte	0x89d
  3585 0e3b 29       		.uleb128 0x29
- 3586 0e3c 000D0000 		.4byte	.LASF268
+ 3586 0e3c AE0C0000 		.4byte	.LASF268
  3587 0e40 0A       		.byte	0xa
  3588 0e41 B90A     		.2byte	0xab9
  3589 0e43 6B000000 		.4byte	0x6b
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3604 000b 55       		.uleb128 0x55
  3605 000c 17       		.uleb128 0x17
  3606 000d 11       		.uleb128 0x11
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 90
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 90
 
 
  3607 000e 01       		.uleb128 0x1
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3661 0044 07       		.uleb128 0x7
  3662 0045 0F       		.uleb128 0xf
  3663 0046 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 91
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 91
 
 
  3664 0047 0B       		.uleb128 0xb
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3718 007d 00       		.byte	0
  3719 007e 0D       		.uleb128 0xd
  3720 007f 13       		.uleb128 0x13
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 92
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 92
 
 
  3721 0080 01       		.byte	0x1
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3775 00b6 0B       		.uleb128 0xb
  3776 00b7 01       		.uleb128 0x1
  3777 00b8 13       		.uleb128 0x13
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 93
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 93
 
 
  3778 00b9 00       		.byte	0
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3832 00ef 00       		.byte	0
  3833 00f0 00       		.byte	0
  3834 00f1 16       		.uleb128 0x16
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 94
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 94
 
 
  3835 00f2 0D       		.uleb128 0xd
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3889 0128 03       		.uleb128 0x3
  3890 0129 0E       		.uleb128 0xe
  3891 012a 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 95
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 95
 
 
  3892 012b 0B       		.uleb128 0xb
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  3946 0163 18       		.uleb128 0x18
  3947 0164 00       		.byte	0
  3948 0165 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 96
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 96
 
 
  3949 0166 1D       		.uleb128 0x1d
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4003 019d 01       		.uleb128 0x1
  4004 019e 13       		.uleb128 0x13
  4005 019f 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 97
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 97
 
 
  4006 01a0 00       		.byte	0
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4060 01d7 0B       		.uleb128 0xb
  4061 01d8 3B       		.uleb128 0x3b
  4062 01d9 05       		.uleb128 0x5
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 98
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 98
 
 
  4063 01da 27       		.uleb128 0x27
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4117 0212 00       		.byte	0
  4118 0213 00       		.byte	0
  4119 0214 27       		.uleb128 0x27
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 99
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 99
 
 
  4120 0215 34       		.uleb128 0x34
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4174 024b 0B       		.uleb128 0xb
  4175 024c 3B       		.uleb128 0x3b
  4176 024d 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 100
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 100
 
 
  4177 024e 49       		.uleb128 0x49
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4231 0014 30010000 		.4byte	.LFE4
  4232 0018 00000000 		.4byte	.LFB5
  4233 001c 18000000 		.4byte	.LFE5
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 101
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 101
 
 
  4234 0020 00000000 		.4byte	.LFB6
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4268      4D455249 
  4269              	.LASF216:
  4270 0065 61706952 		.ascii	"apiResult\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 102
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 102
 
 
  4270      6573756C 
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4292      48616E64 
  4292      6C6500
  4293              	.LASF181:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 103
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 103
 
 
  4294 015a 7065726D 		.ascii	"permission\000"
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4314 022c 4359424C 		.ascii	"CYBLE_STATE_ADVERTISING\000"
  4314      455F5354 
  4314      4154455F 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 104
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 104
 
 
  4314      41445645 
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4334      6F6E6669 
  4334      6700
  4335              	.LASF220:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 105
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 105
 
 
  4336 0327 73746163 		.ascii	"stackConfig\000"
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4355              	.LASF109:
  4356 0417 4359424C 		.ascii	"CYBLE_ERROR_GATT_DB_INVALID_ATTR_HANDLE\000"
  4356      455F4552 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 106
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 106
 
 
  4356      524F525F 
@@ -6314,1299 +6314,1294 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 1
  4360      7052656D 
  4360      6F766542 
  4360      6F6E6465 
- 4361              	.LASF271:
- 4362 0467 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 4362      73657273 
- 4362      5C616C65 
- 4362      78706F72 
- 4362      745C4F6E 
- 4363 0497 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 4363      54735C55 
- 4363      41525420 
- 4363      55444220 
- 4363      74657374 
- 4364              	.LASF129:
- 4365 04b9 62756666 		.ascii	"bufferUnits\000"
- 4365      6572556E 
- 4365      69747300 
- 4366              	.LASF21:
- 4367 04c5 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
- 4367      455F4556 
- 4367      545F4841 
- 4367      52445741 
- 4367      52455F45 
- 4368              	.LASF90:
- 4369 04de 4359424C 		.ascii	"CYBLE_ERROR_OK\000"
- 4369      455F4552 
- 4369      524F525F 
- 4369      4F4B00
- 4370              	.LASF54:
- 4371 04ed 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
- 4371      455F4556 
- 4371      545F4741 
- 4371      5454435F 
- 4371      52454144 
- 4372              	.LASF201:
- 4373 0514 4359424C 		.ascii	"CYBLE_STATE_STOPPED\000"
- 4373      455F5354 
- 4373      4154455F 
- 4373      53544F50 
- 4373      50454400 
- 4374              	.LASF1:
- 4375 0528 756E7369 		.ascii	"unsigned char\000"
- 4375      676E6564 
- 4375      20636861 
- 4375      7200
- 4376              	.LASF53:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 107
+ 4361              	.LASF129:
+ 4362 0467 62756666 		.ascii	"bufferUnits\000"
+ 4362      6572556E 
+ 4362      69747300 
+ 4363              	.LASF21:
+ 4364 0473 4359424C 		.ascii	"CYBLE_EVT_HARDWARE_ERROR\000"
+ 4364      455F4556 
+ 4364      545F4841 
+ 4364      52445741 
+ 4364      52455F45 
+ 4365              	.LASF90:
+ 4366 048c 4359424C 		.ascii	"CYBLE_ERROR_OK\000"
+ 4366      455F4552 
+ 4366      524F525F 
+ 4366      4F4B00
+ 4367              	.LASF54:
+ 4368 049b 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_GROUP_TYPE_RSP\000"
+ 4368      455F4556 
+ 4368      545F4741 
+ 4368      5454435F 
+ 4368      52454144 
+ 4369              	.LASF201:
+ 4370 04c2 4359424C 		.ascii	"CYBLE_STATE_STOPPED\000"
+ 4370      455F5354 
+ 4370      4154455F 
+ 4370      53544F50 
+ 4370      50454400 
+ 4371              	.LASF1:
+ 4372 04d6 756E7369 		.ascii	"unsigned char\000"
+ 4372      676E6564 
+ 4372      20636861 
+ 4372      7200
+ 4373              	.LASF53:
+ 4374 04e4 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
+ 4374      455F4556 
+ 4374      545F4741 
+ 4374      5454435F 
+ 4374      5843484E 
+ 4375              	.LASF44:
+ 4376 0502 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
+ 4376      455F4556 
+ 4376      545F4741 
+ 4376      505F534D 
+ 4376      505F4E45 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 107
 
 
- 4377 0536 4359424C 		.ascii	"CYBLE_EVT_GATTC_XCHNG_MTU_RSP\000"
- 4377      455F4556 
- 4377      545F4741 
- 4377      5454435F 
- 4377      5843484E 
- 4378              	.LASF44:
- 4379 0554 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_NEGOTIATED_AUTH_INFO\000"
- 4379      455F4556 
- 4379      545F4741 
- 4379      505F534D 
- 4379      505F4E45 
- 4380              	.LASF45:
- 4381 057b 4359424C 		.ascii	"CYBLE_EVT_GAP_CONN_ESTB\000"
- 4381      455F4556 
- 4381      545F4741 
- 4381      505F434F 
- 4381      4E4E5F45 
- 4382              	.LASF147:
- 4383 0593 61647649 		.ascii	"advIntvMin\000"
- 4383      6E74764D 
- 4383      696E00
- 4384              	.LASF179:
- 4385 059e 61747448 		.ascii	"attHandle\000"
- 4385      616E646C 
- 4385      6500
- 4386              	.LASF231:
- 4387 05a8 4379426C 		.ascii	"CyBle_GappStartAdvertisement\000"
- 4387      655F4761 
- 4387      70705374 
- 4387      61727441 
- 4387      64766572 
- 4388              	.LASF158:
- 4389 05c5 4359424C 		.ascii	"CYBLE_GAPP_DISC_DATA_T\000"
- 4389      455F4741 
- 4389      50505F44 
- 4389      4953435F 
- 4389      44415441 
- 4390              	.LASF80:
- 4391 05dc 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_CNF\000"
- 4391      455F4556 
- 4391      545F4C32 
- 4391      4341505F 
- 4391      43424643 
- 4392              	.LASF57:
- 4393 05fd 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
- 4393      455F4556 
- 4393      545F4741 
- 4393      5454435F 
- 4393      46494E44 
- 4394              	.LASF41:
- 4395 0624 4359424C 		.ascii	"CYBLE_EVT_GAP_DATA_LENGTH_CHANGE\000"
- 4395      455F4556 
- 4395      545F4741 
- 4395      505F4441 
- 4395      54415F4C 
- 4396              	.LASF15:
- 4397 0645 63686172 		.ascii	"char\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 108
+ 4377              	.LASF45:
+ 4378 0529 4359424C 		.ascii	"CYBLE_EVT_GAP_CONN_ESTB\000"
+ 4378      455F4556 
+ 4378      545F4741 
+ 4378      505F434F 
+ 4378      4E4E5F45 
+ 4379              	.LASF147:
+ 4380 0541 61647649 		.ascii	"advIntvMin\000"
+ 4380      6E74764D 
+ 4380      696E00
+ 4381              	.LASF179:
+ 4382 054c 61747448 		.ascii	"attHandle\000"
+ 4382      616E646C 
+ 4382      6500
+ 4383              	.LASF231:
+ 4384 0556 4379426C 		.ascii	"CyBle_GappStartAdvertisement\000"
+ 4384      655F4761 
+ 4384      70705374 
+ 4384      61727441 
+ 4384      64766572 
+ 4385              	.LASF158:
+ 4386 0573 4359424C 		.ascii	"CYBLE_GAPP_DISC_DATA_T\000"
+ 4386      455F4741 
+ 4386      50505F44 
+ 4386      4953435F 
+ 4386      44415441 
+ 4387              	.LASF80:
+ 4388 058a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_CNF\000"
+ 4388      455F4556 
+ 4388      545F4C32 
+ 4388      4341505F 
+ 4388      43424643 
+ 4389              	.LASF57:
+ 4390 05ab 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_BY_TYPE_VALUE_RSP\000"
+ 4390      455F4556 
+ 4390      545F4741 
+ 4390      5454435F 
+ 4390      46494E44 
+ 4391              	.LASF41:
+ 4392 05d2 4359424C 		.ascii	"CYBLE_EVT_GAP_DATA_LENGTH_CHANGE\000"
+ 4392      455F4556 
+ 4392      545F4741 
+ 4392      505F4441 
+ 4392      54415F4C 
+ 4393              	.LASF15:
+ 4394 05f3 63686172 		.ascii	"char\000"
+ 4394      00
+ 4395              	.LASF173:
+ 4396 05f8 6D617841 		.ascii	"maxAttrLength\000"
+ 4396      7474724C 
+ 4396      656E6774 
+ 4396      6800
+ 4397              	.LASF60:
+ 4398 0606 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
+ 4398      455F4556 
+ 4398      545F4741 
+ 4398      5454435F 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 108
 
 
- 4397      00
- 4398              	.LASF173:
- 4399 064a 6D617841 		.ascii	"maxAttrLength\000"
- 4399      7474724C 
- 4399      656E6774 
- 4399      6800
- 4400              	.LASF60:
- 4401 0658 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_MULTI_RSP\000"
- 4401      455F4556 
- 4401      545F4741 
- 4401      5454435F 
- 4401      52454144 
- 4402              	.LASF18:
- 4403 0677 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
- 4403      455F4556 
- 4403      545F484F 
- 4403      53545F49 
- 4403      4E56414C 
- 4404              	.LASF243:
- 4405 068e 4379426C 		.ascii	"CyBle_GapGetLocalName\000"
- 4405      655F4761 
- 4405      70476574 
- 4405      4C6F6361 
- 4405      6C4E616D 
- 4406              	.LASF43:
- 4407 06a4 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
- 4407      455F4556 
- 4407      545F4741 
- 4407      50435F44 
- 4407      49524543 
- 4408              	.LASF97:
- 4409 06c5 4359424C 		.ascii	"CYBLE_ERROR_NO_DEVICE_ENTITY\000"
- 4409      455F4552 
- 4409      524F525F 
- 4409      4E4F5F44 
- 4409      45564943 
- 4410              	.LASF59:
- 4411 06e2 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
- 4411      455F4556 
- 4411      545F4741 
- 4411      5454435F 
- 4411      52454144 
- 4412              	.LASF66:
- 4413 0700 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
- 4413      455F4556 
- 4413      545F4741 
- 4413      5454435F 
- 4413      45584543 
- 4414              	.LASF214:
- 4415 071f 4379426C 		.ascii	"CyBle_Init\000"
- 4415      655F496E 
- 4415      697400
- 4416              	.LASF196:
- 4417 072a 4359424C 		.ascii	"CYBLE_DIS_SOFTWARE_REV\000"
- 4417      455F4449 
- 4417      535F534F 
- 4417      46545741 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 109
+ 4398      52454144 
+ 4399              	.LASF18:
+ 4400 0625 4359424C 		.ascii	"CYBLE_EVT_HOST_INVALID\000"
+ 4400      455F4556 
+ 4400      545F484F 
+ 4400      53545F49 
+ 4400      4E56414C 
+ 4401              	.LASF243:
+ 4402 063c 4379426C 		.ascii	"CyBle_GapGetLocalName\000"
+ 4402      655F4761 
+ 4402      70476574 
+ 4402      4C6F6361 
+ 4402      6C4E616D 
+ 4403              	.LASF43:
+ 4404 0652 4359424C 		.ascii	"CYBLE_EVT_GAPC_DIRECT_ADV_REPORT\000"
+ 4404      455F4556 
+ 4404      545F4741 
+ 4404      50435F44 
+ 4404      49524543 
+ 4405              	.LASF97:
+ 4406 0673 4359424C 		.ascii	"CYBLE_ERROR_NO_DEVICE_ENTITY\000"
+ 4406      455F4552 
+ 4406      524F525F 
+ 4406      4E4F5F44 
+ 4406      45564943 
+ 4407              	.LASF59:
+ 4408 0690 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BLOB_RSP\000"
+ 4408      455F4556 
+ 4408      545F4741 
+ 4408      5454435F 
+ 4408      52454144 
+ 4409              	.LASF66:
+ 4410 06ae 4359424C 		.ascii	"CYBLE_EVT_GATTC_EXEC_WRITE_RSP\000"
+ 4410      455F4556 
+ 4410      545F4741 
+ 4410      5454435F 
+ 4410      45584543 
+ 4411              	.LASF214:
+ 4412 06cd 4379426C 		.ascii	"CyBle_Init\000"
+ 4412      655F496E 
+ 4412      697400
+ 4413              	.LASF196:
+ 4414 06d8 4359424C 		.ascii	"CYBLE_DIS_SOFTWARE_REV\000"
+ 4414      455F4449 
+ 4414      535F534F 
+ 4414      46545741 
+ 4414      52455F52 
+ 4415              	.LASF71:
+ 4416 06ef 4359424C 		.ascii	"CYBLE_EVT_GATTC_STOP_CMD_COMPLETE\000"
+ 4416      455F4556 
+ 4416      545F4741 
+ 4416      5454435F 
+ 4416      53544F50 
+ 4417              	.LASF164:
+ 4418 0711 61647654 		.ascii	"advTo\000"
+ 4418      6F00
+ 4419              	.LASF192:
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 109
 
 
- 4417      52455F52 
- 4418              	.LASF71:
- 4419 0741 4359424C 		.ascii	"CYBLE_EVT_GATTC_STOP_CMD_COMPLETE\000"
- 4419      455F4556 
- 4419      545F4741 
- 4419      5454435F 
- 4419      53544F50 
- 4420              	.LASF164:
- 4421 0763 61647654 		.ascii	"advTo\000"
- 4421      6F00
- 4422              	.LASF192:
- 4423 0769 4359424C 		.ascii	"CYBLE_DIS_MODEL_NUMBER\000"
- 4423      455F4449 
- 4423      535F4D4F 
- 4423      44454C5F 
- 4423      4E554D42 
- 4424              	.LASF184:
- 4425 0780 4359424C 		.ascii	"CYBLE_GATTS_DB_T\000"
- 4425      455F4741 
- 4425      5454535F 
- 4425      44425F54 
- 4425      00
- 4426              	.LASF248:
- 4427 0791 6379426C 		.ascii	"cyBle_pendingFlashClearCccdHandle\000"
- 4427      655F7065 
- 4427      6E64696E 
- 4427      67466C61 
- 4427      7368436C 
- 4428              	.LASF233:
- 4429 07b3 4379426C 		.ascii	"CyBle_GappStopAdvertisement\000"
- 4429      655F4761 
- 4429      70705374 
- 4429      6F704164 
- 4429      76657274 
- 4430              	.LASF197:
- 4431 07cf 4359424C 		.ascii	"CYBLE_DIS_SYSTEM_ID\000"
- 4431      455F4449 
- 4431      535F5359 
- 4431      5354454D 
- 4431      5F494400 
- 4432              	.LASF117:
- 4433 07e3 4359424C 		.ascii	"CYBLE_ERROR_CONTROLLER_BUSY\000"
- 4433      455F4552 
- 4433      524F525F 
- 4433      434F4E54 
- 4433      524F4C4C 
- 4434              	.LASF91:
- 4435 07ff 4359424C 		.ascii	"CYBLE_ERROR_INVALID_PARAMETER\000"
- 4435      455F4552 
- 4435      524F525F 
- 4435      494E5641 
- 4435      4C49445F 
- 4436              	.LASF217:
- 4437 081d 6379426C 		.ascii	"cyBle_stackDataBuff\000"
- 4437      655F7374 
- 4437      61636B44 
- 4437      61746142 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 110
+ 4420 0717 4359424C 		.ascii	"CYBLE_DIS_MODEL_NUMBER\000"
+ 4420      455F4449 
+ 4420      535F4D4F 
+ 4420      44454C5F 
+ 4420      4E554D42 
+ 4421              	.LASF184:
+ 4422 072e 4359424C 		.ascii	"CYBLE_GATTS_DB_T\000"
+ 4422      455F4741 
+ 4422      5454535F 
+ 4422      44425F54 
+ 4422      00
+ 4423              	.LASF248:
+ 4424 073f 6379426C 		.ascii	"cyBle_pendingFlashClearCccdHandle\000"
+ 4424      655F7065 
+ 4424      6E64696E 
+ 4424      67466C61 
+ 4424      7368436C 
+ 4425              	.LASF233:
+ 4426 0761 4379426C 		.ascii	"CyBle_GappStopAdvertisement\000"
+ 4426      655F4761 
+ 4426      70705374 
+ 4426      6F704164 
+ 4426      76657274 
+ 4427              	.LASF197:
+ 4428 077d 4359424C 		.ascii	"CYBLE_DIS_SYSTEM_ID\000"
+ 4428      455F4449 
+ 4428      535F5359 
+ 4428      5354454D 
+ 4428      5F494400 
+ 4429              	.LASF117:
+ 4430 0791 4359424C 		.ascii	"CYBLE_ERROR_CONTROLLER_BUSY\000"
+ 4430      455F4552 
+ 4430      524F525F 
+ 4430      434F4E54 
+ 4430      524F4C4C 
+ 4431              	.LASF91:
+ 4432 07ad 4359424C 		.ascii	"CYBLE_ERROR_INVALID_PARAMETER\000"
+ 4432      455F4552 
+ 4432      524F525F 
+ 4432      494E5641 
+ 4432      4C49445F 
+ 4433              	.LASF217:
+ 4434 07cb 6379426C 		.ascii	"cyBle_stackDataBuff\000"
+ 4434      655F7374 
+ 4434      61636B44 
+ 4434      61746142 
+ 4434      75666600 
+ 4435              	.LASF189:
+ 4436 07df 626F756E 		.ascii	"boundedDevCount\000"
+ 4436      64656444 
+ 4436      6576436F 
+ 4436      756E7400 
+ 4437              	.LASF221:
+ 4438 07ef 66656174 		.ascii	"featureHeapReq\000"
+ 4438      75726548 
+ 4438      65617052 
+ 4438      657100
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 110
 
 
- 4437      75666600 
- 4438              	.LASF189:
- 4439 0831 626F756E 		.ascii	"boundedDevCount\000"
- 4439      64656444 
- 4439      6576436F 
- 4439      756E7400 
- 4440              	.LASF221:
- 4441 0841 66656174 		.ascii	"featureHeapReq\000"
- 4441      75726548 
- 4441      65617052 
- 4441      657100
- 4442              	.LASF145:
- 4443 0850 4359424C 		.ascii	"CYBLE_GAPP_CONNECTABLE_LOW_DC_DIRECTED_ADV\000"
- 4443      455F4741 
- 4443      50505F43 
- 4443      4F4E4E45 
- 4443      43544142 
- 4444              	.LASF93:
- 4445 087b 4359424C 		.ascii	"CYBLE_ERROR_MEMORY_ALLOCATION_FAILED\000"
- 4445      455F4552 
- 4445      524F525F 
- 4445      4D454D4F 
- 4445      52595F41 
- 4446              	.LASF254:
- 4447 08a0 6379426C 		.ascii	"cyBle_sflashDeviceAddress\000"
- 4447      655F7366 
- 4447      6C617368 
- 4447      44657669 
- 4447      63654164 
- 4448              	.LASF187:
- 4449 08ba 61747456 		.ascii	"attValuesCCCDFlashMemory\000"
- 4449      616C7565 
- 4449      73434343 
- 4449      44466C61 
- 4449      73684D65 
- 4450              	.LASF118:
- 4451 08d3 4359424C 		.ascii	"CYBLE_ERROR_MAX\000"
- 4451      455F4552 
- 4451      524F525F 
- 4451      4D415800 
- 4452              	.LASF75:
- 4453 08e3 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
- 4453      455F4556 
- 4453      545F4C32 
- 4453      4341505F 
- 4453      434F4E4E 
- 4454              	.LASF87:
- 4455 0909 4359424C 		.ascii	"CYBLE_EVT_HCI_PKT\000"
- 4455      455F4556 
- 4455      545F4843 
- 4455      495F504B 
- 4455      5400
- 4456              	.LASF186:
- 4457 091b 73746163 		.ascii	"stackFlashptr\000"
- 4457      6B466C61 
- 4457      73687074 
- 4457      7200
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 111
+ 4439              	.LASF145:
+ 4440 07fe 4359424C 		.ascii	"CYBLE_GAPP_CONNECTABLE_LOW_DC_DIRECTED_ADV\000"
+ 4440      455F4741 
+ 4440      50505F43 
+ 4440      4F4E4E45 
+ 4440      43544142 
+ 4441              	.LASF93:
+ 4442 0829 4359424C 		.ascii	"CYBLE_ERROR_MEMORY_ALLOCATION_FAILED\000"
+ 4442      455F4552 
+ 4442      524F525F 
+ 4442      4D454D4F 
+ 4442      52595F41 
+ 4443              	.LASF254:
+ 4444 084e 6379426C 		.ascii	"cyBle_sflashDeviceAddress\000"
+ 4444      655F7366 
+ 4444      6C617368 
+ 4444      44657669 
+ 4444      63654164 
+ 4445              	.LASF187:
+ 4446 0868 61747456 		.ascii	"attValuesCCCDFlashMemory\000"
+ 4446      616C7565 
+ 4446      73434343 
+ 4446      44466C61 
+ 4446      73684D65 
+ 4447              	.LASF118:
+ 4448 0881 4359424C 		.ascii	"CYBLE_ERROR_MAX\000"
+ 4448      455F4552 
+ 4448      524F525F 
+ 4448      4D415800 
+ 4449              	.LASF75:
+ 4450 0891 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_RSP\000"
+ 4450      455F4556 
+ 4450      545F4C32 
+ 4450      4341505F 
+ 4450      434F4E4E 
+ 4451              	.LASF87:
+ 4452 08b7 4359424C 		.ascii	"CYBLE_EVT_HCI_PKT\000"
+ 4452      455F4556 
+ 4452      545F4843 
+ 4452      495F504B 
+ 4452      5400
+ 4453              	.LASF186:
+ 4454 08c9 73746163 		.ascii	"stackFlashptr\000"
+ 4454      6B466C61 
+ 4454      73687074 
+ 4454      7200
+ 4455              	.LASF269:
+ 4456 08d7 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 4456      43313120 
+ 4456      352E342E 
+ 4456      31203230 
+ 4456      31363036 
+ 4457 090a 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 4457      20726576 
+ 4457      6973696F 
+ 4457      6E203233 
+ 4457      37373135 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 111
 
 
- 4458              	.LASF269:
- 4459 0929 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 4459      43313120 
- 4459      352E342E 
- 4459      31203230 
- 4459      31363036 
- 4460 095c 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 4460      20726576 
- 4460      6973696F 
- 4460      6E203233 
- 4460      37373135 
- 4461 098f 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 4461      66756E63 
- 4461      74696F6E 
- 4461      2D736563 
- 4461      74696F6E 
- 4462              	.LASF155:
- 4463 09b7 4359424C 		.ascii	"CYBLE_GAPP_DISC_PARAM_T\000"
- 4463      455F4741 
- 4463      50505F44 
- 4463      4953435F 
- 4463      50415241 
- 4464              	.LASF240:
- 4465 09cf 6D61784C 		.ascii	"maxLength\000"
- 4465      656E6774 
- 4465      6800
- 4466              	.LASF29:
- 4467 09d9 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
- 4467      455F4556 
- 4467      545F4741 
- 4467      505F4155 
- 4467      54485F43 
- 4468              	.LASF154:
- 4469 09f5 61647646 		.ascii	"advFilterPolicy\000"
- 4469      696C7465 
- 4469      72506F6C 
- 4469      69637900 
- 4470              	.LASF30:
- 4471 0a05 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
- 4471      455F4556 
- 4471      545F4741 
- 4471      505F4155 
- 4471      54485F46 
- 4472              	.LASF270:
- 4473 0a1f 47656E65 		.ascii	"Generated_Source\\PSoC4\\blue.c\000"
- 4473      72617465 
- 4473      645F536F 
- 4473      75726365 
- 4473      5C50536F 
- 4474              	.LASF123:
- 4475 0a3d 4359424C 		.ascii	"CYBLE_ERROR_STACK_BUSY\000"
- 4475      455F4552 
- 4475      524F525F 
- 4475      53544143 
- 4475      4B5F4255 
- 4476              	.LASF149:
- 4477 0a54 61647654 		.ascii	"advType\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 112
+ 4458 093d 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 4458      66756E63 
+ 4458      74696F6E 
+ 4458      2D736563 
+ 4458      74696F6E 
+ 4459              	.LASF155:
+ 4460 0965 4359424C 		.ascii	"CYBLE_GAPP_DISC_PARAM_T\000"
+ 4460      455F4741 
+ 4460      50505F44 
+ 4460      4953435F 
+ 4460      50415241 
+ 4461              	.LASF240:
+ 4462 097d 6D61784C 		.ascii	"maxLength\000"
+ 4462      656E6774 
+ 4462      6800
+ 4463              	.LASF29:
+ 4464 0987 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_COMPLETE\000"
+ 4464      455F4556 
+ 4464      545F4741 
+ 4464      505F4155 
+ 4464      54485F43 
+ 4465              	.LASF154:
+ 4466 09a3 61647646 		.ascii	"advFilterPolicy\000"
+ 4466      696C7465 
+ 4466      72506F6C 
+ 4466      69637900 
+ 4467              	.LASF30:
+ 4468 09b3 4359424C 		.ascii	"CYBLE_EVT_GAP_AUTH_FAILED\000"
+ 4468      455F4556 
+ 4468      545F4741 
+ 4468      505F4155 
+ 4468      54485F46 
+ 4469              	.LASF270:
+ 4470 09cd 47656E65 		.ascii	"Generated_Source\\PSoC4\\blue.c\000"
+ 4470      72617465 
+ 4470      645F536F 
+ 4470      75726365 
+ 4470      5C50536F 
+ 4471              	.LASF123:
+ 4472 09eb 4359424C 		.ascii	"CYBLE_ERROR_STACK_BUSY\000"
+ 4472      455F4552 
+ 4472      524F525F 
+ 4472      53544143 
+ 4472      4B5F4255 
+ 4473              	.LASF149:
+ 4474 0a02 61647654 		.ascii	"advType\000"
+ 4474      79706500 
+ 4475              	.LASF94:
+ 4476 0a0a 4359424C 		.ascii	"CYBLE_ERROR_INSUFFICIENT_RESOURCES\000"
+ 4476      455F4552 
+ 4476      524F525F 
+ 4476      494E5355 
+ 4476      46464943 
+ 4477              	.LASF5:
+ 4478 0a2d 6C6F6E67 		.ascii	"long unsigned int\000"
+ 4478      20756E73 
+ 4478      69676E65 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 112
 
 
- 4477      79706500 
- 4478              	.LASF94:
- 4479 0a5c 4359424C 		.ascii	"CYBLE_ERROR_INSUFFICIENT_RESOURCES\000"
- 4479      455F4552 
- 4479      524F525F 
- 4479      494E5355 
- 4479      46464943 
- 4480              	.LASF5:
- 4481 0a7f 6C6F6E67 		.ascii	"long unsigned int\000"
- 4481      20756E73 
- 4481      69676E65 
- 4481      6420696E 
- 4481      7400
- 4482              	.LASF114:
- 4483 0a91 4359424C 		.ascii	"CYBLE_ERROR_UNSUPPORTED_FEATURE_OR_PARAMETER_VALUE\000"
- 4483      455F4552 
- 4483      524F525F 
- 4483      554E5355 
- 4483      50504F52 
- 4484              	.LASF190:
- 4485 0ac4 43595F42 		.ascii	"CY_BLE_FLASH_STORAGE\000"
- 4485      4C455F46 
- 4485      4C415348 
- 4485      5F53544F 
- 4485      52414745 
- 4486              	.LASF135:
- 4487 0ad9 7265736F 		.ascii	"resolvingListSize\000"
- 4487      6C76696E 
- 4487      674C6973 
- 4487      7453697A 
- 4487      6500
- 4488              	.LASF104:
- 4489 0aeb 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_ALREADY_REGISTERED\000"
- 4489      455F4552 
- 4489      524F525F 
- 4489      4C324341 
- 4489      505F5053 
- 4490              	.LASF177:
- 4491 0b14 61747456 		.ascii	"attValueUuid\000"
- 4491      616C7565 
- 4491      55756964 
- 4491      00
- 4492              	.LASF193:
- 4493 0b21 4359424C 		.ascii	"CYBLE_DIS_SERIAL_NUMBER\000"
- 4493      455F4449 
- 4493      535F5345 
- 4493      5249414C 
- 4493      5F4E554D 
- 4494              	.LASF35:
- 4495 0b39 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
- 4495      455F4556 
- 4495      545F4741 
- 4495      505F434F 
- 4495      4E4E4543 
- 4496              	.LASF266:
- 4497 0b62 6379426C 		.ascii	"cyBle_busyStatus\000"
- 4497      655F6275 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 113
+ 4478      6420696E 
+ 4478      7400
+ 4479              	.LASF114:
+ 4480 0a3f 4359424C 		.ascii	"CYBLE_ERROR_UNSUPPORTED_FEATURE_OR_PARAMETER_VALUE\000"
+ 4480      455F4552 
+ 4480      524F525F 
+ 4480      554E5355 
+ 4480      50504F52 
+ 4481              	.LASF190:
+ 4482 0a72 43595F42 		.ascii	"CY_BLE_FLASH_STORAGE\000"
+ 4482      4C455F46 
+ 4482      4C415348 
+ 4482      5F53544F 
+ 4482      52414745 
+ 4483              	.LASF135:
+ 4484 0a87 7265736F 		.ascii	"resolvingListSize\000"
+ 4484      6C76696E 
+ 4484      674C6973 
+ 4484      7453697A 
+ 4484      6500
+ 4485              	.LASF104:
+ 4486 0a99 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_ALREADY_REGISTERED\000"
+ 4486      455F4552 
+ 4486      524F525F 
+ 4486      4C324341 
+ 4486      505F5053 
+ 4487              	.LASF177:
+ 4488 0ac2 61747456 		.ascii	"attValueUuid\000"
+ 4488      616C7565 
+ 4488      55756964 
+ 4488      00
+ 4489              	.LASF193:
+ 4490 0acf 4359424C 		.ascii	"CYBLE_DIS_SERIAL_NUMBER\000"
+ 4490      455F4449 
+ 4490      535F5345 
+ 4490      5249414C 
+ 4490      5F4E554D 
+ 4491              	.LASF35:
+ 4492 0ae7 4359424C 		.ascii	"CYBLE_EVT_GAP_CONNECTION_UPDATE_COMPLETE\000"
+ 4492      455F4556 
+ 4492      545F4741 
+ 4492      505F434F 
+ 4492      4E4E4543 
+ 4493              	.LASF266:
+ 4494 0b10 6379426C 		.ascii	"cyBle_busyStatus\000"
+ 4494      655F6275 
+ 4494      73795374 
+ 4494      61747573 
+ 4494      00
+ 4495              	.LASF245:
+ 4496 0b21 4379426C 		.ascii	"CyBle_ChangeAdDeviceAddress\000"
+ 4496      655F4368 
+ 4496      616E6765 
+ 4496      41644465 
+ 4496      76696365 
+ 4497              	.LASF202:
+ 4498 0b3d 4359424C 		.ascii	"CYBLE_STATE_INITIALIZING\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 113
 
 
- 4497      73795374 
- 4497      61747573 
- 4497      00
- 4498              	.LASF245:
- 4499 0b73 4379426C 		.ascii	"CyBle_ChangeAdDeviceAddress\000"
- 4499      655F4368 
- 4499      616E6765 
- 4499      41644465 
- 4499      76696365 
- 4500              	.LASF202:
- 4501 0b8f 4359424C 		.ascii	"CYBLE_STATE_INITIALIZING\000"
- 4501      455F5354 
- 4501      4154455F 
- 4501      494E4954 
- 4501      49414C49 
- 4502              	.LASF79:
- 4503 0ba8 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
- 4503      455F4556 
- 4503      545F4C32 
- 4503      4341505F 
- 4503      43424643 
- 4504              	.LASF222:
- 4505 0bc9 4379426C 		.ascii	"CyBle_Stop\000"
- 4505      655F5374 
- 4505      6F7000
- 4506              	.LASF27:
- 4507 0bd4 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
- 4507      455F4556 
- 4507      545F4741 
- 4507      505F5041 
- 4507      53534B45 
- 4508              	.LASF140:
- 4509 0bf8 4359424C 		.ascii	"CYBLE_STACK_CONFIG_PARAM_T\000"
- 4509      455F5354 
- 4509      41434B5F 
- 4509      434F4E46 
- 4509      49475F50 
- 4510              	.LASF131:
- 4511 0c13 646C654D 		.ascii	"dleMaxTxCapability\000"
- 4511      61785478 
- 4511      43617061 
- 4511      62696C69 
- 4511      747900
- 4512              	.LASF263:
- 4513 0c26 6379426C 		.ascii	"cyBle_flashStorage\000"
- 4513      655F666C 
- 4513      61736853 
- 4513      746F7261 
- 4513      676500
- 4514              	.LASF6:
- 4515 0c39 6C6F6E67 		.ascii	"long long int\000"
- 4515      206C6F6E 
- 4515      6720696E 
- 4515      7400
- 4516              	.LASF199:
- 4517 0c47 4359424C 		.ascii	"CYBLE_DIS_PNP_ID\000"
- 4517      455F4449 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 114
+ 4498      455F5354 
+ 4498      4154455F 
+ 4498      494E4954 
+ 4498      49414C49 
+ 4499              	.LASF79:
+ 4500 0b56 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DISCONN_IND\000"
+ 4500      455F4556 
+ 4500      545F4C32 
+ 4500      4341505F 
+ 4500      43424643 
+ 4501              	.LASF222:
+ 4502 0b77 4379426C 		.ascii	"CyBle_Stop\000"
+ 4502      655F5374 
+ 4502      6F7000
+ 4503              	.LASF27:
+ 4504 0b82 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_ENTRY_REQUEST\000"
+ 4504      455F4556 
+ 4504      545F4741 
+ 4504      505F5041 
+ 4504      53534B45 
+ 4505              	.LASF140:
+ 4506 0ba6 4359424C 		.ascii	"CYBLE_STACK_CONFIG_PARAM_T\000"
+ 4506      455F5354 
+ 4506      41434B5F 
+ 4506      434F4E46 
+ 4506      49475F50 
+ 4507              	.LASF131:
+ 4508 0bc1 646C654D 		.ascii	"dleMaxTxCapability\000"
+ 4508      61785478 
+ 4508      43617061 
+ 4508      62696C69 
+ 4508      747900
+ 4509              	.LASF263:
+ 4510 0bd4 6379426C 		.ascii	"cyBle_flashStorage\000"
+ 4510      655F666C 
+ 4510      61736853 
+ 4510      746F7261 
+ 4510      676500
+ 4511              	.LASF6:
+ 4512 0be7 6C6F6E67 		.ascii	"long long int\000"
+ 4512      206C6F6E 
+ 4512      6720696E 
+ 4512      7400
+ 4513              	.LASF199:
+ 4514 0bf5 4359424C 		.ascii	"CYBLE_DIS_PNP_ID\000"
+ 4514      455F4449 
+ 4514      535F504E 
+ 4514      505F4944 
+ 4514      00
+ 4515              	.LASF255:
+ 4516 0c06 6379426C 		.ascii	"cyBle_discoveryParam\000"
+ 4516      655F6469 
+ 4516      73636F76 
+ 4516      65727950 
+ 4516      6172616D 
+ 4517              	.LASF163:
+ 4518 0c1b 61647650 		.ascii	"advParam\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 114
 
 
- 4517      535F504E 
- 4517      505F4944 
- 4517      00
- 4518              	.LASF255:
- 4519 0c58 6379426C 		.ascii	"cyBle_discoveryParam\000"
- 4519      655F6469 
- 4519      73636F76 
- 4519      65727950 
- 4519      6172616D 
- 4520              	.LASF163:
- 4521 0c6d 61647650 		.ascii	"advParam\000"
- 4521      6172616D 
- 4521      00
- 4522              	.LASF105:
- 4523 0c76 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_NOT_REGISTERED\000"
- 4523      455F4552 
- 4523      524F525F 
- 4523      4C324341 
- 4523      505F5053 
- 4524              	.LASF95:
- 4525 0c9b 4359424C 		.ascii	"CYBLE_ERROR_OOB_NOT_AVAILABLE\000"
- 4525      455F4552 
- 4525      524F525F 
- 4525      4F4F425F 
- 4525      4E4F545F 
- 4526              	.LASF13:
- 4527 0cb9 646F7562 		.ascii	"double\000"
- 4527      6C6500
- 4528              	.LASF110:
- 4529 0cc0 4359424C 		.ascii	"CYBLE_ERROR_DEVICE_ALREADY_EXISTS\000"
- 4529      455F4552 
- 4529      524F525F 
- 4529      44455649 
- 4529      43455F41 
- 4530              	.LASF85:
- 4531 0ce2 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
- 4531      455F4556 
- 4531      545F5045 
- 4531      4E44494E 
- 4531      475F464C 
- 4532              	.LASF268:
- 4533 0d00 6379426C 		.ascii	"cyBle_advertisingIntervalType\000"
- 4533      655F6164 
- 4533      76657274 
- 4533      6973696E 
- 4533      67496E74 
- 4534              	.LASF208:
- 4535 0d1e 64657669 		.ascii	"deviceNameCharHandle\000"
- 4535      63654E61 
- 4535      6D654368 
- 4535      61724861 
- 4535      6E646C65 
- 4536              	.LASF151:
- 4537 0d33 64697265 		.ascii	"directAddrType\000"
- 4537      63744164 
- 4537      64725479 
- 4537      706500
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 115
+ 4518      6172616D 
+ 4518      00
+ 4519              	.LASF105:
+ 4520 0c24 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_NOT_REGISTERED\000"
+ 4520      455F4552 
+ 4520      524F525F 
+ 4520      4C324341 
+ 4520      505F5053 
+ 4521              	.LASF95:
+ 4522 0c49 4359424C 		.ascii	"CYBLE_ERROR_OOB_NOT_AVAILABLE\000"
+ 4522      455F4552 
+ 4522      524F525F 
+ 4522      4F4F425F 
+ 4522      4E4F545F 
+ 4523              	.LASF13:
+ 4524 0c67 646F7562 		.ascii	"double\000"
+ 4524      6C6500
+ 4525              	.LASF110:
+ 4526 0c6e 4359424C 		.ascii	"CYBLE_ERROR_DEVICE_ALREADY_EXISTS\000"
+ 4526      455F4552 
+ 4526      524F525F 
+ 4526      44455649 
+ 4526      43455F41 
+ 4527              	.LASF85:
+ 4528 0c90 4359424C 		.ascii	"CYBLE_EVT_PENDING_FLASH_WRITE\000"
+ 4528      455F4556 
+ 4528      545F5045 
+ 4528      4E44494E 
+ 4528      475F464C 
+ 4529              	.LASF268:
+ 4530 0cae 6379426C 		.ascii	"cyBle_advertisingIntervalType\000"
+ 4530      655F6164 
+ 4530      76657274 
+ 4530      6973696E 
+ 4530      67496E74 
+ 4531              	.LASF208:
+ 4532 0ccc 64657669 		.ascii	"deviceNameCharHandle\000"
+ 4532      63654E61 
+ 4532      6D654368 
+ 4532      61724861 
+ 4532      6E646C65 
+ 4533              	.LASF151:
+ 4534 0ce1 64697265 		.ascii	"directAddrType\000"
+ 4534      63744164 
+ 4534      64725479 
+ 4534      706500
+ 4535              	.LASF42:
+ 4536 0cf0 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
+ 4536      455F4556 
+ 4536      545F4741 
+ 4536      505F454E 
+ 4536      48414E43 
+ 4537              	.LASF107:
+ 4538 0d14 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CHANNEL_NOT_FOUND\000"
+ 4538      455F4552 
+ 4538      524F525F 
+ 4538      4C324341 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 115
 
 
- 4538              	.LASF42:
- 4539 0d42 4359424C 		.ascii	"CYBLE_EVT_GAP_ENHANCE_CONN_COMPLETE\000"
- 4539      455F4556 
- 4539      545F4741 
- 4539      505F454E 
- 4539      48414E43 
- 4540              	.LASF107:
- 4541 0d66 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_CHANNEL_NOT_FOUND\000"
- 4541      455F4552 
- 4541      524F525F 
- 4541      4C324341 
- 4541      505F4348 
- 4542              	.LASF136:
- 4543 0d8a 4359424C 		.ascii	"CYBLE_PRIVACY_1_2_CONFIG_PARAM_T\000"
- 4543      455F5052 
- 4543      49564143 
- 4543      595F315F 
- 4543      325F434F 
- 4544              	.LASF261:
- 4545 0dab 6379426C 		.ascii	"cyBle_gattDB\000"
- 4545      655F6761 
- 4545      74744442 
- 4545      00
- 4546              	.LASF98:
- 4547 0db8 4359424C 		.ascii	"CYBLE_ERROR_REPEATED_ATTEMPTS\000"
- 4547      455F4552 
- 4547      524F525F 
- 4547      52455045 
- 4547      41544544 
- 4548              	.LASF12:
- 4549 0dd6 666C6F61 		.ascii	"float\000"
- 4549      7400
- 4550              	.LASF111:
- 4551 0ddc 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE_NOT_PERMITED\000"
- 4551      455F4552 
- 4551      524F525F 
- 4551      464C4153 
- 4551      485F5752 
- 4552              	.LASF72:
- 4553 0e01 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
- 4553      455F4556 
- 4553      545F4741 
- 4553      5454535F 
- 4553      52454144 
- 4554              	.LASF227:
- 4555 0e2a 64656661 		.ascii	"defaultValuesCCCD\000"
- 4555      756C7456 
- 4555      616C7565 
- 4555      73434343 
- 4555      4400
- 4556              	.LASF133:
- 4557 0e3c 646C654E 		.ascii	"dleNumTxBuffer\000"
- 4557      756D5478 
- 4557      42756666 
- 4557      657200
- 4558              	.LASF8:
- 4559 0e4b 756E7369 		.ascii	"unsigned int\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 116
+ 4538      505F4348 
+ 4539              	.LASF136:
+ 4540 0d38 4359424C 		.ascii	"CYBLE_PRIVACY_1_2_CONFIG_PARAM_T\000"
+ 4540      455F5052 
+ 4540      49564143 
+ 4540      595F315F 
+ 4540      325F434F 
+ 4541              	.LASF261:
+ 4542 0d59 6379426C 		.ascii	"cyBle_gattDB\000"
+ 4542      655F6761 
+ 4542      74744442 
+ 4542      00
+ 4543              	.LASF98:
+ 4544 0d66 4359424C 		.ascii	"CYBLE_ERROR_REPEATED_ATTEMPTS\000"
+ 4544      455F4552 
+ 4544      524F525F 
+ 4544      52455045 
+ 4544      41544544 
+ 4545              	.LASF12:
+ 4546 0d84 666C6F61 		.ascii	"float\000"
+ 4546      7400
+ 4547              	.LASF111:
+ 4548 0d8a 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE_NOT_PERMITED\000"
+ 4548      455F4552 
+ 4548      524F525F 
+ 4548      464C4153 
+ 4548      485F5752 
+ 4549              	.LASF72:
+ 4550 0daf 4359424C 		.ascii	"CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ\000"
+ 4550      455F4556 
+ 4550      545F4741 
+ 4550      5454535F 
+ 4550      52454144 
+ 4551              	.LASF227:
+ 4552 0dd8 64656661 		.ascii	"defaultValuesCCCD\000"
+ 4552      756C7456 
+ 4552      616C7565 
+ 4552      73434343 
+ 4552      4400
+ 4553              	.LASF133:
+ 4554 0dea 646C654E 		.ascii	"dleNumTxBuffer\000"
+ 4554      756D5478 
+ 4554      42756666 
+ 4554      657200
+ 4555              	.LASF8:
+ 4556 0df9 756E7369 		.ascii	"unsigned int\000"
+ 4556      676E6564 
+ 4556      20696E74 
+ 4556      00
+ 4557              	.LASF139:
+ 4558 0e06 66656174 		.ascii	"feature_mask\000"
+ 4558      7572655F 
+ 4558      6D61736B 
+ 4558      00
+ 4559              	.LASF64:
+ 4560 0e13 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
+ 4560      455F4556 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 116
 
 
- 4559      676E6564 
- 4559      20696E74 
- 4559      00
- 4560              	.LASF139:
- 4561 0e58 66656174 		.ascii	"feature_mask\000"
- 4561      7572655F 
- 4561      6D61736B 
- 4561      00
- 4562              	.LASF64:
- 4563 0e65 4359424C 		.ascii	"CYBLE_EVT_GATTS_PREP_WRITE_REQ\000"
- 4563      455F4556 
- 4563      545F4741 
- 4563      5454535F 
- 4563      50524550 
- 4564              	.LASF182:
- 4565 0e84 61747445 		.ascii	"attEndHandle\000"
- 4565      6E644861 
- 4565      6E646C65 
- 4565      00
- 4566              	.LASF198:
- 4567 0e91 4359424C 		.ascii	"CYBLE_DIS_REG_CERT_DATA\000"
- 4567      455F4449 
- 4567      535F5245 
- 4567      475F4345 
- 4567      52545F44 
- 4568              	.LASF237:
- 4569 0ea9 666C6167 		.ascii	"flag\000"
- 4569      00
- 4570              	.LASF246:
- 4571 0eae 4379426C 		.ascii	"CyBle_Set16ByPtr\000"
- 4571      655F5365 
- 4571      74313642 
- 4571      79507472 
- 4571      00
- 4572              	.LASF103:
- 4573 0ebf 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_WRONG_ENCODING\000"
- 4573      455F4552 
- 4573      524F525F 
- 4573      4C324341 
- 4573      505F5053 
- 4574              	.LASF242:
- 4575 0ee4 63686172 		.ascii	"charLen\000"
- 4575      4C656E00 
- 4576              	.LASF89:
- 4577 0eec 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
- 4577      455F4556 
- 4577      545F4D41 
- 4577      5800
- 4578              	.LASF36:
- 4579 0efa 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
- 4579      455F4556 
- 4579      545F4741 
- 4579      50435F53 
- 4579      43414E5F 
- 4580              	.LASF146:
- 4581 0f19 4359424C 		.ascii	"CYBLE_GAPP_ADV_T\000"
- 4581      455F4741 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 117
+ 4560      545F4741 
+ 4560      5454535F 
+ 4560      50524550 
+ 4561              	.LASF182:
+ 4562 0e32 61747445 		.ascii	"attEndHandle\000"
+ 4562      6E644861 
+ 4562      6E646C65 
+ 4562      00
+ 4563              	.LASF198:
+ 4564 0e3f 4359424C 		.ascii	"CYBLE_DIS_REG_CERT_DATA\000"
+ 4564      455F4449 
+ 4564      535F5245 
+ 4564      475F4345 
+ 4564      52545F44 
+ 4565              	.LASF237:
+ 4566 0e57 666C6167 		.ascii	"flag\000"
+ 4566      00
+ 4567              	.LASF246:
+ 4568 0e5c 4379426C 		.ascii	"CyBle_Set16ByPtr\000"
+ 4568      655F5365 
+ 4568      74313642 
+ 4568      79507472 
+ 4568      00
+ 4569              	.LASF103:
+ 4570 0e6d 4359424C 		.ascii	"CYBLE_ERROR_L2CAP_PSM_WRONG_ENCODING\000"
+ 4570      455F4552 
+ 4570      524F525F 
+ 4570      4C324341 
+ 4570      505F5053 
+ 4571              	.LASF242:
+ 4572 0e92 63686172 		.ascii	"charLen\000"
+ 4572      4C656E00 
+ 4573              	.LASF271:
+ 4574 0e9a 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 4574      4F524B5C 
+ 4574      54455354 
+ 4574      735C5073 
+ 4574      6F633442 
+ 4575              	.LASF89:
+ 4576 0ec2 4359424C 		.ascii	"CYBLE_EVT_MAX\000"
+ 4576      455F4556 
+ 4576      545F4D41 
+ 4576      5800
+ 4577              	.LASF36:
+ 4578 0ed0 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_START_STOP\000"
+ 4578      455F4556 
+ 4578      545F4741 
+ 4578      50435F53 
+ 4578      43414E5F 
+ 4579              	.LASF146:
+ 4580 0eef 4359424C 		.ascii	"CYBLE_GAPP_ADV_T\000"
+ 4580      455F4741 
+ 4580      50505F41 
+ 4580      44565F54 
+ 4580      00
+ 4581              	.LASF61:
+ 4582 0f00 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 117
 
 
- 4581      50505F41 
- 4581      44565F54 
- 4581      00
- 4582              	.LASF61:
- 4583 0f2a 4359424C 		.ascii	"CYBLE_EVT_GATTS_WRITE_REQ\000"
- 4583      455F4556 
- 4583      545F4741 
- 4583      5454535F 
- 4583      57524954 
- 4584              	.LASF156:
- 4585 0f44 61647644 		.ascii	"advData\000"
- 4585      61746100 
- 4586              	.LASF70:
- 4587 0f4c 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
- 4587      455F4556 
- 4587      545F4741 
- 4587      5454535F 
- 4587      44415441 
- 4588              	.LASF257:
- 4589 0f70 6379426C 		.ascii	"cyBle_scanRspData\000"
- 4589      655F7363 
- 4589      616E5273 
- 4589      70446174 
- 4589      6100
- 4590              	.LASF210:
- 4591 0f82 70726566 		.ascii	"prefConnParamCharHandle\000"
- 4591      436F6E6E 
- 4591      50617261 
- 4591      6D436861 
- 4591      7248616E 
- 4592              	.LASF28:
- 4593 0f9a 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
- 4593      455F4556 
- 4593      545F4741 
- 4593      505F5041 
- 4593      53534B45 
- 4594              	.LASF120:
- 4595 0fc0 4359424C 		.ascii	"CYBLE_ERROR_IND_DISABLED\000"
- 4595      455F4552 
- 4595      524F525F 
- 4595      494E445F 
- 4595      44495341 
- 4596              	.LASF119:
- 4597 0fd9 4359424C 		.ascii	"CYBLE_ERROR_NTF_DISABLED\000"
- 4597      455F4552 
- 4597      524F525F 
- 4597      4E54465F 
- 4597      44495341 
- 4598              	.LASF58:
- 4599 0ff2 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
- 4599      455F4556 
- 4599      545F4741 
- 4599      5454435F 
- 4599      52454144 
- 4600              	.LASF142:
- 4601 100b 4359424C 		.ascii	"CYBLE_GAPP_CONNECTABLE_HIGH_DC_DIRECTED_ADV\000"
- 4601      455F4741 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 118
+ 4582      455F4556 
+ 4582      545F4741 
+ 4582      5454535F 
+ 4582      57524954 
+ 4583              	.LASF156:
+ 4584 0f1a 61647644 		.ascii	"advData\000"
+ 4584      61746100 
+ 4585              	.LASF70:
+ 4586 0f22 4359424C 		.ascii	"CYBLE_EVT_GATTS_DATA_SIGNED_CMD_REQ\000"
+ 4586      455F4556 
+ 4586      545F4741 
+ 4586      5454535F 
+ 4586      44415441 
+ 4587              	.LASF257:
+ 4588 0f46 6379426C 		.ascii	"cyBle_scanRspData\000"
+ 4588      655F7363 
+ 4588      616E5273 
+ 4588      70446174 
+ 4588      6100
+ 4589              	.LASF210:
+ 4590 0f58 70726566 		.ascii	"prefConnParamCharHandle\000"
+ 4590      436F6E6E 
+ 4590      50617261 
+ 4590      6D436861 
+ 4590      7248616E 
+ 4591              	.LASF28:
+ 4592 0f70 4359424C 		.ascii	"CYBLE_EVT_GAP_PASSKEY_DISPLAY_REQUEST\000"
+ 4592      455F4556 
+ 4592      545F4741 
+ 4592      505F5041 
+ 4592      53534B45 
+ 4593              	.LASF120:
+ 4594 0f96 4359424C 		.ascii	"CYBLE_ERROR_IND_DISABLED\000"
+ 4594      455F4552 
+ 4594      524F525F 
+ 4594      494E445F 
+ 4594      44495341 
+ 4595              	.LASF119:
+ 4596 0faf 4359424C 		.ascii	"CYBLE_ERROR_NTF_DISABLED\000"
+ 4596      455F4552 
+ 4596      524F525F 
+ 4596      4E54465F 
+ 4596      44495341 
+ 4597              	.LASF58:
+ 4598 0fc8 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_RSP\000"
+ 4598      455F4556 
+ 4598      545F4741 
+ 4598      5454435F 
+ 4598      52454144 
+ 4599              	.LASF142:
+ 4600 0fe1 4359424C 		.ascii	"CYBLE_GAPP_CONNECTABLE_HIGH_DC_DIRECTED_ADV\000"
+ 4600      455F4741 
+ 4600      50505F43 
+ 4600      4F4E4E45 
+ 4600      43544142 
+ 4601              	.LASF78:
+ 4602 100d 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 118
 
 
- 4601      50505F43 
- 4601      4F4E4E45 
- 4601      43544142 
- 4602              	.LASF78:
- 4603 1037 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_CNF\000"
- 4603      455F4556 
- 4603      545F4C32 
- 4603      4341505F 
- 4603      43424643 
- 4604              	.LASF219:
- 4605 1055 70726976 		.ascii	"privacyConfigParams\000"
- 4605      61637943 
- 4605      6F6E6669 
- 4605      67506172 
- 4605      616D7300 
- 4606              	.LASF172:
- 4607 1069 4359424C 		.ascii	"CYBLE_GATTS_ATT_GEN_VAL_LEN_T\000"
- 4607      455F4741 
- 4607      5454535F 
- 4607      4154545F 
- 4607      47454E5F 
- 4608              	.LASF88:
- 4609 1087 4359424C 		.ascii	"CYBLE_EVT_FLASH_CORRUPT\000"
- 4609      455F4556 
- 4609      545F464C 
- 4609      4153485F 
- 4609      434F5252 
- 4610              	.LASF16:
- 4611 109f 6C6F6E67 		.ascii	"long double\000"
- 4611      20646F75 
- 4611      626C6500 
- 4612              	.LASF128:
- 4613 10ab 62756666 		.ascii	"bufferSize\000"
- 4613      65725369 
- 4613      7A6500
- 4614              	.LASF24:
- 4615 10b6 4359424C 		.ascii	"CYBLE_EVT_MEMORY_REQUEST\000"
- 4615      455F4556 
- 4615      545F4D45 
- 4615      4D4F5259 
- 4615      5F524551 
- 4616              	.LASF244:
- 4617 10cf 4379426C 		.ascii	"CyBle_Get16ByPtr\000"
- 4617      655F4765 
- 4617      74313642 
- 4617      79507472 
- 4617      00
- 4618              	.LASF209:
- 4619 10e0 61707065 		.ascii	"appearanceCharHandle\000"
- 4619      6172616E 
- 4619      63654368 
- 4619      61724861 
- 4619      6E646C65 
- 4620              	.LASF34:
- 4621 10f5 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
- 4621      455F4556 
- 4621      545F4741 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 119
+ 4602      455F4556 
+ 4602      545F4C32 
+ 4602      4341505F 
+ 4602      43424643 
+ 4603              	.LASF219:
+ 4604 102b 70726976 		.ascii	"privacyConfigParams\000"
+ 4604      61637943 
+ 4604      6F6E6669 
+ 4604      67506172 
+ 4604      616D7300 
+ 4605              	.LASF172:
+ 4606 103f 4359424C 		.ascii	"CYBLE_GATTS_ATT_GEN_VAL_LEN_T\000"
+ 4606      455F4741 
+ 4606      5454535F 
+ 4606      4154545F 
+ 4606      47454E5F 
+ 4607              	.LASF88:
+ 4608 105d 4359424C 		.ascii	"CYBLE_EVT_FLASH_CORRUPT\000"
+ 4608      455F4556 
+ 4608      545F464C 
+ 4608      4153485F 
+ 4608      434F5252 
+ 4609              	.LASF16:
+ 4610 1075 6C6F6E67 		.ascii	"long double\000"
+ 4610      20646F75 
+ 4610      626C6500 
+ 4611              	.LASF128:
+ 4612 1081 62756666 		.ascii	"bufferSize\000"
+ 4612      65725369 
+ 4612      7A6500
+ 4613              	.LASF24:
+ 4614 108c 4359424C 		.ascii	"CYBLE_EVT_MEMORY_REQUEST\000"
+ 4614      455F4556 
+ 4614      545F4D45 
+ 4614      4D4F5259 
+ 4614      5F524551 
+ 4615              	.LASF244:
+ 4616 10a5 4379426C 		.ascii	"CyBle_Get16ByPtr\000"
+ 4616      655F4765 
+ 4616      74313642 
+ 4616      79507472 
+ 4616      00
+ 4617              	.LASF209:
+ 4618 10b6 61707065 		.ascii	"appearanceCharHandle\000"
+ 4618      6172616E 
+ 4618      63654368 
+ 4618      61724861 
+ 4618      6E646C65 
+ 4619              	.LASF34:
+ 4620 10cb 4359424C 		.ascii	"CYBLE_EVT_GAP_ENCRYPT_CHANGE\000"
+ 4620      455F4556 
+ 4620      545F4741 
+ 4620      505F454E 
+ 4620      43525950 
+ 4621              	.LASF52:
+ 4622 10e8 4359424C 		.ascii	"CYBLE_EVT_GATTS_XCNHG_MTU_REQ\000"
+ 4622      455F4556 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 119
 
 
- 4621      505F454E 
- 4621      43525950 
- 4622              	.LASF52:
- 4623 1112 4359424C 		.ascii	"CYBLE_EVT_GATTS_XCNHG_MTU_REQ\000"
- 4623      455F4556 
- 4623      545F4741 
- 4623      5454535F 
- 4623      58434E48 
- 4624              	.LASF48:
- 4625 1130 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_LOC_P256_KEYS_GEN_AND_SET_COMPLET"
- 4625      455F4556 
- 4625      545F4741 
- 4625      505F534D 
- 4625      505F4C4F 
- 4626 1163 4500     		.ascii	"E\000"
- 4627              	.LASF191:
- 4628 1165 4359424C 		.ascii	"CYBLE_DIS_MANUFACTURER_NAME\000"
- 4628      455F4449 
- 4628      535F4D41 
- 4628      4E554641 
- 4628      43545552 
- 4629              	.LASF7:
- 4630 1181 6C6F6E67 		.ascii	"long long unsigned int\000"
- 4630      206C6F6E 
- 4630      6720756E 
- 4630      7369676E 
- 4630      65642069 
- 4631              	.LASF20:
- 4632 1198 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
- 4632      455F4556 
- 4632      545F5449 
- 4632      4D454F55 
- 4632      5400
- 4633              	.LASF226:
- 4634 11aa 6973466F 		.ascii	"isForceWrite\000"
- 4634      72636557 
- 4634      72697465 
- 4634      00
- 4635              	.LASF122:
- 4636 11b7 4359424C 		.ascii	"CYBLE_ERROR_INVALID_STATE\000"
- 4636      455F4552 
- 4636      524F525F 
- 4636      494E5641 
- 4636      4C49445F 
- 4637              	.LASF166:
- 4638 11d1 4359424C 		.ascii	"CYBLE_GATT_DB_ATTR_HANDLE_T\000"
- 4638      455F4741 
- 4638      54545F44 
- 4638      425F4154 
- 4638      54525F48 
- 4639              	.LASF81:
- 4640 11ed 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
- 4640      455F4556 
- 4640      545F4C32 
- 4640      4341505F 
- 4640      43424643 
- 4641              	.LASF247:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 120
+ 4622      545F4741 
+ 4622      5454535F 
+ 4622      58434E48 
+ 4623              	.LASF48:
+ 4624 1106 4359424C 		.ascii	"CYBLE_EVT_GAP_SMP_LOC_P256_KEYS_GEN_AND_SET_COMPLET"
+ 4624      455F4556 
+ 4624      545F4741 
+ 4624      505F534D 
+ 4624      505F4C4F 
+ 4625 1139 4500     		.ascii	"E\000"
+ 4626              	.LASF191:
+ 4627 113b 4359424C 		.ascii	"CYBLE_DIS_MANUFACTURER_NAME\000"
+ 4627      455F4449 
+ 4627      535F4D41 
+ 4627      4E554641 
+ 4627      43545552 
+ 4628              	.LASF7:
+ 4629 1157 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 4629      206C6F6E 
+ 4629      6720756E 
+ 4629      7369676E 
+ 4629      65642069 
+ 4630              	.LASF20:
+ 4631 116e 4359424C 		.ascii	"CYBLE_EVT_TIMEOUT\000"
+ 4631      455F4556 
+ 4631      545F5449 
+ 4631      4D454F55 
+ 4631      5400
+ 4632              	.LASF226:
+ 4633 1180 6973466F 		.ascii	"isForceWrite\000"
+ 4633      72636557 
+ 4633      72697465 
+ 4633      00
+ 4634              	.LASF122:
+ 4635 118d 4359424C 		.ascii	"CYBLE_ERROR_INVALID_STATE\000"
+ 4635      455F4552 
+ 4635      524F525F 
+ 4635      494E5641 
+ 4635      4C49445F 
+ 4636              	.LASF166:
+ 4637 11a7 4359424C 		.ascii	"CYBLE_GATT_DB_ATTR_HANDLE_T\000"
+ 4637      455F4741 
+ 4637      54545F44 
+ 4637      425F4154 
+ 4637      54525F48 
+ 4638              	.LASF81:
+ 4639 11c3 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_READ\000"
+ 4639      455F4556 
+ 4639      545F4C32 
+ 4639      4341505F 
+ 4639      43424643 
+ 4640              	.LASF247:
+ 4641 11e2 76616C75 		.ascii	"value\000"
+ 4641      6500
+ 4642              	.LASF183:
+ 4643 11e8 61747456 		.ascii	"attValue\000"
+ 4643      616C7565 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 120
 
 
- 4642 120c 76616C75 		.ascii	"value\000"
- 4642      6500
- 4643              	.LASF183:
- 4644 1212 61747456 		.ascii	"attValue\000"
- 4644      616C7565 
- 4644      00
- 4645              	.LASF249:
- 4646 121b 4379426C 		.ascii	"CyBle_ApplCallback\000"
- 4646      655F4170 
- 4646      706C4361 
- 4646      6C6C6261 
- 4646      636B00
- 4647              	.LASF115:
- 4648 122e 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE\000"
- 4648      455F4552 
- 4648      524F525F 
- 4648      464C4153 
- 4648      485F5752 
- 4649              	.LASF213:
- 4650 1246 4359424C 		.ascii	"CYBLE_GAPS_T\000"
- 4650      455F4741 
- 4650      50535F54 
- 4650      00
- 4651              	.LASF127:
- 4652 1253 4359424C 		.ascii	"CYBLE_GAP_BD_ADDR_T\000"
- 4652      455F4741 
- 4652      505F4244 
- 4652      5F414444 
- 4652      525F5400 
- 4653              	.LASF138:
- 4654 1267 70726976 		.ascii	"privacyConfig\000"
- 4654      61637943 
- 4654      6F6E6669 
- 4654      6700
- 4655              	.LASF170:
- 4656 1275 61637475 		.ascii	"actualLength\000"
- 4656      616C4C65 
- 4656      6E677468 
- 4656      00
- 4657              	.LASF157:
- 4658 1282 61647644 		.ascii	"advDataLen\000"
- 4658      6174614C 
- 4658      656E00
- 4659              	.LASF234:
- 4660 128d 64657374 		.ascii	"dest\000"
- 4660      00
- 4661              	.LASF165:
- 4662 1292 4359424C 		.ascii	"CYBLE_GAPP_DISC_MODE_INFO_T\000"
- 4662      455F4741 
- 4662      50505F44 
- 4662      4953435F 
- 4662      4D4F4445 
- 4663              	.LASF259:
- 4664 12ae 6379426C 		.ascii	"cyBle_pendingFlashWrite\000"
- 4664      655F7065 
- 4664      6E64696E 
- 4664      67466C61 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 121
+ 4643      00
+ 4644              	.LASF249:
+ 4645 11f1 4379426C 		.ascii	"CyBle_ApplCallback\000"
+ 4645      655F4170 
+ 4645      706C4361 
+ 4645      6C6C6261 
+ 4645      636B00
+ 4646              	.LASF115:
+ 4647 1204 4359424C 		.ascii	"CYBLE_ERROR_FLASH_WRITE\000"
+ 4647      455F4552 
+ 4647      524F525F 
+ 4647      464C4153 
+ 4647      485F5752 
+ 4648              	.LASF213:
+ 4649 121c 4359424C 		.ascii	"CYBLE_GAPS_T\000"
+ 4649      455F4741 
+ 4649      50535F54 
+ 4649      00
+ 4650              	.LASF127:
+ 4651 1229 4359424C 		.ascii	"CYBLE_GAP_BD_ADDR_T\000"
+ 4651      455F4741 
+ 4651      505F4244 
+ 4651      5F414444 
+ 4651      525F5400 
+ 4652              	.LASF138:
+ 4653 123d 70726976 		.ascii	"privacyConfig\000"
+ 4653      61637943 
+ 4653      6F6E6669 
+ 4653      6700
+ 4654              	.LASF170:
+ 4655 124b 61637475 		.ascii	"actualLength\000"
+ 4655      616C4C65 
+ 4655      6E677468 
+ 4655      00
+ 4656              	.LASF157:
+ 4657 1258 61647644 		.ascii	"advDataLen\000"
+ 4657      6174614C 
+ 4657      656E00
+ 4658              	.LASF234:
+ 4659 1263 64657374 		.ascii	"dest\000"
+ 4659      00
+ 4660              	.LASF165:
+ 4661 1268 4359424C 		.ascii	"CYBLE_GAPP_DISC_MODE_INFO_T\000"
+ 4661      455F4741 
+ 4661      50505F44 
+ 4661      4953435F 
+ 4661      4D4F4445 
+ 4662              	.LASF259:
+ 4663 1284 6379426C 		.ascii	"cyBle_pendingFlashWrite\000"
+ 4663      655F7065 
+ 4663      6E64696E 
+ 4663      67466C61 
+ 4663      73685772 
+ 4664              	.LASF56:
+ 4665 129c 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
+ 4665      455F4556 
+ 4665      545F4741 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 121
 
 
- 4664      73685772 
- 4665              	.LASF56:
- 4666 12c6 4359424C 		.ascii	"CYBLE_EVT_GATTC_FIND_INFO_RSP\000"
- 4666      455F4556 
- 4666      545F4741 
- 4666      5454435F 
- 4666      46494E44 
- 4667              	.LASF55:
- 4668 12e4 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
- 4668      455F4556 
- 4668      545F4741 
- 4668      5454435F 
- 4668      52454144 
- 4669              	.LASF223:
- 4670 1305 4379426C 		.ascii	"CyBle_Start\000"
- 4670      655F5374 
- 4670      61727400 
- 4671              	.LASF264:
- 4672 1311 6379426C 		.ascii	"cyBle_state\000"
- 4672      655F7374 
- 4672      61746500 
- 4673              	.LASF218:
- 4674 131d 646C6543 		.ascii	"dleConfigParams\000"
- 4674      6F6E6669 
- 4674      67506172 
- 4674      616D7300 
- 4675              	.LASF116:
- 4676 132d 4359424C 		.ascii	"CYBLE_ERROR_LL_SAME_TRANSACTION_COLLISION\000"
- 4676      455F4552 
- 4676      524F525F 
- 4676      4C4C5F53 
- 4676      414D455F 
- 4677              	.LASF62:
- 4678 1357 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
- 4678      455F4556 
- 4678      545F4741 
- 4678      5454435F 
- 4678      57524954 
- 4679              	.LASF205:
- 4680 1371 4359424C 		.ascii	"CYBLE_STATE_DISCONNECTED\000"
- 4680      455F5354 
- 4680      4154455F 
- 4680      44495343 
- 4680      4F4E4E45 
- 4681              	.LASF178:
- 4682 138a 4359424C 		.ascii	"CYBLE_GATTS_ATT_VALUE_T\000"
- 4682      455F4741 
- 4682      5454535F 
- 4682      4154545F 
- 4682      56414C55 
- 4683              	.LASF175:
- 4684 13a2 4359424C 		.ascii	"CYBLE_GATTS_ATT_PACK_VAL_LEN_T\000"
- 4684      455F4741 
- 4684      5454535F 
- 4684      4154545F 
- 4684      5041434B 
- 4685              	.LASF31:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 122
+ 4665      5454435F 
+ 4665      46494E44 
+ 4666              	.LASF55:
+ 4667 12ba 4359424C 		.ascii	"CYBLE_EVT_GATTC_READ_BY_TYPE_RSP\000"
+ 4667      455F4556 
+ 4667      545F4741 
+ 4667      5454435F 
+ 4667      52454144 
+ 4668              	.LASF223:
+ 4669 12db 4379426C 		.ascii	"CyBle_Start\000"
+ 4669      655F5374 
+ 4669      61727400 
+ 4670              	.LASF264:
+ 4671 12e7 6379426C 		.ascii	"cyBle_state\000"
+ 4671      655F7374 
+ 4671      61746500 
+ 4672              	.LASF218:
+ 4673 12f3 646C6543 		.ascii	"dleConfigParams\000"
+ 4673      6F6E6669 
+ 4673      67506172 
+ 4673      616D7300 
+ 4674              	.LASF116:
+ 4675 1303 4359424C 		.ascii	"CYBLE_ERROR_LL_SAME_TRANSACTION_COLLISION\000"
+ 4675      455F4552 
+ 4675      524F525F 
+ 4675      4C4C5F53 
+ 4675      414D455F 
+ 4676              	.LASF62:
+ 4677 132d 4359424C 		.ascii	"CYBLE_EVT_GATTC_WRITE_RSP\000"
+ 4677      455F4556 
+ 4677      545F4741 
+ 4677      5454435F 
+ 4677      57524954 
+ 4678              	.LASF205:
+ 4679 1347 4359424C 		.ascii	"CYBLE_STATE_DISCONNECTED\000"
+ 4679      455F5354 
+ 4679      4154455F 
+ 4679      44495343 
+ 4679      4F4E4E45 
+ 4680              	.LASF178:
+ 4681 1360 4359424C 		.ascii	"CYBLE_GATTS_ATT_VALUE_T\000"
+ 4681      455F4741 
+ 4681      5454535F 
+ 4681      4154545F 
+ 4681      56414C55 
+ 4682              	.LASF175:
+ 4683 1378 4359424C 		.ascii	"CYBLE_GATTS_ATT_PACK_VAL_LEN_T\000"
+ 4683      455F4741 
+ 4683      5454535F 
+ 4683      4154545F 
+ 4683      5041434B 
+ 4684              	.LASF31:
+ 4685 1397 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
+ 4685      455F4556 
+ 4685      545F4741 
+ 4685      50505F41 
+ 4685      44564552 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 122
 
 
- 4686 13c1 4359424C 		.ascii	"CYBLE_EVT_GAPP_ADVERTISEMENT_START_STOP\000"
- 4686      455F4556 
- 4686      545F4741 
- 4686      50505F41 
- 4686      44564552 
- 4687              	.LASF161:
- 4688 13e9 4359424C 		.ascii	"CYBLE_GAPP_SCAN_RSP_DATA_T\000"
- 4688      455F4741 
- 4688      50505F53 
- 4688      43414E5F 
- 4688      5253505F 
- 4689              	.LASF171:
- 4690 1404 61747447 		.ascii	"attGenericVal\000"
- 4690      656E6572 
- 4690      69635661 
- 4690      6C00
- 4691              	.LASF236:
- 4692 1412 6E616D65 		.ascii	"name\000"
- 4692      00
- 4693              	.LASF9:
- 4694 1417 75696E74 		.ascii	"uint8\000"
- 4694      3800
- 4695              	.LASF250:
- 4696 141d 6379426C 		.ascii	"cyBle_initVar\000"
- 4696      655F696E 
- 4696      69745661 
- 4696      7200
- 4697              	.LASF39:
- 4698 142b 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYPRESS_NOTIFICATION\000"
- 4698      455F4556 
- 4698      545F4741 
- 4698      505F4B45 
- 4698      59505245 
- 4699              	.LASF265:
- 4700 144f 6379426C 		.ascii	"cyBle_connHandle\000"
- 4700      655F636F 
- 4700      6E6E4861 
- 4700      6E646C65 
- 4700      00
- 4701              	.LASF2:
- 4702 1460 73686F72 		.ascii	"short int\000"
- 4702      7420696E 
- 4702      7400
- 4703              	.LASF241:
- 4704 146a 4379426C 		.ascii	"CyBle_GapSetLocalName\000"
- 4704      655F4761 
- 4704      70536574 
- 4704      4C6F6361 
- 4704      6C4E616D 
- 4705              	.LASF174:
- 4706 1480 61747447 		.ascii	"attGenericValLen\000"
- 4706      656E6572 
- 4706      69635661 
- 4706      6C4C656E 
- 4706      00
- 4707              	.LASF176:
- 4708 1491 61747446 		.ascii	"attFormatValue\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 123
+ 4686              	.LASF161:
+ 4687 13bf 4359424C 		.ascii	"CYBLE_GAPP_SCAN_RSP_DATA_T\000"
+ 4687      455F4741 
+ 4687      50505F53 
+ 4687      43414E5F 
+ 4687      5253505F 
+ 4688              	.LASF171:
+ 4689 13da 61747447 		.ascii	"attGenericVal\000"
+ 4689      656E6572 
+ 4689      69635661 
+ 4689      6C00
+ 4690              	.LASF236:
+ 4691 13e8 6E616D65 		.ascii	"name\000"
+ 4691      00
+ 4692              	.LASF9:
+ 4693 13ed 75696E74 		.ascii	"uint8\000"
+ 4693      3800
+ 4694              	.LASF250:
+ 4695 13f3 6379426C 		.ascii	"cyBle_initVar\000"
+ 4695      655F696E 
+ 4695      69745661 
+ 4695      7200
+ 4696              	.LASF39:
+ 4697 1401 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYPRESS_NOTIFICATION\000"
+ 4697      455F4556 
+ 4697      545F4741 
+ 4697      505F4B45 
+ 4697      59505245 
+ 4698              	.LASF265:
+ 4699 1425 6379426C 		.ascii	"cyBle_connHandle\000"
+ 4699      655F636F 
+ 4699      6E6E4861 
+ 4699      6E646C65 
+ 4699      00
+ 4700              	.LASF2:
+ 4701 1436 73686F72 		.ascii	"short int\000"
+ 4701      7420696E 
+ 4701      7400
+ 4702              	.LASF241:
+ 4703 1440 4379426C 		.ascii	"CyBle_GapSetLocalName\000"
+ 4703      655F4761 
+ 4703      70536574 
+ 4703      4C6F6361 
+ 4703      6C4E616D 
+ 4704              	.LASF174:
+ 4705 1456 61747447 		.ascii	"attGenericValLen\000"
+ 4705      656E6572 
+ 4705      69635661 
+ 4705      6C4C656E 
+ 4705      00
+ 4706              	.LASF176:
+ 4707 1467 61747446 		.ascii	"attFormatValue\000"
+ 4707      6F726D61 
+ 4707      7456616C 
+ 4707      756500
+ 4708              	.LASF160:
+ 4709 1476 7363616E 		.ascii	"scanRspDataLen\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 123
 
 
- 4708      6F726D61 
- 4708      7456616C 
- 4708      756500
- 4709              	.LASF160:
- 4710 14a0 7363616E 		.ascii	"scanRspDataLen\000"
- 4710      52737044 
- 4710      6174614C 
- 4710      656E00
- 4711              	.LASF113:
- 4712 14af 4359424C 		.ascii	"CYBLE_ERROR_HARDWARE_FAILURE\000"
- 4712      455F4552 
- 4712      524F525F 
- 4712      48415244 
- 4712      57415245 
- 4713              	.LASF49:
- 4714 14cc 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
- 4714      455F4556 
- 4714      545F4741 
- 4714      5454435F 
- 4714      4552524F 
- 4715              	.LASF206:
- 4716 14e6 4359424C 		.ascii	"CYBLE_STATE_T\000"
- 4716      455F5354 
- 4716      4154455F 
- 4716      5400
- 4717              	.LASF143:
- 4718 14f4 4359424C 		.ascii	"CYBLE_GAPP_SCANNABLE_UNDIRECTED_ADV\000"
- 4718      455F4741 
- 4718      50505F53 
- 4718      43414E4E 
- 4718      41424C45 
- 4719              	.LASF77:
- 4720 1518 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
- 4720      455F4556 
- 4720      545F4C32 
- 4720      4341505F 
- 4720      43424643 
- 4721              	.LASF65:
- 4722 1536 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
- 4722      455F4556 
- 4722      545F4741 
- 4722      5454535F 
- 4722      45584543 
- 4723              	.LASF25:
- 4724 1555 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
- 4724      455F4556 
- 4724      545F4741 
- 4724      50435F53 
- 4724      43414E5F 
- 4725              	.LASF188:
- 4726 1579 63636364 		.ascii	"cccdCount\000"
- 4726      436F756E 
- 4726      7400
- 4727              	.LASF258:
- 4728 1583 6379426C 		.ascii	"cyBle_discoveryModeInfo\000"
- 4728      655F6469 
- 4728      73636F76 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 124
+ 4709      52737044 
+ 4709      6174614C 
+ 4709      656E00
+ 4710              	.LASF113:
+ 4711 1485 4359424C 		.ascii	"CYBLE_ERROR_HARDWARE_FAILURE\000"
+ 4711      455F4552 
+ 4711      524F525F 
+ 4711      48415244 
+ 4711      57415245 
+ 4712              	.LASF49:
+ 4713 14a2 4359424C 		.ascii	"CYBLE_EVT_GATTC_ERROR_RSP\000"
+ 4713      455F4556 
+ 4713      545F4741 
+ 4713      5454435F 
+ 4713      4552524F 
+ 4714              	.LASF206:
+ 4715 14bc 4359424C 		.ascii	"CYBLE_STATE_T\000"
+ 4715      455F5354 
+ 4715      4154455F 
+ 4715      5400
+ 4716              	.LASF143:
+ 4717 14ca 4359424C 		.ascii	"CYBLE_GAPP_SCANNABLE_UNDIRECTED_ADV\000"
+ 4717      455F4741 
+ 4717      50505F53 
+ 4717      43414E4E 
+ 4717      41424C45 
+ 4718              	.LASF77:
+ 4719 14ee 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_CONN_IND\000"
+ 4719      455F4556 
+ 4719      545F4C32 
+ 4719      4341505F 
+ 4719      43424643 
+ 4720              	.LASF65:
+ 4721 150c 4359424C 		.ascii	"CYBLE_EVT_GATTS_EXEC_WRITE_REQ\000"
+ 4721      455F4556 
+ 4721      545F4741 
+ 4721      5454535F 
+ 4721      45584543 
+ 4722              	.LASF25:
+ 4723 152b 4359424C 		.ascii	"CYBLE_EVT_GAPC_SCAN_PROGRESS_RESULT\000"
+ 4723      455F4556 
+ 4723      545F4741 
+ 4723      50435F53 
+ 4723      43414E5F 
+ 4724              	.LASF188:
+ 4725 154f 63636364 		.ascii	"cccdCount\000"
+ 4725      436F756E 
+ 4725      7400
+ 4726              	.LASF258:
+ 4727 1559 6379426C 		.ascii	"cyBle_discoveryModeInfo\000"
+ 4727      655F6469 
+ 4727      73636F76 
+ 4727      6572794D 
+ 4727      6F646549 
+ 4728              	.LASF99:
+ 4729 1571 4359424C 		.ascii	"CYBLE_ERROR_GAP_ROLE\000"
+ 4729      455F4552 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 124
 
 
- 4728      6572794D 
- 4728      6F646549 
- 4729              	.LASF99:
- 4730 159b 4359424C 		.ascii	"CYBLE_ERROR_GAP_ROLE\000"
- 4730      455F4552 
- 4730      524F525F 
- 4730      4741505F 
- 4730      524F4C45 
- 4731              	.LASF251:
- 4732 15b0 6379426C 		.ascii	"cyBle_stackMemoryRam\000"
- 4732      655F7374 
- 4732      61636B4D 
- 4732      656D6F72 
- 4732      7952616D 
- 4733              	.LASF46:
- 4734 15c5 4359424C 		.ascii	"CYBLE_EVT_GAP_SCAN_REQ_RECVD\000"
- 4734      455F4556 
- 4734      545F4741 
- 4734      505F5343 
- 4734      414E5F52 
- 4735              	.LASF211:
- 4736 15e2 63656E74 		.ascii	"centralAddrResolutionCharHandle\000"
- 4736      72616C41 
- 4736      64647252 
- 4736      65736F6C 
- 4736      7574696F 
- 4737              	.LASF125:
- 4738 1602 62644164 		.ascii	"bdAddr\000"
- 4738      647200
- 4739              	.LASF267:
- 4740 1609 6379426C 		.ascii	"cyBle_gaps\000"
- 4740      655F6761 
- 4740      707300
- 4741              	.LASF252:
- 4742 1614 6379426C 		.ascii	"cyBle_eventHandlerFlag\000"
- 4742      655F6576 
- 4742      656E7448 
- 4742      616E646C 
- 4742      6572466C 
- 4743              	.LASF224:
- 4744 162b 4379426C 		.ascii	"CyBle_StoreBondingData\000"
- 4744      655F5374 
- 4744      6F726542 
- 4744      6F6E6469 
- 4744      6E674461 
- 4745              	.LASF96:
- 4746 1642 4359424C 		.ascii	"CYBLE_ERROR_NO_CONNECTION\000"
- 4746      455F4552 
- 4746      524F525F 
- 4746      4E4F5F43 
- 4746      4F4E4E45 
- 4747              	.LASF239:
- 4748 165c 62797465 		.ascii	"byteCounter\000"
- 4748      436F756E 
- 4748      74657200 
- 4749              	.LASF86:
- 4750 1668 4359424C 		.ascii	"CYBLE_EVT_LE_PING_AUTH_TIMEOUT\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 125
+ 4729      524F525F 
+ 4729      4741505F 
+ 4729      524F4C45 
+ 4730              	.LASF251:
+ 4731 1586 6379426C 		.ascii	"cyBle_stackMemoryRam\000"
+ 4731      655F7374 
+ 4731      61636B4D 
+ 4731      656D6F72 
+ 4731      7952616D 
+ 4732              	.LASF46:
+ 4733 159b 4359424C 		.ascii	"CYBLE_EVT_GAP_SCAN_REQ_RECVD\000"
+ 4733      455F4556 
+ 4733      545F4741 
+ 4733      505F5343 
+ 4733      414E5F52 
+ 4734              	.LASF211:
+ 4735 15b8 63656E74 		.ascii	"centralAddrResolutionCharHandle\000"
+ 4735      72616C41 
+ 4735      64647252 
+ 4735      65736F6C 
+ 4735      7574696F 
+ 4736              	.LASF125:
+ 4737 15d8 62644164 		.ascii	"bdAddr\000"
+ 4737      647200
+ 4738              	.LASF267:
+ 4739 15df 6379426C 		.ascii	"cyBle_gaps\000"
+ 4739      655F6761 
+ 4739      707300
+ 4740              	.LASF252:
+ 4741 15ea 6379426C 		.ascii	"cyBle_eventHandlerFlag\000"
+ 4741      655F6576 
+ 4741      656E7448 
+ 4741      616E646C 
+ 4741      6572466C 
+ 4742              	.LASF224:
+ 4743 1601 4379426C 		.ascii	"CyBle_StoreBondingData\000"
+ 4743      655F5374 
+ 4743      6F726542 
+ 4743      6F6E6469 
+ 4743      6E674461 
+ 4744              	.LASF96:
+ 4745 1618 4359424C 		.ascii	"CYBLE_ERROR_NO_CONNECTION\000"
+ 4745      455F4552 
+ 4745      524F525F 
+ 4745      4E4F5F43 
+ 4745      4F4E4E45 
+ 4746              	.LASF239:
+ 4747 1632 62797465 		.ascii	"byteCounter\000"
+ 4747      436F756E 
+ 4747      74657200 
+ 4748              	.LASF86:
+ 4749 163e 4359424C 		.ascii	"CYBLE_EVT_LE_PING_AUTH_TIMEOUT\000"
+ 4749      455F4556 
+ 4749      545F4C45 
+ 4749      5F50494E 
+ 4749      475F4155 
+ 4750              	.LASF124:
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 125
 
 
- 4750      455F4556 
- 4750      545F4C45 
- 4750      5F50494E 
- 4750      475F4155 
- 4751              	.LASF124:
- 4752 1687 4359424C 		.ascii	"CYBLE_API_RESULT_T\000"
- 4752      455F4150 
- 4752      495F5245 
- 4752      53554C54 
- 4752      5F5400
- 4753              	.LASF262:
- 4754 169a 6379426C 		.ascii	"cyBle_attValuesCCCD\000"
- 4754      655F6174 
- 4754      7456616C 
- 4754      75657343 
- 4754      43434400 
- 4755              	.LASF68:
- 4756 16ae 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
- 4756      455F4556 
- 4756      545F4741 
- 4756      5454435F 
- 4756      48414E44 
- 4757              	.LASF102:
- 4758 16cf 4359424C 		.ascii	"CYBLE_ERROR_SEC_FAILED\000"
- 4758      455F4552 
- 4758      524F525F 
- 4758      5345435F 
- 4758      4641494C 
- 4759              	.LASF230:
- 4760 16e6 696E7661 		.ascii	"invalidBdAddr\000"
- 4760      6C696442 
- 4760      64416464 
- 4760      7200
- 4761              	.LASF23:
- 4762 16f4 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
- 4762      455F4556 
- 4762      545F5354 
- 4762      41434B5F 
- 4762      42555359 
- 4763              	.LASF37:
- 4764 1710 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
- 4764      455F4556 
- 4764      545F4741 
- 4764      505F4B45 
- 4764      59494E46 
- 4765              	.LASF74:
- 4766 1734 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
- 4766      455F4556 
- 4766      545F4C32 
- 4766      4341505F 
- 4766      434F4E4E 
- 4767              	.LASF256:
- 4768 175a 6379426C 		.ascii	"cyBle_discoveryData\000"
- 4768      655F6469 
- 4768      73636F76 
- 4768      65727944 
- 4768      61746100 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 126
+ 4751 165d 4359424C 		.ascii	"CYBLE_API_RESULT_T\000"
+ 4751      455F4150 
+ 4751      495F5245 
+ 4751      53554C54 
+ 4751      5F5400
+ 4752              	.LASF262:
+ 4753 1670 6379426C 		.ascii	"cyBle_attValuesCCCD\000"
+ 4753      655F6174 
+ 4753      7456616C 
+ 4753      75657343 
+ 4753      43434400 
+ 4754              	.LASF68:
+ 4755 1684 4359424C 		.ascii	"CYBLE_EVT_GATTC_HANDLE_VALUE_IND\000"
+ 4755      455F4556 
+ 4755      545F4741 
+ 4755      5454435F 
+ 4755      48414E44 
+ 4756              	.LASF102:
+ 4757 16a5 4359424C 		.ascii	"CYBLE_ERROR_SEC_FAILED\000"
+ 4757      455F4552 
+ 4757      524F525F 
+ 4757      5345435F 
+ 4757      4641494C 
+ 4758              	.LASF230:
+ 4759 16bc 696E7661 		.ascii	"invalidBdAddr\000"
+ 4759      6C696442 
+ 4759      64416464 
+ 4759      7200
+ 4760              	.LASF23:
+ 4761 16ca 4359424C 		.ascii	"CYBLE_EVT_STACK_BUSY_STATUS\000"
+ 4761      455F4556 
+ 4761      545F5354 
+ 4761      41434B5F 
+ 4761      42555359 
+ 4762              	.LASF37:
+ 4763 16e6 4359424C 		.ascii	"CYBLE_EVT_GAP_KEYINFO_EXCHNGE_CMPLT\000"
+ 4763      455F4556 
+ 4763      545F4741 
+ 4763      505F4B45 
+ 4763      59494E46 
+ 4764              	.LASF74:
+ 4765 170a 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CONN_PARAM_UPDATE_REQ\000"
+ 4765      455F4556 
+ 4765      545F4C32 
+ 4765      4341505F 
+ 4765      434F4E4E 
+ 4766              	.LASF256:
+ 4767 1730 6379426C 		.ascii	"cyBle_discoveryData\000"
+ 4767      655F6469 
+ 4767      73636F76 
+ 4767      65727944 
+ 4767      61746100 
+ 4768              	.LASF207:
+ 4769 1744 67617053 		.ascii	"gapServiceCharHandle\000"
+ 4769      65727669 
+ 4769      63654368 
+ 4769      61724861 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 126
 
 
- 4769              	.LASF207:
- 4770 176e 67617053 		.ascii	"gapServiceCharHandle\000"
- 4770      65727669 
- 4770      63654368 
- 4770      61724861 
- 4770      6E646C65 
- 4771              	.LASF3:
- 4772 1783 73686F72 		.ascii	"short unsigned int\000"
- 4772      7420756E 
- 4772      7369676E 
- 4772      65642069 
- 4772      6E7400
- 4773              	.LASF152:
- 4774 1796 64697265 		.ascii	"directAddr\000"
- 4774      63744164 
- 4774      647200
- 4775              	.LASF203:
- 4776 17a1 4359424C 		.ascii	"CYBLE_STATE_CONNECTED\000"
- 4776      455F5354 
- 4776      4154455F 
- 4776      434F4E4E 
- 4776      45435445 
- 4777              	.LASF132:
- 4778 17b7 646C654D 		.ascii	"dleMaxRxCapability\000"
- 4778      61785278 
- 4778      43617061 
- 4778      62696C69 
- 4778      747900
- 4779              	.LASF153:
- 4780 17ca 61647643 		.ascii	"advChannelMap\000"
- 4780      68616E6E 
- 4780      656C4D61 
- 4780      7000
- 4781              	.LASF141:
- 4782 17d8 4359424C 		.ascii	"CYBLE_GAPP_CONNECTABLE_UNDIRECTED_ADV\000"
- 4782      455F4741 
- 4782      50505F43 
- 4782      4F4E4E45 
- 4782      43544142 
- 4783              	.LASF168:
- 4784 17fe 61747449 		.ascii	"attId\000"
- 4784      6400
- 4785              	.LASF92:
- 4786 1804 4359424C 		.ascii	"CYBLE_ERROR_INVALID_OPERATION\000"
- 4786      455F4552 
- 4786      524F525F 
- 4786      494E5641 
- 4786      4C49445F 
- 4787              	.LASF238:
- 4788 1822 61644C65 		.ascii	"adLength\000"
- 4788      6E677468 
- 4788      00
- 4789              	.LASF22:
- 4790 182b 4359424C 		.ascii	"CYBLE_EVT_HCI_STATUS\000"
- 4790      455F4556 
- 4790      545F4843 
- 4790      495F5354 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccaskgai.s 			page 127
+ 4769      6E646C65 
+ 4770              	.LASF3:
+ 4771 1759 73686F72 		.ascii	"short unsigned int\000"
+ 4771      7420756E 
+ 4771      7369676E 
+ 4771      65642069 
+ 4771      6E7400
+ 4772              	.LASF152:
+ 4773 176c 64697265 		.ascii	"directAddr\000"
+ 4773      63744164 
+ 4773      647200
+ 4774              	.LASF203:
+ 4775 1777 4359424C 		.ascii	"CYBLE_STATE_CONNECTED\000"
+ 4775      455F5354 
+ 4775      4154455F 
+ 4775      434F4E4E 
+ 4775      45435445 
+ 4776              	.LASF132:
+ 4777 178d 646C654D 		.ascii	"dleMaxRxCapability\000"
+ 4777      61785278 
+ 4777      43617061 
+ 4777      62696C69 
+ 4777      747900
+ 4778              	.LASF153:
+ 4779 17a0 61647643 		.ascii	"advChannelMap\000"
+ 4779      68616E6E 
+ 4779      656C4D61 
+ 4779      7000
+ 4780              	.LASF141:
+ 4781 17ae 4359424C 		.ascii	"CYBLE_GAPP_CONNECTABLE_UNDIRECTED_ADV\000"
+ 4781      455F4741 
+ 4781      50505F43 
+ 4781      4F4E4E45 
+ 4781      43544142 
+ 4782              	.LASF168:
+ 4783 17d4 61747449 		.ascii	"attId\000"
+ 4783      6400
+ 4784              	.LASF92:
+ 4785 17da 4359424C 		.ascii	"CYBLE_ERROR_INVALID_OPERATION\000"
+ 4785      455F4552 
+ 4785      524F525F 
+ 4785      494E5641 
+ 4785      4C49445F 
+ 4786              	.LASF238:
+ 4787 17f8 61644C65 		.ascii	"adLength\000"
+ 4787      6E677468 
+ 4787      00
+ 4788              	.LASF22:
+ 4789 1801 4359424C 		.ascii	"CYBLE_EVT_HCI_STATUS\000"
+ 4789      455F4556 
+ 4789      545F4843 
+ 4789      495F5354 
+ 4789      41545553 
+ 4790              	.LASF51:
+ 4791 1816 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
+ 4791      455F4556 
+ 4791      545F4741 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cccEkHWy.s 			page 127
 
 
- 4790      41545553 
- 4791              	.LASF51:
- 4792 1840 4359424C 		.ascii	"CYBLE_EVT_GATT_DISCONNECT_IND\000"
- 4792      455F4556 
- 4792      545F4741 
- 4792      54545F44 
- 4792      4953434F 
- 4793              	.LASF84:
- 4794 185e 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
- 4794      455F4556 
- 4794      545F4C32 
- 4794      4341505F 
- 4794      43424643 
- 4795              	.LASF73:
- 4796 1882 4359424C 		.ascii	"CYBLE_EVT_GATTC_LONG_PROCEDURE_END\000"
- 4796      455F4556 
- 4796      545F4741 
- 4796      5454435F 
- 4796      4C4F4E47 
- 4797              	.LASF33:
- 4798 18a5 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
- 4798      455F4556 
- 4798      545F4741 
- 4798      505F4445 
- 4798      56494345 
- 4799              	.LASF69:
- 4800 18c7 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
- 4800      455F4556 
- 4800      545F4741 
- 4800      5454535F 
- 4800      48414E44 
- 4801              	.LASF10:
- 4802 18e8 75696E74 		.ascii	"uint16\000"
- 4802      313600
- 4803              	.LASF150:
- 4804 18ef 6F776E41 		.ascii	"ownAddrType\000"
- 4804      64647254 
- 4804      79706500 
- 4805              	.LASF100:
- 4806 18fb 4359424C 		.ascii	"CYBLE_ERROR_TX_POWER_READ\000"
- 4806      455F4552 
- 4806      524F525F 
- 4806      54585F50 
- 4806      4F574552 
- 4807              	.LASF148:
- 4808 1915 61647649 		.ascii	"advIntvMax\000"
- 4808      6E74764D 
- 4808      617800
- 4809              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 4791      54545F44 
+ 4791      4953434F 
+ 4792              	.LASF84:
+ 4793 1834 4359424C 		.ascii	"CYBLE_EVT_L2CAP_CBFC_DATA_WRITE_IND\000"
+ 4793      455F4556 
+ 4793      545F4C32 
+ 4793      4341505F 
+ 4793      43424643 
+ 4794              	.LASF73:
+ 4795 1858 4359424C 		.ascii	"CYBLE_EVT_GATTC_LONG_PROCEDURE_END\000"
+ 4795      455F4556 
+ 4795      545F4741 
+ 4795      5454435F 
+ 4795      4C4F4E47 
+ 4796              	.LASF33:
+ 4797 187b 4359424C 		.ascii	"CYBLE_EVT_GAP_DEVICE_DISCONNECTED\000"
+ 4797      455F4556 
+ 4797      545F4741 
+ 4797      505F4445 
+ 4797      56494345 
+ 4798              	.LASF69:
+ 4799 189d 4359424C 		.ascii	"CYBLE_EVT_GATTS_HANDLE_VALUE_CNF\000"
+ 4799      455F4556 
+ 4799      545F4741 
+ 4799      5454535F 
+ 4799      48414E44 
+ 4800              	.LASF10:
+ 4801 18be 75696E74 		.ascii	"uint16\000"
+ 4801      313600
+ 4802              	.LASF150:
+ 4803 18c5 6F776E41 		.ascii	"ownAddrType\000"
+ 4803      64647254 
+ 4803      79706500 
+ 4804              	.LASF100:
+ 4805 18d1 4359424C 		.ascii	"CYBLE_ERROR_TX_POWER_READ\000"
+ 4805      455F4552 
+ 4805      524F525F 
+ 4805      54585F50 
+ 4805      4F574552 
+ 4806              	.LASF148:
+ 4807 18eb 61647649 		.ascii	"advIntvMax\000"
+ 4807      6E74764D 
+ 4807      617800
+ 4808              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

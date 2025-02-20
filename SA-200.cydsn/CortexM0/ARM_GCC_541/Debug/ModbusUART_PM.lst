@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
   28:Generated_Source\PSoC4/ModbusUART_PM.c **** #endif /* (ModbusUART_SCB_MODE_EZI2C_INC) */
   29:Generated_Source\PSoC4/ModbusUART_PM.c **** 
   30:Generated_Source\PSoC4/ModbusUART_PM.c **** #if(ModbusUART_SCB_MODE_SPI_INC || ModbusUART_SCB_MODE_UART_INC)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 2
 
 
   31:Generated_Source\PSoC4/ModbusUART_PM.c ****     #include "ModbusUART_SPI_UART_PVT.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
   75:Generated_Source\PSoC4/ModbusUART_PM.c **** #if(ModbusUART_SCB_MODE_UNCONFIG_CONST_CFG)
   76:Generated_Source\PSoC4/ModbusUART_PM.c **** 
   77:Generated_Source\PSoC4/ModbusUART_PM.c ****     if(ModbusUART_SCB_WAKE_ENABLE_CHECK)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 3
 
 
   78:Generated_Source\PSoC4/ModbusUART_PM.c ****     {
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  130:Generated_Source\PSoC4/ModbusUART_PM.c ****         if(0u != ModbusUART_backup.enableState)
  131:Generated_Source\PSoC4/ModbusUART_PM.c ****         {
  132:Generated_Source\PSoC4/ModbusUART_PM.c ****             ModbusUART_Stop();
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 4
 
 
  133:Generated_Source\PSoC4/ModbusUART_PM.c ****         }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  161:Generated_Source\PSoC4/ModbusUART_PM.c **** #if(ModbusUART_SCB_MODE_UNCONFIG_CONST_CFG)
  162:Generated_Source\PSoC4/ModbusUART_PM.c **** 
  163:Generated_Source\PSoC4/ModbusUART_PM.c ****     if(ModbusUART_SCB_WAKE_ENABLE_CHECK)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 5
 
 
  164:Generated_Source\PSoC4/ModbusUART_PM.c ****     {
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  216:Generated_Source\PSoC4/ModbusUART_PM.c **** 
  217:Generated_Source\PSoC4/ModbusUART_PM.c ****     #endif /* (ModbusUART_I2C_WAKE_ENABLE_CONST) */
  218:Generated_Source\PSoC4/ModbusUART_PM.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 6
 
 
  219:Generated_Source\PSoC4/ModbusUART_PM.c **** #endif /* (ModbusUART_SCB_MODE_UNCONFIG_CONST_CFG) */
@@ -320,37 +320,37 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
   82 0006 00000000 		.4byte	.Ldebug_abbrev0
   83 000a 04       		.byte	0x4
   84 000b 01       		.uleb128 0x1
-  85 000c 2D010000 		.4byte	.LASF16
+  85 000c 03010000 		.4byte	.LASF16
   86 0010 0C       		.byte	0xc
-  87 0011 4A000000 		.4byte	.LASF17
-  88 0015 71000000 		.4byte	.LASF18
+  87 0011 72000000 		.4byte	.LASF17
+  88 0015 1B000000 		.4byte	.LASF18
   89 0019 00000000 		.4byte	.Ldebug_ranges0+0
   90 001d 00000000 		.4byte	0
   91 0021 00000000 		.4byte	.Ldebug_line0
   92 0025 02       		.uleb128 0x2
   93 0026 01       		.byte	0x1
   94 0027 06       		.byte	0x6
-  95 0028 0B010000 		.4byte	.LASF0
+  95 0028 E1000000 		.4byte	.LASF0
   96 002c 02       		.uleb128 0x2
   97 002d 01       		.byte	0x1
   98 002e 08       		.byte	0x8
-  99 002f C3000000 		.4byte	.LASF1
+  99 002f 99000000 		.4byte	.LASF1
  100 0033 02       		.uleb128 0x2
  101 0034 02       		.byte	0x2
  102 0035 05       		.byte	0x5
- 103 0036 23010000 		.4byte	.LASF2
+ 103 0036 F9000000 		.4byte	.LASF2
  104 003a 02       		.uleb128 0x2
  105 003b 02       		.byte	0x2
  106 003c 07       		.byte	0x7
- 107 003d F8000000 		.4byte	.LASF3
+ 107 003d CE000000 		.4byte	.LASF3
  108 0041 02       		.uleb128 0x2
  109 0042 04       		.byte	0x4
  110 0043 05       		.byte	0x5
- 111 0044 D6000000 		.4byte	.LASF4
+ 111 0044 AC000000 		.4byte	.LASF4
  112 0048 02       		.uleb128 0x2
  113 0049 04       		.byte	0x4
  114 004a 07       		.byte	0x7
- 115 004b 1B000000 		.4byte	.LASF5
+ 115 004b 43000000 		.4byte	.LASF5
  116 004f 02       		.uleb128 0x2
  117 0050 08       		.byte	0x8
  118 0051 05       		.byte	0x5
@@ -358,10 +358,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  120 0056 02       		.uleb128 0x2
  121 0057 08       		.byte	0x8
  122 0058 07       		.byte	0x7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 7
 
 
- 123 0059 2D000000 		.4byte	.LASF7
+ 123 0059 55000000 		.4byte	.LASF7
  124 005d 03       		.uleb128 0x3
  125 005e 04       		.byte	0x4
  126 005f 05       		.byte	0x5
@@ -373,25 +373,25 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  132 006b 02       		.uleb128 0x2
  133 006c 04       		.byte	0x4
  134 006d 04       		.byte	0x4
- 135 006e 44000000 		.4byte	.LASF9
+ 135 006e 6C000000 		.4byte	.LASF9
  136 0072 02       		.uleb128 0x2
  137 0073 08       		.byte	0x8
  138 0074 04       		.byte	0x4
- 139 0075 DF000000 		.4byte	.LASF10
+ 139 0075 B5000000 		.4byte	.LASF10
  140 0079 02       		.uleb128 0x2
  141 007a 01       		.byte	0x1
  142 007b 08       		.byte	0x8
- 143 007c D1000000 		.4byte	.LASF11
+ 143 007c A7000000 		.4byte	.LASF11
  144 0080 02       		.uleb128 0x2
  145 0081 08       		.byte	0x8
  146 0082 04       		.byte	0x4
- 147 0083 17010000 		.4byte	.LASF12
+ 147 0083 ED000000 		.4byte	.LASF12
  148 0087 02       		.uleb128 0x2
  149 0088 04       		.byte	0x4
  150 0089 07       		.byte	0x7
- 151 008a CC010000 		.4byte	.LASF13
+ 151 008a A2010000 		.4byte	.LASF13
  152 008e 04       		.uleb128 0x4
- 153 008f BB010000 		.4byte	.LASF14
+ 153 008f 91010000 		.4byte	.LASF14
  154 0093 01       		.byte	0x1
  155 0094 49       		.byte	0x49
  156 0095 00000000 		.4byte	.LFB2
@@ -399,7 +399,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  158 009d 01       		.uleb128 0x1
  159 009e 9C       		.byte	0x9c
  160 009f 04       		.uleb128 0x4
- 161 00a0 E6000000 		.4byte	.LASF15
+ 161 00a0 BC000000 		.4byte	.LASF15
  162 00a4 01       		.byte	0x1
  163 00a5 9F       		.byte	0x9f
  164 00a6 00000000 		.4byte	.LFB3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  177 0006 0B       		.uleb128 0xb
  178 0007 03       		.uleb128 0x3
  179 0008 0E       		.uleb128 0xe
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 8
 
 
  180 0009 1B       		.uleb128 0x1b
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  234 0040 00       		.byte	0
  235 0041 00       		.byte	0
  236              		.section	.debug_aranges,"",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 9
 
 
  237 0000 24000000 		.4byte	0x24
@@ -519,107 +519,102 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 1
  264      676E6564 
  264      20696E74 
  264      00
- 265              	.LASF5:
- 266 001b 6C6F6E67 		.ascii	"long unsigned int\000"
- 266      20756E73 
- 266      69676E65 
- 266      6420696E 
- 266      7400
- 267              	.LASF7:
- 268 002d 6C6F6E67 		.ascii	"long long unsigned int\000"
- 268      206C6F6E 
- 268      6720756E 
- 268      7369676E 
- 268      65642069 
- 269              	.LASF9:
- 270 0044 666C6F61 		.ascii	"float\000"
- 270      7400
- 271              	.LASF17:
- 272 004a 47656E65 		.ascii	"Generated_Source\\PSoC4\\ModbusUART_PM.c\000"
- 272      72617465 
- 272      645F536F 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 10
+ 265              	.LASF18:
+ 266 001b 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 266      4F524B5C 
+ 266      54455354 
+ 266      735C5073 
+ 266      6F633442 
+ 267              	.LASF5:
+ 268 0043 6C6F6E67 		.ascii	"long unsigned int\000"
+ 268      20756E73 
+ 268      69676E65 
+ 268      6420696E 
+ 268      7400
+ 269              	.LASF7:
+ 270 0055 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 270      206C6F6E 
+ 270      6720756E 
+ 270      7369676E 
+ 270      65642069 
+ 271              	.LASF9:
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 10
 
 
- 272      75726365 
- 272      5C50536F 
- 273              	.LASF18:
- 274 0071 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 274      73657273 
- 274      5C616C65 
- 274      78706F72 
- 274      745C4F6E 
- 275 00a1 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 275      54735C55 
- 275      41525420 
- 275      55444220 
- 275      74657374 
- 276              	.LASF1:
- 277 00c3 756E7369 		.ascii	"unsigned char\000"
- 277      676E6564 
- 277      20636861 
- 277      7200
- 278              	.LASF11:
- 279 00d1 63686172 		.ascii	"char\000"
- 279      00
- 280              	.LASF4:
- 281 00d6 6C6F6E67 		.ascii	"long int\000"
- 281      20696E74 
- 281      00
- 282              	.LASF10:
- 283 00df 646F7562 		.ascii	"double\000"
- 283      6C6500
- 284              	.LASF15:
- 285 00e6 4D6F6462 		.ascii	"ModbusUART_Wakeup\000"
- 285      75735541 
- 285      52545F57 
- 285      616B6575 
- 285      7000
- 286              	.LASF3:
- 287 00f8 73686F72 		.ascii	"short unsigned int\000"
- 287      7420756E 
- 287      7369676E 
- 287      65642069 
- 287      6E7400
- 288              	.LASF0:
- 289 010b 7369676E 		.ascii	"signed char\000"
- 289      65642063 
- 289      68617200 
- 290              	.LASF12:
- 291 0117 6C6F6E67 		.ascii	"long double\000"
- 291      20646F75 
- 291      626C6500 
- 292              	.LASF2:
- 293 0123 73686F72 		.ascii	"short int\000"
- 293      7420696E 
- 293      7400
- 294              	.LASF16:
- 295 012d 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 295      43313120 
- 295      352E342E 
- 295      31203230 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc4Sdelh.s 			page 11
+ 272 006c 666C6F61 		.ascii	"float\000"
+ 272      7400
+ 273              	.LASF17:
+ 274 0072 47656E65 		.ascii	"Generated_Source\\PSoC4\\ModbusUART_PM.c\000"
+ 274      72617465 
+ 274      645F536F 
+ 274      75726365 
+ 274      5C50536F 
+ 275              	.LASF1:
+ 276 0099 756E7369 		.ascii	"unsigned char\000"
+ 276      676E6564 
+ 276      20636861 
+ 276      7200
+ 277              	.LASF11:
+ 278 00a7 63686172 		.ascii	"char\000"
+ 278      00
+ 279              	.LASF4:
+ 280 00ac 6C6F6E67 		.ascii	"long int\000"
+ 280      20696E74 
+ 280      00
+ 281              	.LASF10:
+ 282 00b5 646F7562 		.ascii	"double\000"
+ 282      6C6500
+ 283              	.LASF15:
+ 284 00bc 4D6F6462 		.ascii	"ModbusUART_Wakeup\000"
+ 284      75735541 
+ 284      52545F57 
+ 284      616B6575 
+ 284      7000
+ 285              	.LASF3:
+ 286 00ce 73686F72 		.ascii	"short unsigned int\000"
+ 286      7420756E 
+ 286      7369676E 
+ 286      65642069 
+ 286      6E7400
+ 287              	.LASF0:
+ 288 00e1 7369676E 		.ascii	"signed char\000"
+ 288      65642063 
+ 288      68617200 
+ 289              	.LASF12:
+ 290 00ed 6C6F6E67 		.ascii	"long double\000"
+ 290      20646F75 
+ 290      626C6500 
+ 291              	.LASF2:
+ 292 00f9 73686F72 		.ascii	"short int\000"
+ 292      7420696E 
+ 292      7400
+ 293              	.LASF16:
+ 294 0103 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 294      43313120 
+ 294      352E342E 
+ 294      31203230 
+ 294      31363036 
+ 295 0136 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 295      20726576 
+ 295      6973696F 
+ 295      6E203233 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccX19gnF.s 			page 11
 
 
- 295      31363036 
- 296 0160 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 296      20726576 
- 296      6973696F 
- 296      6E203233 
- 296      37373135 
- 297 0193 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 297      66756E63 
- 297      74696F6E 
- 297      2D736563 
- 297      74696F6E 
- 298              	.LASF14:
- 299 01bb 4D6F6462 		.ascii	"ModbusUART_Sleep\000"
- 299      75735541 
- 299      52545F53 
- 299      6C656570 
- 299      00
- 300              	.LASF13:
- 301 01cc 73697A65 		.ascii	"sizetype\000"
- 301      74797065 
- 301      00
- 302              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 295      37373135 
+ 296 0169 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 296      66756E63 
+ 296      74696F6E 
+ 296      2D736563 
+ 296      74696F6E 
+ 297              	.LASF14:
+ 298 0191 4D6F6462 		.ascii	"ModbusUART_Sleep\000"
+ 298      75735541 
+ 298      52545F53 
+ 298      6C656570 
+ 298      00
+ 299              	.LASF13:
+ 300 01a2 73697A65 		.ascii	"sizetype\000"
+ 300      74797065 
+ 300      00
+ 301              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

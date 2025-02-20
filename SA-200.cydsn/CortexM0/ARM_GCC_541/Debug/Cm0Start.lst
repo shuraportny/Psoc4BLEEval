@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
   15:Generated_Source\PSoC4/Cm0Start.c **** #include <limits.h>
   16:Generated_Source\PSoC4/Cm0Start.c **** #include "cydevice_trm.h"
   17:Generated_Source\PSoC4/Cm0Start.c **** #include "cytypes.h"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 2
 
 
   18:Generated_Source\PSoC4/Cm0Start.c **** #include "cyfitter_cfg.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
   72:Generated_Source\PSoC4/Cm0Start.c **** /* Function prototypes */
   73:Generated_Source\PSoC4/Cm0Start.c **** void initialize_psoc(void);
   74:Generated_Source\PSoC4/Cm0Start.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 3
 
 
   75:Generated_Source\PSoC4/Cm0Start.c **** /* Global variables */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
   53 0008 0300     		movs	r3, r0
   54 000a 1B68     		ldr	r3, [r3]
   55 000c 0C2B     		cmp	r3, #12
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 4
 
 
   56 000e 00D1     		bne	.L2
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  153:Generated_Source\PSoC4/Cm0Start.c **** 
  154:Generated_Source\PSoC4/Cm0Start.c **** /* RealView C Library initialization. */
  155:Generated_Source\PSoC4/Cm0Start.c **** extern int __main(void);
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 5
 
 
  156:Generated_Source\PSoC4/Cm0Start.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  210:Generated_Source\PSoC4/Cm0Start.c **** #elif defined(__GNUC__)
  211:Generated_Source\PSoC4/Cm0Start.c **** 
  212:Generated_Source\PSoC4/Cm0Start.c **** /* Stack Base address */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 6
 
 
  213:Generated_Source\PSoC4/Cm0Start.c **** extern void __cy_stack(void);
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
   86 0006 7860     		str	r0, [r7, #4]
  255:Generated_Source\PSoC4/Cm0Start.c ****     CyHalt((uint8) status);
   87              		.loc 1 255 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 7
 
 
   88 0008 7B68     		ldr	r3, [r7, #4]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  117              		.cfi_def_cfa_register 7
  118 0006 7860     		str	r0, [r7, #4]
  281:Generated_Source\PSoC4/Cm0Start.c ****     extern int  end;            /* Symbol defined by linker map. Start of free memory (as symbol). 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 8
 
 
  282:Generated_Source\PSoC4/Cm0Start.c ****     void *      returnValue;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  299:Generated_Source\PSoC4/Cm0Start.c **** }
  156              		.loc 1 299 0
  157 0044 1800     		movs	r0, r3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 9
 
 
  158 0046 BD46     		mov	sp, r7
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  193              		.loc 1 318 0
  194 000a 224B     		ldr	r3, .L20+4
  195 000c 3B61     		str	r3, [r7, #16]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 10
 
 
  319:Generated_Source\PSoC4/Cm0Start.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  235 0044 7B60     		str	r3, [r7, #4]
  236              	.L14:
  328:Generated_Source\PSoC4/Cm0Start.c ****             {
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 11
 
 
  237              		.loc 1 328 0 is_stmt 0 discriminator 1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  321:Generated_Source\PSoC4/Cm0Start.c ****         {
  279              		.loc 1 321 0 is_stmt 0 discriminator 1
  280 0080 7B69     		ldr	r3, [r7, #20]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 12
 
 
  281 0082 002B     		cmp	r3, #0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  310 0000 80B5     		push	{r7, lr}
  311              		.cfi_def_cfa_offset 8
  312              		.cfi_offset 7, -8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 13
 
 
  313              		.cfi_offset 14, -4
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  345              		.size	RomVectors, 16
  346              	RomVectors:
  347 0000 00000000 		.word	__cy_stack
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 14
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 14
 
 
  348 0004 00000000 		.word	Reset
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  428:Generated_Source\PSoC4/Cm0Start.c **** *******************************************************************************/
  429:Generated_Source\PSoC4/Cm0Start.c **** 
  430:Generated_Source\PSoC4/Cm0Start.c **** #if defined (__ICCARM__)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 15
 
 
  431:Generated_Source\PSoC4/Cm0Start.c ****     #pragma location=".ramvectors"
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  485:Generated_Source\PSoC4/Cm0Start.c **** * This function is used to initialize the PSoC chip before calling main.
  486:Generated_Source\PSoC4/Cm0Start.c **** *
  487:Generated_Source\PSoC4/Cm0Start.c **** *******************************************************************************/
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 16
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 16
 
 
  488:Generated_Source\PSoC4/Cm0Start.c **** #if(defined(__GNUC__) && !defined(__ARMCC_VERSION))
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  386 001c 04D8     		bhi	.L27
  387              		.loc 1 514 0 is_stmt 0 discriminator 1
  388 001e 144B     		ldr	r3, .L31+4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 17
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 17
 
 
  389 0020 7A68     		ldr	r2, [r7, #4]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  423 0050 0B4B     		ldr	r3, .L31+20
  424 0052 0022     		movs	r2, #0
  425 0054 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 18
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 18
 
 
  426              	.L30:
@@ -1078,21 +1078,21 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  469 0004 0400     		.2byte	0x4
  470 0006 00000000 		.4byte	.Ldebug_abbrev0
  471 000a 04       		.byte	0x4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 19
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 19
 
 
  472 000b 01       		.uleb128 0x1
  473 000c D5000000 		.4byte	.LASF42
  474 0010 0C       		.byte	0xc
  475 0011 A7010000 		.4byte	.LASF43
- 476 0015 52020000 		.4byte	.LASF44
+ 476 0015 9B020000 		.4byte	.LASF44
  477 0019 00000000 		.4byte	.Ldebug_ranges0+0
  478 001d 00000000 		.4byte	0
  479 0021 00000000 		.4byte	.Ldebug_line0
  480 0025 02       		.uleb128 0x2
  481 0026 01       		.byte	0x1
  482 0027 06       		.byte	0x6
- 483 0028 B9020000 		.4byte	.LASF0
+ 483 0028 67020000 		.4byte	.LASF0
  484 002c 02       		.uleb128 0x2
  485 002d 01       		.byte	0x1
  486 002e 08       		.byte	0x8
@@ -1108,7 +1108,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  496 0041 02       		.uleb128 0x2
  497 0042 04       		.byte	0x4
  498 0043 05       		.byte	0x5
- 499 0044 A4020000 		.4byte	.LASF4
+ 499 0044 52020000 		.4byte	.LASF4
  500 0048 02       		.uleb128 0x2
  501 0049 04       		.byte	0x4
  502 004a 07       		.byte	0x7
@@ -1137,8 +1137,8 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  525 0076 02       		.uleb128 0x2
  526 0077 08       		.byte	0x8
  527 0078 04       		.byte	0x4
- 528 0079 AD020000 		.4byte	.LASF9
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 20
+ 528 0079 5B020000 		.4byte	.LASF9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 20
 
 
  529 007d 05       		.uleb128 0x5
@@ -1193,12 +1193,12 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  578 00e2 DD       		.byte	0xdd
  579 00e3 2C000000 		.4byte	0x2c
  580 00e7 0B       		.uleb128 0xb
- 581 00e8 E1020000 		.4byte	.LASF45
+ 581 00e8 8F020000 		.4byte	.LASF45
  582 00ec 10       		.byte	0x10
  583 00ed 01       		.byte	0x1
  584 00ee DF       		.byte	0xdf
  585 00ef 24010000 		.4byte	0x124
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 21
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 21
 
 
  586 00f3 0C       		.uleb128 0xc
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  640 015f 10       		.uleb128 0x10
  641 0160 7B010000 		.4byte	.LASF25
  642 0164 01       		.byte	0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 22
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 22
 
 
  643 0165 1701     		.2byte	0x117
@@ -1269,7 +1269,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  648 0174 9C       		.byte	0x9c
  649 0175 B6010000 		.4byte	0x1b6
  650 0179 11       		.uleb128 0x11
- 651 017a DA020000 		.4byte	.LASF27
+ 651 017a 88020000 		.4byte	.LASF27
  652 017e 01       		.byte	0x1
  653 017f 1701     		.2byte	0x117
  654 0181 5D000000 		.4byte	0x5d
@@ -1311,14 +1311,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  690 01cd 9C       		.byte	0x9c
  691 01ce 37020000 		.4byte	0x237
  692 01d2 13       		.uleb128 0x13
- 693 01d3 D2020000 		.4byte	.LASF31
+ 693 01d3 80020000 		.4byte	.LASF31
  694 01d7 01       		.byte	0x1
  695 01d8 3D01     		.2byte	0x13d
  696 01da 64000000 		.4byte	0x64
  697 01de 02       		.uleb128 0x2
  698 01df 91       		.byte	0x91
  699 01e0 74       		.sleb128 -12
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 23
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 23
 
 
  700 01e1 13       		.uleb128 0x13
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  754 0249 CF000000 		.4byte	.LASF47
  755 024d 01       		.byte	0x1
  756 024e 6D01     		.2byte	0x16d
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 24
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 24
 
 
  757 0250 00000000 		.4byte	.LFB6
@@ -1430,7 +1430,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  803 02b7 1C       		.uleb128 0x1c
  804 02b8 00       		.byte	0
  805 02b9 1D       		.uleb128 0x1d
- 806 02ba C5020000 		.4byte	.LASF38
+ 806 02ba 73020000 		.4byte	.LASF38
  807 02be 01       		.byte	0x1
  808 02bf E7       		.byte	0xe7
  809 02c0 C4020000 		.4byte	0x2c4
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  811 02c5 AE020000 		.4byte	0x2ae
  812 02c9 1D       		.uleb128 0x1d
  813 02ca 47000000 		.4byte	.LASF39
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 25
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 25
 
 
  814 02ce 01       		.byte	0x1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  868 000e 01       		.uleb128 0x1
  869 000f 10       		.uleb128 0x10
  870 0010 17       		.uleb128 0x17
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 26
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 26
 
 
  871 0011 00       		.byte	0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  925 0047 13       		.uleb128 0x13
  926 0048 00       		.byte	0
  927 0049 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 27
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 27
 
 
  928 004a 07       		.uleb128 0x7
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  982 0080 49       		.uleb128 0x49
  983 0081 13       		.uleb128 0x13
  984 0082 38       		.uleb128 0x38
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 28
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 28
 
 
  985 0083 0B       		.uleb128 0xb
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1039 00bd 00       		.byte	0
  1040 00be 0F       		.uleb128 0xf
  1041 00bf 05       		.uleb128 0x5
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 29
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 29
 
 
  1042 00c0 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1096 00f7 00       		.byte	0
  1097 00f8 12       		.uleb128 0x12
  1098 00f9 34       		.uleb128 0x34
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 30
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 30
 
 
  1099 00fa 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1153 0132 13       		.uleb128 0x13
  1154 0133 00       		.byte	0
  1155 0134 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 31
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 31
 
 
  1156 0135 15       		.uleb128 0x15
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1210 016c 3A       		.uleb128 0x3a
  1211 016d 0B       		.uleb128 0xb
  1212 016e 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 32
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 32
 
 
  1213 016f 05       		.uleb128 0x5
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1267 01a6 00       		.byte	0
  1268 01a7 00       		.byte	0
  1269 01a8 1C       		.uleb128 0x1c
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 33
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 33
 
 
  1270 01a9 21       		.uleb128 0x21
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1324 000c 0000     		.2byte	0
  1325 000e 0000     		.2byte	0
  1326 0010 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 34
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 34
 
 
  1327 0014 14000000 		.4byte	.LFE2-.LFB2
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1370 0028 68656170 		.ascii	"heapPointer\000"
  1370      506F696E 
  1370      74657200 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 35
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 35
 
 
  1371              	.LASF3:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1396      616C6964 
  1397              	.LASF11:
  1398 00c9 75696E74 		.ascii	"uint8\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 36
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 36
 
 
  1398      3800
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1421              	.LASF35:
  1422 01d0 696E6465 		.ascii	"indexInit\000"
  1422      78496E69 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 37
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 37
 
 
  1422      7400
@@ -2207,45 +2207,40 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 1
  1442 0248 73686F72 		.ascii	"short int\000"
  1442      7420696E 
  1442      7400
- 1443              	.LASF44:
- 1444 0252 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 1444      73657273 
- 1444      5C616C65 
- 1444      78706F72 
- 1444      745C4F6E 
- 1445 0282 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 1445      54735C55 
- 1445      41525420 
- 1445      55444220 
- 1445      74657374 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccvvUYka.s 			page 38
+ 1443              	.LASF4:
+ 1444 0252 6C6F6E67 		.ascii	"long int\000"
+ 1444      20696E74 
+ 1444      00
+ 1445              	.LASF9:
+ 1446 025b 6C6F6E67 		.ascii	"long double\000"
+ 1446      20646F75 
+ 1446      626C6500 
+ 1447              	.LASF0:
+ 1448 0267 7369676E 		.ascii	"signed char\000"
+ 1448      65642063 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccKOBzUH.s 			page 38
 
 
- 1446              	.LASF4:
- 1447 02a4 6C6F6E67 		.ascii	"long int\000"
- 1447      20696E74 
- 1447      00
- 1448              	.LASF9:
- 1449 02ad 6C6F6E67 		.ascii	"long double\000"
- 1449      20646F75 
- 1449      626C6500 
- 1450              	.LASF0:
- 1451 02b9 7369676E 		.ascii	"signed char\000"
- 1451      65642063 
- 1451      68617200 
- 1452              	.LASF38:
- 1453 02c5 5F5F6379 		.ascii	"__cy_regions\000"
- 1453      5F726567 
- 1453      696F6E73 
- 1453      00
- 1454              	.LASF31:
- 1455 02d2 72656769 		.ascii	"regions\000"
- 1455      6F6E7300 
- 1456              	.LASF27:
- 1457 02da 6E627974 		.ascii	"nbytes\000"
- 1457      657300
- 1458              	.LASF45:
- 1459 02e1 5F5F6379 		.ascii	"__cy_region\000"
- 1459      5F726567 
- 1459      696F6E00 
- 1460              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1448      68617200 
+ 1449              	.LASF38:
+ 1450 0273 5F5F6379 		.ascii	"__cy_regions\000"
+ 1450      5F726567 
+ 1450      696F6E73 
+ 1450      00
+ 1451              	.LASF31:
+ 1452 0280 72656769 		.ascii	"regions\000"
+ 1452      6F6E7300 
+ 1453              	.LASF27:
+ 1454 0288 6E627974 		.ascii	"nbytes\000"
+ 1454      657300
+ 1455              	.LASF45:
+ 1456 028f 5F5F6379 		.ascii	"__cy_region\000"
+ 1456      5F726567 
+ 1456      696F6E00 
+ 1457              	.LASF44:
+ 1458 029b 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 1458      4F524B5C 
+ 1458      54455354 
+ 1458      735C5073 
+ 1458      6F633442 
+ 1459              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

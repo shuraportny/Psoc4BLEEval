@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
   28:Generated_Source\PSoC4/isr_BLE.c **** ********************************************************************************/
   29:Generated_Source\PSoC4/isr_BLE.c **** /* `#START isr_BLE_intc` */
   30:Generated_Source\PSoC4/isr_BLE.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 2
 
 
   31:Generated_Source\PSoC4/isr_BLE.c **** /* `#END` */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
   66:Generated_Source\PSoC4/isr_BLE.c **** 
   67:Generated_Source\PSoC4/isr_BLE.c ****     /* Enable it. */
   68:Generated_Source\PSoC4/isr_BLE.c ****     isr_BLE_Enable();
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 3
 
 
   47              		.loc 1 68 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
   69              		.loc 1 100 0
   70              		.cfi_startproc
   71              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 4
 
 
   72              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  117:Generated_Source\PSoC4/isr_BLE.c **** ********************************************************************************
  118:Generated_Source\PSoC4/isr_BLE.c **** *
  119:Generated_Source\PSoC4/isr_BLE.c **** * Summary:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 5
 
 
  120:Generated_Source\PSoC4/isr_BLE.c **** *   Disables and removes the interrupt.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  138:Generated_Source\PSoC4/isr_BLE.c **** 
  139:Generated_Source\PSoC4/isr_BLE.c **** /*******************************************************************************
  140:Generated_Source\PSoC4/isr_BLE.c **** * Function Name: isr_BLE_Interrupt
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 6
 
 
  141:Generated_Source\PSoC4/isr_BLE.c **** ********************************************************************************
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  171              	.LFB6:
  170:Generated_Source\PSoC4/isr_BLE.c **** 
  171:Generated_Source\PSoC4/isr_BLE.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 7
 
 
  172:Generated_Source\PSoC4/isr_BLE.c **** /*******************************************************************************
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  195 0016 80BD     		pop	{r7, pc}
  196              	.L11:
  197              		.align	2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 8
 
 
  198              	.L10:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  232              	.L14:
  233 0010 00000000 		.word	CyRamVectors
  234              		.cfi_endproc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 9
 
 
  235              	.LFE7:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  251:Generated_Source\PSoC4/isr_BLE.c **** 	uint8 interruptState;
  252:Generated_Source\PSoC4/isr_BLE.c ****     uint32 priorityOffset = ((isr_BLE__INTC_NUMBER % 4u) * 8u) + 6u;
  261              		.loc 1 252 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 10
 
 
  262 000c 0E23     		movs	r3, #14
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  309              		.thumb_func
  310              		.type	isr_BLE_GetPriority, %function
  311              	isr_BLE_GetPriority:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 11
 
 
  312              	.LFB9:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  340 001e DBB2     		uxtb	r3, r3
  285:Generated_Source\PSoC4/isr_BLE.c **** }
  341              		.loc 1 285 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 12
 
 
  342 0020 1800     		movs	r0, r3
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  374 0006 8022     		movs	r2, #128
  375 0008 9202     		lsls	r2, r2, #10
  376 000a 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 13
 
 
  308:Generated_Source\PSoC4/isr_BLE.c **** }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  410 0008 8023     		movs	r3, #128
  411 000a 9B02     		lsls	r3, r3, #10
  412 000c 1340     		ands	r3, r2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 14
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 14
 
 
  413 000e 01D0     		beq	.L27
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  448              		.cfi_offset 14, -4
  449 0002 00AF     		add	r7, sp, #0
  450              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 15
 
 
  348:Generated_Source\PSoC4/isr_BLE.c ****     /* Disable the general interrupt. */
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  478              		@ args = 0, pretend = 0, frame = 0
  479              		@ frame_needed = 1, uses_anonymous_args = 0
  480 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 16
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 16
 
 
  481              		.cfi_def_cfa_offset 8
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  399:Generated_Source\PSoC4/isr_BLE.c **** {
  511              		.loc 1 399 0
  512              		.cfi_startproc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 17
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 17
 
 
  513              		@ args = 0, pretend = 0, frame = 0
@@ -998,27 +998,27 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  545 0006 00000000 		.4byte	.Ldebug_abbrev0
  546 000a 04       		.byte	0x4
  547 000b 01       		.uleb128 0x1
- 548 000c 3C010000 		.4byte	.LASF34
+ 548 000c EA000000 		.4byte	.LASF34
  549 0010 0C       		.byte	0xc
  550 0011 27000000 		.4byte	.LASF35
- 551 0015 7C000000 		.4byte	.LASF36
+ 551 0015 97020000 		.4byte	.LASF36
  552 0019 00000000 		.4byte	.Ldebug_ranges0+0
  553 001d 00000000 		.4byte	0
  554 0021 00000000 		.4byte	.Ldebug_line0
  555 0025 02       		.uleb128 0x2
  556 0026 01       		.byte	0x1
  557 0027 06       		.byte	0x6
- 558 0028 DD020000 		.4byte	.LASF0
+ 558 0028 8B020000 		.4byte	.LASF0
  559 002c 02       		.uleb128 0x2
  560 002d 01       		.byte	0x1
  561 002e 08       		.byte	0x8
- 562 002f F7000000 		.4byte	.LASF1
+ 562 002f A5000000 		.4byte	.LASF1
  563 0033 02       		.uleb128 0x2
  564 0034 02       		.byte	0x2
  565 0035 05       		.byte	0x5
- 566 0036 90020000 		.4byte	.LASF2
+ 566 0036 3E020000 		.4byte	.LASF2
  567 003a 02       		.uleb128 0x2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 18
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 18
 
 
  568 003b 02       		.byte	0x2
@@ -1027,19 +1027,19 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  571 0041 02       		.uleb128 0x2
  572 0042 04       		.byte	0x4
  573 0043 05       		.byte	0x5
- 574 0044 C8020000 		.4byte	.LASF4
+ 574 0044 76020000 		.4byte	.LASF4
  575 0048 02       		.uleb128 0x2
  576 0049 04       		.byte	0x4
  577 004a 07       		.byte	0x7
- 578 004b 14010000 		.4byte	.LASF5
+ 578 004b C2000000 		.4byte	.LASF5
  579 004f 02       		.uleb128 0x2
  580 0050 08       		.byte	0x8
  581 0051 05       		.byte	0x5
- 582 0052 69020000 		.4byte	.LASF6
+ 582 0052 17020000 		.4byte	.LASF6
  583 0056 02       		.uleb128 0x2
  584 0057 08       		.byte	0x8
  585 0058 07       		.byte	0x7
- 586 0059 29020000 		.4byte	.LASF7
+ 586 0059 D7010000 		.4byte	.LASF7
  587 005d 03       		.uleb128 0x3
  588 005e 04       		.byte	0x4
  589 005f 05       		.byte	0x5
@@ -1047,29 +1047,29 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  591 0064 02       		.uleb128 0x2
  592 0065 04       		.byte	0x4
  593 0066 07       		.byte	0x7
- 594 0067 14020000 		.4byte	.LASF8
+ 594 0067 C2010000 		.4byte	.LASF8
  595 006b 04       		.uleb128 0x4
- 596 006c 36010000 		.4byte	.LASF9
+ 596 006c E4000000 		.4byte	.LASF9
  597 0070 02       		.byte	0x2
  598 0071 FC01     		.2byte	0x1fc
  599 0073 2C000000 		.4byte	0x2c
  600 0077 04       		.uleb128 0x4
- 601 0078 0D020000 		.4byte	.LASF10
+ 601 0078 BB010000 		.4byte	.LASF10
  602 007c 02       		.byte	0x2
  603 007d FE01     		.2byte	0x1fe
  604 007f 48000000 		.4byte	0x48
  605 0083 02       		.uleb128 0x2
  606 0084 04       		.byte	0x4
  607 0085 04       		.byte	0x4
- 608 0086 E0000000 		.4byte	.LASF11
+ 608 0086 8E000000 		.4byte	.LASF11
  609 008a 02       		.uleb128 0x2
  610 008b 08       		.byte	0x8
  611 008c 04       		.byte	0x4
- 612 008d F6010000 		.4byte	.LASF12
+ 612 008d A4010000 		.4byte	.LASF12
  613 0091 02       		.uleb128 0x2
  614 0092 01       		.byte	0x1
  615 0093 08       		.byte	0x8
- 616 0094 77020000 		.4byte	.LASF13
+ 616 0094 25020000 		.4byte	.LASF13
  617 0098 04       		.uleb128 0x4
  618 0099 00000000 		.4byte	.LASF14
  619 009d 02       		.byte	0x2
@@ -1078,10 +1078,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  622 00a4 05       		.uleb128 0x5
  623 00a5 77000000 		.4byte	0x77
  624 00a9 04       		.uleb128 0x4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 19
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 19
 
 
- 625 00aa 40020000 		.4byte	.LASF15
+ 625 00aa EE010000 		.4byte	.LASF15
  626 00ae 02       		.byte	0x2
  627 00af B802     		.2byte	0x2b8
  628 00b1 B5000000 		.4byte	0xb5
@@ -1092,13 +1092,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  633 00bc 02       		.uleb128 0x2
  634 00bd 08       		.byte	0x8
  635 00be 04       		.byte	0x4
- 636 00bf D1020000 		.4byte	.LASF16
+ 636 00bf 7F020000 		.4byte	.LASF16
  637 00c3 02       		.uleb128 0x2
  638 00c4 04       		.byte	0x4
  639 00c5 07       		.byte	0x7
- 640 00c6 60020000 		.4byte	.LASF17
+ 640 00c6 0E020000 		.4byte	.LASF17
  641 00ca 08       		.uleb128 0x8
- 642 00cb D3010000 		.4byte	.LASF18
+ 642 00cb 81010000 		.4byte	.LASF18
  643 00cf 01       		.byte	0x1
  644 00d0 38       		.byte	0x38
  645 00d1 00000000 		.4byte	.LFB2
@@ -1106,7 +1106,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  647 00d9 01       		.uleb128 0x1
  648 00da 9C       		.byte	0x9c
  649 00db 09       		.uleb128 0x9
- 650 00dc 26010000 		.4byte	.LASF21
+ 650 00dc D4000000 		.4byte	.LASF21
  651 00e0 01       		.byte	0x1
  652 00e1 63       		.byte	0x63
  653 00e2 00000000 		.4byte	.LFB3
@@ -1115,7 +1115,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  656 00eb 9C       		.byte	0x9c
  657 00ec FF000000 		.4byte	0xff
  658 00f0 0A       		.uleb128 0xa
- 659 00f1 21020000 		.4byte	.LASF23
+ 659 00f1 CF010000 		.4byte	.LASF23
  660 00f5 01       		.byte	0x1
  661 00f6 63       		.byte	0x63
  662 00f7 A9000000 		.4byte	0xa9
@@ -1124,7 +1124,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  665 00fd 74       		.sleb128 -12
  666 00fe 00       		.byte	0
  667 00ff 08       		.uleb128 0x8
- 668 0100 9A020000 		.4byte	.LASF19
+ 668 0100 48020000 		.4byte	.LASF19
  669 0104 01       		.byte	0x1
  670 0105 81       		.byte	0x81
  671 0106 00000000 		.4byte	.LFB4
@@ -1132,18 +1132,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  673 010e 01       		.uleb128 0x1
  674 010f 9C       		.byte	0x9c
  675 0110 0B       		.uleb128 0xb
- 676 0111 CE000000 		.4byte	.LASF20
+ 676 0111 7C000000 		.4byte	.LASF20
  677 0115 01       		.byte	0x1
  678 0116 9F       		.byte	0x9f
  679 0117 00000000 		.4byte	.LFB5
  680 011b 0A000000 		.4byte	.LFE5-.LFB5
  681 011f 01       		.uleb128 0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 20
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 20
 
 
  682 0120 9C       		.byte	0x9c
  683 0121 0C       		.uleb128 0xc
- 684 0122 A7020000 		.4byte	.LASF22
+ 684 0122 55020000 		.4byte	.LASF22
  685 0126 01       		.byte	0x1
  686 0127 C7       		.byte	0xc7
  687 0128 00000000 		.4byte	.LFB6
@@ -1152,7 +1152,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  690 0131 9C       		.byte	0x9c
  691 0132 45010000 		.4byte	0x145
  692 0136 0A       		.uleb128 0xa
- 693 0137 21020000 		.4byte	.LASF23
+ 693 0137 CF010000 		.4byte	.LASF23
  694 013b 01       		.byte	0x1
  695 013c C7       		.byte	0xc7
  696 013d A9000000 		.4byte	0xa9
@@ -1179,7 +1179,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  717 016a 9C       		.byte	0x9c
  718 016b 9A010000 		.4byte	0x19a
  719 016f 0A       		.uleb128 0xa
- 720 0170 CA010000 		.4byte	.LASF25
+ 720 0170 78010000 		.4byte	.LASF25
  721 0174 01       		.byte	0x1
  722 0175 F9       		.byte	0xf9
  723 0176 6B000000 		.4byte	0x6b
@@ -1187,7 +1187,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  725 017b 91       		.byte	0x91
  726 017c 67       		.sleb128 -25
  727 017d 0E       		.uleb128 0xe
- 728 017e 05010000 		.4byte	.LASF26
+ 728 017e B3000000 		.4byte	.LASF26
  729 0182 01       		.byte	0x1
  730 0183 FB       		.byte	0xfb
  731 0184 6B000000 		.4byte	0x6b
@@ -1195,10 +1195,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  733 0189 91       		.byte	0x91
  734 018a 6B       		.sleb128 -21
  735 018b 0E       		.uleb128 0xe
- 736 018c B9020000 		.4byte	.LASF27
+ 736 018c 67020000 		.4byte	.LASF27
  737 0190 01       		.byte	0x1
  738 0191 FC       		.byte	0xfc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 21
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 21
 
 
  739 0192 77000000 		.4byte	0x77
@@ -1207,7 +1207,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  742 0198 6C       		.sleb128 -20
  743 0199 00       		.byte	0
  744 019a 0F       		.uleb128 0xf
- 745 019b 7C020000 		.4byte	.LASF37
+ 745 019b 2A020000 		.4byte	.LASF37
  746 019f 01       		.byte	0x1
  747 01a0 1501     		.2byte	0x115
  748 01a2 6B000000 		.4byte	0x6b
@@ -1217,7 +1217,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  752 01af 9C       		.byte	0x9c
  753 01b0 D3010000 		.4byte	0x1d3
  754 01b4 10       		.uleb128 0x10
- 755 01b5 CA010000 		.4byte	.LASF25
+ 755 01b5 78010000 		.4byte	.LASF25
  756 01b9 01       		.byte	0x1
  757 01ba 1701     		.2byte	0x117
  758 01bc 77000000 		.4byte	0x77
@@ -1225,7 +1225,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  760 01c1 91       		.byte	0x91
  761 01c2 70       		.sleb128 -16
  762 01c3 10       		.uleb128 0x10
- 763 01c4 B9020000 		.4byte	.LASF27
+ 763 01c4 67020000 		.4byte	.LASF27
  764 01c8 01       		.byte	0x1
  765 01c9 1801     		.2byte	0x118
  766 01cb 77000000 		.4byte	0x77
@@ -1242,7 +1242,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  777 01e3 01       		.uleb128 0x1
  778 01e4 9C       		.byte	0x9c
  779 01e5 12       		.uleb128 0x12
- 780 01e6 E6000000 		.4byte	.LASF30
+ 780 01e6 94000000 		.4byte	.LASF30
  781 01ea 01       		.byte	0x1
  782 01eb 4501     		.2byte	0x145
  783 01ed 6B000000 		.4byte	0x6b
@@ -1251,18 +1251,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  786 01f9 01       		.uleb128 0x1
  787 01fa 9C       		.byte	0x9c
  788 01fb 11       		.uleb128 0x11
- 789 01fc FD010000 		.4byte	.LASF31
+ 789 01fc AB010000 		.4byte	.LASF31
  790 0200 01       		.byte	0x1
  791 0201 5A01     		.2byte	0x15a
  792 0203 00000000 		.4byte	.LFB12
  793 0207 18000000 		.4byte	.LFE12-.LFB12
  794 020b 01       		.uleb128 0x1
  795 020c 9C       		.byte	0x9c
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 22
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 22
 
 
  796 020d 11       		.uleb128 0x11
- 797 020e 4D020000 		.4byte	.LASF32
+ 797 020e FB010000 		.4byte	.LASF32
  798 0212 01       		.byte	0x1
  799 0213 7501     		.2byte	0x175
  800 0215 00000000 		.4byte	.LFB13
@@ -1270,7 +1270,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  802 021d 01       		.uleb128 0x1
  803 021e 9C       		.byte	0x9c
  804 021f 11       		.uleb128 0x11
- 805 0220 E1010000 		.4byte	.LASF33
+ 805 0220 8F010000 		.4byte	.LASF33
  806 0224 01       		.byte	0x1
  807 0225 8E01     		.2byte	0x18e
  808 0227 00000000 		.4byte	.LFB14
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  850 0017 0B       		.uleb128 0xb
  851 0018 3E       		.uleb128 0x3e
  852 0019 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 23
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 23
 
 
  853 001a 03       		.uleb128 0x3
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  907 0050 3F       		.uleb128 0x3f
  908 0051 19       		.uleb128 0x19
  909 0052 03       		.uleb128 0x3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 24
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 24
 
 
  910 0053 0E       		.uleb128 0xe
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  964 008b 18       		.uleb128 0x18
  965 008c 00       		.byte	0
  966 008d 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 25
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 25
 
 
  967 008e 0B       		.uleb128 0xb
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  1021 00c6 0E       		.uleb128 0xe
  1022 00c7 3A       		.uleb128 0x3a
  1023 00c8 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 26
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 26
 
 
  1024 00c9 3B       		.uleb128 0x3b
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  1078 0101 01       		.uleb128 0x1
  1079 0102 13       		.uleb128 0x13
  1080 0103 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 27
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 27
 
 
  1081 0104 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  1135 013b 11       		.uleb128 0x11
  1136 013c 01       		.uleb128 0x1
  1137 013d 12       		.uleb128 0x12
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 28
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 28
 
 
  1138 013e 06       		.uleb128 0x6
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  1192 001c 26000000 		.4byte	.LFE3-.LFB3
  1193 0020 00000000 		.4byte	.LFB4
  1194 0024 1C000000 		.4byte	.LFE4-.LFB4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 29
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 29
 
 
  1195 0028 00000000 		.4byte	.LFB5
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  1249 0000 52010000 		.section	.debug_str,"MS",%progbits,1
  1249      02004400 
  1249      00000201 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 30
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 30
 
 
  1249      FB0E0D00 
@@ -1780,180 +1780,175 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 1
  1263      47657456 
  1263      6563746F 
  1263      7200
- 1264              	.LASF36:
- 1265 007c 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 1265      73657273 
- 1265      5C616C65 
- 1265      78706F72 
- 1265      745C4F6E 
- 1266 00ac 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 1266      54735C55 
- 1266      41525420 
- 1266      55444220 
- 1266      74657374 
- 1267              	.LASF20:
- 1268 00ce 6973725F 		.ascii	"isr_BLE_Interrupt\000"
- 1268      424C455F 
- 1268      496E7465 
- 1268      72727570 
- 1268      7400
- 1269              	.LASF11:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 31
+ 1264              	.LASF20:
+ 1265 007c 6973725F 		.ascii	"isr_BLE_Interrupt\000"
+ 1265      424C455F 
+ 1265      496E7465 
+ 1265      72727570 
+ 1265      7400
+ 1266              	.LASF11:
+ 1267 008e 666C6F61 		.ascii	"float\000"
+ 1267      7400
+ 1268              	.LASF30:
+ 1269 0094 6973725F 		.ascii	"isr_BLE_GetState\000"
+ 1269      424C455F 
+ 1269      47657453 
+ 1269      74617465 
+ 1269      00
+ 1270              	.LASF1:
+ 1271 00a5 756E7369 		.ascii	"unsigned char\000"
+ 1271      676E6564 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 31
 
 
- 1270 00e0 666C6F61 		.ascii	"float\000"
- 1270      7400
- 1271              	.LASF30:
- 1272 00e6 6973725F 		.ascii	"isr_BLE_GetState\000"
- 1272      424C455F 
- 1272      47657453 
- 1272      74617465 
- 1272      00
- 1273              	.LASF1:
- 1274 00f7 756E7369 		.ascii	"unsigned char\000"
- 1274      676E6564 
- 1274      20636861 
- 1274      7200
- 1275              	.LASF26:
- 1276 0105 696E7465 		.ascii	"interruptState\000"
- 1276      72727570 
- 1276      74537461 
- 1276      746500
- 1277              	.LASF5:
- 1278 0114 6C6F6E67 		.ascii	"long unsigned int\000"
- 1278      20756E73 
- 1278      69676E65 
- 1278      6420696E 
- 1278      7400
- 1279              	.LASF21:
- 1280 0126 6973725F 		.ascii	"isr_BLE_StartEx\000"
- 1280      424C455F 
- 1280      53746172 
- 1280      74457800 
- 1281              	.LASF9:
- 1282 0136 75696E74 		.ascii	"uint8\000"
- 1282      3800
- 1283              	.LASF34:
- 1284 013c 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1284      43313120 
- 1284      352E342E 
- 1284      31203230 
- 1284      31363036 
- 1285 016f 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 1285      20726576 
- 1285      6973696F 
- 1285      6E203233 
- 1285      37373135 
- 1286 01a2 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 1286      66756E63 
- 1286      74696F6E 
- 1286      2D736563 
- 1286      74696F6E 
- 1287              	.LASF25:
- 1288 01ca 7072696F 		.ascii	"priority\000"
- 1288      72697479 
- 1288      00
- 1289              	.LASF18:
- 1290 01d3 6973725F 		.ascii	"isr_BLE_Start\000"
- 1290      424C455F 
- 1290      53746172 
- 1290      7400
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 32
+ 1271      20636861 
+ 1271      7200
+ 1272              	.LASF26:
+ 1273 00b3 696E7465 		.ascii	"interruptState\000"
+ 1273      72727570 
+ 1273      74537461 
+ 1273      746500
+ 1274              	.LASF5:
+ 1275 00c2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1275      20756E73 
+ 1275      69676E65 
+ 1275      6420696E 
+ 1275      7400
+ 1276              	.LASF21:
+ 1277 00d4 6973725F 		.ascii	"isr_BLE_StartEx\000"
+ 1277      424C455F 
+ 1277      53746172 
+ 1277      74457800 
+ 1278              	.LASF9:
+ 1279 00e4 75696E74 		.ascii	"uint8\000"
+ 1279      3800
+ 1280              	.LASF34:
+ 1281 00ea 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1281      43313120 
+ 1281      352E342E 
+ 1281      31203230 
+ 1281      31363036 
+ 1282 011d 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 1282      20726576 
+ 1282      6973696F 
+ 1282      6E203233 
+ 1282      37373135 
+ 1283 0150 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1283      66756E63 
+ 1283      74696F6E 
+ 1283      2D736563 
+ 1283      74696F6E 
+ 1284              	.LASF25:
+ 1285 0178 7072696F 		.ascii	"priority\000"
+ 1285      72697479 
+ 1285      00
+ 1286              	.LASF18:
+ 1287 0181 6973725F 		.ascii	"isr_BLE_Start\000"
+ 1287      424C455F 
+ 1287      53746172 
+ 1287      7400
+ 1288              	.LASF33:
+ 1289 018f 6973725F 		.ascii	"isr_BLE_ClearPending\000"
+ 1289      424C455F 
+ 1289      436C6561 
+ 1289      7250656E 
+ 1289      64696E67 
+ 1290              	.LASF12:
+ 1291 01a4 646F7562 		.ascii	"double\000"
+ 1291      6C6500
+ 1292              	.LASF31:
+ 1293 01ab 6973725F 		.ascii	"isr_BLE_Disable\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 32
 
 
- 1291              	.LASF33:
- 1292 01e1 6973725F 		.ascii	"isr_BLE_ClearPending\000"
- 1292      424C455F 
- 1292      436C6561 
- 1292      7250656E 
- 1292      64696E67 
- 1293              	.LASF12:
- 1294 01f6 646F7562 		.ascii	"double\000"
- 1294      6C6500
- 1295              	.LASF31:
- 1296 01fd 6973725F 		.ascii	"isr_BLE_Disable\000"
- 1296      424C455F 
- 1296      44697361 
- 1296      626C6500 
- 1297              	.LASF10:
- 1298 020d 75696E74 		.ascii	"uint32\000"
- 1298      333200
- 1299              	.LASF8:
- 1300 0214 756E7369 		.ascii	"unsigned int\000"
- 1300      676E6564 
- 1300      20696E74 
- 1300      00
- 1301              	.LASF23:
- 1302 0221 61646472 		.ascii	"address\000"
- 1302      65737300 
- 1303              	.LASF7:
- 1304 0229 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1304      206C6F6E 
- 1304      6720756E 
- 1304      7369676E 
- 1304      65642069 
- 1305              	.LASF15:
- 1306 0240 63796973 		.ascii	"cyisraddress\000"
- 1306      72616464 
- 1306      72657373 
- 1306      00
- 1307              	.LASF32:
- 1308 024d 6973725F 		.ascii	"isr_BLE_SetPending\000"
- 1308      424C455F 
- 1308      53657450 
- 1308      656E6469 
- 1308      6E6700
- 1309              	.LASF17:
- 1310 0260 73697A65 		.ascii	"sizetype\000"
- 1310      74797065 
- 1310      00
- 1311              	.LASF6:
- 1312 0269 6C6F6E67 		.ascii	"long long int\000"
- 1312      206C6F6E 
- 1312      6720696E 
- 1312      7400
- 1313              	.LASF13:
- 1314 0277 63686172 		.ascii	"char\000"
- 1314      00
- 1315              	.LASF37:
- 1316 027c 6973725F 		.ascii	"isr_BLE_GetPriority\000"
- 1316      424C455F 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccJIUsLb.s 			page 33
+ 1293      424C455F 
+ 1293      44697361 
+ 1293      626C6500 
+ 1294              	.LASF10:
+ 1295 01bb 75696E74 		.ascii	"uint32\000"
+ 1295      333200
+ 1296              	.LASF8:
+ 1297 01c2 756E7369 		.ascii	"unsigned int\000"
+ 1297      676E6564 
+ 1297      20696E74 
+ 1297      00
+ 1298              	.LASF23:
+ 1299 01cf 61646472 		.ascii	"address\000"
+ 1299      65737300 
+ 1300              	.LASF7:
+ 1301 01d7 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1301      206C6F6E 
+ 1301      6720756E 
+ 1301      7369676E 
+ 1301      65642069 
+ 1302              	.LASF15:
+ 1303 01ee 63796973 		.ascii	"cyisraddress\000"
+ 1303      72616464 
+ 1303      72657373 
+ 1303      00
+ 1304              	.LASF32:
+ 1305 01fb 6973725F 		.ascii	"isr_BLE_SetPending\000"
+ 1305      424C455F 
+ 1305      53657450 
+ 1305      656E6469 
+ 1305      6E6700
+ 1306              	.LASF17:
+ 1307 020e 73697A65 		.ascii	"sizetype\000"
+ 1307      74797065 
+ 1307      00
+ 1308              	.LASF6:
+ 1309 0217 6C6F6E67 		.ascii	"long long int\000"
+ 1309      206C6F6E 
+ 1309      6720696E 
+ 1309      7400
+ 1310              	.LASF13:
+ 1311 0225 63686172 		.ascii	"char\000"
+ 1311      00
+ 1312              	.LASF37:
+ 1313 022a 6973725F 		.ascii	"isr_BLE_GetPriority\000"
+ 1313      424C455F 
+ 1313      47657450 
+ 1313      72696F72 
+ 1313      69747900 
+ 1314              	.LASF2:
+ 1315 023e 73686F72 		.ascii	"short int\000"
+ 1315      7420696E 
+ 1315      7400
+ 1316              	.LASF19:
+ 1317 0248 6973725F 		.ascii	"isr_BLE_Stop\000"
+ 1317      424C455F 
+ 1317      53746F70 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccHO0WCf.s 			page 33
 
 
- 1316      47657450 
- 1316      72696F72 
- 1316      69747900 
- 1317              	.LASF2:
- 1318 0290 73686F72 		.ascii	"short int\000"
- 1318      7420696E 
- 1318      7400
- 1319              	.LASF19:
- 1320 029a 6973725F 		.ascii	"isr_BLE_Stop\000"
- 1320      424C455F 
- 1320      53746F70 
- 1320      00
- 1321              	.LASF22:
- 1322 02a7 6973725F 		.ascii	"isr_BLE_SetVector\000"
- 1322      424C455F 
- 1322      53657456 
- 1322      6563746F 
- 1322      7200
- 1323              	.LASF27:
- 1324 02b9 7072696F 		.ascii	"priorityOffset\000"
- 1324      72697479 
- 1324      4F666673 
- 1324      657400
- 1325              	.LASF4:
- 1326 02c8 6C6F6E67 		.ascii	"long int\000"
- 1326      20696E74 
- 1326      00
- 1327              	.LASF16:
- 1328 02d1 6C6F6E67 		.ascii	"long double\000"
- 1328      20646F75 
- 1328      626C6500 
- 1329              	.LASF0:
- 1330 02dd 7369676E 		.ascii	"signed char\000"
- 1330      65642063 
- 1330      68617200 
- 1331              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1317      00
+ 1318              	.LASF22:
+ 1319 0255 6973725F 		.ascii	"isr_BLE_SetVector\000"
+ 1319      424C455F 
+ 1319      53657456 
+ 1319      6563746F 
+ 1319      7200
+ 1320              	.LASF27:
+ 1321 0267 7072696F 		.ascii	"priorityOffset\000"
+ 1321      72697479 
+ 1321      4F666673 
+ 1321      657400
+ 1322              	.LASF4:
+ 1323 0276 6C6F6E67 		.ascii	"long int\000"
+ 1323      20696E74 
+ 1323      00
+ 1324              	.LASF16:
+ 1325 027f 6C6F6E67 		.ascii	"long double\000"
+ 1325      20646F75 
+ 1325      626C6500 
+ 1326              	.LASF0:
+ 1327 028b 7369676E 		.ascii	"signed char\000"
+ 1327      65642063 
+ 1327      68617200 
+ 1328              	.LASF36:
+ 1329 0297 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 1329      4F524B5C 
+ 1329      54455354 
+ 1329      735C5073 
+ 1329      6F633442 
+ 1330              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

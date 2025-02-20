@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
   16:Generated_Source\PSoC4/ModbusUART.c **** *******************************************************************************/
   17:Generated_Source\PSoC4/ModbusUART.c **** 
   18:Generated_Source\PSoC4/ModbusUART.c **** #include "ModbusUART_PVT.h"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 2
 
 
   19:Generated_Source\PSoC4/ModbusUART.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
   73:Generated_Source\PSoC4/ModbusUART.c **** *  and set to 1 the first time SCB_Start() is called. This allows 
   74:Generated_Source\PSoC4/ModbusUART.c **** *  the component to restart without reinitialization after the first 
   75:Generated_Source\PSoC4/ModbusUART.c **** *  call to the ModbusUART_Start() routine.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 3
 
 
   76:Generated_Source\PSoC4/ModbusUART.c **** *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
   45              		.cfi_def_cfa_offset 8
   46              		.cfi_offset 7, -8
   47              		.cfi_offset 14, -4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 4
 
 
   48 0002 00AF     		add	r7, sp, #0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  159:Generated_Source\PSoC4/ModbusUART.c **** *  For I2C and EZI2C modes the interrupt is internal and mandatory for 
  160:Generated_Source\PSoC4/ModbusUART.c **** *  operation. For SPI and UART modes the interrupt can be configured as none, 
  161:Generated_Source\PSoC4/ModbusUART.c **** *  internal or external.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 5
 
 
  162:Generated_Source\PSoC4/ModbusUART.c **** *  The ModbusUART configuration should be not changed when the component
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
   91 001a C046     		nop
   92 001c BD46     		mov	sp, r7
   93              		@ sp needed
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 6
 
 
   94 001e 80BD     		pop	{r7, pc}
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  126 000c FFF7FEFF 		bl	ModbusUART_Init
  215:Generated_Source\PSoC4/ModbusUART.c ****         ModbusUART_initVar = 1u; /* Component was initialized */
  127              		.loc 1 215 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 7
 
 
  128 0010 034B     		ldr	r3, .L7
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  157              		@ frame_needed = 1, uses_anonymous_args = 0
  158 0000 80B5     		push	{r7, lr}
  159              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 8
 
 
  160              		.cfi_offset 7, -8
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  190              		.section	.text.ModbusUART_SetRxFifoLevel,"ax",%progbits
  191              		.align	2
  192              		.global	ModbusUART_SetRxFifoLevel
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 9
 
 
  193              		.code	16
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  225 001e 1343     		orrs	r3, r2
  226 0020 FB60     		str	r3, [r7, #12]
  287:Generated_Source\PSoC4/ModbusUART.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 10
 
 
  288:Generated_Source\PSoC4/ModbusUART.c ****     ModbusUART_RX_FIFO_CTRL_REG = rxFifoCtrl;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  263              		.cfi_def_cfa_register 7
  264 0006 7860     		str	r0, [r7, #4]
  306:Generated_Source\PSoC4/ModbusUART.c ****     uint32 txFifoCtrl;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 11
 
 
  307:Generated_Source\PSoC4/ModbusUART.c **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  321:Generated_Source\PSoC4/ModbusUART.c ****     *
  322:Generated_Source\PSoC4/ModbusUART.c ****     *  Registers a function to be called by the internal interrupt handler.
  323:Generated_Source\PSoC4/ModbusUART.c ****     *  First the function that is registered is called, then the internal interrupt
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 12
 
 
  324:Generated_Source\PSoC4/ModbusUART.c ****     *  handler performs any operation such as software buffer management functions
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  368:Generated_Source\PSoC4/ModbusUART.c **** 
  369:Generated_Source\PSoC4/ModbusUART.c ****     #endif /* (ModbusUART_SCB_MODE_UNCONFIG_CONST_CFG) */
  370:Generated_Source\PSoC4/ModbusUART.c **** #endif /* (ModbusUART_SCB_IRQ_INTERNAL) */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 13
 
 
  371:Generated_Source\PSoC4/ModbusUART.c **** }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  400:Generated_Source\PSoC4/ModbusUART.c ****     ModbusUART_SpiPostEnable();
  401:Generated_Source\PSoC4/ModbusUART.c **** 
  402:Generated_Source\PSoC4/ModbusUART.c **** #elif (ModbusUART_SCB_MODE_UART_CONST_CFG)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 14
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 14
 
 
  403:Generated_Source\PSoC4/ModbusUART.c ****     ModbusUART_UartPostEnable();
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  430:Generated_Source\PSoC4/ModbusUART.c ****     else if (ModbusUART_SCB_MODE_SPI_RUNTM_CFG)
  431:Generated_Source\PSoC4/ModbusUART.c ****     {
  432:Generated_Source\PSoC4/ModbusUART.c ****         ModbusUART_SpiStop();
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 15
 
 
  433:Generated_Source\PSoC4/ModbusUART.c ****     }
@@ -889,16 +889,16 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  386 000b 01       		.uleb128 0x1
  387 000c A1000000 		.4byte	.LASF32
  388 0010 0C       		.byte	0xc
- 389 0011 AE020000 		.4byte	.LASF33
- 390 0015 2F010000 		.4byte	.LASF34
+ 389 0011 5C020000 		.4byte	.LASF33
+ 390 0015 80020000 		.4byte	.LASF34
  391 0019 00000000 		.4byte	.Ldebug_ranges0+0
  392 001d 00000000 		.4byte	0
  393 0021 00000000 		.4byte	.Ldebug_line0
  394 0025 02       		.uleb128 0x2
  395 0026 01       		.byte	0x1
  396 0027 06       		.byte	0x6
- 397 0028 88020000 		.4byte	.LASF0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 16
+ 397 0028 36020000 		.4byte	.LASF0
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 16
 
 
  398 002c 02       		.uleb128 0x2
@@ -908,7 +908,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  402 0033 02       		.uleb128 0x2
  403 0034 02       		.byte	0x2
  404 0035 05       		.byte	0x5
- 405 0036 59020000 		.4byte	.LASF2
+ 405 0036 07020000 		.4byte	.LASF2
  406 003a 02       		.uleb128 0x2
  407 003b 02       		.byte	0x2
  408 003c 07       		.byte	0x7
@@ -916,7 +916,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  410 0041 02       		.uleb128 0x2
  411 0042 04       		.byte	0x4
  412 0043 05       		.byte	0x5
- 413 0044 6E020000 		.4byte	.LASF4
+ 413 0044 1C020000 		.4byte	.LASF4
  414 0048 02       		.uleb128 0x2
  415 0049 04       		.byte	0x4
  416 004a 07       		.byte	0x7
@@ -924,11 +924,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  418 004f 02       		.uleb128 0x2
  419 0050 08       		.byte	0x8
  420 0051 05       		.byte	0x5
- 421 0052 18020000 		.4byte	.LASF6
+ 421 0052 C6010000 		.4byte	.LASF6
  422 0056 02       		.uleb128 0x2
  423 0057 08       		.byte	0x8
  424 0058 07       		.byte	0x7
- 425 0059 F8010000 		.4byte	.LASF7
+ 425 0059 A6010000 		.4byte	.LASF7
  426 005d 03       		.uleb128 0x3
  427 005e 04       		.byte	0x4
  428 005f 05       		.byte	0x5
@@ -936,19 +936,19 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  430 0064 02       		.uleb128 0x2
  431 0065 04       		.byte	0x4
  432 0066 07       		.byte	0x7
- 433 0067 D1010000 		.4byte	.LASF8
+ 433 0067 7F010000 		.4byte	.LASF8
  434 006b 04       		.uleb128 0x4
  435 006c 8B000000 		.4byte	.LASF9
  436 0070 02       		.byte	0x2
  437 0071 FC01     		.2byte	0x1fc
  438 0073 2C000000 		.4byte	0x2c
  439 0077 04       		.uleb128 0x4
- 440 0078 B1010000 		.4byte	.LASF10
+ 440 0078 5F010000 		.4byte	.LASF10
  441 007c 02       		.byte	0x2
  442 007d FD01     		.2byte	0x1fd
  443 007f 3A000000 		.4byte	0x3a
  444 0083 04       		.uleb128 0x4
- 445 0084 B8010000 		.4byte	.LASF11
+ 445 0084 66010000 		.4byte	.LASF11
  446 0088 02       		.byte	0x2
  447 0089 FE01     		.2byte	0x1fe
  448 008b 48000000 		.4byte	0x48
@@ -958,15 +958,15 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  452 0092 52000000 		.4byte	.LASF12
  453 0096 02       		.uleb128 0x2
  454 0097 08       		.byte	0x8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 17
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 17
 
 
  455 0098 04       		.byte	0x4
- 456 0099 9A010000 		.4byte	.LASF13
+ 456 0099 48010000 		.4byte	.LASF13
  457 009d 02       		.uleb128 0x2
  458 009e 01       		.byte	0x1
  459 009f 08       		.byte	0x8
- 460 00a0 77020000 		.4byte	.LASF14
+ 460 00a0 25020000 		.4byte	.LASF14
  461 00a4 04       		.uleb128 0x4
  462 00a5 00000000 		.4byte	.LASF15
  463 00a9 02       		.byte	0x2
@@ -977,11 +977,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  468 00b5 02       		.uleb128 0x2
  469 00b6 08       		.byte	0x8
  470 00b7 04       		.byte	0x4
- 471 00b8 7C020000 		.4byte	.LASF16
+ 471 00b8 2A020000 		.4byte	.LASF16
  472 00bc 02       		.uleb128 0x2
  473 00bd 04       		.byte	0x4
  474 00be 07       		.byte	0x7
- 475 00bf 0F020000 		.4byte	.LASF17
+ 475 00bf BD010000 		.4byte	.LASF17
  476 00c3 06       		.uleb128 0x6
  477 00c4 91000000 		.4byte	.LASF18
  478 00c8 01       		.byte	0x1
@@ -991,7 +991,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  482 00d2 01       		.uleb128 0x1
  483 00d3 9C       		.byte	0x9c
  484 00d4 06       		.uleb128 0x6
- 485 00d5 BF010000 		.4byte	.LASF19
+ 485 00d5 6D010000 		.4byte	.LASF19
  486 00d9 01       		.byte	0x1
  487 00da AB       		.byte	0xab
  488 00db 00000000 		.4byte	.LFB3
@@ -1007,7 +1007,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  498 00f4 01       		.uleb128 0x1
  499 00f5 9C       		.byte	0x9c
  500 00f6 06       		.uleb128 0x6
- 501 00f7 A1010000 		.4byte	.LASF21
+ 501 00f7 4F010000 		.4byte	.LASF21
  502 00fb 01       		.byte	0x1
  503 00fc EF       		.byte	0xef
  504 00fd 00000000 		.4byte	.LFB5
@@ -1015,10 +1015,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  506 0105 01       		.uleb128 0x1
  507 0106 9C       		.byte	0x9c
  508 0107 07       		.uleb128 0x7
- 509 0108 DE010000 		.4byte	.LASF22
+ 509 0108 8C010000 		.4byte	.LASF22
  510 010c 01       		.byte	0x1
  511 010d 1701     		.2byte	0x117
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 18
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 18
 
 
  512 010f 00000000 		.4byte	.LFB6
@@ -1035,7 +1035,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  523 012a 91       		.byte	0x91
  524 012b 6C       		.sleb128 -20
  525 012c 09       		.uleb128 0x9
- 526 012d 63020000 		.4byte	.LASF25
+ 526 012d 11020000 		.4byte	.LASF25
  527 0131 01       		.byte	0x1
  528 0132 1901     		.2byte	0x119
  529 0134 83000000 		.4byte	0x83
@@ -1044,7 +1044,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  532 013a 74       		.sleb128 -12
  533 013b 00       		.byte	0
  534 013c 07       		.uleb128 0x7
- 535 013d 94020000 		.4byte	.LASF23
+ 535 013d 42020000 		.4byte	.LASF23
  536 0141 01       		.byte	0x1
  537 0142 3001     		.2byte	0x130
  538 0144 00000000 		.4byte	.LFB7
@@ -1070,7 +1070,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  558 016f 74       		.sleb128 -12
  559 0170 00       		.byte	0
  560 0171 0A       		.uleb128 0xa
- 561 0172 81010000 		.4byte	.LASF27
+ 561 0172 2F010000 		.4byte	.LASF27
  562 0176 01       		.byte	0x1
  563 0177 6401     		.2byte	0x164
  564 0179 00000000 		.4byte	.LFB8
@@ -1078,10 +1078,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  566 0181 01       		.uleb128 0x1
  567 0182 9C       		.byte	0x9c
  568 0183 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 19
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 19
 
 
- 569 0184 26020000 		.4byte	.LASF28
+ 569 0184 D4010000 		.4byte	.LASF28
  570 0188 01       		.byte	0x1
  571 0189 7D01     		.2byte	0x17d
  572 018b 00000000 		.4byte	.LFB9
@@ -1105,7 +1105,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  590 01b3 03       		.byte	0x3
  591 01b4 00000000 		.4byte	ModbusUART_initVar
  592 01b8 0C       		.uleb128 0xc
- 593 01b9 43020000 		.4byte	.LASF31
+ 593 01b9 F1010000 		.4byte	.LASF31
  594 01bd 01       		.byte	0x1
  595 01be 5A       		.byte	0x5a
  596 01bf 77000000 		.4byte	0x77
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  623 0014 24       		.uleb128 0x24
  624 0015 00       		.byte	0
  625 0016 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 20
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 20
 
 
  626 0017 0B       		.uleb128 0xb
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  680 004d 06       		.uleb128 0x6
  681 004e 40       		.uleb128 0x40
  682 004f 18       		.uleb128 0x18
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 21
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 21
 
 
  683 0050 9642     		.uleb128 0x2116
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  737 0088 13       		.uleb128 0x13
  738 0089 02       		.uleb128 0x2
  739 008a 18       		.uleb128 0x18
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 22
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 22
 
 
  740 008b 00       		.byte	0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  794 00c3 13       		.uleb128 0x13
  795 00c4 3F       		.uleb128 0x3f
  796 00c5 19       		.uleb128 0x19
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 23
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 23
 
 
  797 00c6 02       		.uleb128 0x2
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  851 004c 00000000 		.4byte	0
  852              		.section	.debug_line,"",%progbits
  853              	.Ldebug_line0:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 24
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 24
 
 
  854 0000 07010000 		.section	.debug_str,"MS",%progbits,1
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  876 008b 75696E74 		.ascii	"uint8\000"
  876      3800
  877              	.LASF18:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 25
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 25
 
 
  878 0091 4D6F6462 		.ascii	"ModbusUART_Init\000"
@@ -1461,120 +1461,115 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 1
  882      74696F6E 
  882      2D736563 
  882      74696F6E 
- 883              	.LASF34:
- 884 012f 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 884      73657273 
- 884      5C616C65 
- 884      78706F72 
- 884      745C4F6E 
- 885 015f 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 885      54735C55 
- 885      41525420 
- 885      55444220 
- 885      74657374 
- 886              	.LASF27:
- 887 0181 4D6F6462 		.ascii	"ModbusUART_ScbEnableIntr\000"
- 887      75735541 
- 887      52545F53 
- 887      6362456E 
- 887      61626C65 
- 888              	.LASF13:
- 889 019a 646F7562 		.ascii	"double\000"
- 889      6C6500
- 890              	.LASF21:
- 891 01a1 4D6F6462 		.ascii	"ModbusUART_Stop\000"
- 891      75735541 
- 891      52545F53 
- 891      746F7000 
- 892              	.LASF10:
- 893 01b1 75696E74 		.ascii	"uint16\000"
- 893      313600
- 894              	.LASF11:
- 895 01b8 75696E74 		.ascii	"uint32\000"
- 895      333200
- 896              	.LASF19:
- 897 01bf 4D6F6462 		.ascii	"ModbusUART_Enable\000"
- 897      75735541 
- 897      52545F45 
- 897      6E61626C 
- 897      6500
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 26
+ 883              	.LASF27:
+ 884 012f 4D6F6462 		.ascii	"ModbusUART_ScbEnableIntr\000"
+ 884      75735541 
+ 884      52545F53 
+ 884      6362456E 
+ 884      61626C65 
+ 885              	.LASF13:
+ 886 0148 646F7562 		.ascii	"double\000"
+ 886      6C6500
+ 887              	.LASF21:
+ 888 014f 4D6F6462 		.ascii	"ModbusUART_Stop\000"
+ 888      75735541 
+ 888      52545F53 
+ 888      746F7000 
+ 889              	.LASF10:
+ 890 015f 75696E74 		.ascii	"uint16\000"
+ 890      313600
+ 891              	.LASF11:
+ 892 0166 75696E74 		.ascii	"uint32\000"
+ 892      333200
+ 893              	.LASF19:
+ 894 016d 4D6F6462 		.ascii	"ModbusUART_Enable\000"
+ 894      75735541 
+ 894      52545F45 
+ 894      6E61626C 
+ 894      6500
+ 895              	.LASF8:
+ 896 017f 756E7369 		.ascii	"unsigned int\000"
+ 896      676E6564 
+ 896      20696E74 
+ 896      00
+ 897              	.LASF22:
+ 898 018c 4D6F6462 		.ascii	"ModbusUART_SetRxFifoLevel\000"
+ 898      75735541 
+ 898      52545F53 
+ 898      65745278 
+ 898      4669666F 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 26
 
 
- 898              	.LASF8:
- 899 01d1 756E7369 		.ascii	"unsigned int\000"
- 899      676E6564 
- 899      20696E74 
- 899      00
- 900              	.LASF22:
- 901 01de 4D6F6462 		.ascii	"ModbusUART_SetRxFifoLevel\000"
- 901      75735541 
- 901      52545F53 
- 901      65745278 
- 901      4669666F 
- 902              	.LASF7:
- 903 01f8 6C6F6E67 		.ascii	"long long unsigned int\000"
- 903      206C6F6E 
- 903      6720756E 
- 903      7369676E 
- 903      65642069 
- 904              	.LASF17:
- 905 020f 73697A65 		.ascii	"sizetype\000"
- 905      74797065 
- 905      00
- 906              	.LASF6:
- 907 0218 6C6F6E67 		.ascii	"long long int\000"
- 907      206C6F6E 
- 907      6720696E 
- 907      7400
- 908              	.LASF28:
- 909 0226 4D6F6462 		.ascii	"ModbusUART_ScbModePostEnable\000"
- 909      75735541 
- 909      52545F53 
- 909      63624D6F 
- 909      6465506F 
- 910              	.LASF31:
- 911 0243 4D6F6462 		.ascii	"ModbusUART_IntrTxMask\000"
- 911      75735541 
- 911      52545F49 
- 911      6E747254 
- 911      784D6173 
- 912              	.LASF2:
- 913 0259 73686F72 		.ascii	"short int\000"
- 913      7420696E 
- 913      7400
- 914              	.LASF25:
- 915 0263 72784669 		.ascii	"rxFifoCtrl\000"
- 915      666F4374 
- 915      726C00
- 916              	.LASF4:
- 917 026e 6C6F6E67 		.ascii	"long int\000"
- 917      20696E74 
- 917      00
- 918              	.LASF14:
- 919 0277 63686172 		.ascii	"char\000"
- 919      00
- 920              	.LASF16:
- 921 027c 6C6F6E67 		.ascii	"long double\000"
- 921      20646F75 
- 921      626C6500 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc84r1Kh.s 			page 27
+ 899              	.LASF7:
+ 900 01a6 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 900      206C6F6E 
+ 900      6720756E 
+ 900      7369676E 
+ 900      65642069 
+ 901              	.LASF17:
+ 902 01bd 73697A65 		.ascii	"sizetype\000"
+ 902      74797065 
+ 902      00
+ 903              	.LASF6:
+ 904 01c6 6C6F6E67 		.ascii	"long long int\000"
+ 904      206C6F6E 
+ 904      6720696E 
+ 904      7400
+ 905              	.LASF28:
+ 906 01d4 4D6F6462 		.ascii	"ModbusUART_ScbModePostEnable\000"
+ 906      75735541 
+ 906      52545F53 
+ 906      63624D6F 
+ 906      6465506F 
+ 907              	.LASF31:
+ 908 01f1 4D6F6462 		.ascii	"ModbusUART_IntrTxMask\000"
+ 908      75735541 
+ 908      52545F49 
+ 908      6E747254 
+ 908      784D6173 
+ 909              	.LASF2:
+ 910 0207 73686F72 		.ascii	"short int\000"
+ 910      7420696E 
+ 910      7400
+ 911              	.LASF25:
+ 912 0211 72784669 		.ascii	"rxFifoCtrl\000"
+ 912      666F4374 
+ 912      726C00
+ 913              	.LASF4:
+ 914 021c 6C6F6E67 		.ascii	"long int\000"
+ 914      20696E74 
+ 914      00
+ 915              	.LASF14:
+ 916 0225 63686172 		.ascii	"char\000"
+ 916      00
+ 917              	.LASF16:
+ 918 022a 6C6F6E67 		.ascii	"long double\000"
+ 918      20646F75 
+ 918      626C6500 
+ 919              	.LASF0:
+ 920 0236 7369676E 		.ascii	"signed char\000"
+ 920      65642063 
+ 920      68617200 
+ 921              	.LASF23:
+ 922 0242 4D6F6462 		.ascii	"ModbusUART_SetTxFifoLevel\000"
+ 922      75735541 
+ 922      52545F53 
+ 922      65745478 
+ 922      4669666F 
+ 923              	.LASF33:
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccqxChnW.s 			page 27
 
 
- 922              	.LASF0:
- 923 0288 7369676E 		.ascii	"signed char\000"
- 923      65642063 
- 923      68617200 
- 924              	.LASF23:
- 925 0294 4D6F6462 		.ascii	"ModbusUART_SetTxFifoLevel\000"
- 925      75735541 
- 925      52545F53 
- 925      65745478 
- 925      4669666F 
- 926              	.LASF33:
- 927 02ae 47656E65 		.ascii	"Generated_Source\\PSoC4\\ModbusUART.c\000"
- 927      72617465 
- 927      645F536F 
- 927      75726365 
- 927      5C50536F 
- 928              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 924 025c 47656E65 		.ascii	"Generated_Source\\PSoC4\\ModbusUART.c\000"
+ 924      72617465 
+ 924      645F536F 
+ 924      75726365 
+ 924      5C50536F 
+ 925              	.LASF34:
+ 926 0280 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 926      4F524B5C 
+ 926      54455354 
+ 926      735C5073 
+ 926      6F633442 
+ 927              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

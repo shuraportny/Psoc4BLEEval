@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
   22:Generated_Source\PSoC4/MessageTimer.c **** 
   23:Generated_Source\PSoC4/MessageTimer.c **** 
   24:Generated_Source\PSoC4/MessageTimer.c **** /*******************************************************************************
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 2
 
 
   25:Generated_Source\PSoC4/MessageTimer.c **** * Function Name: MessageTimer_Init
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
   51 000e 0C22     		movs	r2, #12
   52 0010 1A60     		str	r2, [r3]
   62:Generated_Source\PSoC4/MessageTimer.c ****     
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 3
 
 
   63:Generated_Source\PSoC4/MessageTimer.c ****         /* Set values from customizer to INTR */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  106:Generated_Source\PSoC4/MessageTimer.c **** 
  107:Generated_Source\PSoC4/MessageTimer.c ****         #if (MessageTimer__PWM_DT == MessageTimer_PWM_MODE)
  108:Generated_Source\PSoC4/MessageTimer.c ****             MessageTimer_CONTROL_REG |= MessageTimer_CTRL_PWM_DEAD_TIME_CYCLE;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 4
 
 
  109:Generated_Source\PSoC4/MessageTimer.c ****         #endif  /* (MessageTimer__PWM_DT == MessageTimer_PWM_MODE) */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
   66 002a BD46     		mov	sp, r7
   67              		@ sp needed
   68 002c 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 5
 
 
   69              	.L3:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  102 000e 2370     		strb	r3, [r4]
  182:Generated_Source\PSoC4/MessageTimer.c ****     MessageTimer_BLOCK_CONTROL_REG |= MessageTimer_MASK;
  103              		.loc 1 182 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 6
 
 
  104 0010 094B     		ldr	r3, .L5
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  137              		.type	MessageTimer_Start, %function
  138              	MessageTimer_Start:
  139              	.LFB4:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 7
 
 
  204:Generated_Source\PSoC4/MessageTimer.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  236:Generated_Source\PSoC4/MessageTimer.c ****     }
  237:Generated_Source\PSoC4/MessageTimer.c **** 
  238:Generated_Source\PSoC4/MessageTimer.c ****     MessageTimer_Enable();
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 8
 
 
  162              		.loc 1 238 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  258:Generated_Source\PSoC4/MessageTimer.c ****     uint8 enableInterrupts;
  259:Generated_Source\PSoC4/MessageTimer.c **** 
  260:Generated_Source\PSoC4/MessageTimer.c ****     enableInterrupts = CyEnterCriticalSection();
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 9
 
 
  197              		.loc 1 260 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  277:Generated_Source\PSoC4/MessageTimer.c **** * Parameters:
  278:Generated_Source\PSoC4/MessageTimer.c **** *  mode: Mode for the MessageTimer to operate in
  279:Generated_Source\PSoC4/MessageTimer.c **** *   Values:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 10
 
 
  280:Generated_Source\PSoC4/MessageTimer.c **** *   - MessageTimer_MODE_TIMER_COMPARE - Timer / Counter with
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  268 002a 1A60     		str	r2, [r3]
  301:Generated_Source\PSoC4/MessageTimer.c **** 
  302:Generated_Source\PSoC4/MessageTimer.c ****     CyExitCriticalSection(enableInterrupts);
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 11
 
 
  269              		.loc 1 302 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  298              		.cfi_startproc
  299              		@ args = 0, pretend = 0, frame = 16
  300              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 12
 
 
  301 0000 90B5     		push	{r4, r7, lr}
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  346 0040 40012040 		.word	1075839296
  347 0044 FFFF8FFF 		.word	-7340033
  348              		.cfi_endproc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 13
 
 
  349              	.LFE7:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  367:Generated_Source\PSoC4/MessageTimer.c ****     enableInterrupts = CyEnterCriticalSection();
  373              		.loc 1 367 0
  374 0008 0F23     		movs	r3, #15
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 14
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 14
 
 
  375 000a FC18     		adds	r4, r7, r3
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  376:Generated_Source\PSoC4/MessageTimer.c **** /*******************************************************************************
  377:Generated_Source\PSoC4/MessageTimer.c **** * Function Name: MessageTimer_SetOneShot
  378:Generated_Source\PSoC4/MessageTimer.c **** ********************************************************************************
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 15
 
 
  379:Generated_Source\PSoC4/MessageTimer.c **** *
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  451 0024 1168     		ldr	r1, [r2]
  452 0026 7A68     		ldr	r2, [r7, #4]
  453 0028 9004     		lsls	r0, r2, #18
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 16
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 16
 
 
  454 002a 8022     		movs	r2, #128
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  424:Generated_Source\PSoC4/MessageTimer.c **** *     - CC_MATCH_SET        - Set on comparison match
  425:Generated_Source\PSoC4/MessageTimer.c **** *     - CC_MATCH_CLEAR      - Clear on comparison match
  426:Generated_Source\PSoC4/MessageTimer.c **** *     - CC_MATCH_INVERT     - Invert on comparison match
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 17
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 17
 
 
  427:Generated_Source\PSoC4/MessageTimer.c **** *     - CC_MATCH_NO_CHANGE  - No change on comparison match
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  515 001c 68012040 		.word	1075839336
  516              		.cfi_endproc
  517              	.LFE10:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 18
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 18
 
 
  518              		.size	MessageTimer_SetPWMMode, .-MessageTimer_SetPWMMode
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  538 0004 00AF     		add	r7, sp, #0
  539              		.cfi_def_cfa_register 7
  540 0006 7860     		str	r0, [r7, #4]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 19
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 19
 
 
  487:Generated_Source\PSoC4/MessageTimer.c ****     uint8 enableInterrupts;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  585              		.global	MessageTimer_SetPWMStopOnKill
  586              		.code	16
  587              		.thumb_func
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 20
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 20
 
 
  588              		.type	MessageTimer_SetPWMStopOnKill, %function
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  613 0016 0C4A     		ldr	r2, .L33
  614 0018 1268     		ldr	r2, [r2]
  615 001a 0821     		movs	r1, #8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 21
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 21
 
 
  616 001c 8A43     		bics	r2, r1
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  541:Generated_Source\PSoC4/MessageTimer.c **** *  only applicable to the PWM in the dead time mode.
  542:Generated_Source\PSoC4/MessageTimer.c **** 
  543:Generated_Source\PSoC4/MessageTimer.c **** *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 22
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 22
 
 
  544:Generated_Source\PSoC4/MessageTimer.c **** * Parameters:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  561:Generated_Source\PSoC4/MessageTimer.c **** 
  562:Generated_Source\PSoC4/MessageTimer.c ****     CyExitCriticalSection(enableInterrupts);
  692              		.loc 1 562 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 23
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 23
 
 
  693 0032 0F23     		movs	r3, #15
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  723              		@ frame_needed = 1, uses_anonymous_args = 0
  724 0000 90B5     		push	{r4, r7, lr}
  725              		.cfi_def_cfa_offset 12
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 24
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 24
 
 
  726              		.cfi_offset 4, -12
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  771              		.cfi_endproc
  772              	.LFE14:
  773              		.size	MessageTimer_SetPWMInvert, .-MessageTimer_SetPWMInvert
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 25
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 25
 
 
  774              		.section	.text.MessageTimer_WriteCounter,"ax",%progbits
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  805              		@ sp needed
  806 0018 80BD     		pop	{r7, pc}
  807              	.L43:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 26
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 26
 
 
  808 001a C046     		.align	2
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  842              	.L47:
  843 0012 C046     		.align	2
  844              	.L46:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 27
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 27
 
 
  845 0014 48012040 		.word	1075839304
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  667:Generated_Source\PSoC4/MessageTimer.c **** 
  668:Generated_Source\PSoC4/MessageTimer.c ****     enableInterrupts = CyEnterCriticalSection();
  871              		.loc 1 668 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 28
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 28
 
 
  872 0008 0F23     		movs	r3, #15
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  676:Generated_Source\PSoC4/MessageTimer.c **** 
  677:Generated_Source\PSoC4/MessageTimer.c **** /*******************************************************************************
  678:Generated_Source\PSoC4/MessageTimer.c **** * Function Name: MessageTimer_WritePeriod
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 29
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 29
 
 
  679:Generated_Source\PSoC4/MessageTimer.c **** ********************************************************************************
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  955              		.thumb_func
  956              		.type	MessageTimer_ReadPeriod, %function
  957              	MessageTimer_ReadPeriod:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 30
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 30
 
 
  958              	.LFB19:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  992              	MessageTimer_SetCompareSwap:
  993              	.LFB20:
  717:Generated_Source\PSoC4/MessageTimer.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 31
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 31
 
 
  718:Generated_Source\PSoC4/MessageTimer.c **** 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1020 001e 1A60     		str	r2, [r3]
  746:Generated_Source\PSoC4/MessageTimer.c ****     MessageTimer_CONTROL_REG |= (swapEnable & MessageTimer_1BIT_MASK);
  1021              		.loc 1 746 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 32
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 32
 
 
  1022 0020 084B     		ldr	r3, .L59
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  766:Generated_Source\PSoC4/MessageTimer.c **** void MessageTimer_WritePeriodBuf(uint32 periodBuf)
  767:Generated_Source\PSoC4/MessageTimer.c **** {
  1057              		.loc 1 767 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 33
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 33
 
 
  1058              		.cfi_startproc
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  783:Generated_Source\PSoC4/MessageTimer.c **** *  Period value
  784:Generated_Source\PSoC4/MessageTimer.c **** *
  785:Generated_Source\PSoC4/MessageTimer.c **** *******************************************************************************/
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 34
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 34
 
 
  786:Generated_Source\PSoC4/MessageTimer.c **** uint32 MessageTimer_ReadPeriodBuf(void)
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  805:Generated_Source\PSoC4/MessageTimer.c **** *     - 0 - Disable swap
  806:Generated_Source\PSoC4/MessageTimer.c **** *     - 1 - Enable swap
  807:Generated_Source\PSoC4/MessageTimer.c **** *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 35
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 35
 
 
  808:Generated_Source\PSoC4/MessageTimer.c **** * Return:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1171 0034 FB18     		adds	r3, r7, r3
  1172 0036 1B78     		ldrb	r3, [r3]
  1173 0038 1800     		movs	r0, r3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 36
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 36
 
 
  1174 003a FFF7FEFF 		bl	CyExitCriticalSection
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1200 0000 80B5     		push	{r7, lr}
  1201              		.cfi_def_cfa_offset 8
  1202              		.cfi_offset 7, -8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 37
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 37
 
 
  1203              		.cfi_offset 14, -4
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1233              		.type	MessageTimer_ReadCompare, %function
  1234              	MessageTimer_ReadCompare:
  1235              	.LFB25:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 38
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 38
 
 
  875:Generated_Source\PSoC4/MessageTimer.c **** 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  919:Generated_Source\PSoC4/MessageTimer.c ****         }
  920:Generated_Source\PSoC4/MessageTimer.c ****         else
  921:Generated_Source\PSoC4/MessageTimer.c ****         {
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 39
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 39
 
 
  922:Generated_Source\PSoC4/MessageTimer.c ****         }
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  951:Generated_Source\PSoC4/MessageTimer.c **** *  compare value in the Down counting mode (except 0xFFFFu).
  952:Generated_Source\PSoC4/MessageTimer.c **** *
  953:Generated_Source\PSoC4/MessageTimer.c **** *******************************************************************************/
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 40
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 40
 
 
  954:Generated_Source\PSoC4/MessageTimer.c **** void MessageTimer_WriteCompareBuf(uint32 compareBuf)
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1301              	.LFE26:
  1302              		.size	MessageTimer_WriteCompareBuf, .-MessageTimer_WriteCompareBuf
  1303              		.section	.text.MessageTimer_ReadCompareBuf,"ax",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 41
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 41
 
 
  1304              		.align	2
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1015:Generated_Source\PSoC4/MessageTimer.c ****         }
 1016:Generated_Source\PSoC4/MessageTimer.c ****         else if (((uint32)MessageTimer__COUNT_UP == currentMode) && (0xFFFFu != regVal))
 1017:Generated_Source\PSoC4/MessageTimer.c ****         {
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 42
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 42
 
 
 1018:Generated_Source\PSoC4/MessageTimer.c ****             regVal++;
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1047:Generated_Source\PSoC4/MessageTimer.c **** {
  1346              		.loc 1 1047 0
  1347              		.cfi_startproc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 43
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 43
 
 
  1348              		@ args = 0, pretend = 0, frame = 0
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1381              		.loc 1 1068 0
  1382              		.cfi_startproc
  1383              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 44
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 44
 
 
  1384              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1091:Generated_Source\PSoC4/MessageTimer.c **** *  None
 1092:Generated_Source\PSoC4/MessageTimer.c **** *
 1093:Generated_Source\PSoC4/MessageTimer.c **** *******************************************************************************/
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 45
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 45
 
 
 1094:Generated_Source\PSoC4/MessageTimer.c **** void MessageTimer_SetCaptureMode(uint32 triggerMode)
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1459 003c 05B0     		add	sp, sp, #20
  1460              		@ sp needed
  1461 003e 90BD     		pop	{r4, r7, pc}
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 46
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 46
 
 
  1462              	.L95:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1130:Generated_Source\PSoC4/MessageTimer.c **** 
 1131:Generated_Source\PSoC4/MessageTimer.c ****     enableInterrupts = CyEnterCriticalSection();
  1491              		.loc 1 1131 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 47
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 47
 
 
  1492 0008 0F23     		movs	r3, #15
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1139:Generated_Source\PSoC4/MessageTimer.c **** 
 1140:Generated_Source\PSoC4/MessageTimer.c **** /*******************************************************************************
 1141:Generated_Source\PSoC4/MessageTimer.c **** * Function Name: MessageTimer_SetStartMode
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 48
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 48
 
 
 1142:Generated_Source\PSoC4/MessageTimer.c **** ********************************************************************************
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1567 0020 084B     		ldr	r3, .L100
  1568 0022 084A     		ldr	r2, .L100
  1569 0024 1168     		ldr	r1, [r2]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 49
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 49
 
 
  1570 0026 7A68     		ldr	r2, [r7, #4]
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1190:Generated_Source\PSoC4/MessageTimer.c **** *
 1191:Generated_Source\PSoC4/MessageTimer.c **** *******************************************************************************/
 1192:Generated_Source\PSoC4/MessageTimer.c **** void MessageTimer_SetStopMode(uint32 triggerMode)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 50
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 50
 
 
 1193:Generated_Source\PSoC4/MessageTimer.c **** {
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1646 003e 05B0     		add	sp, sp, #20
  1647              		@ sp needed
  1648 0040 90BD     		pop	{r4, r7, pc}
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 51
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 51
 
 
  1649              	.L104:
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1228:Generated_Source\PSoC4/MessageTimer.c **** 
 1229:Generated_Source\PSoC4/MessageTimer.c ****     enableInterrupts = CyEnterCriticalSection();
  1678              		.loc 1 1229 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 52
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 52
 
 
  1679 0008 0F23     		movs	r3, #15
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1237:Generated_Source\PSoC4/MessageTimer.c **** 
 1238:Generated_Source\PSoC4/MessageTimer.c **** /*******************************************************************************
 1239:Generated_Source\PSoC4/MessageTimer.c **** * Function Name: MessageTimer_TriggerCommand
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 53
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 53
 
 
 1240:Generated_Source\PSoC4/MessageTimer.c **** ********************************************************************************
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1748 0016 084B     		ldr	r3, .L109
  1749 0018 7968     		ldr	r1, [r7, #4]
  1750 001a 3A68     		ldr	r2, [r7]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 54
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 54
 
 
  1751 001c 9140     		lsls	r1, r1, r2
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  1781              		.loc 1 1295 0
  1782              		.cfi_startproc
  1783              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 55
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 55
 
 
  1784              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1311:Generated_Source\PSoC4/MessageTimer.c **** *   Values:
 1312:Generated_Source\PSoC4/MessageTimer.c **** *     - MessageTimer_INTR_MASK_TC       - Terminal count mask
 1313:Generated_Source\PSoC4/MessageTimer.c **** *     - MessageTimer_INTR_MASK_CC_MATCH - Compare count / capture mask
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 56
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 56
 
 
 1314:Generated_Source\PSoC4/MessageTimer.c **** *
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1330:Generated_Source\PSoC4/MessageTimer.c **** *  Gets the interrupt requests masked by the interrupt mask.
 1331:Generated_Source\PSoC4/MessageTimer.c **** *
 1332:Generated_Source\PSoC4/MessageTimer.c **** * Parameters:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 57
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 57
 
 
 1333:Generated_Source\PSoC4/MessageTimer.c **** *   None
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1354:Generated_Source\PSoC4/MessageTimer.c **** *
 1355:Generated_Source\PSoC4/MessageTimer.c **** * Parameters:
 1356:Generated_Source\PSoC4/MessageTimer.c **** *  None
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 58
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 58
 
 
 1357:Generated_Source\PSoC4/MessageTimer.c **** *
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1378:Generated_Source\PSoC4/MessageTimer.c **** * Parameters:
 1379:Generated_Source\PSoC4/MessageTimer.c **** *   interruptMask: Mask of interrupts to clear
 1380:Generated_Source\PSoC4/MessageTimer.c **** *   Values:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 59
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 59
 
 
 1381:Generated_Source\PSoC4/MessageTimer.c **** *     - MessageTimer_INTR_MASK_TC       - Terminal count mask
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
 1397:Generated_Source\PSoC4/MessageTimer.c **** *
 1398:Generated_Source\PSoC4/MessageTimer.c **** * Summary:
 1399:Generated_Source\PSoC4/MessageTimer.c **** *  Sets a software interrupt request.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 60
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 60
 
 
 1400:Generated_Source\PSoC4/MessageTimer.c **** *
@@ -3596,13 +3596,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2001 0006 00000000 		.4byte	.Ldebug_abbrev0
  2002 000a 04       		.byte	0x4
  2003 000b 01       		.uleb128 0x1
- 2004 000c B6020000 		.4byte	.LASF77
+ 2004 000c DE020000 		.4byte	.LASF77
  2005 0010 0C       		.byte	0xc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 61
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 61
 
 
  2006 0011 32010000 		.4byte	.LASF78
- 2007 0015 D1050000 		.4byte	.LASF79
+ 2007 0015 F8010000 		.4byte	.LASF79
  2008 0019 00000000 		.4byte	.Ldebug_ranges0+0
  2009 001d 00000000 		.4byte	0
  2010 0021 00000000 		.4byte	.Ldebug_line0
@@ -3613,15 +3613,15 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2015 002c 02       		.uleb128 0x2
  2016 002d 01       		.byte	0x1
  2017 002e 08       		.byte	0x8
- 2018 002f 7F040000 		.4byte	.LASF1
+ 2018 002f A7040000 		.4byte	.LASF1
  2019 0033 02       		.uleb128 0x2
  2020 0034 02       		.byte	0x2
  2021 0035 05       		.byte	0x5
- 2022 0036 B8040000 		.4byte	.LASF2
+ 2022 0036 E0040000 		.4byte	.LASF2
  2023 003a 02       		.uleb128 0x2
  2024 003b 02       		.byte	0x2
  2025 003c 07       		.byte	0x7
- 2026 003d 31020000 		.4byte	.LASF3
+ 2026 003d 59020000 		.4byte	.LASF3
  2027 0041 02       		.uleb128 0x2
  2028 0042 04       		.byte	0x4
  2029 0043 05       		.byte	0x5
@@ -3629,7 +3629,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2031 0048 02       		.uleb128 0x2
  2032 0049 04       		.byte	0x4
  2033 004a 07       		.byte	0x7
- 2034 004b F8010000 		.4byte	.LASF5
+ 2034 004b 20020000 		.4byte	.LASF5
  2035 004f 02       		.uleb128 0x2
  2036 0050 08       		.byte	0x8
  2037 0051 05       		.byte	0x5
@@ -3658,11 +3658,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2060 007f 48000000 		.4byte	0x48
  2061 0083 02       		.uleb128 0x2
  2062 0084 04       		.byte	0x4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 62
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 62
 
 
  2063 0085 04       		.byte	0x4
- 2064 0086 01040000 		.4byte	.LASF11
+ 2064 0086 29040000 		.4byte	.LASF11
  2065 008a 02       		.uleb128 0x2
  2066 008b 08       		.byte	0x8
  2067 008c 04       		.byte	0x4
@@ -3670,9 +3670,9 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2069 0091 02       		.uleb128 0x2
  2070 0092 01       		.byte	0x1
  2071 0093 08       		.byte	0x8
- 2072 0094 33050000 		.4byte	.LASF13
+ 2072 0094 5B050000 		.4byte	.LASF13
  2073 0098 04       		.uleb128 0x4
- 2074 0099 57030000 		.4byte	.LASF14
+ 2074 0099 7F030000 		.4byte	.LASF14
  2075 009d 02       		.byte	0x2
  2076 009e A802     		.2byte	0x2a8
  2077 00a0 A4000000 		.4byte	0xa4
@@ -3681,11 +3681,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2080 00a9 02       		.uleb128 0x2
  2081 00aa 08       		.byte	0x8
  2082 00ab 04       		.byte	0x4
- 2083 00ac 80030000 		.4byte	.LASF15
+ 2083 00ac A8030000 		.4byte	.LASF15
  2084 00b0 02       		.uleb128 0x2
  2085 00b1 04       		.byte	0x4
  2086 00b2 07       		.byte	0x7
- 2087 00b3 77030000 		.4byte	.LASF16
+ 2087 00b3 9F030000 		.4byte	.LASF16
  2088 00b7 06       		.uleb128 0x6
  2089 00b8 B1000000 		.4byte	.LASF17
  2090 00bc 01       		.byte	0x1
@@ -3704,7 +3704,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2103 00d8 9C       		.byte	0x9c
  2104 00d9 EC000000 		.4byte	0xec
  2105 00dd 08       		.uleb128 0x8
- 2106 00de 23060000 		.4byte	.LASF21
+ 2106 00de F9050000 		.4byte	.LASF21
  2107 00e2 01       		.byte	0x1
  2108 00e3 B3       		.byte	0xb3
  2109 00e4 6B000000 		.4byte	0x6b
@@ -3713,18 +3713,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2112 00ea 6F       		.sleb128 -17
  2113 00eb 00       		.byte	0
  2114 00ec 06       		.uleb128 0x6
- 2115 00ed 44030000 		.4byte	.LASF18
+ 2115 00ed 6C030000 		.4byte	.LASF18
  2116 00f1 01       		.byte	0x1
  2117 00f2 E6       		.byte	0xe6
  2118 00f3 00000000 		.4byte	.LFB4
  2119 00f7 24000000 		.4byte	.LFE4-.LFB4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 63
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 63
 
 
  2120 00fb 01       		.uleb128 0x1
  2121 00fc 9C       		.byte	0x9c
  2122 00fd 09       		.uleb128 0x9
- 2123 00fe EC040000 		.4byte	.LASF20
+ 2123 00fe 14050000 		.4byte	.LASF20
  2124 0102 01       		.byte	0x1
  2125 0103 0001     		.2byte	0x100
  2126 0105 00000000 		.4byte	.LFB5
@@ -3733,7 +3733,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2129 010e 9C       		.byte	0x9c
  2130 010f 23010000 		.4byte	0x123
  2131 0113 0A       		.uleb128 0xa
- 2132 0114 23060000 		.4byte	.LASF21
+ 2132 0114 F9050000 		.4byte	.LASF21
  2133 0118 01       		.byte	0x1
  2134 0119 0201     		.2byte	0x102
  2135 011b 6B000000 		.4byte	0x6b
@@ -3742,7 +3742,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2138 0121 6F       		.sleb128 -17
  2139 0122 00       		.byte	0
  2140 0123 09       		.uleb128 0x9
- 2141 0124 BC050000 		.4byte	.LASF22
+ 2141 0124 E4050000 		.4byte	.LASF22
  2142 0128 01       		.byte	0x1
  2143 0129 2501     		.2byte	0x125
  2144 012b 00000000 		.4byte	.LFB6
@@ -3751,7 +3751,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2147 0134 9C       		.byte	0x9c
  2148 0135 58010000 		.4byte	0x158
  2149 0139 0B       		.uleb128 0xb
- 2150 013a 38050000 		.4byte	.LASF24
+ 2150 013a 60050000 		.4byte	.LASF24
  2151 013e 01       		.byte	0x1
  2152 013f 2501     		.2byte	0x125
  2153 0141 77000000 		.4byte	0x77
@@ -3759,7 +3759,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2155 0146 91       		.byte	0x91
  2156 0147 64       		.sleb128 -28
  2157 0148 0A       		.uleb128 0xa
- 2158 0149 23060000 		.4byte	.LASF21
+ 2158 0149 F9050000 		.4byte	.LASF21
  2159 014d 01       		.byte	0x1
  2160 014e 2701     		.2byte	0x127
  2161 0150 6B000000 		.4byte	0x6b
@@ -3768,7 +3768,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2164 0156 6F       		.sleb128 -17
  2165 0157 00       		.byte	0
  2166 0158 09       		.uleb128 0x9
- 2167 0159 67060000 		.4byte	.LASF23
+ 2167 0159 3D060000 		.4byte	.LASF23
  2168 015d 01       		.byte	0x1
  2169 015e 4601     		.2byte	0x146
  2170 0160 00000000 		.4byte	.LFB7
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2174 016a 8D010000 		.4byte	0x18d
  2175 016e 0B       		.uleb128 0xb
  2176 016f 91000000 		.4byte	.LASF25
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 64
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 64
 
 
  2177 0173 01       		.byte	0x1
@@ -3788,7 +3788,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2181 017b 91       		.byte	0x91
  2182 017c 64       		.sleb128 -28
  2183 017d 0A       		.uleb128 0xa
- 2184 017e 23060000 		.4byte	.LASF21
+ 2184 017e F9050000 		.4byte	.LASF21
  2185 0182 01       		.byte	0x1
  2186 0183 4801     		.2byte	0x148
  2187 0185 6B000000 		.4byte	0x6b
@@ -3797,7 +3797,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2190 018b 6F       		.sleb128 -17
  2191 018c 00       		.byte	0
  2192 018d 09       		.uleb128 0x9
- 2193 018e 7E060000 		.4byte	.LASF26
+ 2193 018e 54060000 		.4byte	.LASF26
  2194 0192 01       		.byte	0x1
  2195 0193 6B01     		.2byte	0x16b
  2196 0195 00000000 		.4byte	.LFB8
@@ -3806,7 +3806,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2199 019e 9C       		.byte	0x9c
  2200 019f C2010000 		.4byte	0x1c2
  2201 01a3 0B       		.uleb128 0xb
- 2202 01a4 07040000 		.4byte	.LASF27
+ 2202 01a4 2F040000 		.4byte	.LASF27
  2203 01a8 01       		.byte	0x1
  2204 01a9 6B01     		.2byte	0x16b
  2205 01ab 77000000 		.4byte	0x77
@@ -3814,7 +3814,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2207 01b0 91       		.byte	0x91
  2208 01b1 64       		.sleb128 -28
  2209 01b2 0A       		.uleb128 0xa
- 2210 01b3 23060000 		.4byte	.LASF21
+ 2210 01b3 F9050000 		.4byte	.LASF21
  2211 01b7 01       		.byte	0x1
  2212 01b8 6D01     		.2byte	0x16d
  2213 01ba 6B000000 		.4byte	0x6b
@@ -3832,18 +3832,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2225 01d3 9C       		.byte	0x9c
  2226 01d4 F7010000 		.4byte	0x1f7
  2227 01d8 0B       		.uleb128 0xb
- 2228 01d9 8E020000 		.4byte	.LASF29
+ 2228 01d9 B6020000 		.4byte	.LASF29
  2229 01dd 01       		.byte	0x1
  2230 01de 8B01     		.2byte	0x18b
  2231 01e0 77000000 		.4byte	0x77
  2232 01e4 02       		.uleb128 0x2
  2233 01e5 91       		.byte	0x91
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 65
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 65
 
 
  2234 01e6 64       		.sleb128 -28
  2235 01e7 0A       		.uleb128 0xa
- 2236 01e8 23060000 		.4byte	.LASF21
+ 2236 01e8 F9050000 		.4byte	.LASF21
  2237 01ec 01       		.byte	0x1
  2238 01ed 8D01     		.2byte	0x18d
  2239 01ef 6B000000 		.4byte	0x6b
@@ -3861,7 +3861,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2251 0208 9C       		.byte	0x9c
  2252 0209 1D020000 		.4byte	0x21d
  2253 020d 0B       		.uleb128 0xb
- 2254 020e 0A020000 		.4byte	.LASF31
+ 2254 020e 32020000 		.4byte	.LASF31
  2255 0212 01       		.byte	0x1
  2256 0213 C101     		.2byte	0x1c1
  2257 0215 77000000 		.4byte	0x77
@@ -3870,7 +3870,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2260 021b 74       		.sleb128 -12
  2261 021c 00       		.byte	0
  2262 021d 09       		.uleb128 0x9
- 2263 021e 63040000 		.4byte	.LASF32
+ 2263 021e 8B040000 		.4byte	.LASF32
  2264 0222 01       		.byte	0x1
  2265 0223 E501     		.2byte	0x1e5
  2266 0225 00000000 		.4byte	.LFB11
@@ -3879,7 +3879,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2269 022e 9C       		.byte	0x9c
  2270 022f 52020000 		.4byte	0x252
  2271 0233 0B       		.uleb128 0xb
- 2272 0234 4D060000 		.4byte	.LASF33
+ 2272 0234 23060000 		.4byte	.LASF33
  2273 0238 01       		.byte	0x1
  2274 0239 E501     		.2byte	0x1e5
  2275 023b 77000000 		.4byte	0x77
@@ -3887,7 +3887,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2277 0240 91       		.byte	0x91
  2278 0241 64       		.sleb128 -28
  2279 0242 0A       		.uleb128 0xa
- 2280 0243 23060000 		.4byte	.LASF21
+ 2280 0243 F9050000 		.4byte	.LASF21
  2281 0247 01       		.byte	0x1
  2282 0248 E701     		.2byte	0x1e7
  2283 024a 6B000000 		.4byte	0x6b
@@ -3896,9 +3896,9 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2286 0250 6F       		.sleb128 -17
  2287 0251 00       		.byte	0
  2288 0252 09       		.uleb128 0x9
- 2289 0253 13020000 		.4byte	.LASF34
+ 2289 0253 3B020000 		.4byte	.LASF34
  2290 0257 01       		.byte	0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 66
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 66
 
 
  2291 0258 0702     		.2byte	0x207
@@ -3908,7 +3908,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2295 0263 9C       		.byte	0x9c
  2296 0264 87020000 		.4byte	0x287
  2297 0268 0B       		.uleb128 0xb
- 2298 0269 A7040000 		.4byte	.LASF35
+ 2298 0269 CF040000 		.4byte	.LASF35
  2299 026d 01       		.byte	0x1
  2300 026e 0702     		.2byte	0x207
  2301 0270 77000000 		.4byte	0x77
@@ -3916,7 +3916,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2303 0275 91       		.byte	0x91
  2304 0276 64       		.sleb128 -28
  2305 0277 0A       		.uleb128 0xa
- 2306 0278 23060000 		.4byte	.LASF21
+ 2306 0278 F9050000 		.4byte	.LASF21
  2307 027c 01       		.byte	0x1
  2308 027d 0902     		.2byte	0x209
  2309 027f 6B000000 		.4byte	0x6b
@@ -3942,7 +3942,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2329 02aa 91       		.byte	0x91
  2330 02ab 64       		.sleb128 -28
  2331 02ac 0A       		.uleb128 0xa
- 2332 02ad 23060000 		.4byte	.LASF21
+ 2332 02ad F9050000 		.4byte	.LASF21
  2333 02b1 01       		.byte	0x1
  2334 02b2 2A02     		.2byte	0x22a
  2335 02b4 6B000000 		.4byte	0x6b
@@ -3951,14 +3951,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2338 02ba 6F       		.sleb128 -17
  2339 02bb 00       		.byte	0
  2340 02bc 09       		.uleb128 0x9
- 2341 02bd 7E050000 		.4byte	.LASF38
+ 2341 02bd A6050000 		.4byte	.LASF38
  2342 02c1 01       		.byte	0x1
  2343 02c2 4902     		.2byte	0x249
  2344 02c4 00000000 		.4byte	.LFB14
  2345 02c8 48000000 		.4byte	.LFE14-.LFB14
  2346 02cc 01       		.uleb128 0x1
  2347 02cd 9C       		.byte	0x9c
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 67
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 67
 
 
  2348 02ce F1020000 		.4byte	0x2f1
@@ -3971,7 +3971,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2355 02df 91       		.byte	0x91
  2356 02e0 64       		.sleb128 -28
  2357 02e1 0A       		.uleb128 0xa
- 2358 02e2 23060000 		.4byte	.LASF21
+ 2358 02e2 F9050000 		.4byte	.LASF21
  2359 02e6 01       		.byte	0x1
  2360 02e7 4B02     		.2byte	0x24b
  2361 02e9 6B000000 		.4byte	0x6b
@@ -3980,7 +3980,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2364 02ef 6F       		.sleb128 -17
  2365 02f0 00       		.byte	0
  2366 02f1 0C       		.uleb128 0xc
- 2367 02f2 8D040000 		.4byte	.LASF40
+ 2367 02f2 B5040000 		.4byte	.LASF40
  2368 02f6 01       		.byte	0x1
  2369 02f7 6702     		.2byte	0x267
  2370 02f9 00000000 		.4byte	.LFB15
@@ -4016,9 +4016,9 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2400 033e 9C       		.byte	0x9c
  2401 033f 62030000 		.4byte	0x362
  2402 0343 0B       		.uleb128 0xb
- 2403 0344 B0050000 		.4byte	.LASF43
+ 2403 0344 D8050000 		.4byte	.LASF43
  2404 0348 01       		.byte	0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 68
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 68
 
 
  2405 0349 9802     		.2byte	0x298
@@ -4027,7 +4027,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2408 0350 91       		.byte	0x91
  2409 0351 64       		.sleb128 -28
  2410 0352 0A       		.uleb128 0xa
- 2411 0353 23060000 		.4byte	.LASF21
+ 2411 0353 F9050000 		.4byte	.LASF21
  2412 0357 01       		.byte	0x1
  2413 0358 9A02     		.2byte	0x29a
  2414 035a 6B000000 		.4byte	0x6b
@@ -4036,7 +4036,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2417 0360 6F       		.sleb128 -17
  2418 0361 00       		.byte	0
  2419 0362 0C       		.uleb128 0xc
- 2420 0363 1A050000 		.4byte	.LASF44
+ 2420 0363 42050000 		.4byte	.LASF44
  2421 0367 01       		.byte	0x1
  2422 0368 B502     		.2byte	0x2b5
  2423 036a 00000000 		.4byte	.LFB18
@@ -4054,7 +4054,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2435 0386 74       		.sleb128 -12
  2436 0387 00       		.byte	0
  2437 0388 0D       		.uleb128 0xd
- 2438 0389 A2060000 		.4byte	.LASF47
+ 2438 0389 78060000 		.4byte	.LASF47
  2439 038d 01       		.byte	0x1
  2440 038e C902     		.2byte	0x2c9
  2441 0390 77000000 		.4byte	0x77
@@ -4063,7 +4063,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2444 039c 01       		.uleb128 0x1
  2445 039d 9C       		.byte	0x9c
  2446 039e 09       		.uleb128 0x9
- 2447 039f C2030000 		.4byte	.LASF48
+ 2447 039f EA030000 		.4byte	.LASF48
  2448 03a3 01       		.byte	0x1
  2449 03a4 E302     		.2byte	0x2e3
  2450 03a6 00000000 		.4byte	.LFB20
@@ -4072,18 +4072,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2453 03af 9C       		.byte	0x9c
  2454 03b0 D3030000 		.4byte	0x3d3
  2455 03b4 0B       		.uleb128 0xb
- 2456 03b5 5C060000 		.4byte	.LASF49
+ 2456 03b5 32060000 		.4byte	.LASF49
  2457 03b9 01       		.byte	0x1
  2458 03ba E302     		.2byte	0x2e3
  2459 03bc 77000000 		.4byte	0x77
  2460 03c0 02       		.uleb128 0x2
  2461 03c1 91       		.byte	0x91
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 69
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 69
 
 
  2462 03c2 64       		.sleb128 -28
  2463 03c3 0A       		.uleb128 0xa
- 2464 03c4 23060000 		.4byte	.LASF21
+ 2464 03c4 F9050000 		.4byte	.LASF21
  2465 03c8 01       		.byte	0x1
  2466 03c9 E502     		.2byte	0x2e5
  2467 03cb 6B000000 		.4byte	0x6b
@@ -4101,7 +4101,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2479 03e4 9C       		.byte	0x9c
  2480 03e5 F9030000 		.4byte	0x3f9
  2481 03e9 0B       		.uleb128 0xb
- 2482 03ea 98060000 		.4byte	.LASF51
+ 2482 03ea 6E060000 		.4byte	.LASF51
  2483 03ee 01       		.byte	0x1
  2484 03ef FE02     		.2byte	0x2fe
  2485 03f1 77000000 		.4byte	0x77
@@ -4110,7 +4110,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2488 03f7 74       		.sleb128 -12
  2489 03f8 00       		.byte	0
  2490 03f9 0D       		.uleb128 0xd
- 2491 03fa DE030000 		.4byte	.LASF52
+ 2491 03fa 06040000 		.4byte	.LASF52
  2492 03fe 01       		.byte	0x1
  2493 03ff 1203     		.2byte	0x312
  2494 0401 77000000 		.4byte	0x77
@@ -4119,7 +4119,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2497 040d 01       		.uleb128 0x1
  2498 040e 9C       		.byte	0x9c
  2499 040f 09       		.uleb128 0x9
- 2500 0410 2A040000 		.4byte	.LASF53
+ 2500 0410 52040000 		.4byte	.LASF53
  2501 0414 01       		.byte	0x1
  2502 0415 2C03     		.2byte	0x32c
  2503 0417 00000000 		.4byte	.LFB23
@@ -4128,7 +4128,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2506 0420 9C       		.byte	0x9c
  2507 0421 44040000 		.4byte	0x444
  2508 0425 0B       		.uleb128 0xb
- 2509 0426 5C060000 		.4byte	.LASF49
+ 2509 0426 32060000 		.4byte	.LASF49
  2510 042a 01       		.byte	0x1
  2511 042b 2C03     		.2byte	0x32c
  2512 042d 77000000 		.4byte	0x77
@@ -4136,9 +4136,9 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2514 0432 91       		.byte	0x91
  2515 0433 64       		.sleb128 -28
  2516 0434 0A       		.uleb128 0xa
- 2517 0435 23060000 		.4byte	.LASF21
+ 2517 0435 F9050000 		.4byte	.LASF21
  2518 0439 01       		.byte	0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 70
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 70
 
 
  2519 043a 2E03     		.2byte	0x32e
@@ -4148,7 +4148,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2523 0442 6F       		.sleb128 -17
  2524 0443 00       		.byte	0
  2525 0444 0C       		.uleb128 0xc
- 2526 0445 8C030000 		.4byte	.LASF54
+ 2526 0445 B4030000 		.4byte	.LASF54
  2527 0449 01       		.byte	0x1
  2528 044a 5103     		.2byte	0x351
  2529 044c 00000000 		.4byte	.LFB24
@@ -4157,7 +4157,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2532 0455 9C       		.byte	0x9c
  2533 0456 6A040000 		.4byte	0x46a
  2534 045a 0B       		.uleb128 0xb
- 2535 045b F9030000 		.4byte	.LASF55
+ 2535 045b 21040000 		.4byte	.LASF55
  2536 045f 01       		.byte	0x1
  2537 0460 5103     		.2byte	0x351
  2538 0462 77000000 		.4byte	0x77
@@ -4166,7 +4166,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2541 0468 74       		.sleb128 -12
  2542 0469 00       		.byte	0
  2543 046a 0D       		.uleb128 0xd
- 2544 046b 75020000 		.4byte	.LASF56
+ 2544 046b 9D020000 		.4byte	.LASF56
  2545 046f 01       		.byte	0x1
  2546 0470 8403     		.2byte	0x384
  2547 0472 77000000 		.4byte	0x77
@@ -4193,19 +4193,19 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2568 04a4 74       		.sleb128 -12
  2569 04a5 00       		.byte	0
  2570 04a6 0D       		.uleb128 0xd
- 2571 04a7 A6030000 		.4byte	.LASF59
+ 2571 04a7 CE030000 		.4byte	.LASF59
  2572 04ab 01       		.byte	0x1
  2573 04ac E803     		.2byte	0x3e8
  2574 04ae 77000000 		.4byte	0x77
  2575 04b2 00000000 		.4byte	.LFB27
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 71
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 71
 
 
  2576 04b6 18000000 		.4byte	.LFE27-.LFB27
  2577 04ba 01       		.uleb128 0x1
  2578 04bb 9C       		.byte	0x9c
  2579 04bc 0D       		.uleb128 0xd
- 2580 04bd 34060000 		.4byte	.LASF60
+ 2580 04bd 0A060000 		.4byte	.LASF60
  2581 04c1 01       		.byte	0x1
  2582 04c2 1604     		.2byte	0x416
  2583 04c4 77000000 		.4byte	0x77
@@ -4223,7 +4223,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2595 04e6 01       		.uleb128 0x1
  2596 04e7 9C       		.byte	0x9c
  2597 04e8 09       		.uleb128 0x9
- 2598 04e9 44020000 		.4byte	.LASF62
+ 2598 04e9 6C020000 		.4byte	.LASF62
  2599 04ed 01       		.byte	0x1
  2600 04ee 4604     		.2byte	0x446
  2601 04f0 00000000 		.4byte	.LFB30
@@ -4240,7 +4240,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2612 050b 91       		.byte	0x91
  2613 050c 64       		.sleb128 -28
  2614 050d 0A       		.uleb128 0xa
- 2615 050e 23060000 		.4byte	.LASF21
+ 2615 050e F9050000 		.4byte	.LASF21
  2616 0512 01       		.byte	0x1
  2617 0513 4804     		.2byte	0x448
  2618 0515 6B000000 		.4byte	0x6b
@@ -4249,7 +4249,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2621 051b 6F       		.sleb128 -17
  2622 051c 00       		.byte	0
  2623 051d 09       		.uleb128 0x9
- 2624 051e 63050000 		.4byte	.LASF64
+ 2624 051e 8B050000 		.4byte	.LASF64
  2625 0522 01       		.byte	0x1
  2626 0523 6704     		.2byte	0x467
  2627 0525 00000000 		.4byte	.LFB31
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2630 052e 9C       		.byte	0x9c
  2631 052f 52050000 		.4byte	0x552
  2632 0533 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 72
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 72
 
 
  2633 0534 8F010000 		.4byte	.LASF63
@@ -4269,7 +4269,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2638 0540 91       		.byte	0x91
  2639 0541 64       		.sleb128 -28
  2640 0542 0A       		.uleb128 0xa
- 2641 0543 23060000 		.4byte	.LASF21
+ 2641 0543 F9050000 		.4byte	.LASF21
  2642 0547 01       		.byte	0x1
  2643 0548 6904     		.2byte	0x469
  2644 054a 6B000000 		.4byte	0x6b
@@ -4278,7 +4278,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2647 0550 6F       		.sleb128 -17
  2648 0551 00       		.byte	0
  2649 0552 09       		.uleb128 0x9
- 2650 0553 5D030000 		.4byte	.LASF65
+ 2650 0553 85030000 		.4byte	.LASF65
  2651 0557 01       		.byte	0x1
  2652 0558 8804     		.2byte	0x488
  2653 055a 00000000 		.4byte	.LFB32
@@ -4295,7 +4295,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2664 0575 91       		.byte	0x91
  2665 0576 64       		.sleb128 -28
  2666 0577 0A       		.uleb128 0xa
- 2667 0578 23060000 		.4byte	.LASF21
+ 2667 0578 F9050000 		.4byte	.LASF21
  2668 057c 01       		.byte	0x1
  2669 057d 8A04     		.2byte	0x48a
  2670 057f 6B000000 		.4byte	0x6b
@@ -4304,7 +4304,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2673 0585 6F       		.sleb128 -17
  2674 0586 00       		.byte	0
  2675 0587 09       		.uleb128 0x9
- 2676 0588 11040000 		.4byte	.LASF66
+ 2676 0588 39040000 		.4byte	.LASF66
  2677 058c 01       		.byte	0x1
  2678 058d A804     		.2byte	0x4a8
  2679 058f 00000000 		.4byte	.LFB33
@@ -4318,13 +4318,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2687 05a3 A804     		.2byte	0x4a8
  2688 05a5 77000000 		.4byte	0x77
  2689 05a9 02       		.uleb128 0x2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 73
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 73
 
 
  2690 05aa 91       		.byte	0x91
  2691 05ab 64       		.sleb128 -28
  2692 05ac 0A       		.uleb128 0xa
- 2693 05ad 23060000 		.4byte	.LASF21
+ 2693 05ad F9050000 		.4byte	.LASF21
  2694 05b1 01       		.byte	0x1
  2695 05b2 AA04     		.2byte	0x4aa
  2696 05b4 6B000000 		.4byte	0x6b
@@ -4333,7 +4333,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2699 05ba 6F       		.sleb128 -17
  2700 05bb 00       		.byte	0
  2701 05bc 09       		.uleb128 0x9
- 2702 05bd 9C020000 		.4byte	.LASF67
+ 2702 05bd C4020000 		.4byte	.LASF67
  2703 05c1 01       		.byte	0x1
  2704 05c2 C904     		.2byte	0x4c9
  2705 05c4 00000000 		.4byte	.LFB34
@@ -4350,7 +4350,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2716 05df 91       		.byte	0x91
  2717 05e0 64       		.sleb128 -28
  2718 05e1 0A       		.uleb128 0xa
- 2719 05e2 23060000 		.4byte	.LASF21
+ 2719 05e2 F9050000 		.4byte	.LASF21
  2720 05e6 01       		.byte	0x1
  2721 05e7 CB04     		.2byte	0x4cb
  2722 05e9 6B000000 		.4byte	0x6b
@@ -4359,7 +4359,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2725 05ef 6F       		.sleb128 -17
  2726 05f0 00       		.byte	0
  2727 05f1 09       		.uleb128 0x9
- 2728 05f2 FE040000 		.4byte	.LASF68
+ 2728 05f2 26050000 		.4byte	.LASF68
  2729 05f6 01       		.byte	0x1
  2730 05f7 F104     		.2byte	0x4f1
  2731 05f9 00000000 		.4byte	.LFB35
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2744 0616 0B       		.uleb128 0xb
  2745 0617 F0010000 		.4byte	.LASF69
  2746 061b 01       		.byte	0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 74
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 74
 
 
  2747 061c F104     		.2byte	0x4f1
@@ -4387,7 +4387,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2750 0623 91       		.byte	0x91
  2751 0624 60       		.sleb128 -32
  2752 0625 0A       		.uleb128 0xa
- 2753 0626 23060000 		.4byte	.LASF21
+ 2753 0626 F9050000 		.4byte	.LASF21
  2754 062a 01       		.byte	0x1
  2755 062b F304     		.2byte	0x4f3
  2756 062d 6B000000 		.4byte	0x6b
@@ -4396,7 +4396,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2759 0633 6F       		.sleb128 -17
  2760 0634 00       		.byte	0
  2761 0635 0D       		.uleb128 0xd
- 2762 0636 98050000 		.4byte	.LASF70
+ 2762 0636 C0050000 		.4byte	.LASF70
  2763 063a 01       		.byte	0x1
  2764 063b 0E05     		.2byte	0x50e
  2765 063d 77000000 		.4byte	0x77
@@ -4405,7 +4405,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2768 0649 01       		.uleb128 0x1
  2769 064a 9C       		.byte	0x9c
  2770 064b 0C       		.uleb128 0xc
- 2771 064c 45040000 		.4byte	.LASF71
+ 2771 064c 6D040000 		.4byte	.LASF71
  2772 0650 01       		.byte	0x1
  2773 0651 2705     		.2byte	0x527
  2774 0653 00000000 		.4byte	.LFB37
@@ -4414,7 +4414,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2777 065c 9C       		.byte	0x9c
  2778 065d 71060000 		.4byte	0x671
  2779 0661 0B       		.uleb128 0xb
- 2780 0662 DE040000 		.4byte	.LASF72
+ 2780 0662 06050000 		.4byte	.LASF72
  2781 0666 01       		.byte	0x1
  2782 0667 2705     		.2byte	0x527
  2783 0669 77000000 		.4byte	0x77
@@ -4423,7 +4423,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2786 066f 74       		.sleb128 -12
  2787 0670 00       		.byte	0
  2788 0671 0D       		.uleb128 0xd
- 2789 0672 3D050000 		.4byte	.LASF73
+ 2789 0672 65050000 		.4byte	.LASF73
  2790 0676 01       		.byte	0x1
  2791 0677 3E05     		.2byte	0x53e
  2792 0679 77000000 		.4byte	0x77
@@ -4438,13 +4438,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2801 068f 77000000 		.4byte	0x77
  2802 0693 00000000 		.4byte	.LFB39
  2803 0697 14000000 		.4byte	.LFE39-.LFB39
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 75
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 75
 
 
  2804 069b 01       		.uleb128 0x1
  2805 069c 9C       		.byte	0x9c
  2806 069d 0C       		.uleb128 0xc
- 2807 069e C2040000 		.4byte	.LASF75
+ 2807 069e EA040000 		.4byte	.LASF75
  2808 06a2 01       		.byte	0x1
  2809 06a3 6C05     		.2byte	0x56c
  2810 06a5 00000000 		.4byte	.LFB40
@@ -4453,7 +4453,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2813 06ae 9C       		.byte	0x9c
  2814 06af C3060000 		.4byte	0x6c3
  2815 06b3 0B       		.uleb128 0xb
- 2816 06b4 DE040000 		.4byte	.LASF72
+ 2816 06b4 06050000 		.4byte	.LASF72
  2817 06b8 01       		.byte	0x1
  2818 06b9 6C05     		.2byte	0x56c
  2819 06bb 77000000 		.4byte	0x77
@@ -4471,7 +4471,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2831 06d4 9C       		.byte	0x9c
  2832 06d5 E9060000 		.4byte	0x6e9
  2833 06d9 0B       		.uleb128 0xb
- 2834 06da DE040000 		.4byte	.LASF72
+ 2834 06da 06050000 		.4byte	.LASF72
  2835 06de 01       		.byte	0x1
  2836 06df 8305     		.2byte	0x583
  2837 06e1 77000000 		.4byte	0x77
@@ -4480,7 +4480,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2840 06e7 74       		.sleb128 -12
  2841 06e8 00       		.byte	0
  2842 06e9 0E       		.uleb128 0xe
- 2843 06ea 60020000 		.4byte	.LASF80
+ 2843 06ea 88020000 		.4byte	.LASF80
  2844 06ee 01       		.byte	0x1
  2845 06ef 15       		.byte	0x15
  2846 06f0 6B000000 		.4byte	0x6b
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2858 0005 13       		.uleb128 0x13
  2859 0006 0B       		.uleb128 0xb
  2860 0007 03       		.uleb128 0x3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 76
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 76
 
 
  2861 0008 0E       		.uleb128 0xe
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2915 003e 2E       		.uleb128 0x2e
  2916 003f 00       		.byte	0
  2917 0040 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 77
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 77
 
 
  2918 0041 19       		.uleb128 0x19
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  2972 0079 13       		.uleb128 0x13
  2973 007a 02       		.uleb128 0x2
  2974 007b 18       		.uleb128 0x18
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 78
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 78
 
 
  2975 007c 00       		.byte	0
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  3029 00b3 18       		.uleb128 0x18
  3030 00b4 00       		.byte	0
  3031 00b5 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 79
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 79
 
 
  3032 00b6 0C       		.uleb128 0xc
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  3086 00ee 0E       		.uleb128 0xe
  3087 00ef 3A       		.uleb128 0x3a
  3088 00f0 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 80
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 80
 
 
  3089 00f1 3B       		.uleb128 0x3b
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  3143 009c 18000000 		.4byte	.LFE19-.LFB19
  3144 00a0 00000000 		.4byte	.LFB20
  3145 00a4 48000000 		.4byte	.LFE20-.LFB20
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 81
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 81
 
 
  3146 00a8 00000000 		.4byte	.LFB21
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  3200 0020 00000000 		.4byte	.LFB6
  3201 0024 48000000 		.4byte	.LFE6
  3202 0028 00000000 		.4byte	.LFB7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 82
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 82
 
 
  3203 002c 48000000 		.4byte	.LFE7
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  3257 0104 48000000 		.4byte	.LFE34
  3258 0108 00000000 		.4byte	.LFB35
  3259 010c 3C000000 		.4byte	.LFE35
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 83
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 83
 
 
  3260 0110 00000000 		.4byte	.LFB36
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  3290      696D6572 
  3290      5F536574 
  3290      50574D44 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 84
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 84
 
 
  3291              	.LASF25:
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  3314      75726365 
  3314      5C50536F 
  3315              	.LASF19:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 85
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 85
 
 
  3316 0158 4D657373 		.ascii	"MessageTimer_Enable\000"
@@ -5086,311 +5086,306 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 1
  3333              	.LASF69:
  3334 01f0 636F6D6D 		.ascii	"command\000"
  3334      616E6400 
- 3335              	.LASF5:
- 3336 01f8 6C6F6E67 		.ascii	"long unsigned int\000"
- 3336      20756E73 
- 3336      69676E65 
- 3336      6420696E 
- 3336      7400
- 3337              	.LASF31:
- 3338 020a 6D6F6465 		.ascii	"modeMask\000"
- 3338      4D61736B 
- 3338      00
- 3339              	.LASF34:
- 3340 0213 4D657373 		.ascii	"MessageTimer_SetPWMStopOnKill\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 86
+ 3335              	.LASF79:
+ 3336 01f8 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 3336      4F524B5C 
+ 3336      54455354 
+ 3336      735C5073 
+ 3336      6F633442 
+ 3337              	.LASF5:
+ 3338 0220 6C6F6E67 		.ascii	"long unsigned int\000"
+ 3338      20756E73 
+ 3338      69676E65 
+ 3338      6420696E 
+ 3338      7400
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 86
 
 
- 3340      61676554 
- 3340      696D6572 
- 3340      5F536574 
- 3340      50574D53 
- 3341              	.LASF3:
- 3342 0231 73686F72 		.ascii	"short unsigned int\000"
- 3342      7420756E 
- 3342      7369676E 
- 3342      65642069 
- 3342      6E7400
- 3343              	.LASF62:
- 3344 0244 4D657373 		.ascii	"MessageTimer_SetCaptureMode\000"
- 3344      61676554 
- 3344      696D6572 
- 3344      5F536574 
- 3344      43617074 
- 3345              	.LASF80:
- 3346 0260 4D657373 		.ascii	"MessageTimer_initVar\000"
+ 3339              	.LASF31:
+ 3340 0232 6D6F6465 		.ascii	"modeMask\000"
+ 3340      4D61736B 
+ 3340      00
+ 3341              	.LASF34:
+ 3342 023b 4D657373 		.ascii	"MessageTimer_SetPWMStopOnKill\000"
+ 3342      61676554 
+ 3342      696D6572 
+ 3342      5F536574 
+ 3342      50574D53 
+ 3343              	.LASF3:
+ 3344 0259 73686F72 		.ascii	"short unsigned int\000"
+ 3344      7420756E 
+ 3344      7369676E 
+ 3344      65642069 
+ 3344      6E7400
+ 3345              	.LASF62:
+ 3346 026c 4D657373 		.ascii	"MessageTimer_SetCaptureMode\000"
  3346      61676554 
  3346      696D6572 
- 3346      5F696E69 
- 3346      74566172 
- 3347              	.LASF56:
- 3348 0275 4D657373 		.ascii	"MessageTimer_ReadCompare\000"
+ 3346      5F536574 
+ 3346      43617074 
+ 3347              	.LASF80:
+ 3348 0288 4D657373 		.ascii	"MessageTimer_initVar\000"
  3348      61676554 
  3348      696D6572 
- 3348      5F526561 
- 3348      64436F6D 
- 3349              	.LASF29:
- 3350 028e 6F6E6553 		.ascii	"oneShotEnable\000"
- 3350      686F7445 
- 3350      6E61626C 
- 3350      6500
- 3351              	.LASF67:
- 3352 029c 4D657373 		.ascii	"MessageTimer_SetCountMode\000"
- 3352      61676554 
- 3352      696D6572 
- 3352      5F536574 
- 3352      436F756E 
- 3353              	.LASF77:
- 3354 02b6 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 3354      43313120 
- 3354      352E342E 
- 3354      31203230 
- 3354      31363036 
- 3355 02e9 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 3355      20726576 
- 3355      6973696F 
- 3355      6E203233 
- 3355      37373135 
- 3356 031c 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 3356      66756E63 
- 3356      74696F6E 
- 3356      2D736563 
- 3356      74696F6E 
- 3357              	.LASF18:
- 3358 0344 4D657373 		.ascii	"MessageTimer_Start\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 87
+ 3348      5F696E69 
+ 3348      74566172 
+ 3349              	.LASF56:
+ 3350 029d 4D657373 		.ascii	"MessageTimer_ReadCompare\000"
+ 3350      61676554 
+ 3350      696D6572 
+ 3350      5F526561 
+ 3350      64436F6D 
+ 3351              	.LASF29:
+ 3352 02b6 6F6E6553 		.ascii	"oneShotEnable\000"
+ 3352      686F7445 
+ 3352      6E61626C 
+ 3352      6500
+ 3353              	.LASF67:
+ 3354 02c4 4D657373 		.ascii	"MessageTimer_SetCountMode\000"
+ 3354      61676554 
+ 3354      696D6572 
+ 3354      5F536574 
+ 3354      436F756E 
+ 3355              	.LASF77:
+ 3356 02de 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 3356      43313120 
+ 3356      352E342E 
+ 3356      31203230 
+ 3356      31363036 
+ 3357 0311 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 3357      20726576 
+ 3357      6973696F 
+ 3357      6E203233 
+ 3357      37373135 
+ 3358 0344 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 87
 
 
- 3358      61676554 
- 3358      696D6572 
- 3358      5F537461 
- 3358      727400
- 3359              	.LASF14:
- 3360 0357 72656733 		.ascii	"reg32\000"
- 3360      3200
- 3361              	.LASF65:
- 3362 035d 4D657373 		.ascii	"MessageTimer_SetStartMode\000"
- 3362      61676554 
- 3362      696D6572 
- 3362      5F536574 
- 3362      53746172 
- 3363              	.LASF16:
- 3364 0377 73697A65 		.ascii	"sizetype\000"
- 3364      74797065 
- 3364      00
- 3365              	.LASF15:
- 3366 0380 6C6F6E67 		.ascii	"long double\000"
- 3366      20646F75 
- 3366      626C6500 
- 3367              	.LASF54:
- 3368 038c 4D657373 		.ascii	"MessageTimer_WriteCompare\000"
- 3368      61676554 
- 3368      696D6572 
- 3368      5F577269 
- 3368      7465436F 
- 3369              	.LASF59:
- 3370 03a6 4D657373 		.ascii	"MessageTimer_ReadCompareBuf\000"
+ 3358      66756E63 
+ 3358      74696F6E 
+ 3358      2D736563 
+ 3358      74696F6E 
+ 3359              	.LASF18:
+ 3360 036c 4D657373 		.ascii	"MessageTimer_Start\000"
+ 3360      61676554 
+ 3360      696D6572 
+ 3360      5F537461 
+ 3360      727400
+ 3361              	.LASF14:
+ 3362 037f 72656733 		.ascii	"reg32\000"
+ 3362      3200
+ 3363              	.LASF65:
+ 3364 0385 4D657373 		.ascii	"MessageTimer_SetStartMode\000"
+ 3364      61676554 
+ 3364      696D6572 
+ 3364      5F536574 
+ 3364      53746172 
+ 3365              	.LASF16:
+ 3366 039f 73697A65 		.ascii	"sizetype\000"
+ 3366      74797065 
+ 3366      00
+ 3367              	.LASF15:
+ 3368 03a8 6C6F6E67 		.ascii	"long double\000"
+ 3368      20646F75 
+ 3368      626C6500 
+ 3369              	.LASF54:
+ 3370 03b4 4D657373 		.ascii	"MessageTimer_WriteCompare\000"
  3370      61676554 
  3370      696D6572 
- 3370      5F526561 
- 3370      64436F6D 
- 3371              	.LASF48:
- 3372 03c2 4D657373 		.ascii	"MessageTimer_SetCompareSwap\000"
+ 3370      5F577269 
+ 3370      7465436F 
+ 3371              	.LASF59:
+ 3372 03ce 4D657373 		.ascii	"MessageTimer_ReadCompareBuf\000"
  3372      61676554 
  3372      696D6572 
- 3372      5F536574 
- 3372      436F6D70 
- 3373              	.LASF52:
- 3374 03de 4D657373 		.ascii	"MessageTimer_ReadPeriodBuf\000"
+ 3372      5F526561 
+ 3372      64436F6D 
+ 3373              	.LASF48:
+ 3374 03ea 4D657373 		.ascii	"MessageTimer_SetCompareSwap\000"
  3374      61676554 
  3374      696D6572 
- 3374      5F526561 
- 3374      64506572 
- 3375              	.LASF55:
- 3376 03f9 636F6D70 		.ascii	"compare\000"
- 3376      61726500 
- 3377              	.LASF11:
- 3378 0401 666C6F61 		.ascii	"float\000"
- 3378      7400
- 3379              	.LASF27:
- 3380 0407 70726573 		.ascii	"prescaler\000"
- 3380      63616C65 
- 3380      7200
- 3381              	.LASF66:
- 3382 0411 4D657373 		.ascii	"MessageTimer_SetStopMode\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 88
+ 3374      5F536574 
+ 3374      436F6D70 
+ 3375              	.LASF52:
+ 3376 0406 4D657373 		.ascii	"MessageTimer_ReadPeriodBuf\000"
+ 3376      61676554 
+ 3376      696D6572 
+ 3376      5F526561 
+ 3376      64506572 
+ 3377              	.LASF55:
+ 3378 0421 636F6D70 		.ascii	"compare\000"
+ 3378      61726500 
+ 3379              	.LASF11:
+ 3380 0429 666C6F61 		.ascii	"float\000"
+ 3380      7400
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 88
 
 
- 3382      61676554 
- 3382      696D6572 
- 3382      5F536574 
- 3382      53746F70 
- 3383              	.LASF53:
- 3384 042a 4D657373 		.ascii	"MessageTimer_SetPeriodSwap\000"
+ 3381              	.LASF27:
+ 3382 042f 70726573 		.ascii	"prescaler\000"
+ 3382      63616C65 
+ 3382      7200
+ 3383              	.LASF66:
+ 3384 0439 4D657373 		.ascii	"MessageTimer_SetStopMode\000"
  3384      61676554 
  3384      696D6572 
  3384      5F536574 
- 3384      50657269 
- 3385              	.LASF71:
- 3386 0445 4D657373 		.ascii	"MessageTimer_SetInterruptMode\000"
+ 3384      53746F70 
+ 3385              	.LASF53:
+ 3386 0452 4D657373 		.ascii	"MessageTimer_SetPeriodSwap\000"
  3386      61676554 
  3386      696D6572 
  3386      5F536574 
- 3386      496E7465 
- 3387              	.LASF32:
- 3388 0463 4D657373 		.ascii	"MessageTimer_SetPWMSyncKill\000"
+ 3386      50657269 
+ 3387              	.LASF71:
+ 3388 046d 4D657373 		.ascii	"MessageTimer_SetInterruptMode\000"
  3388      61676554 
  3388      696D6572 
  3388      5F536574 
- 3388      50574D53 
- 3389              	.LASF1:
- 3390 047f 756E7369 		.ascii	"unsigned char\000"
- 3390      676E6564 
- 3390      20636861 
- 3390      7200
- 3391              	.LASF40:
- 3392 048d 4D657373 		.ascii	"MessageTimer_WriteCounter\000"
- 3392      61676554 
- 3392      696D6572 
- 3392      5F577269 
- 3392      7465436F 
- 3393              	.LASF35:
- 3394 04a7 73746F70 		.ascii	"stopOnKillEnable\000"
- 3394      4F6E4B69 
- 3394      6C6C456E 
- 3394      61626C65 
- 3394      00
- 3395              	.LASF2:
- 3396 04b8 73686F72 		.ascii	"short int\000"
- 3396      7420696E 
- 3396      7400
- 3397              	.LASF75:
- 3398 04c2 4D657373 		.ascii	"MessageTimer_ClearInterrupt\000"
- 3398      61676554 
- 3398      696D6572 
- 3398      5F436C65 
- 3398      6172496E 
- 3399              	.LASF72:
- 3400 04de 696E7465 		.ascii	"interruptMask\000"
- 3400      72727570 
- 3400      744D6173 
- 3400      6B00
- 3401              	.LASF20:
- 3402 04ec 4D657373 		.ascii	"MessageTimer_Stop\000"
- 3402      61676554 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 89
+ 3388      496E7465 
+ 3389              	.LASF32:
+ 3390 048b 4D657373 		.ascii	"MessageTimer_SetPWMSyncKill\000"
+ 3390      61676554 
+ 3390      696D6572 
+ 3390      5F536574 
+ 3390      50574D53 
+ 3391              	.LASF1:
+ 3392 04a7 756E7369 		.ascii	"unsigned char\000"
+ 3392      676E6564 
+ 3392      20636861 
+ 3392      7200
+ 3393              	.LASF40:
+ 3394 04b5 4D657373 		.ascii	"MessageTimer_WriteCounter\000"
+ 3394      61676554 
+ 3394      696D6572 
+ 3394      5F577269 
+ 3394      7465436F 
+ 3395              	.LASF35:
+ 3396 04cf 73746F70 		.ascii	"stopOnKillEnable\000"
+ 3396      4F6E4B69 
+ 3396      6C6C456E 
+ 3396      61626C65 
+ 3396      00
+ 3397              	.LASF2:
+ 3398 04e0 73686F72 		.ascii	"short int\000"
+ 3398      7420696E 
+ 3398      7400
+ 3399              	.LASF75:
+ 3400 04ea 4D657373 		.ascii	"MessageTimer_ClearInterrupt\000"
+ 3400      61676554 
+ 3400      696D6572 
+ 3400      5F436C65 
+ 3400      6172496E 
+ 3401              	.LASF72:
+ 3402 0506 696E7465 		.ascii	"interruptMask\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 89
 
 
- 3402      696D6572 
- 3402      5F53746F 
- 3402      7000
- 3403              	.LASF68:
- 3404 04fe 4D657373 		.ascii	"MessageTimer_TriggerCommand\000"
+ 3402      72727570 
+ 3402      744D6173 
+ 3402      6B00
+ 3403              	.LASF20:
+ 3404 0514 4D657373 		.ascii	"MessageTimer_Stop\000"
  3404      61676554 
  3404      696D6572 
- 3404      5F547269 
- 3404      67676572 
- 3405              	.LASF44:
- 3406 051a 4D657373 		.ascii	"MessageTimer_WritePeriod\000"
+ 3404      5F53746F 
+ 3404      7000
+ 3405              	.LASF68:
+ 3406 0526 4D657373 		.ascii	"MessageTimer_TriggerCommand\000"
  3406      61676554 
  3406      696D6572 
- 3406      5F577269 
- 3406      74655065 
- 3407              	.LASF13:
- 3408 0533 63686172 		.ascii	"char\000"
- 3408      00
- 3409              	.LASF24:
- 3410 0538 6D6F6465 		.ascii	"mode\000"
+ 3406      5F547269 
+ 3406      67676572 
+ 3407              	.LASF44:
+ 3408 0542 4D657373 		.ascii	"MessageTimer_WritePeriod\000"
+ 3408      61676554 
+ 3408      696D6572 
+ 3408      5F577269 
+ 3408      74655065 
+ 3409              	.LASF13:
+ 3410 055b 63686172 		.ascii	"char\000"
  3410      00
- 3411              	.LASF73:
- 3412 053d 4D657373 		.ascii	"MessageTimer_GetInterruptSourceMasked\000"
- 3412      61676554 
- 3412      696D6572 
- 3412      5F476574 
- 3412      496E7465 
- 3413              	.LASF64:
- 3414 0563 4D657373 		.ascii	"MessageTimer_SetReloadMode\000"
+ 3411              	.LASF24:
+ 3412 0560 6D6F6465 		.ascii	"mode\000"
+ 3412      00
+ 3413              	.LASF73:
+ 3414 0565 4D657373 		.ascii	"MessageTimer_GetInterruptSourceMasked\000"
  3414      61676554 
  3414      696D6572 
- 3414      5F536574 
- 3414      52656C6F 
- 3415              	.LASF38:
- 3416 057e 4D657373 		.ascii	"MessageTimer_SetPWMInvert\000"
+ 3414      5F476574 
+ 3414      496E7465 
+ 3415              	.LASF64:
+ 3416 058b 4D657373 		.ascii	"MessageTimer_SetReloadMode\000"
  3416      61676554 
  3416      696D6572 
  3416      5F536574 
- 3416      50574D49 
- 3417              	.LASF70:
- 3418 0598 4D657373 		.ascii	"MessageTimer_ReadStatus\000"
+ 3416      52656C6F 
+ 3417              	.LASF38:
+ 3418 05a6 4D657373 		.ascii	"MessageTimer_SetPWMInvert\000"
  3418      61676554 
  3418      696D6572 
- 3418      5F526561 
- 3418      64537461 
- 3419              	.LASF43:
- 3420 05b0 636F756E 		.ascii	"counterMode\000"
- 3420      7465724D 
- 3420      6F646500 
- 3421              	.LASF22:
- 3422 05bc 4D657373 		.ascii	"MessageTimer_SetMode\000"
- 3422      61676554 
- 3422      696D6572 
- 3422      5F536574 
- 3422      4D6F6465 
- 3423              	.LASF79:
- 3424 05d1 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccUbdrub.s 			page 90
+ 3418      5F536574 
+ 3418      50574D49 
+ 3419              	.LASF70:
+ 3420 05c0 4D657373 		.ascii	"MessageTimer_ReadStatus\000"
+ 3420      61676554 
+ 3420      696D6572 
+ 3420      5F526561 
+ 3420      64537461 
+ 3421              	.LASF43:
+ 3422 05d8 636F756E 		.ascii	"counterMode\000"
+ 3422      7465724D 
+ 3422      6F646500 
+ 3423              	.LASF22:
+ 3424 05e4 4D657373 		.ascii	"MessageTimer_SetMode\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccwCjUgf.s 			page 90
 
 
- 3424      73657273 
- 3424      5C616C65 
- 3424      78706F72 
- 3424      745C4F6E 
- 3425 0601 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 3425      54735C55 
- 3425      41525420 
- 3425      55444220 
- 3425      74657374 
- 3426              	.LASF21:
- 3427 0623 656E6162 		.ascii	"enableInterrupts\000"
- 3427      6C65496E 
- 3427      74657272 
- 3427      75707473 
- 3427      00
- 3428              	.LASF60:
- 3429 0634 4D657373 		.ascii	"MessageTimer_ReadCapture\000"
- 3429      61676554 
- 3429      696D6572 
- 3429      5F526561 
- 3429      64436170 
- 3430              	.LASF33:
- 3431 064d 73796E63 		.ascii	"syncKillEnable\000"
- 3431      4B696C6C 
- 3431      456E6162 
- 3431      6C6500
- 3432              	.LASF49:
- 3433 065c 73776170 		.ascii	"swapEnable\000"
- 3433      456E6162 
- 3433      6C6500
- 3434              	.LASF23:
- 3435 0667 4D657373 		.ascii	"MessageTimer_SetQDMode\000"
- 3435      61676554 
- 3435      696D6572 
- 3435      5F536574 
- 3435      51444D6F 
- 3436              	.LASF26:
- 3437 067e 4D657373 		.ascii	"MessageTimer_SetPrescaler\000"
- 3437      61676554 
- 3437      696D6572 
- 3437      5F536574 
- 3437      50726573 
- 3438              	.LASF51:
- 3439 0698 70657269 		.ascii	"periodBuf\000"
- 3439      6F644275 
- 3439      6600
- 3440              	.LASF47:
- 3441 06a2 4D657373 		.ascii	"MessageTimer_ReadPeriod\000"
- 3441      61676554 
- 3441      696D6572 
- 3441      5F526561 
- 3441      64506572 
- 3442              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 3424      61676554 
+ 3424      696D6572 
+ 3424      5F536574 
+ 3424      4D6F6465 
+ 3425              	.LASF21:
+ 3426 05f9 656E6162 		.ascii	"enableInterrupts\000"
+ 3426      6C65496E 
+ 3426      74657272 
+ 3426      75707473 
+ 3426      00
+ 3427              	.LASF60:
+ 3428 060a 4D657373 		.ascii	"MessageTimer_ReadCapture\000"
+ 3428      61676554 
+ 3428      696D6572 
+ 3428      5F526561 
+ 3428      64436170 
+ 3429              	.LASF33:
+ 3430 0623 73796E63 		.ascii	"syncKillEnable\000"
+ 3430      4B696C6C 
+ 3430      456E6162 
+ 3430      6C6500
+ 3431              	.LASF49:
+ 3432 0632 73776170 		.ascii	"swapEnable\000"
+ 3432      456E6162 
+ 3432      6C6500
+ 3433              	.LASF23:
+ 3434 063d 4D657373 		.ascii	"MessageTimer_SetQDMode\000"
+ 3434      61676554 
+ 3434      696D6572 
+ 3434      5F536574 
+ 3434      51444D6F 
+ 3435              	.LASF26:
+ 3436 0654 4D657373 		.ascii	"MessageTimer_SetPrescaler\000"
+ 3436      61676554 
+ 3436      696D6572 
+ 3436      5F536574 
+ 3436      50726573 
+ 3437              	.LASF51:
+ 3438 066e 70657269 		.ascii	"periodBuf\000"
+ 3438      6F644275 
+ 3438      6600
+ 3439              	.LASF47:
+ 3440 0678 4D657373 		.ascii	"MessageTimer_ReadPeriod\000"
+ 3440      61676554 
+ 3440      696D6572 
+ 3440      5F526561 
+ 3440      64506572 
+ 3441              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

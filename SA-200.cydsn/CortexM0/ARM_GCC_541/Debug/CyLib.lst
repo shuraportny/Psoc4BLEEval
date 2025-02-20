@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
   51              	CySysTickInitVar:
   52 0014 00000000 		.space	4
   53              		.global	cyImoFreqMhz2Reg
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 2
 
 
   54              		.section	.rodata
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  108              		.type	CySysClkPumpConfig, %object
  109              		.size	CySysClkPumpConfig, 4
  110              	CySysClkPumpConfig:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 3
 
 
  111 0010 01000000 		.word	1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
   45:Generated_Source\PSoC4/CyLib.c **** * initialized to 0 and set to 1 the first time CySysTickStart() is called.
   46:Generated_Source\PSoC4/CyLib.c **** *
   47:Generated_Source\PSoC4/CyLib.c **** * This allows the component to restart without reinitialization after the first
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 4
 
 
   48:Generated_Source\PSoC4/CyLib.c **** * call to the CySysTickStart() routine.
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  102:Generated_Source\PSoC4/CyLib.c **** * in the Design Wide Resources tab.
  103:Generated_Source\PSoC4/CyLib.c **** *
  104:Generated_Source\PSoC4/CyLib.c **** *******************************************************************************/
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 5
 
 
  105:Generated_Source\PSoC4/CyLib.c **** void CySysClkImoStart(void)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  157              	CySysClkImoStop:
  158              	.LFB3:
  123:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 6
 
 
  124:Generated_Source\PSoC4/CyLib.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  187              		.size	CySysClkImoStop, .-CySysClkImoStop
  188              		.section	.text.CySysClkWriteHfclkDirect,"ax",%progbits
  189              		.align	2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 7
 
 
  190              		.global	CySysClkWriteHfclkDirect
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  198:Generated_Source\PSoC4/CyLib.c ****             #if(CY_IP_SRSSV2)
  199:Generated_Source\PSoC4/CyLib.c ****                 freq = CY_SYS_CLK_IMO_MIN_FREQ_MHZ;
  200:Generated_Source\PSoC4/CyLib.c ****                 for(i = 0u; i < CY_SYS_CLK_IMO_FREQ_TABLE_SIZE; i++)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 8
 
 
  201:Generated_Source\PSoC4/CyLib.c ****                 {
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  255:Generated_Source\PSoC4/CyLib.c ****                 lfLimit += CY_SYS_CLK_WCO_CONFIG_DPLL_LF_LIMIT_STEP;
  256:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_CLK_WCO_DPLL_REG = (regTmp | (lfLimit << CY_SYS_CLK_WCO_CONFIG_DPLL_LF_LIMIT
  257:Generated_Source\PSoC4/CyLib.c ****             }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 9
 
 
  258:Generated_Source\PSoC4/CyLib.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  312:Generated_Source\PSoC4/CyLib.c ****             #endif  /* (CY_IP_SRSSLT) */
  313:Generated_Source\PSoC4/CyLib.c **** 
  314:Generated_Source\PSoC4/CyLib.c ****         #endif  /* (CY_IP_SRSSV2) */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 10
 
 
  315:Generated_Source\PSoC4/CyLib.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  369:Generated_Source\PSoC4/CyLib.c ****         #if (CY_IP_IMO_TRIMMABLE_BY_WCO && CY_IP_IMO_TRIMMABLE_BY_USB)
  370:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_OSCINTF_CTL_REG = (CY_SYS_CLK_OSCINTF_CTL_REG & (uint32) ~CY_SYS_CLK_OSCINTF
  371:Generated_Source\PSoC4/CyLib.c ****                                           CY_SYS_CLK_OSCINTF_CTL_PORT_SEL_USB;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 11
 
 
  372:Generated_Source\PSoC4/CyLib.c ****         #endif /* (CY_IP_IMO_TRIMMABLE_BY_WCO && CY_IP_IMO_TRIMMABLE_BY_USB) */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  426:Generated_Source\PSoC4/CyLib.c ****             CY_PWR_BG_TRIM5_REG = CySysClkImoTrim5;
  427:Generated_Source\PSoC4/CyLib.c **** 
  428:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_IMO_TRIM1_REG = CY_SFLASH_IMO_TRIM_REG(freq - CY_SYS_CLK_IMO_FREQ_TABLE_OFFS
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 12
 
 
  429:Generated_Source\PSoC4/CyLib.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  483:Generated_Source\PSoC4/CyLib.c ****     * Updates IMO trim registers based on the IMO frequency and test program
  484:Generated_Source\PSoC4/CyLib.c ****     * revision.
  485:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 13
 
 
  486:Generated_Source\PSoC4/CyLib.c ****     *******************************************************************************/
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  540:Generated_Source\PSoC4/CyLib.c **** 
  541:Generated_Source\PSoC4/CyLib.c ****             /* Set IMO Gain in IMO Trim Register 4 */
  542:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_IMO_TRIM4_REG = (CY_SYS_CLK_IMO_TRIM4_REG & (uint32) ~CY_SYS_CLK_IMO_TRIM4_G
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 14
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 14
 
 
  543:Generated_Source\PSoC4/CyLib.c ****                                         CY_SFLASH_USBMODE_IMO_GAIN_TRIM_REG;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  207 0004 00AF     		add	r7, sp, #0
  208              		.cfi_def_cfa_register 7
  209 0006 7860     		str	r0, [r7, #4]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 15
 
 
  586:Generated_Source\PSoC4/CyLib.c ****     uint8  interruptState;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  628:Generated_Source\PSoC4/CyLib.c **** #if (CY_IP_SRSSV2 && CY_IP_PLL)
  629:Generated_Source\PSoC4/CyLib.c ****     if ((CY_SYS_CLK_HFCLK_PLL0 == clkSelect) || (CY_SYS_CLK_HFCLK_PLL1 == clkSelect))
  630:Generated_Source\PSoC4/CyLib.c ****     {
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 16
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 16
 
 
  631:Generated_Source\PSoC4/CyLib.c ****         tmpReg |= (clkSelect & CY_SYS_CLK_SELECT_HFCLK_SEL_MASK);
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  647:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
  648:Generated_Source\PSoC4/CyLib.c **** *
  649:Generated_Source\PSoC4/CyLib.c **** * Enables / disables the pump clock.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 17
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 17
 
 
  650:Generated_Source\PSoC4/CyLib.c **** *
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  677:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_SELECT_REG |= (CySysClkPumpConfig << CY_SYS_CLK_SELECT_PUMP_SEL_SHIFT);
  678:Generated_Source\PSoC4/CyLib.c ****         }
  679:Generated_Source\PSoC4/CyLib.c ****         else
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 18
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 18
 
 
  680:Generated_Source\PSoC4/CyLib.c ****         {
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  690:Generated_Source\PSoC4/CyLib.c **** * Function Name: CySysClkGetSysclkSource
  691:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
  692:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 19
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 19
 
 
  693:Generated_Source\PSoC4/CyLib.c **** * Returns the source of the System clock.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  353              		.loc 1 722 0
  354 001a FB1D     		adds	r3, r7, #7
  355 001c 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 20
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 20
 
 
  356 001e 1800     		movs	r0, r3
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  752:Generated_Source\PSoC4/CyLib.c **** *  CY_SYS_CLK_SYSCLK_DIV8        SYSCLK = HFCLK / 8
  753:Generated_Source\PSoC4/CyLib.c **** *  CY_SYS_CLK_SYSCLK_DIV16       SYSCLK = HFCLK / 16  (N/A for 4000 Family)
  754:Generated_Source\PSoC4/CyLib.c **** *  CY_SYS_CLK_SYSCLK_DIV32       SYSCLK = HFCLK / 32  (N/A for 4000 Family)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 21
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 21
 
 
  755:Generated_Source\PSoC4/CyLib.c **** *  CY_SYS_CLK_SYSCLK_DIV64       SYSCLK = HFCLK / 64  (N/A for 4000 Family)
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  417              		.loc 1 770 0
  418 002c 0F23     		movs	r3, #15
  419 002e FB18     		adds	r3, r7, r3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 22
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 22
 
 
  420 0030 1B78     		ldrb	r3, [r3]
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  800:Generated_Source\PSoC4/CyLib.c **** * \ref CySysFlashSetWaitCycles() with the appropriate parameter to adjust the
  801:Generated_Source\PSoC4/CyLib.c **** * number of clock cycles the cache will wait before sampling data comes back
  802:Generated_Source\PSoC4/CyLib.c **** * from Flash. If the SYSCLK clock frequency decreases, you can call
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 23
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 23
 
 
  803:Generated_Source\PSoC4/CyLib.c **** * \ref CySysFlashSetWaitCycles() to improve the CPU performance. See
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  461 000a FC18     		adds	r4, r7, r3
  462 000c FFF7FEFF 		bl	CyEnterCriticalSection
  463 0010 0300     		movs	r3, r0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 24
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 24
 
 
  464 0012 2370     		strb	r3, [r4]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  468 0018 00D8     		bhi	.LCB302
  469 001a AFE0     		b	.L24	@long jump
  470              	.LCB302:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 25
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 25
 
 
  471              		.loc 1 890 0 is_stmt 0 discriminator 1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  515 0062 0E23     		movs	r3, #14
  516 0064 FB18     		adds	r3, r7, r3
  517 0066 1278     		ldrb	r2, [r2]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 26
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 26
 
 
  518 0068 1A70     		strb	r2, [r3]
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  562 00b0 1A70     		strb	r2, [r3]
  563 00b2 09E0     		b	.L26
  564              	.L29:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 27
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 27
 
 
  911:Generated_Source\PSoC4/CyLib.c ****             }
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  934:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_CLK_IMO_TRIM2_REG = (uint32) cyImoFreqMhz2Reg[CY_SYS_CLK_IMO_TEMP_FREQ_MHZ -
  596              		.loc 1 934 0 is_stmt 1
  597 00e6 3B4B     		ldr	r3, .L35+60
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 28
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 28
 
 
  598 00e8 1922     		movs	r2, #25
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  958:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_CLK_IMO_TRIM2_REG = cyImoFreqMhz2Reg[freq - CY_SYS_CLK_IMO_FREQ_TABLE_OFFSET
  629              		.loc 1 958 0
  630 011c 2D4B     		ldr	r3, .L35+60
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 29
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 29
 
 
  631 011e 7A68     		ldr	r2, [r7, #4]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  971:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_CLK_IMO_TRIM2_REG = cyImoFreqMhz2Reg[freq - CY_SYS_CLK_IMO_FREQ_TABLE_OFFSET
  673              		.loc 1 971 0
  674 0168 1A4B     		ldr	r3, .L35+60
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 30
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 30
 
 
  675 016a 7A68     		ldr	r2, [r7, #4]
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  701 0194 90BD     		pop	{r4, r7, pc}
  702              	.L36:
  703 0196 C046     		.align	2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 31
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 31
 
 
  704              	.L35:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1022:Generated_Source\PSoC4/CyLib.c ****                 (freq == 48u))
 1023:Generated_Source\PSoC4/CyLib.c ****         #endif /* (CY_PSOC4_4000) */
 1024:Generated_Source\PSoC4/CyLib.c ****         {
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 32
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 32
 
 
 1025:Generated_Source\PSoC4/CyLib.c ****             interruptState = CyEnterCriticalSection();
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1079:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_IMO_TRIM2_REG = CY_SYS_CLK_IMO_TRIM2_REG & ((uint32) ~CY_SYS_CLK_IMO_TRIM2_F
 1080:Generated_Source\PSoC4/CyLib.c **** 
 1081:Generated_Source\PSoC4/CyLib.c ****             /* Apply TC trim */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 33
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 33
 
 
 1082:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_IMO_TRIM3_REG = (CY_SYS_CLK_IMO_TRIM3_REG & ((uint32) ~CY_SYS_CLK_IMO_TRIM3_
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1136:Generated_Source\PSoC4/CyLib.c ****     * input before use as HFCLK. The predivider is capable of dividing the HFCLK by
 1137:Generated_Source\PSoC4/CyLib.c ****     * powers of 2 between 1 and 8.
 1138:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 34
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 34
 
 
 1139:Generated_Source\PSoC4/CyLib.c ****     * PSoC 4000: The SYSCLK has the speed of 16 MHz, so HFCLK and SYSCLK dividers
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1193:Generated_Source\PSoC4/CyLib.c ****     *
 1194:Generated_Source\PSoC4/CyLib.c ****     * \return \ref CYRET_TIMEOUT Timeout occurred. If the crystal is not oscillating
 1195:Generated_Source\PSoC4/CyLib.c ****     * or amplitude didn't reach 60% after specified amount of time, CYRET_TIMEOUT
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 35
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 35
 
 
 1196:Generated_Source\PSoC4/CyLib.c ****     * is returned.
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1215:Generated_Source\PSoC4/CyLib.c ****         #elif (CY_IP_ECO_BLESSV3)
 1216:Generated_Source\PSoC4/CyLib.c ****             uint32 regConfig;
 1217:Generated_Source\PSoC4/CyLib.c ****             uint32 intrRegMaskStore = 0u;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 36
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 36
 
 
 1218:Generated_Source\PSoC4/CyLib.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1272:Generated_Source\PSoC4/CyLib.c ****                     CY_SYS_BLESS_INTR_MASK_REG &= ~(CY_SYS_RCB_INTR_RCB_DONE | CY_SYS_RCB_INTR_RCB_
 1273:Generated_Source\PSoC4/CyLib.c ****                 }
 1274:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 37
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 37
 
 
 1275:Generated_Source\PSoC4/CyLib.c ****                 /* Send read commands to RBUS */
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1319:Generated_Source\PSoC4/CyLib.c ****             {
 1320:Generated_Source\PSoC4/CyLib.c ****                 CyDelayUs(1u);
  780              		.loc 1 1320 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 38
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 38
 
 
  781 0038 0120     		movs	r0, #1
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  821              		.section	.text.CySysClkEcoStop,"ax",%progbits
  822              		.align	2
  823              		.global	CySysClkEcoStop
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 39
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 39
 
 
  824              		.code	16
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1358:Generated_Source\PSoC4/CyLib.c ****         #endif /* (CY_IP_WCO_BLESS) */
 1359:Generated_Source\PSoC4/CyLib.c ****     }
  853              		.loc 1 1359 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 40
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 40
 
 
  854 001c C046     		nop
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  885 0004 00AF     		add	r7, sp, #0
  886              		.cfi_def_cfa_register 7
 1383:Generated_Source\PSoC4/CyLib.c ****         uint32 returnValue;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 41
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 41
 
 
 1384:Generated_Source\PSoC4/CyLib.c **** 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1409:Generated_Source\PSoC4/CyLib.c ****         * The HFCLK source can be changed to the other clock source by call to the
 1410:Generated_Source\PSoC4/CyLib.c ****         * CySysClkWriteHfclkDirect() function. If the ECO sources the HFCLK this
 1411:Generated_Source\PSoC4/CyLib.c ****         * function will not have any effect if compiler in release mode, and halt the
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 42
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 42
 
 
 1412:Generated_Source\PSoC4/CyLib.c ****         * CPU when compiler in debug mode.
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  945 0022 7A68     		ldr	r2, [r7, #4]
  946 0024 0321     		movs	r1, #3
  947 0026 1140     		ands	r1, r2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 43
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 43
 
 
 1437:Generated_Source\PSoC4/CyLib.c ****                                                       (CY_SYS_CLK_XTAL_CLK_DIV_CONFIG_REG & ((uint3
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  990              	.LFB13:
 1447:Generated_Source\PSoC4/CyLib.c **** 
 1448:Generated_Source\PSoC4/CyLib.c ****     #else
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 44
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 44
 
 
 1449:Generated_Source\PSoC4/CyLib.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1503:Generated_Source\PSoC4/CyLib.c ****         * - \ref CY_SYS_CLK_ECO_RTRIM1       24 MHz < Crystal frequency <= 30 MHz
 1504:Generated_Source\PSoC4/CyLib.c ****         * - \ref CY_SYS_CLK_ECO_RTRIM2       17 MHz < Crystal frequency <= 24 MHz
 1505:Generated_Source\PSoC4/CyLib.c ****         * - \ref CY_SYS_CLK_ECO_RTRIM3       Crystal frequency <= 17 MHz
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 45
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 45
 
 
 1506:Generated_Source\PSoC4/CyLib.c ****         *
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1560:Generated_Source\PSoC4/CyLib.c ****         *  amplitude level equals or above 2. In this case the amplitude is not
 1561:Generated_Source\PSoC4/CyLib.c ****         *  explicitly controlled and will grow until it saturates to the supply rail
 1562:Generated_Source\PSoC4/CyLib.c ****         *  (1.8V nom). WARNING: use care when disabling AGC because driving a crystal
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 46
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 46
 
 
 1563:Generated_Source\PSoC4/CyLib.c ****         *  beyond its rated limit can permanently damage the crystal.
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1617:Generated_Source\PSoC4/CyLib.c ****                 {
 1618:Generated_Source\PSoC4/CyLib.c ****                     aTrim = CY_SYS_CLK_ECO_ATRIM6;
 1619:Generated_Source\PSoC4/CyLib.c ****                 }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 47
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 47
 
 
 1620:Generated_Source\PSoC4/CyLib.c ****                 else
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1674:Generated_Source\PSoC4/CyLib.c ****                 {
 1675:Generated_Source\PSoC4/CyLib.c ****                     /* The amplitude is not explicitly controlled and will grow until it saturates 
 1676:Generated_Source\PSoC4/CyLib.c ****                     * supply rail (1.8V nom).
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 48
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 48
 
 
 1677:Generated_Source\PSoC4/CyLib.c ****                     */
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1731:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_PLL_BASE.pll[pll].config &= (uint32) ~CY_SYS_CLK_PLL_CONFIG_ISOLATE;
 1732:Generated_Source\PSoC4/CyLib.c **** 
 1733:Generated_Source\PSoC4/CyLib.c ****             /* Enable PLL */
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 49
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 49
 
 
 1734:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_PLL_BASE.pll[pll].config |= CY_SYS_CLK_PLL_CONFIG_ENABLE;
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1788:Generated_Source\PSoC4/CyLib.c ****     {
 1789:Generated_Source\PSoC4/CyLib.c ****         uint8  interruptState;
 1790:Generated_Source\PSoC4/CyLib.c ****         uint32 returnStatus;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 50
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 50
 
 
 1791:Generated_Source\PSoC4/CyLib.c **** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1845:Generated_Source\PSoC4/CyLib.c ****     *
 1846:Generated_Source\PSoC4/CyLib.c ****     * The PLL must not be the system clock source when calling this function. The
 1847:Generated_Source\PSoC4/CyLib.c ****     * PLL output will glitch during this function call.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 51
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 51
 
 
 1848:Generated_Source\PSoC4/CyLib.c ****     *
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1902:Generated_Source\PSoC4/CyLib.c ****         return (returnStatus);
 1903:Generated_Source\PSoC4/CyLib.c ****     }
 1904:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 52
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 52
 
 
 1905:Generated_Source\PSoC4/CyLib.c **** 
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 1959:Generated_Source\PSoC4/CyLib.c ****     *  Gets the bypass mode for the specified PLL.
 1960:Generated_Source\PSoC4/CyLib.c ****     *  This API is available only for PSoC 4200L / 4100S / 4500 with PLL devices.
 1961:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 53
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 53
 
 
 1962:Generated_Source\PSoC4/CyLib.c ****     *  \return bypass: Bypass mode.
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2016:Generated_Source\PSoC4/CyLib.c ****         {
 2017:Generated_Source\PSoC4/CyLib.c ****             returnValue = CYRET_SUCCESS;
 2018:Generated_Source\PSoC4/CyLib.c ****         }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 54
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 54
 
 
 2019:Generated_Source\PSoC4/CyLib.c **** 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2073:Generated_Source\PSoC4/CyLib.c ****     *  1   PLL#1 (available only for PSoC 4200L)
 2074:Generated_Source\PSoC4/CyLib.c ****     *
 2075:Generated_Source\PSoC4/CyLib.c ****     * \param inputFreq The reference frequency in KHz. The valid range is from 1000 to 49152 KHz.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 55
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 55
 
 
 2076:Generated_Source\PSoC4/CyLib.c ****     *
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2130:Generated_Source\PSoC4/CyLib.c ****             {
 2131:Generated_Source\PSoC4/CyLib.c ****                 for(q = qMin; q <= qMax; q++)
 2132:Generated_Source\PSoC4/CyLib.c ****                 {
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 56
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 56
 
 
 2133:Generated_Source\PSoC4/CyLib.c ****                     /* Solve for the feedback divisor value */
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2187:Generated_Source\PSoC4/CyLib.c ****     *  CY_SYS_PLL_SOURCE_DSI1       DSI_OUT[1] (available only for PSoC 4200L)
 2188:Generated_Source\PSoC4/CyLib.c ****     *  CY_SYS_PLL_SOURCE_DSI2       DSI_OUT[2] (available only for PSoC 4200L)
 2189:Generated_Source\PSoC4/CyLib.c ****     *  CY_SYS_PLL_SOURCE_DSI3       DSI_OUT[3] (available only for PSoC 4200L)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 57
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 57
 
 
 2190:Generated_Source\PSoC4/CyLib.c ****     *
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2244:Generated_Source\PSoC4/CyLib.c ****     *
 2245:Generated_Source\PSoC4/CyLib.c ****     *  This API is available only for PSoC 4200L / 4100S / 4500 with PLL devices.
 2246:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 58
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 58
 
 
 2247:Generated_Source\PSoC4/CyLib.c ****     *  \param PLL:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2301:Generated_Source\PSoC4/CyLib.c ****         * \return A set bit indicates the source of the interrupt:
 2302:Generated_Source\PSoC4/CyLib.c ****         *  *CY_SYS_PLL_INTR_PLL_LOCK
 2303:Generated_Source\PSoC4/CyLib.c ****         *  *CY_SYS_PLL_INTR_WD_ERR
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 59
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 59
 
 
 2304:Generated_Source\PSoC4/CyLib.c ****         *  *CY_SYS_PLL_INTR_CSV_CLK_SW
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2358:Generated_Source\PSoC4/CyLib.c ****         *  This API sets the interrupt mask bit for the corresponding interrupts.
 2359:Generated_Source\PSoC4/CyLib.c ****         *
 2360:Generated_Source\PSoC4/CyLib.c ****         *  This API is available only for PSoC 4500 with PLL devices.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 60
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 60
 
 
 2361:Generated_Source\PSoC4/CyLib.c ****         *
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2415:Generated_Source\PSoC4/CyLib.c **** 
 2416:Generated_Source\PSoC4/CyLib.c ****         /*******************************************************************************
 2417:Generated_Source\PSoC4/CyLib.c ****         * Function Name: CySysClkPllCsvEnable
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 61
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 61
 
 
 2418:Generated_Source\PSoC4/CyLib.c ****         ****************************************************************************//**
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2472:Generated_Source\PSoC4/CyLib.c ****         }
 2473:Generated_Source\PSoC4/CyLib.c **** 
 2474:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 62
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 62
 
 
 2475:Generated_Source\PSoC4/CyLib.c ****         /*******************************************************************************
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2529:Generated_Source\PSoC4/CyLib.c ****         *  This API sets the csv period time.
 2530:Generated_Source\PSoC4/CyLib.c ****         *
 2531:Generated_Source\PSoC4/CyLib.c ****         *  This API is available only for PSoC 4500 with PLL devices.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 63
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 63
 
 
 2532:Generated_Source\PSoC4/CyLib.c ****         *
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2586:Generated_Source\PSoC4/CyLib.c ****             CY_SET_REG32_FIELD(CYREG_EXCO_RSTDLY_CTL, CYFLD_EXCO_EN, 0x1uL);
 2587:Generated_Source\PSoC4/CyLib.c ****         }
 2588:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 64
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 64
 
 
 2589:Generated_Source\PSoC4/CyLib.c **** 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2643:Generated_Source\PSoC4/CyLib.c ****     *         Define                     Voltage threshold
 2644:Generated_Source\PSoC4/CyLib.c ****     *    CY_LVD_THRESHOLD_1_75_V       1.7500 V
 2645:Generated_Source\PSoC4/CyLib.c ****     *    CY_LVD_THRESHOLD_1_80_V       1.8000 V
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 65
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 65
 
 
 2646:Generated_Source\PSoC4/CyLib.c ****     *    CY_LVD_THRESHOLD_1_90_V       1.9000 V
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1021 0024 1E20     		movs	r0, #30
  1022 0026 0240     		ands	r2, r0
 2668:Generated_Source\PSoC4/CyLib.c ****                 ((threshold << CY_LVD_PWR_VMON_CONFIG_LVD_SEL_SHIFT) & CY_LVD_PWR_VMON_CONFIG_LVD_S
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 66
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 66
 
 
  1023              		.loc 1 2668 0
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1064              		.code	16
  1065              		.thumb_func
  1066              		.type	CySysLvdDisable, %function
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 67
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 67
 
 
  1067              	CySysLvdDisable:
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1107              		.align	2
  1108              		.global	CySysLvdGetInterruptSource
  1109              		.code	16
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 68
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 68
 
 
  1110              		.thumb_func
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1147              	CySysLvdClearInterrupt:
  1148              	.LFB16:
 2714:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 69
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 69
 
 
 2715:Generated_Source\PSoC4/CyLib.c **** 
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2735:Generated_Source\PSoC4/CyLib.c **** * Function Name: CySysGetResetReason
 2736:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
 2737:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 70
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 70
 
 
 2738:Generated_Source\PSoC4/CyLib.c **** *  Reports the cause for the latest reset(s) that occurred in the system. All
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2762:Generated_Source\PSoC4/CyLib.c **** }
  1213              		.loc 1 2762 0
  1214 0022 1800     		movs	r0, r3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 71
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 71
 
 
  1215 0024 BD46     		mov	sp, r7
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2782:Generated_Source\PSoC4/CyLib.c ****     /* Disable all interrupts. */
 2783:Generated_Source\PSoC4/CyLib.c ****     CY_INT_CLEAR_REG = CY_INT_CLEAR_DISABLE_ALL;
  1250              		.loc 1 2783 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 72
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 72
 
 
  1251 000c 044B     		ldr	r3, .L77
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1289              		.cfi_def_cfa_register 7
  1290 0006 7860     		str	r0, [r7, #4]
 2800:Generated_Source\PSoC4/CyLib.c ****     CY_INT_ENABLE_REG = mask;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 73
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 73
 
 
  1291              		.loc 1 2800 0
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1321              		.cfi_def_cfa_offset 8
  1322              		.cfi_offset 7, -8
  1323              		.cfi_offset 14, -4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 74
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 74
 
 
  1324 0002 84B0     		sub	sp, sp, #16
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1365 0042 BD46     		mov	sp, r7
  1366 0044 04B0     		add	sp, sp, #16
  1367              		@ sp needed
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 75
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 75
 
 
  1368 0046 80BD     		pop	{r7, pc}
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2861:Generated_Source\PSoC4/CyLib.c ****     CYASSERT(number < CY_INT_IRQ_BASE);
  1399              		.loc 1 2861 0
  1400 0012 FB1D     		adds	r3, r7, #7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 76
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 76
 
 
  1401 0014 1B78     		ldrb	r3, [r3]
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1436 0000 80B5     		push	{r7, lr}
  1437              		.cfi_def_cfa_offset 8
  1438              		.cfi_offset 7, -8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 77
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 77
 
 
  1439              		.cfi_offset 14, -4
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2893:Generated_Source\PSoC4/CyLib.c **** }
  1481              		.loc 1 2893 0
  1482 0044 1800     		movs	r0, r3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 78
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 78
 
 
  1483 0046 BD46     		mov	sp, r7
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1519 0014 1B78     		ldrb	r3, [r3]
  1520 0016 1F2B     		cmp	r3, #31
  1521 0018 02D9     		bls	.L92
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 79
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 79
 
 
  1522              		.loc 1 2911 0 is_stmt 0 discriminator 1
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1560 0002 87B0     		sub	sp, sp, #28
  1561              		.cfi_def_cfa_offset 40
  1562 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 80
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 80
 
 
  1563              		.cfi_def_cfa_register 7
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1605 004c 9B08     		lsrs	r3, r3, #2
  1606 004e DBB2     		uxtb	r3, r3
  1607 0050 9B00     		lsls	r3, r3, #2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 81
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 81
 
 
  1608 0052 144A     		ldr	r2, .L97
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1656              	.L97:
  1657 00a4 00E400E0 		.word	-536812544
  1658              		.cfi_endproc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 82
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 82
 
 
  1659              	.LFE24:
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2966:Generated_Source\PSoC4/CyLib.c ****     priority = (uint8) (CY_INT_PRIORITY_REG(number) >> CY_INT_PRIORITY_SHIFT(number));
  1693              		.loc 1 2966 0 is_stmt 1
  1694 001a FB1D     		adds	r3, r7, #7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 83
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 83
 
 
  1695 001c 1B78     		ldrb	r3, [r3]
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2975:Generated_Source\PSoC4/CyLib.c **** *
 2976:Generated_Source\PSoC4/CyLib.c **** *  Enables the specified interrupt number.
 2977:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 84
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 84
 
 
 2978:Generated_Source\PSoC4/CyLib.c **** *  \param number: Valid range [0-31].  Interrupt number
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 2986:Generated_Source\PSoC4/CyLib.c **** 
 2987:Generated_Source\PSoC4/CyLib.c **** /*******************************************************************************
 2988:Generated_Source\PSoC4/CyLib.c **** * Function Name: CyIntGetState
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 85
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 85
 
 
 2989:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1826              	.LFE27:
  1827              		.size	CyIntGetState, .-CyIntGetState
  1828              		.section	.text.CyIntDisable,"ax",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 86
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 86
 
 
  1829              		.align	2
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1868 0026 C046     		.align	2
  1869              	.L112:
  1870 0028 80E100E0 		.word	-536813184
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 87
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 87
 
 
  1871              		.cfi_endproc
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1911              		@ sp needed
  1912 0024 80BD     		pop	{r7, pc}
  1913              	.L116:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 88
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 88
 
 
  1914 0026 C046     		.align	2
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  1953              		.loc 1 3047 0
  1954 001e C046     		nop
  1955 0020 BD46     		mov	sp, r7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 89
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 89
 
 
  1956 0022 02B0     		add	sp, sp, #8
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3069:Generated_Source\PSoC4/CyLib.c ****         __asm("    bkpt    1");
  1989              		.loc 1 3069 0
  1990              		.syntax divided
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 90
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 90
 
 
  1991              	@ 3069 "Generated_Source\PSoC4\CyLib.c" 1
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2025 0006 054A     		ldr	r2, .L122
  2026 0008 1268     		ldr	r2, [r2]
  2027 000a 1204     		lsls	r2, r2, #16
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 91
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 91
 
 
  2028 000c 120C     		lsrs	r2, r2, #16
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2066              		.cfi_def_cfa_register 7
  2067 0006 7860     		str	r0, [r7, #4]
 3105:Generated_Source\PSoC4/CyLib.c ****     while (milliseconds > CY_DELAY_MS_OVERFLOW)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 92
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 92
 
 
  2068              		.loc 1 3105 0
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2111              		.section	.text.CyDelayUs,"ax",%progbits
  2112              		.align	2
  2113              		.global	CyDelayUs
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 93
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 93
 
 
  2114              		.code	16
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2154              		.size	CyDelayUs, .-CyDelayUs
  2155              		.global	__aeabi_uidiv
  2156              		.section	.text.CyDelayFreq,"ax",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 94
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 94
 
 
  2157              		.align	2
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3149:Generated_Source\PSoC4/CyLib.c ****     }
 3150:Generated_Source\PSoC4/CyLib.c **** 
 3151:Generated_Source\PSoC4/CyLib.c ****     cydelayFreqMhz = (uint8)((cydelayFreqHz + CY_DELAY_1M_MINUS_1_THRESHOLD) / CY_DELAY_1M_THRESHOL
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 95
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 95
 
 
  2192              		.loc 1 3151 0
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2243              		.size	CyDelayFreq, .-CyDelayFreq
  2244              		.section	.text.CySysTickStart,"ax",%progbits
  2245              		.align	2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 96
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 96
 
 
  2246              		.global	CySysTickStart
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2274              		.loc 1 3180 0
  2275 0016 FFF7FEFF 		bl	CySysTickEnable
 3181:Generated_Source\PSoC4/CyLib.c **** }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 97
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 97
 
 
  2276              		.loc 1 3181 0
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3204:Generated_Source\PSoC4/CyLib.c **** 
 3205:Generated_Source\PSoC4/CyLib.c ****     for (i = 0u; i<CY_SYS_SYST_NUM_OF_CALLBACKS; i++)
  2308              		.loc 1 3205 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 98
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 98
 
 
  2309 0006 0023     		movs	r3, #0
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2348              		.loc 1 3218 0
  2349 004c C046     		nop
  2350 004e BD46     		mov	sp, r7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 99
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 99
 
 
  2351 0050 02B0     		add	sp, sp, #8
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2389 0012 1A60     		str	r2, [r3]
 3235:Generated_Source\PSoC4/CyLib.c **** }
  2390              		.loc 1 3235 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 100
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 100
 
 
  2391 0014 C046     		nop
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2429 0012 BD46     		mov	sp, r7
  2430              		@ sp needed
  2431 0014 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 101
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 101
 
 
  2432              	.L151:
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2470 0016 C046     		.align	2
  2471              	.L153:
  2472 0018 10E000E0 		.word	-536813552
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 102
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 102
 
 
  2473              		.cfi_endproc
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2511              	.LFE41:
  2512              		.size	CySysTickDisableInterrupt, .-CySysTickDisableInterrupt
  2513              		.section	.text.CySysTickSetReload,"ax",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 103
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 103
 
 
  2514              		.align	2
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2551              	.LFE42:
  2552              		.size	CySysTickSetReload, .-CySysTickSetReload
  2553              		.section	.text.CySysTickGetReload,"ax",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 104
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 104
 
 
  2554              		.align	2
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2592              		.thumb_func
  2593              		.type	CySysTickGetValue, %function
  2594              	CySysTickGetValue:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 105
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 105
 
 
  2595              	.LFB44:
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3335:Generated_Source\PSoC4/CyLib.c **** #if(CY_SYSTICK_LFCLK_SOURCE)
 3336:Generated_Source\PSoC4/CyLib.c ****     /*******************************************************************************
 3337:Generated_Source\PSoC4/CyLib.c ****     * Function Name: CySysTickSetClockSource
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 106
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 106
 
 
 3338:Generated_Source\PSoC4/CyLib.c ****     ****************************************************************************//**
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3368:Generated_Source\PSoC4/CyLib.c ****         {
 3369:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_SYST_CSR_REG &= ((uint32) ~((uint32)(CY_SYS_SYST_CSR_CLK_SRC_SYSCLK << CY_SYS_SY
 3370:Generated_Source\PSoC4/CyLib.c ****         }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 107
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 107
 
 
 3371:Generated_Source\PSoC4/CyLib.c ****     }
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2691 0000 80B5     		push	{r7, lr}
  2692              		.cfi_def_cfa_offset 8
  2693              		.cfi_offset 7, -8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 108
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 108
 
 
  2694              		.cfi_offset 14, -4
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2725              		@ args = 0, pretend = 0, frame = 0
  2726              		@ frame_needed = 1, uses_anonymous_args = 0
  2727 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 109
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 109
 
 
  2728              		.cfi_def_cfa_offset 8
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3424:Generated_Source\PSoC4/CyLib.c ****     CY_SYS_SYST_CVR_REG = 0u;
  2769              		.loc 1 3424 0
  2770 0004 024B     		ldr	r3, .L184
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 110
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 110
 
 
  2771 0006 0022     		movs	r2, #0
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3457:Generated_Source\PSoC4/CyLib.c **** cySysTickCallback CySysTickSetCallback(uint32 number, cySysTickCallback function)
 3458:Generated_Source\PSoC4/CyLib.c **** {
  2793              		.loc 1 3458 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 111
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 111
 
 
  2794              		.cfi_startproc
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3465:Generated_Source\PSoC4/CyLib.c **** 
 3466:Generated_Source\PSoC4/CyLib.c **** 
 3467:Generated_Source\PSoC4/CyLib.c **** /*******************************************************************************
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 112
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 112
 
 
 3468:Generated_Source\PSoC4/CyLib.c **** * Function Name: CySysTickGetCallback
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2879              	.LFB51:
 3485:Generated_Source\PSoC4/CyLib.c **** 
 3486:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 113
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 113
 
 
 3487:Generated_Source\PSoC4/CyLib.c **** /*******************************************************************************
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2915              	.L197:
 3501:Generated_Source\PSoC4/CyLib.c ****         {
  2916              		.loc 1 3501 0 discriminator 2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 114
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 114
 
 
  2917 002c 7B68     		ldr	r3, [r7, #4]
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2948              		.cfi_startproc
  2949              		@ args = 0, pretend = 0, frame = 8
  2950              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 115
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 115
 
 
  2951 0000 80B5     		push	{r7, lr}
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  2998 004a 7B68     		ldr	r3, [r7, #4]
  2999 004c 0433     		adds	r3, r3, #4
  3000 004e 184A     		ldr	r2, .L203+16
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 116
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 116
 
 
  3001 0050 1278     		ldrb	r2, [r2]
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3040              		.loc 1 3549 0
  3041 0098 C046     		nop
  3042 009a BD46     		mov	sp, r7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 117
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 117
 
 
  3043 009c 02B0     		add	sp, sp, #8
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3074              		.cfi_offset 7, -8
  3075              		.cfi_offset 14, -4
  3076 0002 84B0     		sub	sp, sp, #16
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 118
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 118
 
 
  3077              		.cfi_def_cfa_offset 24
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3582:Generated_Source\PSoC4/CyLib.c ****     * Function Name: CySysSetFlashAccessArbPriority
 3583:Generated_Source\PSoC4/CyLib.c ****     ****************************************************************************//**
 3584:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 119
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 119
 
 
 3585:Generated_Source\PSoC4/CyLib.c ****     *  Sets flash access priority between CPU and DMA. The FLASH_CTL register is
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3154              		.loc 1 3606 0
  3155 0028 C046     		nop
  3156 002a BD46     		mov	sp, r7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 120
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 120
 
 
  3157 002c 04B0     		add	sp, sp, #16
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3629:Generated_Source\PSoC4/CyLib.c ****         uint32 regTmp;
 3630:Generated_Source\PSoC4/CyLib.c **** 
 3631:Generated_Source\PSoC4/CyLib.c ****         regTmp  = CY_SYS_CPUSS_DMAC_CTL_REG & ~CY_SYS_CPUSS_DMAC_CTL_ARB_MASK;
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 121
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 121
 
 
  3189              		.loc 1 3631 0
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
 3645:Generated_Source\PSoC4/CyLib.c ****     *  This API is applicable for PSoC 4200M / PSoC 4200L / 4100S with
 3646:Generated_Source\PSoC4/CyLib.c ****     *  DMA devices only.
 3647:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 122
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 122
 
 
 3648:Generated_Source\PSoC4/CyLib.c ****     *  \param  interfaceNumber: the slave interface number. Please refer to the
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3266 002e 1A60     		str	r2, [r3]
 3666:Generated_Source\PSoC4/CyLib.c ****         } else
 3667:Generated_Source\PSoC4/CyLib.c ****     #if (CY_IP_SL_NR >= 2)
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 123
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 123
 
 
 3668:Generated_Source\PSoC4/CyLib.c ****         if (interfaceNumber == 1u)
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3296              		.loc 1 3676 0
  3297 005a 7B68     		ldr	r3, [r7, #4]
  3298 005c 022B     		cmp	r3, #2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 124
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 124
 
 
  3299 005e 10D1     		bne	.L218
@@ -7438,14 +7438,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3349 0004 0400     		.2byte	0x4
  3350 0006 00000000 		.4byte	.Ldebug_abbrev0
  3351 000a 04       		.byte	0x4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 125
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 125
 
 
  3352 000b 01       		.uleb128 0x1
- 3353 000c 37030000 		.4byte	.LASF118
+ 3353 000c 5F030000 		.4byte	.LASF118
  3354 0010 0C       		.byte	0xc
- 3355 0011 61070000 		.4byte	.LASF119
- 3356 0015 73060000 		.4byte	.LASF120
+ 3355 0011 37070000 		.4byte	.LASF119
+ 3356 0015 61020000 		.4byte	.LASF120
  3357 0019 00000000 		.4byte	.Ldebug_ranges0+0
  3358 001d 00000000 		.4byte	0
  3359 0021 00000000 		.4byte	.Ldebug_line0
@@ -7456,15 +7456,15 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3364 002c 02       		.uleb128 0x2
  3365 002d 01       		.byte	0x1
  3366 002e 08       		.byte	0x8
- 3367 002f 5D050000 		.4byte	.LASF1
+ 3367 002f 85050000 		.4byte	.LASF1
  3368 0033 02       		.uleb128 0x2
  3369 0034 02       		.byte	0x2
  3370 0035 05       		.byte	0x5
- 3371 0036 6B050000 		.4byte	.LASF2
+ 3371 0036 93050000 		.4byte	.LASF2
  3372 003a 02       		.uleb128 0x2
  3373 003b 02       		.byte	0x2
  3374 003c 07       		.byte	0x7
- 3375 003d D1020000 		.4byte	.LASF3
+ 3375 003d F9020000 		.4byte	.LASF3
  3376 0041 02       		.uleb128 0x2
  3377 0042 04       		.byte	0x4
  3378 0043 05       		.byte	0x5
@@ -7472,7 +7472,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3380 0048 02       		.uleb128 0x2
  3381 0049 04       		.byte	0x4
  3382 004a 07       		.byte	0x7
- 3383 004b 70020000 		.4byte	.LASF5
+ 3383 004b 98020000 		.4byte	.LASF5
  3384 004f 02       		.uleb128 0x2
  3385 0050 08       		.byte	0x8
  3386 0051 05       		.byte	0x5
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3406 0078 17000000 		.4byte	.LASF10
  3407 007c 02       		.byte	0x2
  3408 007d FD01     		.2byte	0x1fd
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 126
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 126
 
 
  3409 007f 3A000000 		.4byte	0x3a
@@ -7510,7 +7510,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3415 008f 02       		.uleb128 0x2
  3416 0090 04       		.byte	0x4
  3417 0091 04       		.byte	0x4
- 3418 0092 E7040000 		.4byte	.LASF12
+ 3418 0092 0F050000 		.4byte	.LASF12
  3419 0096 02       		.uleb128 0x2
  3420 0097 08       		.byte	0x8
  3421 0098 04       		.byte	0x4
@@ -7518,28 +7518,28 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3423 009d 02       		.uleb128 0x2
  3424 009e 01       		.byte	0x1
  3425 009f 08       		.byte	0x8
- 3426 00a0 BF050000 		.4byte	.LASF14
+ 3426 00a0 E7050000 		.4byte	.LASF14
  3427 00a4 04       		.uleb128 0x4
- 3428 00a5 36070000 		.4byte	.LASF15
+ 3428 00a5 0C070000 		.4byte	.LASF15
  3429 00a9 02       		.byte	0x2
  3430 00aa 9E02     		.2byte	0x29e
  3431 00ac 48000000 		.4byte	0x48
  3432 00b0 04       		.uleb128 0x4
- 3433 00b1 2A050000 		.4byte	.LASF16
+ 3433 00b1 52050000 		.4byte	.LASF16
  3434 00b5 02       		.byte	0x2
  3435 00b6 A602     		.2byte	0x2a6
  3436 00b8 BC000000 		.4byte	0xbc
  3437 00bc 05       		.uleb128 0x5
  3438 00bd 6B000000 		.4byte	0x6b
  3439 00c1 04       		.uleb128 0x4
- 3440 00c2 0B040000 		.4byte	.LASF17
+ 3440 00c2 33040000 		.4byte	.LASF17
  3441 00c6 02       		.byte	0x2
  3442 00c7 A802     		.2byte	0x2a8
  3443 00c9 CD000000 		.4byte	0xcd
  3444 00cd 05       		.uleb128 0x5
  3445 00ce 83000000 		.4byte	0x83
  3446 00d2 04       		.uleb128 0x4
- 3447 00d3 C4050000 		.4byte	.LASF18
+ 3447 00d3 EC050000 		.4byte	.LASF18
  3448 00d7 02       		.byte	0x2
  3449 00d8 B802     		.2byte	0x2b8
  3450 00da DE000000 		.4byte	0xde
@@ -7550,21 +7550,21 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3455 00e5 02       		.uleb128 0x2
  3456 00e6 08       		.byte	0x8
  3457 00e7 04       		.byte	0x4
- 3458 00e8 73040000 		.4byte	.LASF19
+ 3458 00e8 9B040000 		.4byte	.LASF19
  3459 00ec 02       		.uleb128 0x2
  3460 00ed 04       		.byte	0x4
  3461 00ee 07       		.byte	0x7
- 3462 00ef 34040000 		.4byte	.LASF20
+ 3462 00ef 5C040000 		.4byte	.LASF20
  3463 00f3 04       		.uleb128 0x4
- 3464 00f4 FC040000 		.4byte	.LASF21
+ 3464 00f4 24050000 		.4byte	.LASF21
  3465 00f8 03       		.byte	0x3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 127
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 127
 
 
  3466 00f9 0801     		.2byte	0x108
  3467 00fb DE000000 		.4byte	0xde
  3468 00ff 08       		.uleb128 0x8
- 3469 0100 3F070000 		.4byte	.LASF22
+ 3469 0100 15070000 		.4byte	.LASF22
  3470 0104 01       		.byte	0x1
  3471 0105 69       		.byte	0x69
  3472 0106 00000000 		.4byte	.LFB2
@@ -7572,7 +7572,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3474 010e 01       		.uleb128 0x1
  3475 010f 9C       		.byte	0x9c
  3476 0110 08       		.uleb128 0x8
- 3477 0111 9D020000 		.4byte	.LASF23
+ 3477 0111 C5020000 		.4byte	.LASF23
  3478 0115 01       		.byte	0x1
  3479 0116 8A       		.byte	0x8a
  3480 0117 00000000 		.4byte	.LFB3
@@ -7589,7 +7589,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3491 0132 9C       		.byte	0x9c
  3492 0133 65010000 		.4byte	0x165
  3493 0137 0A       		.uleb128 0xa
- 3494 0138 93050000 		.4byte	.LASF28
+ 3494 0138 BB050000 		.4byte	.LASF28
  3495 013c 01       		.byte	0x1
  3496 013d 4802     		.2byte	0x248
  3497 013f 83000000 		.4byte	0x83
@@ -7605,7 +7605,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3507 0153 91       		.byte	0x91
  3508 0154 6F       		.sleb128 -17
  3509 0155 0B       		.uleb128 0xb
- 3510 0156 8D070000 		.4byte	.LASF25
+ 3510 0156 63070000 		.4byte	.LASF25
  3511 015a 01       		.byte	0x1
  3512 015b 4B02     		.2byte	0x24b
  3513 015d 83000000 		.4byte	0x83
@@ -7614,11 +7614,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3516 0163 68       		.sleb128 -24
  3517 0164 00       		.byte	0
  3518 0165 0C       		.uleb128 0xc
- 3519 0166 F6030000 		.4byte	.LASF27
+ 3519 0166 1E040000 		.4byte	.LASF27
  3520 016a 01       		.byte	0x1
  3521 016b 9502     		.2byte	0x295
  3522 016d 00000000 		.4byte	.LFB5
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 128
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 128
 
 
  3523 0171 50000000 		.4byte	.LFE5-.LFB5
@@ -7653,7 +7653,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3552 01b2 91       		.byte	0x91
  3553 01b3 6F       		.sleb128 -17
  3554 01b4 0B       		.uleb128 0xb
- 3555 01b5 8F040000 		.4byte	.LASF30
+ 3555 01b5 B7040000 		.4byte	.LASF30
  3556 01b9 01       		.byte	0x1
  3557 01ba BD02     		.2byte	0x2bd
  3558 01bc 83000000 		.4byte	0x83
@@ -7662,7 +7662,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3561 01c2 68       		.sleb128 -24
  3562 01c3 00       		.byte	0
  3563 01c4 09       		.uleb128 0x9
- 3564 01c5 E1050000 		.4byte	.LASF31
+ 3564 01c5 09060000 		.4byte	.LASF31
  3565 01c9 01       		.byte	0x1
  3566 01ca F702     		.2byte	0x2f7
  3567 01cc 00000000 		.4byte	.LFB7
@@ -7671,14 +7671,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3570 01d5 9C       		.byte	0x9c
  3571 01d6 F9010000 		.4byte	0x1f9
  3572 01da 0A       		.uleb128 0xa
- 3573 01db 1A070000 		.4byte	.LASF32
+ 3573 01db F0060000 		.4byte	.LASF32
  3574 01df 01       		.byte	0x1
  3575 01e0 F702     		.2byte	0x2f7
  3576 01e2 83000000 		.4byte	0x83
  3577 01e6 02       		.uleb128 0x2
  3578 01e7 91       		.byte	0x91
  3579 01e8 64       		.sleb128 -28
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 129
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 129
 
 
  3580 01e9 0B       		.uleb128 0xb
@@ -7691,7 +7691,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3587 01f7 6F       		.sleb128 -17
  3588 01f8 00       		.byte	0
  3589 01f9 09       		.uleb128 0x9
- 3590 01fa 22030000 		.4byte	.LASF33
+ 3590 01fa 4A030000 		.4byte	.LASF33
  3591 01fe 01       		.byte	0x1
  3592 01ff 3103     		.2byte	0x331
  3593 0201 00000000 		.4byte	.LFB8
@@ -7716,7 +7716,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3612 022b 91       		.byte	0x91
  3613 022c 6F       		.sleb128 -17
  3614 022d 0B       		.uleb128 0xb
- 3615 022e 87040000 		.4byte	.LASF36
+ 3615 022e AF040000 		.4byte	.LASF36
  3616 0232 01       		.byte	0x1
  3617 0233 3803     		.2byte	0x338
  3618 0235 6B000000 		.4byte	0x6b
@@ -7724,7 +7724,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3620 023a 91       		.byte	0x91
  3621 023b 6E       		.sleb128 -18
  3622 023c 0B       		.uleb128 0xb
- 3623 023d 50070000 		.4byte	.LASF37
+ 3623 023d 26070000 		.4byte	.LASF37
  3624 0241 01       		.byte	0x1
  3625 0242 3903     		.2byte	0x339
  3626 0244 6B000000 		.4byte	0x6b
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3634 0253 6B000000 		.4byte	0x6b
  3635 0257 02       		.uleb128 0x2
  3636 0258 91       		.byte	0x91
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 130
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 130
 
 
  3637 0259 6D       		.sleb128 -19
@@ -7752,7 +7752,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3645 0268 6C       		.sleb128 -20
  3646 0269 00       		.byte	0
  3647 026a 0D       		.uleb128 0xd
- 3648 026b 9D050000 		.4byte	.LASF40
+ 3648 026b C5050000 		.4byte	.LASF40
  3649 026f 01       		.byte	0x1
  3650 0270 B104     		.2byte	0x4b1
  3651 0272 A4000000 		.4byte	0xa4
@@ -7762,7 +7762,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3655 027f 9C       		.byte	0x9c
  3656 0280 A3020000 		.4byte	0x2a3
  3657 0284 0A       		.uleb128 0xa
- 3658 0285 10070000 		.4byte	.LASF41
+ 3658 0285 E6060000 		.4byte	.LASF41
  3659 0289 01       		.byte	0x1
  3660 028a B104     		.2byte	0x4b1
  3661 028c 83000000 		.4byte	0x83
@@ -7770,7 +7770,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3663 0291 91       		.byte	0x91
  3664 0292 6C       		.sleb128 -20
  3665 0293 0B       		.uleb128 0xb
- 3666 0294 20040000 		.4byte	.LASF42
+ 3666 0294 48040000 		.4byte	.LASF42
  3667 0298 01       		.byte	0x1
  3668 0299 B304     		.2byte	0x4b3
  3669 029b A4000000 		.4byte	0xa4
@@ -7779,7 +7779,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3672 02a1 74       		.sleb128 -12
  3673 02a2 00       		.byte	0
  3674 02a3 0E       		.uleb128 0xe
- 3675 02a4 D4060000 		.4byte	.LASF43
+ 3675 02a4 AA060000 		.4byte	.LASF43
  3676 02a8 01       		.byte	0x1
  3677 02a9 4205     		.2byte	0x542
  3678 02ab 00000000 		.4byte	.LFB10
@@ -7797,8 +7797,8 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3690 02ca 9C       		.byte	0x9c
  3691 02cb DF020000 		.4byte	0x2df
  3692 02cf 0B       		.uleb128 0xb
- 3693 02d0 C1070000 		.4byte	.LASF45
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 131
+ 3693 02d0 97070000 		.4byte	.LASF45
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 131
 
 
  3694 02d4 01       		.byte	0x1
@@ -7809,7 +7809,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3699 02dd 74       		.sleb128 -12
  3700 02de 00       		.byte	0
  3701 02df 09       		.uleb128 0x9
- 3702 02e0 22070000 		.4byte	.LASF46
+ 3702 02e0 F8060000 		.4byte	.LASF46
  3703 02e4 01       		.byte	0x1
  3704 02e5 9405     		.2byte	0x594
  3705 02e7 00000000 		.4byte	.LFB12
@@ -7818,7 +7818,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3708 02f0 9C       		.byte	0x9c
  3709 02f1 14030000 		.4byte	0x314
  3710 02f5 0A       		.uleb128 0xa
- 3711 02f6 1A070000 		.4byte	.LASF32
+ 3711 02f6 F0060000 		.4byte	.LASF32
  3712 02fa 01       		.byte	0x1
  3713 02fb 9405     		.2byte	0x594
  3714 02fd 83000000 		.4byte	0x83
@@ -7835,7 +7835,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3725 0312 6F       		.sleb128 -17
  3726 0313 00       		.byte	0
  3727 0314 09       		.uleb128 0x9
- 3728 0315 ED040000 		.4byte	.LASF47
+ 3728 0315 15050000 		.4byte	.LASF47
  3729 0319 01       		.byte	0x1
  3730 031a 660A     		.2byte	0xa66
  3731 031c 00000000 		.4byte	.LFB13
@@ -7844,7 +7844,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3734 0325 9C       		.byte	0x9c
  3735 0326 3A030000 		.4byte	0x33a
  3736 032a 0A       		.uleb128 0xa
- 3737 032b 2F050000 		.4byte	.LASF48
+ 3737 032b 57050000 		.4byte	.LASF48
  3738 032f 01       		.byte	0x1
  3739 0330 660A     		.2byte	0xa66
  3740 0332 83000000 		.4byte	0x83
@@ -7853,18 +7853,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3743 0338 74       		.sleb128 -12
  3744 0339 00       		.byte	0
  3745 033a 0E       		.uleb128 0xe
- 3746 033b 63060000 		.4byte	.LASF49
+ 3746 033b 8B060000 		.4byte	.LASF49
  3747 033f 01       		.byte	0x1
  3748 0340 840A     		.2byte	0xa84
  3749 0342 00000000 		.4byte	.LFB14
  3750 0346 2C000000 		.4byte	.LFE14-.LFB14
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 132
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 132
 
 
  3751 034a 01       		.uleb128 0x1
  3752 034b 9C       		.byte	0x9c
  3753 034c 10       		.uleb128 0x10
- 3754 034d 82020000 		.4byte	.LASF89
+ 3754 034d AA020000 		.4byte	.LASF89
  3755 0351 01       		.byte	0x1
  3756 0352 960A     		.2byte	0xa96
  3757 0354 83000000 		.4byte	0x83
@@ -7881,7 +7881,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3768 0372 01       		.uleb128 0x1
  3769 0373 9C       		.byte	0x9c
  3770 0374 0F       		.uleb128 0xf
- 3771 0375 BD020000 		.4byte	.LASF51
+ 3771 0375 E5020000 		.4byte	.LASF51
  3772 0379 01       		.byte	0x1
  3773 037a C00A     		.2byte	0xac0
  3774 037c 83000000 		.4byte	0x83
@@ -7891,7 +7891,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3778 0389 9C       		.byte	0x9c
  3779 038a AD030000 		.4byte	0x3ad
  3780 038e 0A       		.uleb128 0xa
- 3781 038f B8050000 		.4byte	.LASF52
+ 3781 038f E0050000 		.4byte	.LASF52
  3782 0393 01       		.byte	0x1
  3783 0394 C00A     		.2byte	0xac0
  3784 0396 83000000 		.4byte	0x83
@@ -7899,7 +7899,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3786 039b 91       		.byte	0x91
  3787 039c 6C       		.sleb128 -20
  3788 039d 0B       		.uleb128 0xb
- 3789 039e 20040000 		.4byte	.LASF42
+ 3789 039e 48040000 		.4byte	.LASF42
  3790 03a2 01       		.byte	0x1
  3791 03a3 C20A     		.2byte	0xac2
  3792 03a5 83000000 		.4byte	0x83
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3805 03c2 9C       		.byte	0x9c
  3806 03c3 D7030000 		.4byte	0x3d7
  3807 03c7 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 133
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 133
 
 
  3808 03c8 1E000000 		.4byte	.LASF54
@@ -7948,7 +7948,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3832 03fb 74       		.sleb128 -12
  3833 03fc 00       		.byte	0
  3834 03fd 0D       		.uleb128 0xd
- 3835 03fe E4030000 		.4byte	.LASF57
+ 3835 03fe 0C040000 		.4byte	.LASF57
  3836 0402 01       		.byte	0x1
  3837 0403 070B     		.2byte	0xb07
  3838 0405 D2000000 		.4byte	0xd2
@@ -7958,7 +7958,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3842 0412 9C       		.byte	0x9c
  3843 0413 54040000 		.4byte	0x454
  3844 0417 0A       		.uleb128 0xa
- 3845 0418 12030000 		.4byte	.LASF58
+ 3845 0418 3A030000 		.4byte	.LASF58
  3846 041c 01       		.byte	0x1
  3847 041d 070B     		.2byte	0xb07
  3848 041f 6B000000 		.4byte	0x6b
@@ -7966,7 +7966,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3850 0424 91       		.byte	0x91
  3851 0425 6F       		.sleb128 -17
  3852 0426 0A       		.uleb128 0xa
- 3853 0427 7F040000 		.4byte	.LASF59
+ 3853 0427 A7040000 		.4byte	.LASF59
  3854 042b 01       		.byte	0x1
  3855 042c 070B     		.2byte	0xb07
  3856 042e D2000000 		.4byte	0xd2
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3862 043a 01       		.byte	0x1
  3863 043b 090B     		.2byte	0xb09
  3864 043d D2000000 		.4byte	0xd2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 134
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 134
 
 
  3865 0441 02       		.uleb128 0x2
@@ -7997,7 +7997,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3878 0455 04       		.byte	0x4
  3879 0456 D2000000 		.4byte	0xd2
  3880 045a 0D       		.uleb128 0xd
- 3881 045b 81050000 		.4byte	.LASF62
+ 3881 045b A9050000 		.4byte	.LASF62
  3882 045f 01       		.byte	0x1
  3883 0460 290B     		.2byte	0xb29
  3884 0462 D2000000 		.4byte	0xd2
@@ -8007,7 +8007,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3888 046f 9C       		.byte	0x9c
  3889 0470 93040000 		.4byte	0x493
  3890 0474 0A       		.uleb128 0xa
- 3891 0475 12030000 		.4byte	.LASF58
+ 3891 0475 3A030000 		.4byte	.LASF58
  3892 0479 01       		.byte	0x1
  3893 047a 290B     		.2byte	0xb29
  3894 047c 6B000000 		.4byte	0x6b
@@ -8024,7 +8024,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3905 0491 74       		.sleb128 -12
  3906 0492 00       		.byte	0
  3907 0493 0D       		.uleb128 0xd
- 3908 0494 03030000 		.4byte	.LASF63
+ 3908 0494 2B030000 		.4byte	.LASF63
  3909 0498 01       		.byte	0x1
  3910 0499 3F0B     		.2byte	0xb3f
  3911 049b D2000000 		.4byte	0xd2
@@ -8034,18 +8034,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3915 04a8 9C       		.byte	0x9c
  3916 04a9 EA040000 		.4byte	0x4ea
  3917 04ad 0A       		.uleb128 0xa
- 3918 04ae 12030000 		.4byte	.LASF58
+ 3918 04ae 3A030000 		.4byte	.LASF58
  3919 04b2 01       		.byte	0x1
  3920 04b3 3F0B     		.2byte	0xb3f
  3921 04b5 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 135
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 135
 
 
  3922 04b9 02       		.uleb128 0x2
  3923 04ba 91       		.byte	0x91
  3924 04bb 6F       		.sleb128 -17
  3925 04bc 0A       		.uleb128 0xa
- 3926 04bd 7F040000 		.4byte	.LASF59
+ 3926 04bd A7040000 		.4byte	.LASF59
  3927 04c1 01       		.byte	0x1
  3928 04c2 3F0B     		.2byte	0xb3f
  3929 04c4 D2000000 		.4byte	0xd2
@@ -8070,7 +8070,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3948 04e8 74       		.sleb128 -12
  3949 04e9 00       		.byte	0
  3950 04ea 0D       		.uleb128 0xd
- 3951 04eb 0E050000 		.4byte	.LASF64
+ 3951 04eb 36050000 		.4byte	.LASF64
  3952 04ef 01       		.byte	0x1
  3953 04f0 5B0B     		.2byte	0xb5b
  3954 04f2 D2000000 		.4byte	0xd2
@@ -8080,7 +8080,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3958 04ff 9C       		.byte	0x9c
  3959 0500 23050000 		.4byte	0x523
  3960 0504 0A       		.uleb128 0xa
- 3961 0505 12030000 		.4byte	.LASF58
+ 3961 0505 3A030000 		.4byte	.LASF58
  3962 0509 01       		.byte	0x1
  3963 050a 5B0B     		.2byte	0xb5b
  3964 050c 6B000000 		.4byte	0x6b
@@ -8097,8 +8097,8 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3975 0521 74       		.sleb128 -12
  3976 0522 00       		.byte	0
  3977 0523 09       		.uleb128 0x9
- 3978 0524 D6040000 		.4byte	.LASF65
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 136
+ 3978 0524 FE040000 		.4byte	.LASF65
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 136
 
 
  3979 0528 01       		.byte	0x1
@@ -8109,7 +8109,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3984 0534 9C       		.byte	0x9c
  3985 0535 85050000 		.4byte	0x585
  3986 0539 0A       		.uleb128 0xa
- 3987 053a 12030000 		.4byte	.LASF58
+ 3987 053a 3A030000 		.4byte	.LASF58
  3988 053e 01       		.byte	0x1
  3989 053f 6E0B     		.2byte	0xb6e
  3990 0541 6B000000 		.4byte	0x6b
@@ -8117,7 +8117,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  3992 0546 91       		.byte	0x91
  3993 0547 5F       		.sleb128 -33
  3994 0548 0A       		.uleb128 0xa
- 3995 0549 19030000 		.4byte	.LASF66
+ 3995 0549 41030000 		.4byte	.LASF66
  3996 054d 01       		.byte	0x1
  3997 054e 6E0B     		.2byte	0xb6e
  3998 0550 6B000000 		.4byte	0x6b
@@ -8158,12 +8158,12 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4033 0595 58000000 		.4byte	.LFE25-.LFB25
  4034 0599 01       		.uleb128 0x1
  4035 059a 9C       		.byte	0x9c
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 137
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 137
 
 
  4036 059b BE050000 		.4byte	0x5be
  4037 059f 0A       		.uleb128 0xa
- 4038 05a0 12030000 		.4byte	.LASF58
+ 4038 05a0 3A030000 		.4byte	.LASF58
  4039 05a4 01       		.byte	0x1
  4040 05a5 900B     		.2byte	0xb90
  4041 05a7 6B000000 		.4byte	0x6b
@@ -8171,7 +8171,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4043 05ac 91       		.byte	0x91
  4044 05ad 6F       		.sleb128 -17
  4045 05ae 0B       		.uleb128 0xb
- 4046 05af 19030000 		.4byte	.LASF66
+ 4046 05af 41030000 		.4byte	.LASF66
  4047 05b3 01       		.byte	0x1
  4048 05b4 920B     		.2byte	0xb92
  4049 05b6 6B000000 		.4byte	0x6b
@@ -8180,7 +8180,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4052 05bc 77       		.sleb128 -9
  4053 05bd 00       		.byte	0
  4054 05be 0C       		.uleb128 0xc
- 4055 05bf 75050000 		.4byte	.LASF70
+ 4055 05bf 9D050000 		.4byte	.LASF70
  4056 05c3 01       		.byte	0x1
  4057 05c4 A50B     		.2byte	0xba5
  4058 05c6 00000000 		.4byte	.LFB26
@@ -8189,7 +8189,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4061 05cf 9C       		.byte	0x9c
  4062 05d0 E4050000 		.4byte	0x5e4
  4063 05d4 0A       		.uleb128 0xa
- 4064 05d5 12030000 		.4byte	.LASF58
+ 4064 05d5 3A030000 		.4byte	.LASF58
  4065 05d9 01       		.byte	0x1
  4066 05da A50B     		.2byte	0xba5
  4067 05dc 6B000000 		.4byte	0x6b
@@ -8208,7 +8208,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4080 05f9 9C       		.byte	0x9c
  4081 05fa 0E060000 		.4byte	0x60e
  4082 05fe 0A       		.uleb128 0xa
- 4083 05ff 12030000 		.4byte	.LASF58
+ 4083 05ff 3A030000 		.4byte	.LASF58
  4084 0603 01       		.byte	0x1
  4085 0604 B70B     		.2byte	0xbb7
  4086 0606 6B000000 		.4byte	0x6b
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4090 060d 00       		.byte	0
  4091 060e 0C       		.uleb128 0xc
  4092 060f 56010000 		.4byte	.LASF72
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 138
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 138
 
 
  4093 0613 01       		.byte	0x1
@@ -8229,7 +8229,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4098 061f 9C       		.byte	0x9c
  4099 0620 34060000 		.4byte	0x634
  4100 0624 0A       		.uleb128 0xa
- 4101 0625 12030000 		.4byte	.LASF58
+ 4101 0625 3A030000 		.4byte	.LASF58
  4102 0629 01       		.byte	0x1
  4103 062a C70B     		.2byte	0xbc7
  4104 062c 6B000000 		.4byte	0x6b
@@ -8238,7 +8238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4107 0632 77       		.sleb128 -9
  4108 0633 00       		.byte	0
  4109 0634 0C       		.uleb128 0xc
- 4110 0635 AD020000 		.4byte	.LASF73
+ 4110 0635 D5020000 		.4byte	.LASF73
  4111 0639 01       		.byte	0x1
  4112 063a D50B     		.2byte	0xbd5
  4113 063c 00000000 		.4byte	.LFB29
@@ -8247,7 +8247,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4116 0645 9C       		.byte	0x9c
  4117 0646 5A060000 		.4byte	0x65a
  4118 064a 0A       		.uleb128 0xa
- 4119 064b 12030000 		.4byte	.LASF58
+ 4119 064b 3A030000 		.4byte	.LASF58
  4120 064f 01       		.byte	0x1
  4121 0650 D50B     		.2byte	0xbd5
  4122 0652 6B000000 		.4byte	0x6b
@@ -8256,7 +8256,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4125 0658 77       		.sleb128 -9
  4126 0659 00       		.byte	0
  4127 065a 0C       		.uleb128 0xc
- 4128 065b 61040000 		.4byte	.LASF74
+ 4128 065b 89040000 		.4byte	.LASF74
  4129 065f 01       		.byte	0x1
  4130 0660 E40B     		.2byte	0xbe4
  4131 0662 00000000 		.4byte	.LFB30
@@ -8265,7 +8265,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4134 066b 9C       		.byte	0x9c
  4135 066c 80060000 		.4byte	0x680
  4136 0670 0A       		.uleb128 0xa
- 4137 0671 12030000 		.4byte	.LASF58
+ 4137 0671 3A030000 		.4byte	.LASF58
  4138 0675 01       		.byte	0x1
  4139 0676 E40B     		.2byte	0xbe4
  4140 0678 6B000000 		.4byte	0x6b
@@ -8274,11 +8274,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4143 067e 77       		.sleb128 -9
  4144 067f 00       		.byte	0
  4145 0680 0C       		.uleb128 0xc
- 4146 0681 39050000 		.4byte	.LASF75
+ 4146 0681 61050000 		.4byte	.LASF75
  4147 0685 01       		.byte	0x1
  4148 0686 F30B     		.2byte	0xbf3
  4149 0688 00000000 		.4byte	.LFB31
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 139
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 139
 
 
  4150 068c 16000000 		.4byte	.LFE31-.LFB31
@@ -8286,7 +8286,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4152 0691 9C       		.byte	0x9c
  4153 0692 A6060000 		.4byte	0x6a6
  4154 0696 0A       		.uleb128 0xa
- 4155 0697 B8050000 		.4byte	.LASF52
+ 4155 0697 E0050000 		.4byte	.LASF52
  4156 069b 01       		.byte	0x1
  4157 069c F30B     		.2byte	0xbf3
  4158 069e 6B000000 		.4byte	0x6b
@@ -8303,7 +8303,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4169 06b6 01       		.uleb128 0x1
  4170 06b7 9C       		.byte	0x9c
  4171 06b8 09       		.uleb128 0x9
- 4172 06b9 29060000 		.4byte	.LASF77
+ 4172 06b9 51060000 		.4byte	.LASF77
  4173 06bd 01       		.byte	0x1
  4174 06be 1F0C     		.2byte	0xc1f
  4175 06c0 00000000 		.4byte	.LFB33
@@ -8312,7 +8312,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4178 06c9 9C       		.byte	0x9c
  4179 06ca DE060000 		.4byte	0x6de
  4180 06ce 0A       		.uleb128 0xa
- 4181 06cf 1D050000 		.4byte	.LASF78
+ 4181 06cf 45050000 		.4byte	.LASF78
  4182 06d3 01       		.byte	0x1
  4183 06d4 1F0C     		.2byte	0xc1f
  4184 06d6 83000000 		.4byte	0x83
@@ -8321,7 +8321,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4187 06dc 74       		.sleb128 -12
  4188 06dd 00       		.byte	0
  4189 06de 09       		.uleb128 0x9
- 4190 06df AE050000 		.4byte	.LASF79
+ 4190 06df D6050000 		.4byte	.LASF79
  4191 06e3 01       		.byte	0x1
  4192 06e4 360C     		.2byte	0xc36
  4193 06e6 00000000 		.4byte	.LFB34
@@ -8330,7 +8330,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4196 06ef 9C       		.byte	0x9c
  4197 06f0 04070000 		.4byte	0x704
  4198 06f4 0A       		.uleb128 0xa
- 4199 06f5 80070000 		.4byte	.LASF80
+ 4199 06f5 56070000 		.4byte	.LASF80
  4200 06f9 01       		.byte	0x1
  4201 06fa 360C     		.2byte	0xc36
  4202 06fc 77000000 		.4byte	0x77
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4204 0701 91       		.byte	0x91
  4205 0702 76       		.sleb128 -10
  4206 0703 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 140
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 140
 
 
  4207 0704 09       		.uleb128 0x9
@@ -8360,7 +8360,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4223 0728 74       		.sleb128 -12
  4224 0729 00       		.byte	0
  4225 072a 11       		.uleb128 0x11
- 4226 072b 11040000 		.4byte	.LASF82
+ 4226 072b 39040000 		.4byte	.LASF82
  4227 072f 01       		.byte	0x1
  4228 0730 640C     		.2byte	0xc64
  4229 0732 00000000 		.4byte	.LFB36
@@ -8386,7 +8386,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4249 075e 74       		.sleb128 -12
  4250 075f 00       		.byte	0
  4251 0760 11       		.uleb128 0x11
- 4252 0761 D1050000 		.4byte	.LASF84
+ 4252 0761 F9050000 		.4byte	.LASF84
  4253 0765 01       		.byte	0x1
  4254 0766 9F0C     		.2byte	0xc9f
  4255 0768 00000000 		.4byte	.LFB38
@@ -8394,11 +8394,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4257 0770 01       		.uleb128 0x1
  4258 0771 9C       		.byte	0x9c
  4259 0772 0E       		.uleb128 0xe
- 4260 0773 02070000 		.4byte	.LASF85
+ 4260 0773 D8060000 		.4byte	.LASF85
  4261 0777 01       		.byte	0x1
  4262 0778 B00C     		.2byte	0xcb0
  4263 077a 00000000 		.4byte	.LFB39
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 141
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 141
 
 
  4264 077e 1C000000 		.4byte	.LFE39-.LFB39
@@ -8413,7 +8413,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4273 0794 01       		.uleb128 0x1
  4274 0795 9C       		.byte	0x9c
  4275 0796 0E       		.uleb128 0xe
- 4276 0797 49060000 		.4byte	.LASF87
+ 4276 0797 71060000 		.4byte	.LASF87
  4277 079b 01       		.byte	0x1
  4278 079c D00C     		.2byte	0xcd0
  4279 079e 00000000 		.4byte	.LFB41
@@ -8421,7 +8421,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4281 07a6 01       		.uleb128 0x1
  4282 07a7 9C       		.byte	0x9c
  4283 07a8 0C       		.uleb128 0xc
- 4284 07a9 94070000 		.4byte	.LASF88
+ 4284 07a9 6A070000 		.4byte	.LASF88
  4285 07ad 01       		.byte	0x1
  4286 07ae E10C     		.2byte	0xce1
  4287 07b0 00000000 		.4byte	.LFB42
@@ -8448,7 +8448,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4308 07e2 01       		.uleb128 0x1
  4309 07e3 9C       		.byte	0x9c
  4310 07e4 10       		.uleb128 0x10
- 4311 07e5 B6040000 		.4byte	.LASF91
+ 4311 07e5 DE040000 		.4byte	.LASF91
  4312 07e9 01       		.byte	0x1
  4313 07ea 010D     		.2byte	0xd01
  4314 07ec 83000000 		.4byte	0x83
@@ -8457,8 +8457,8 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4317 07f8 01       		.uleb128 0x1
  4318 07f9 9C       		.byte	0x9c
  4319 07fa 0C       		.uleb128 0xc
- 4320 07fb EB020000 		.4byte	.LASF92
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 142
+ 4320 07fb 13030000 		.4byte	.LASF92
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 142
 
 
  4321 07ff 01       		.byte	0x1
@@ -8478,7 +8478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4335 081e 74       		.sleb128 -12
  4336 081f 00       		.byte	0
  4337 0820 10       		.uleb128 0x10
- 4338 0821 31060000 		.4byte	.LASF94
+ 4338 0821 59060000 		.4byte	.LASF94
  4339 0825 01       		.byte	0x1
  4340 0826 3A0D     		.2byte	0xd3a
  4341 0828 83000000 		.4byte	0x83
@@ -8496,7 +8496,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4353 084a 01       		.uleb128 0x1
  4354 084b 9C       		.byte	0x9c
  4355 084c 0E       		.uleb128 0xe
- 4356 084d 61020000 		.4byte	.LASF96
+ 4356 084d 89020000 		.4byte	.LASF96
  4357 0851 01       		.byte	0x1
  4358 0852 5E0D     		.2byte	0xd5e
  4359 0854 00000000 		.4byte	.LFB48
@@ -8504,7 +8504,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4361 085c 01       		.uleb128 0x1
  4362 085d 9C       		.byte	0x9c
  4363 085e 0F       		.uleb128 0xf
- 4364 085f F8050000 		.4byte	.LASF97
+ 4364 085f 20060000 		.4byte	.LASF97
  4365 0863 01       		.byte	0x1
  4366 0864 810D     		.2byte	0xd81
  4367 0866 F3000000 		.4byte	0xf3
@@ -8514,18 +8514,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4371 0873 9C       		.byte	0x9c
  4372 0874 A6080000 		.4byte	0x8a6
  4373 0878 0A       		.uleb128 0xa
- 4374 0879 12030000 		.4byte	.LASF58
+ 4374 0879 3A030000 		.4byte	.LASF58
  4375 087d 01       		.byte	0x1
  4376 087e 810D     		.2byte	0xd81
  4377 0880 83000000 		.4byte	0x83
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 143
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 143
 
 
  4378 0884 02       		.uleb128 0x2
  4379 0885 91       		.byte	0x91
  4380 0886 6C       		.sleb128 -20
  4381 0887 0A       		.uleb128 0xa
- 4382 0888 9C040000 		.4byte	.LASF98
+ 4382 0888 C4040000 		.4byte	.LASF98
  4383 088c 01       		.byte	0x1
  4384 088d 810D     		.2byte	0xd81
  4385 088f F3000000 		.4byte	0xf3
@@ -8552,7 +8552,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4406 08bb 9C       		.byte	0x9c
  4407 08bc D0080000 		.4byte	0x8d0
  4408 08c0 0A       		.uleb128 0xa
- 4409 08c1 12030000 		.4byte	.LASF58
+ 4409 08c1 3A030000 		.4byte	.LASF58
  4410 08c5 01       		.byte	0x1
  4411 08c6 990D     		.2byte	0xd99
  4412 08c8 83000000 		.4byte	0x83
@@ -8561,7 +8561,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4415 08ce 74       		.sleb128 -12
  4416 08cf 00       		.byte	0
  4417 08d0 13       		.uleb128 0x13
- 4418 08d1 A7070000 		.4byte	.LASF121
+ 4418 08d1 7D070000 		.4byte	.LASF121
  4419 08d5 01       		.byte	0x1
  4420 08d6 A60D     		.2byte	0xda6
  4421 08d8 00000000 		.4byte	.LFB51
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4432 08f1 91       		.byte	0x91
  4433 08f2 74       		.sleb128 -12
  4434 08f3 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 144
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 144
 
 
  4435 08f4 0C       		.uleb128 0xc
@@ -8591,7 +8591,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4442 0905 9C       		.byte	0x9c
  4443 0906 1A090000 		.4byte	0x91a
  4444 090a 0A       		.uleb128 0xa
- 4445 090b 20060000 		.4byte	.LASF102
+ 4445 090b 48060000 		.4byte	.LASF102
  4446 090f 01       		.byte	0x1
  4447 0910 C60D     		.2byte	0xdc6
  4448 0912 1A090000 		.4byte	0x91a
@@ -8603,7 +8603,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4454 091b 04       		.byte	0x4
  4455 091c 83000000 		.4byte	0x83
  4456 0920 0C       		.uleb128 0xc
- 4457 0921 40050000 		.4byte	.LASF103
+ 4457 0921 68050000 		.4byte	.LASF103
  4458 0925 01       		.byte	0x1
  4459 0926 F30D     		.2byte	0xdf3
  4460 0928 00000000 		.4byte	.LFB53
@@ -8612,7 +8612,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4463 0931 9C       		.byte	0x9c
  4464 0932 55090000 		.4byte	0x955
  4465 0936 0A       		.uleb128 0xa
- 4466 0937 2D040000 		.4byte	.LASF104
+ 4466 0937 55040000 		.4byte	.LASF104
  4467 093b 01       		.byte	0x1
  4468 093c F30D     		.2byte	0xdf3
  4469 093e 83000000 		.4byte	0x83
@@ -8620,7 +8620,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4471 0943 91       		.byte	0x91
  4472 0944 6C       		.sleb128 -20
  4473 0945 0B       		.uleb128 0xb
- 4474 0946 E4020000 		.4byte	.LASF105
+ 4474 0946 0C030000 		.4byte	.LASF105
  4475 094a 01       		.byte	0x1
  4476 094b F50D     		.2byte	0xdf5
  4477 094d 83000000 		.4byte	0x83
@@ -8629,7 +8629,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4480 0953 74       		.sleb128 -12
  4481 0954 00       		.byte	0
  4482 0955 0C       		.uleb128 0xc
- 4483 0956 C5030000 		.4byte	.LASF106
+ 4483 0956 ED030000 		.4byte	.LASF106
  4484 095a 01       		.byte	0x1
  4485 095b 0F0E     		.2byte	0xe0f
  4486 095d 00000000 		.4byte	.LFB54
@@ -8638,10 +8638,10 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4489 0966 9C       		.byte	0x9c
  4490 0967 8A090000 		.4byte	0x98a
  4491 096b 0A       		.uleb128 0xa
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 145
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 145
 
 
- 4492 096c 2D040000 		.4byte	.LASF104
+ 4492 096c 55040000 		.4byte	.LASF104
  4493 0970 01       		.byte	0x1
  4494 0971 0F0E     		.2byte	0xe0f
  4495 0973 83000000 		.4byte	0x83
@@ -8649,7 +8649,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4497 0978 91       		.byte	0x91
  4498 0979 6C       		.sleb128 -20
  4499 097a 0B       		.uleb128 0xb
- 4500 097b E4020000 		.4byte	.LASF105
+ 4500 097b 0C030000 		.4byte	.LASF105
  4501 097f 01       		.byte	0x1
  4502 0980 110E     		.2byte	0xe11
  4503 0982 83000000 		.4byte	0x83
@@ -8658,7 +8658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4506 0988 74       		.sleb128 -12
  4507 0989 00       		.byte	0
  4508 098a 0C       		.uleb128 0xc
- 4509 098b E4060000 		.4byte	.LASF107
+ 4509 098b BA060000 		.4byte	.LASF107
  4510 098f 01       		.byte	0x1
  4511 0990 2B0E     		.2byte	0xe2b
  4512 0992 00000000 		.4byte	.LFB55
@@ -8667,7 +8667,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4515 099b 9C       		.byte	0x9c
  4516 099c BF090000 		.4byte	0x9bf
  4517 09a0 0A       		.uleb128 0xa
- 4518 09a1 2D040000 		.4byte	.LASF104
+ 4518 09a1 55040000 		.4byte	.LASF104
  4519 09a5 01       		.byte	0x1
  4520 09a6 2B0E     		.2byte	0xe2b
  4521 09a8 83000000 		.4byte	0x83
@@ -8675,7 +8675,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4523 09ad 91       		.byte	0x91
  4524 09ae 6C       		.sleb128 -20
  4525 09af 0B       		.uleb128 0xb
- 4526 09b0 E4020000 		.4byte	.LASF105
+ 4526 09b0 0C030000 		.4byte	.LASF105
  4527 09b4 01       		.byte	0x1
  4528 09b5 2D0E     		.2byte	0xe2d
  4529 09b7 83000000 		.4byte	0x83
@@ -8684,7 +8684,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4532 09bd 74       		.sleb128 -12
  4533 09be 00       		.byte	0
  4534 09bf 09       		.uleb128 0x9
- 4535 09c0 3D040000 		.4byte	.LASF108
+ 4535 09c0 65040000 		.4byte	.LASF108
  4536 09c4 01       		.byte	0x1
  4537 09c5 490E     		.2byte	0xe49
  4538 09c7 00000000 		.4byte	.LFB56
@@ -8698,13 +8698,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4546 09db 490E     		.2byte	0xe49
  4547 09dd 83000000 		.4byte	0x83
  4548 09e1 02       		.uleb128 0x2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 146
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 146
 
 
  4549 09e2 91       		.byte	0x91
  4550 09e3 6C       		.sleb128 -20
  4551 09e4 0A       		.uleb128 0xa
- 4552 09e5 2D040000 		.4byte	.LASF104
+ 4552 09e5 55040000 		.4byte	.LASF104
  4553 09e9 01       		.byte	0x1
  4554 09ea 490E     		.2byte	0xe49
  4555 09ec 83000000 		.4byte	0x83
@@ -8712,7 +8712,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4557 09f1 91       		.byte	0x91
  4558 09f2 68       		.sleb128 -24
  4559 09f3 0B       		.uleb128 0xb
- 4560 09f4 E4020000 		.4byte	.LASF105
+ 4560 09f4 0C030000 		.4byte	.LASF105
  4561 09f8 01       		.byte	0x1
  4562 09f9 4B0E     		.2byte	0xe4b
  4563 09fb 83000000 		.4byte	0x83
@@ -8728,7 +8728,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4573 0a11 04       		.byte	0x4
  4574 0a12 00       		.byte	0
  4575 0a13 16       		.uleb128 0x16
- 4576 0a14 0D060000 		.4byte	.LASF110
+ 4576 0a14 35060000 		.4byte	.LASF110
  4577 0a18 01       		.byte	0x1
  4578 0a19 22       		.byte	0x22
  4579 0a1a 030A0000 		.4byte	0xa03
@@ -8736,7 +8736,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4581 0a1f 03       		.byte	0x3
  4582 0a20 00000000 		.4byte	CySysTickCallbacks
  4583 0a24 17       		.uleb128 0x17
- 4584 0a25 C8040000 		.4byte	.LASF111
+ 4584 0a25 F0040000 		.4byte	.LASF111
  4585 0a29 01       		.byte	0x1
  4586 0a2a 1B       		.byte	0x1b
  4587 0a2b 83000000 		.4byte	0x83
@@ -8752,13 +8752,13 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4597 0a41 03       		.byte	0x3
  4598 0a42 00000000 		.4byte	cydelayFreqKhz
  4599 0a46 17       		.uleb128 0x17
- 4600 0a47 C5060000 		.4byte	.LASF113
+ 4600 0a47 9B060000 		.4byte	.LASF113
  4601 0a4b 01       		.byte	0x1
  4602 0a4c 1D       		.byte	0x1d
  4603 0a4d 6B000000 		.4byte	0x6b
  4604 0a51 05       		.uleb128 0x5
  4605 0a52 03       		.byte	0x3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 147
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 147
 
 
  4606 0a53 00000000 		.4byte	cydelayFreqMhz
@@ -8788,7 +8788,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4630 0a89 18       		.uleb128 0x18
  4631 0a8a 6B000000 		.4byte	0x6b
  4632 0a8e 17       		.uleb128 0x17
- 4633 0a8f A5040000 		.4byte	.LASF116
+ 4633 0a8f CD040000 		.4byte	.LASF116
  4634 0a93 01       		.byte	0x1
  4635 0a94 3B       		.byte	0x3b
  4636 0a95 9F0A0000 		.4byte	0xa9f
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4660 0007 03       		.uleb128 0x3
  4661 0008 0E       		.uleb128 0xe
  4662 0009 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 148
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 148
 
 
  4663 000a 0E       		.uleb128 0xe
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4717 0040 0B       		.uleb128 0xb
  4718 0041 0B       		.uleb128 0xb
  4719 0042 49       		.uleb128 0x49
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 149
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 149
 
 
  4720 0043 13       		.uleb128 0x13
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4774 007b 01       		.uleb128 0x1
  4775 007c 13       		.uleb128 0x13
  4776 007d 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 150
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 150
 
 
  4777 007e 00       		.byte	0
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4831 00b5 00       		.byte	0
  4832 00b6 00       		.byte	0
  4833 00b7 0D       		.uleb128 0xd
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 151
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 151
 
 
  4834 00b8 2E       		.uleb128 0x2e
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4888 00f0 03       		.uleb128 0x3
  4889 00f1 0E       		.uleb128 0xe
  4890 00f2 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 152
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 152
 
 
  4891 00f3 0B       		.uleb128 0xb
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  4945 012b 05       		.uleb128 0x5
  4946 012c 27       		.uleb128 0x27
  4947 012d 19       		.uleb128 0x19
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 153
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 153
 
 
  4948 012e 11       		.uleb128 0x11
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5002 0166 13       		.uleb128 0x13
  5003 0167 00       		.byte	0
  5004 0168 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 154
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 154
 
 
  5005 0169 15       		.uleb128 0x15
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5059 000b 00       		.byte	0
  5060 000c 0000     		.2byte	0
  5061 000e 0000     		.2byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 155
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 155
 
 
  5062 0010 00000000 		.4byte	.LFB2
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5116 00e8 00000000 		.4byte	.LFB29
  5117 00ec 2C000000 		.4byte	.LFE29-.LFB29
  5118 00f0 00000000 		.4byte	.LFB30
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 156
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 156
 
 
  5119 00f4 2C000000 		.4byte	.LFE30-.LFB30
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5173 01cc 00000000 		.4byte	0
  5174              		.section	.debug_ranges,"",%progbits
  5175              	.Ldebug_ranges0:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 157
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 157
 
 
  5176 0000 00000000 		.4byte	.LFB2
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5230 00d8 00000000 		.4byte	.LFB29
  5231 00dc 2C000000 		.4byte	.LFE29
  5232 00e0 00000000 		.4byte	.LFB30
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 158
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 158
 
 
  5233 00e4 2C000000 		.4byte	.LFE30
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5287 01bc 00000000 		.4byte	0
  5288              		.section	.debug_line,"",%progbits
  5289              	.Ldebug_line0:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 159
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 159
 
 
  5290 0000 79050000 		.section	.debug_str,"MS",%progbits,1
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5312      65642069 
  5313              	.LASF115:
  5314 009b 43795379 		.ascii	"CySysTickInitVar\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 160
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 160
 
 
  5314      73546963 
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5336      6B476574 
  5336      52656C6F 
  5336      616400
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 161
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 161
 
 
  5337              	.LASF4:
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5362      7973636C 
  5362      6B536F75 
  5363              	.LASF69:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 162
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 162
 
 
  5364 01f2 4379496E 		.ascii	"CyIntGetPriority\000"
@@ -9699,421 +9699,416 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 1
  5378      676E6564 
  5378      20696E74 
  5378      00
- 5379              	.LASF96:
- 5380 0261 43795379 		.ascii	"CySysTickClear\000"
- 5380      73546963 
- 5380      6B436C65 
- 5380      617200
- 5381              	.LASF5:
- 5382 0270 6C6F6E67 		.ascii	"long unsigned int\000"
- 5382      20756E73 
- 5382      69676E65 
- 5382      6420696E 
- 5382      7400
- 5383              	.LASF89:
- 5384 0282 43795379 		.ascii	"CySysLvdGetInterruptSource\000"
- 5384      734C7664 
- 5384      47657449 
- 5384      6E746572 
- 5384      72757074 
- 5385              	.LASF23:
- 5386 029d 43795379 		.ascii	"CySysClkImoStop\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 163
+ 5379              	.LASF120:
+ 5380 0261 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 5380      4F524B5C 
+ 5380      54455354 
+ 5380      735C5073 
+ 5380      6F633442 
+ 5381              	.LASF96:
+ 5382 0289 43795379 		.ascii	"CySysTickClear\000"
+ 5382      73546963 
+ 5382      6B436C65 
+ 5382      617200
+ 5383              	.LASF5:
+ 5384 0298 6C6F6E67 		.ascii	"long unsigned int\000"
+ 5384      20756E73 
+ 5384      69676E65 
+ 5384      6420696E 
+ 5384      7400
+ 5385              	.LASF89:
+ 5386 02aa 43795379 		.ascii	"CySysLvdGetInterruptSource\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 163
 
 
- 5386      73436C6B 
- 5386      496D6F53 
- 5386      746F7000 
- 5387              	.LASF73:
- 5388 02ad 4379496E 		.ascii	"CyIntSetPending\000"
- 5388      74536574 
- 5388      50656E64 
- 5388      696E6700 
- 5389              	.LASF51:
- 5390 02bd 43795379 		.ascii	"CySysGetResetReason\000"
- 5390      73476574 
- 5390      52657365 
- 5390      74526561 
- 5390      736F6E00 
- 5391              	.LASF3:
- 5392 02d1 73686F72 		.ascii	"short unsigned int\000"
- 5392      7420756E 
- 5392      7369676E 
- 5392      65642069 
- 5392      6E7400
- 5393              	.LASF105:
- 5394 02e4 72656754 		.ascii	"regTmp\000"
- 5394      6D7000
- 5395              	.LASF92:
- 5396 02eb 43795379 		.ascii	"CySysTickSetClockSource\000"
- 5396      73546963 
- 5396      6B536574 
- 5396      436C6F63 
- 5396      6B536F75 
- 5397              	.LASF63:
- 5398 0303 4379496E 		.ascii	"CyIntSetVector\000"
- 5398      74536574 
- 5398      56656374 
- 5398      6F7200
- 5399              	.LASF58:
- 5400 0312 6E756D62 		.ascii	"number\000"
- 5400      657200
- 5401              	.LASF66:
- 5402 0319 7072696F 		.ascii	"priority\000"
- 5402      72697479 
- 5402      00
- 5403              	.LASF33:
- 5404 0322 43795379 		.ascii	"CySysClkWriteImoFreq\000"
- 5404      73436C6B 
- 5404      57726974 
- 5404      65496D6F 
- 5404      46726571 
- 5405              	.LASF118:
- 5406 0337 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 5406      43313120 
- 5406      352E342E 
- 5406      31203230 
- 5406      31363036 
- 5407 036a 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 5407      20726576 
- 5407      6973696F 
- 5407      6E203233 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 164
+ 5386      734C7664 
+ 5386      47657449 
+ 5386      6E746572 
+ 5386      72757074 
+ 5387              	.LASF23:
+ 5388 02c5 43795379 		.ascii	"CySysClkImoStop\000"
+ 5388      73436C6B 
+ 5388      496D6F53 
+ 5388      746F7000 
+ 5389              	.LASF73:
+ 5390 02d5 4379496E 		.ascii	"CyIntSetPending\000"
+ 5390      74536574 
+ 5390      50656E64 
+ 5390      696E6700 
+ 5391              	.LASF51:
+ 5392 02e5 43795379 		.ascii	"CySysGetResetReason\000"
+ 5392      73476574 
+ 5392      52657365 
+ 5392      74526561 
+ 5392      736F6E00 
+ 5393              	.LASF3:
+ 5394 02f9 73686F72 		.ascii	"short unsigned int\000"
+ 5394      7420756E 
+ 5394      7369676E 
+ 5394      65642069 
+ 5394      6E7400
+ 5395              	.LASF105:
+ 5396 030c 72656754 		.ascii	"regTmp\000"
+ 5396      6D7000
+ 5397              	.LASF92:
+ 5398 0313 43795379 		.ascii	"CySysTickSetClockSource\000"
+ 5398      73546963 
+ 5398      6B536574 
+ 5398      436C6F63 
+ 5398      6B536F75 
+ 5399              	.LASF63:
+ 5400 032b 4379496E 		.ascii	"CyIntSetVector\000"
+ 5400      74536574 
+ 5400      56656374 
+ 5400      6F7200
+ 5401              	.LASF58:
+ 5402 033a 6E756D62 		.ascii	"number\000"
+ 5402      657200
+ 5403              	.LASF66:
+ 5404 0341 7072696F 		.ascii	"priority\000"
+ 5404      72697479 
+ 5404      00
+ 5405              	.LASF33:
+ 5406 034a 43795379 		.ascii	"CySysClkWriteImoFreq\000"
+ 5406      73436C6B 
+ 5406      57726974 
+ 5406      65496D6F 
+ 5406      46726571 
+ 5407              	.LASF118:
+ 5408 035f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 5408      43313120 
+ 5408      352E342E 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 164
 
 
- 5407      37373135 
- 5408 039d 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 5408      66756E63 
- 5408      74696F6E 
- 5408      2D736563 
- 5408      74696F6E 
- 5409              	.LASF106:
- 5410 03c5 43795379 		.ascii	"CySysSetFlashAccessArbPriority\000"
- 5410      73536574 
- 5410      466C6173 
- 5410      68416363 
- 5410      65737341 
- 5411              	.LASF57:
- 5412 03e4 4379496E 		.ascii	"CyIntSetSysVector\000"
- 5412      74536574 
- 5412      53797356 
- 5412      6563746F 
- 5412      7200
- 5413              	.LASF27:
- 5414 03f6 43795379 		.ascii	"CySysEnablePumpClock\000"
- 5414      73456E61 
- 5414      626C6550 
- 5414      756D7043 
- 5414      6C6F636B 
- 5415              	.LASF17:
- 5416 040b 72656733 		.ascii	"reg32\000"
- 5416      3200
- 5417              	.LASF82:
- 5418 0411 43795379 		.ascii	"CySysTickStart\000"
- 5418      73546963 
- 5418      6B537461 
- 5418      727400
- 5419              	.LASF42:
- 5420 0420 72657475 		.ascii	"returnStatus\000"
- 5420      726E5374 
- 5420      61747573 
- 5420      00
- 5421              	.LASF104:
- 5422 042d 736F7572 		.ascii	"source\000"
- 5422      636500
- 5423              	.LASF20:
- 5424 0434 73697A65 		.ascii	"sizetype\000"
- 5424      74797065 
- 5424      00
- 5425              	.LASF108:
- 5426 043d 43795379 		.ascii	"CySysSetPeripheralAccessArbPriority\000"
- 5426      73536574 
- 5426      50657269 
- 5426      70686572 
- 5426      616C4163 
- 5427              	.LASF74:
- 5428 0461 4379496E 		.ascii	"CyIntClearPending\000"
- 5428      74436C65 
- 5428      61725065 
- 5428      6E64696E 
- 5428      6700
- 5429              	.LASF19:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 165
+ 5408      31203230 
+ 5408      31363036 
+ 5409 0392 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 5409      20726576 
+ 5409      6973696F 
+ 5409      6E203233 
+ 5409      37373135 
+ 5410 03c5 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 5410      66756E63 
+ 5410      74696F6E 
+ 5410      2D736563 
+ 5410      74696F6E 
+ 5411              	.LASF106:
+ 5412 03ed 43795379 		.ascii	"CySysSetFlashAccessArbPriority\000"
+ 5412      73536574 
+ 5412      466C6173 
+ 5412      68416363 
+ 5412      65737341 
+ 5413              	.LASF57:
+ 5414 040c 4379496E 		.ascii	"CyIntSetSysVector\000"
+ 5414      74536574 
+ 5414      53797356 
+ 5414      6563746F 
+ 5414      7200
+ 5415              	.LASF27:
+ 5416 041e 43795379 		.ascii	"CySysEnablePumpClock\000"
+ 5416      73456E61 
+ 5416      626C6550 
+ 5416      756D7043 
+ 5416      6C6F636B 
+ 5417              	.LASF17:
+ 5418 0433 72656733 		.ascii	"reg32\000"
+ 5418      3200
+ 5419              	.LASF82:
+ 5420 0439 43795379 		.ascii	"CySysTickStart\000"
+ 5420      73546963 
+ 5420      6B537461 
+ 5420      727400
+ 5421              	.LASF42:
+ 5422 0448 72657475 		.ascii	"returnStatus\000"
+ 5422      726E5374 
+ 5422      61747573 
+ 5422      00
+ 5423              	.LASF104:
+ 5424 0455 736F7572 		.ascii	"source\000"
+ 5424      636500
+ 5425              	.LASF20:
+ 5426 045c 73697A65 		.ascii	"sizetype\000"
+ 5426      74797065 
+ 5426      00
+ 5427              	.LASF108:
+ 5428 0465 43795379 		.ascii	"CySysSetPeripheralAccessArbPriority\000"
+ 5428      73536574 
+ 5428      50657269 
+ 5428      70686572 
+ 5428      616C4163 
+ 5429              	.LASF74:
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 165
 
 
- 5430 0473 6C6F6E67 		.ascii	"long double\000"
- 5430      20646F75 
- 5430      626C6500 
- 5431              	.LASF59:
- 5432 047f 61646472 		.ascii	"address\000"
- 5432      65737300 
- 5433              	.LASF36:
- 5434 0487 62675472 		.ascii	"bgTrim5\000"
- 5434      696D3500 
- 5435              	.LASF30:
- 5436 048f 73797363 		.ascii	"sysclkSource\000"
- 5436      6C6B536F 
- 5436      75726365 
- 5436      00
- 5437              	.LASF98:
- 5438 049c 66756E63 		.ascii	"function\000"
- 5438      74696F6E 
+ 5430 0489 4379496E 		.ascii	"CyIntClearPending\000"
+ 5430      74436C65 
+ 5430      61725065 
+ 5430      6E64696E 
+ 5430      6700
+ 5431              	.LASF19:
+ 5432 049b 6C6F6E67 		.ascii	"long double\000"
+ 5432      20646F75 
+ 5432      626C6500 
+ 5433              	.LASF59:
+ 5434 04a7 61646472 		.ascii	"address\000"
+ 5434      65737300 
+ 5435              	.LASF36:
+ 5436 04af 62675472 		.ascii	"bgTrim5\000"
+ 5436      696D3500 
+ 5437              	.LASF30:
+ 5438 04b7 73797363 		.ascii	"sysclkSource\000"
+ 5438      6C6B536F 
+ 5438      75726365 
  5438      00
- 5439              	.LASF116:
- 5440 04a5 6379496D 		.ascii	"cyImoFreqMhz2Reg\000"
- 5440      6F467265 
- 5440      714D687A 
- 5440      32526567 
+ 5439              	.LASF98:
+ 5440 04c4 66756E63 		.ascii	"function\000"
+ 5440      74696F6E 
  5440      00
- 5441              	.LASF91:
- 5442 04b6 43795379 		.ascii	"CySysTickGetValue\000"
- 5442      73546963 
- 5442      6B476574 
- 5442      56616C75 
- 5442      6500
- 5443              	.LASF111:
- 5444 04c8 63796465 		.ascii	"cydelayFreqHz\000"
- 5444      6C617946 
- 5444      72657148 
- 5444      7A00
- 5445              	.LASF65:
- 5446 04d6 4379496E 		.ascii	"CyIntSetPriority\000"
- 5446      74536574 
- 5446      5072696F 
- 5446      72697479 
- 5446      00
- 5447              	.LASF12:
- 5448 04e7 666C6F61 		.ascii	"float\000"
- 5448      7400
- 5449              	.LASF47:
- 5450 04ed 43795379 		.ascii	"CySysLvdEnable\000"
- 5450      734C7664 
- 5450      456E6162 
- 5450      6C6500
- 5451              	.LASF21:
- 5452 04fc 63795379 		.ascii	"cySysTickCallback\000"
- 5452      73546963 
- 5452      6B43616C 
- 5452      6C626163 
- 5452      6B00
- 5453              	.LASF64:
- 5454 050e 4379496E 		.ascii	"CyIntGetVector\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 166
+ 5441              	.LASF116:
+ 5442 04cd 6379496D 		.ascii	"cyImoFreqMhz2Reg\000"
+ 5442      6F467265 
+ 5442      714D687A 
+ 5442      32526567 
+ 5442      00
+ 5443              	.LASF91:
+ 5444 04de 43795379 		.ascii	"CySysTickGetValue\000"
+ 5444      73546963 
+ 5444      6B476574 
+ 5444      56616C75 
+ 5444      6500
+ 5445              	.LASF111:
+ 5446 04f0 63796465 		.ascii	"cydelayFreqHz\000"
+ 5446      6C617946 
+ 5446      72657148 
+ 5446      7A00
+ 5447              	.LASF65:
+ 5448 04fe 4379496E 		.ascii	"CyIntSetPriority\000"
+ 5448      74536574 
+ 5448      5072696F 
+ 5448      72697479 
+ 5448      00
+ 5449              	.LASF12:
+ 5450 050f 666C6F61 		.ascii	"float\000"
+ 5450      7400
+ 5451              	.LASF47:
+ 5452 0515 43795379 		.ascii	"CySysLvdEnable\000"
+ 5452      734C7664 
+ 5452      456E6162 
+ 5452      6C6500
+ 5453              	.LASF21:
+ 5454 0524 63795379 		.ascii	"cySysTickCallback\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 166
 
 
- 5454      74476574 
- 5454      56656374 
- 5454      6F7200
- 5455              	.LASF78:
- 5456 051d 6D696C6C 		.ascii	"milliseconds\000"
- 5456      69736563 
- 5456      6F6E6473 
- 5456      00
- 5457              	.LASF16:
- 5458 052a 72656738 		.ascii	"reg8\000"
+ 5454      73546963 
+ 5454      6B43616C 
+ 5454      6C626163 
+ 5454      6B00
+ 5455              	.LASF64:
+ 5456 0536 4379496E 		.ascii	"CyIntGetVector\000"
+ 5456      74476574 
+ 5456      56656374 
+ 5456      6F7200
+ 5457              	.LASF78:
+ 5458 0545 6D696C6C 		.ascii	"milliseconds\000"
+ 5458      69736563 
+ 5458      6F6E6473 
  5458      00
- 5459              	.LASF48:
- 5460 052f 74687265 		.ascii	"threshold\000"
- 5460      73686F6C 
- 5460      6400
- 5461              	.LASF75:
- 5462 0539 43794861 		.ascii	"CyHalt\000"
- 5462      6C7400
- 5463              	.LASF103:
- 5464 0540 43795379 		.ascii	"CySysSetRamAccessArbPriority\000"
- 5464      73536574 
- 5464      52616D41 
- 5464      63636573 
- 5464      73417262 
- 5465              	.LASF1:
- 5466 055d 756E7369 		.ascii	"unsigned char\000"
- 5466      676E6564 
- 5466      20636861 
- 5466      7200
- 5467              	.LASF2:
- 5468 056b 73686F72 		.ascii	"short int\000"
- 5468      7420696E 
- 5468      7400
- 5469              	.LASF70:
- 5470 0575 4379496E 		.ascii	"CyIntEnable\000"
- 5470      74456E61 
- 5470      626C6500 
- 5471              	.LASF62:
- 5472 0581 4379496E 		.ascii	"CyIntGetSysVector\000"
- 5472      74476574 
- 5472      53797356 
- 5472      6563746F 
- 5472      7200
- 5473              	.LASF28:
- 5474 0593 636C6B53 		.ascii	"clkSelect\000"
- 5474      656C6563 
- 5474      7400
- 5475              	.LASF40:
- 5476 059d 43795379 		.ascii	"CySysClkEcoStart\000"
- 5476      73436C6B 
- 5476      45636F53 
- 5476      74617274 
- 5476      00
- 5477              	.LASF79:
- 5478 05ae 43794465 		.ascii	"CyDelayUs\000"
- 5478      6C617955 
- 5478      7300
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 167
+ 5459              	.LASF16:
+ 5460 0552 72656738 		.ascii	"reg8\000"
+ 5460      00
+ 5461              	.LASF48:
+ 5462 0557 74687265 		.ascii	"threshold\000"
+ 5462      73686F6C 
+ 5462      6400
+ 5463              	.LASF75:
+ 5464 0561 43794861 		.ascii	"CyHalt\000"
+ 5464      6C7400
+ 5465              	.LASF103:
+ 5466 0568 43795379 		.ascii	"CySysSetRamAccessArbPriority\000"
+ 5466      73536574 
+ 5466      52616D41 
+ 5466      63636573 
+ 5466      73417262 
+ 5467              	.LASF1:
+ 5468 0585 756E7369 		.ascii	"unsigned char\000"
+ 5468      676E6564 
+ 5468      20636861 
+ 5468      7200
+ 5469              	.LASF2:
+ 5470 0593 73686F72 		.ascii	"short int\000"
+ 5470      7420696E 
+ 5470      7400
+ 5471              	.LASF70:
+ 5472 059d 4379496E 		.ascii	"CyIntEnable\000"
+ 5472      74456E61 
+ 5472      626C6500 
+ 5473              	.LASF62:
+ 5474 05a9 4379496E 		.ascii	"CyIntGetSysVector\000"
+ 5474      74476574 
+ 5474      53797356 
+ 5474      6563746F 
+ 5474      7200
+ 5475              	.LASF28:
+ 5476 05bb 636C6B53 		.ascii	"clkSelect\000"
+ 5476      656C6563 
+ 5476      7400
+ 5477              	.LASF40:
+ 5478 05c5 43795379 		.ascii	"CySysClkEcoStart\000"
+ 5478      73436C6B 
+ 5478      45636F53 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 167
 
 
- 5479              	.LASF52:
- 5480 05b8 72656173 		.ascii	"reason\000"
- 5480      6F6E00
- 5481              	.LASF14:
- 5482 05bf 63686172 		.ascii	"char\000"
- 5482      00
- 5483              	.LASF18:
- 5484 05c4 63796973 		.ascii	"cyisraddress\000"
- 5484      72616464 
- 5484      72657373 
+ 5478      74617274 
+ 5478      00
+ 5479              	.LASF79:
+ 5480 05d6 43794465 		.ascii	"CyDelayUs\000"
+ 5480      6C617955 
+ 5480      7300
+ 5481              	.LASF52:
+ 5482 05e0 72656173 		.ascii	"reason\000"
+ 5482      6F6E00
+ 5483              	.LASF14:
+ 5484 05e7 63686172 		.ascii	"char\000"
  5484      00
- 5485              	.LASF84:
- 5486 05d1 43795379 		.ascii	"CySysTickEnable\000"
- 5486      73546963 
- 5486      6B456E61 
- 5486      626C6500 
- 5487              	.LASF31:
- 5488 05e1 43795379 		.ascii	"CySysClkWriteSysclkDiv\000"
- 5488      73436C6B 
- 5488      57726974 
- 5488      65537973 
- 5488      636C6B44 
- 5489              	.LASF97:
- 5490 05f8 43795379 		.ascii	"CySysTickSetCallback\000"
- 5490      73546963 
- 5490      6B536574 
- 5490      43616C6C 
- 5490      6261636B 
- 5491              	.LASF110:
- 5492 060d 43795379 		.ascii	"CySysTickCallbacks\000"
+ 5485              	.LASF18:
+ 5486 05ec 63796973 		.ascii	"cyisraddress\000"
+ 5486      72616464 
+ 5486      72657373 
+ 5486      00
+ 5487              	.LASF84:
+ 5488 05f9 43795379 		.ascii	"CySysTickEnable\000"
+ 5488      73546963 
+ 5488      6B456E61 
+ 5488      626C6500 
+ 5489              	.LASF31:
+ 5490 0609 43795379 		.ascii	"CySysClkWriteSysclkDiv\000"
+ 5490      73436C6B 
+ 5490      57726974 
+ 5490      65537973 
+ 5490      636C6B44 
+ 5491              	.LASF97:
+ 5492 0620 43795379 		.ascii	"CySysTickSetCallback\000"
  5492      73546963 
- 5492      6B43616C 
- 5492      6C626163 
- 5492      6B7300
- 5493              	.LASF102:
- 5494 0620 756E6971 		.ascii	"uniqueId\000"
- 5494      75654964 
- 5494      00
- 5495              	.LASF77:
- 5496 0629 43794465 		.ascii	"CyDelay\000"
- 5496      6C617900 
- 5497              	.LASF94:
- 5498 0631 43795379 		.ascii	"CySysTickGetClockSource\000"
- 5498      73546963 
- 5498      6B476574 
- 5498      436C6F63 
- 5498      6B536F75 
- 5499              	.LASF87:
- 5500 0649 43795379 		.ascii	"CySysTickDisableInterrupt\000"
+ 5492      6B536574 
+ 5492      43616C6C 
+ 5492      6261636B 
+ 5493              	.LASF110:
+ 5494 0635 43795379 		.ascii	"CySysTickCallbacks\000"
+ 5494      73546963 
+ 5494      6B43616C 
+ 5494      6C626163 
+ 5494      6B7300
+ 5495              	.LASF102:
+ 5496 0648 756E6971 		.ascii	"uniqueId\000"
+ 5496      75654964 
+ 5496      00
+ 5497              	.LASF77:
+ 5498 0651 43794465 		.ascii	"CyDelay\000"
+ 5498      6C617900 
+ 5499              	.LASF94:
+ 5500 0659 43795379 		.ascii	"CySysTickGetClockSource\000"
  5500      73546963 
- 5500      6B446973 
- 5500      61626C65 
- 5500      496E7465 
- 5501              	.LASF49:
- 5502 0663 43795379 		.ascii	"CySysLvdDisable\000"
- 5502      734C7664 
- 5502      44697361 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 168
+ 5500      6B476574 
+ 5500      436C6F63 
+ 5500      6B536F75 
+ 5501              	.LASF87:
+ 5502 0671 43795379 		.ascii	"CySysTickDisableInterrupt\000"
+ 5502      73546963 
+ 5502      6B446973 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 168
 
 
- 5502      626C6500 
- 5503              	.LASF120:
- 5504 0673 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 5504      73657273 
- 5504      5C616C65 
- 5504      78706F72 
- 5504      745C4F6E 
- 5505 06a3 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 5505      54735C55 
- 5505      41525420 
- 5505      55444220 
- 5505      74657374 
- 5506              	.LASF113:
- 5507 06c5 63796465 		.ascii	"cydelayFreqMhz\000"
- 5507      6C617946 
- 5507      7265714D 
- 5507      687A00
- 5508              	.LASF43:
- 5509 06d4 43795379 		.ascii	"CySysClkEcoStop\000"
- 5509      73436C6B 
- 5509      45636F53 
- 5509      746F7000 
- 5510              	.LASF107:
- 5511 06e4 43795379 		.ascii	"CySysSetDmacAccessArbPriority\000"
- 5511      73536574 
- 5511      446D6163 
- 5511      41636365 
- 5511      73734172 
- 5512              	.LASF85:
- 5513 0702 43795379 		.ascii	"CySysTickStop\000"
- 5513      73546963 
- 5513      6B53746F 
- 5513      7000
- 5514              	.LASF41:
- 5515 0710 74696D65 		.ascii	"timeoutUs\000"
- 5515      6F757455 
- 5515      7300
- 5516              	.LASF32:
- 5517 071a 64697669 		.ascii	"divider\000"
- 5517      64657200 
- 5518              	.LASF46:
- 5519 0722 43795379 		.ascii	"CySysClkWriteEcoDiv\000"
- 5519      73436C6B 
- 5519      57726974 
- 5519      6545636F 
- 5519      44697600 
- 5520              	.LASF15:
- 5521 0736 63797374 		.ascii	"cystatus\000"
- 5521      61747573 
- 5521      00
- 5522              	.LASF22:
- 5523 073f 43795379 		.ascii	"CySysClkImoStart\000"
- 5523      73436C6B 
- 5523      496D6F53 
- 5523      74617274 
- 5523      00
- 5524              	.LASF37:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cczZ9UDM.s 			page 169
+ 5502      61626C65 
+ 5502      496E7465 
+ 5503              	.LASF49:
+ 5504 068b 43795379 		.ascii	"CySysLvdDisable\000"
+ 5504      734C7664 
+ 5504      44697361 
+ 5504      626C6500 
+ 5505              	.LASF113:
+ 5506 069b 63796465 		.ascii	"cydelayFreqMhz\000"
+ 5506      6C617946 
+ 5506      7265714D 
+ 5506      687A00
+ 5507              	.LASF43:
+ 5508 06aa 43795379 		.ascii	"CySysClkEcoStop\000"
+ 5508      73436C6B 
+ 5508      45636F53 
+ 5508      746F7000 
+ 5509              	.LASF107:
+ 5510 06ba 43795379 		.ascii	"CySysSetDmacAccessArbPriority\000"
+ 5510      73536574 
+ 5510      446D6163 
+ 5510      41636365 
+ 5510      73734172 
+ 5511              	.LASF85:
+ 5512 06d8 43795379 		.ascii	"CySysTickStop\000"
+ 5512      73546963 
+ 5512      6B53746F 
+ 5512      7000
+ 5513              	.LASF41:
+ 5514 06e6 74696D65 		.ascii	"timeoutUs\000"
+ 5514      6F757455 
+ 5514      7300
+ 5515              	.LASF32:
+ 5516 06f0 64697669 		.ascii	"divider\000"
+ 5516      64657200 
+ 5517              	.LASF46:
+ 5518 06f8 43795379 		.ascii	"CySysClkWriteEcoDiv\000"
+ 5518      73436C6B 
+ 5518      57726974 
+ 5518      6545636F 
+ 5518      44697600 
+ 5519              	.LASF15:
+ 5520 070c 63797374 		.ascii	"cystatus\000"
+ 5520      61747573 
+ 5520      00
+ 5521              	.LASF22:
+ 5522 0715 43795379 		.ascii	"CySysClkImoStart\000"
+ 5522      73436C6B 
+ 5522      496D6F53 
+ 5522      74617274 
+ 5522      00
+ 5523              	.LASF37:
+ 5524 0726 6E657749 		.ascii	"newImoTrim2Value\000"
+ 5524      6D6F5472 
+ 5524      696D3256 
+ 5524      616C7565 
+ 5524      00
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cckHJjLh.s 			page 169
 
 
- 5525 0750 6E657749 		.ascii	"newImoTrim2Value\000"
- 5525      6D6F5472 
- 5525      696D3256 
- 5525      616C7565 
- 5525      00
- 5526              	.LASF119:
- 5527 0761 47656E65 		.ascii	"Generated_Source\\PSoC4\\CyLib.c\000"
- 5527      72617465 
- 5527      645F536F 
- 5527      75726365 
- 5527      5C50536F 
- 5528              	.LASF80:
- 5529 0780 6D696372 		.ascii	"microseconds\000"
- 5529      6F736563 
- 5529      6F6E6473 
- 5529      00
- 5530              	.LASF25:
- 5531 078d 746D7052 		.ascii	"tmpReg\000"
- 5531      656700
- 5532              	.LASF88:
- 5533 0794 43795379 		.ascii	"CySysTickSetReload\000"
- 5533      73546963 
- 5533      6B536574 
- 5533      52656C6F 
- 5533      616400
- 5534              	.LASF121:
- 5535 07a7 43795379 		.ascii	"CySysTickServiceCallbacks\000"
- 5535      73546963 
- 5535      6B536572 
- 5535      76696365 
- 5535      43616C6C 
- 5536              	.LASF45:
- 5537 07c1 72657475 		.ascii	"returnValue\000"
- 5537      726E5661 
- 5537      6C756500 
- 5538              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 5525              	.LASF119:
+ 5526 0737 47656E65 		.ascii	"Generated_Source\\PSoC4\\CyLib.c\000"
+ 5526      72617465 
+ 5526      645F536F 
+ 5526      75726365 
+ 5526      5C50536F 
+ 5527              	.LASF80:
+ 5528 0756 6D696372 		.ascii	"microseconds\000"
+ 5528      6F736563 
+ 5528      6F6E6473 
+ 5528      00
+ 5529              	.LASF25:
+ 5530 0763 746D7052 		.ascii	"tmpReg\000"
+ 5530      656700
+ 5531              	.LASF88:
+ 5532 076a 43795379 		.ascii	"CySysTickSetReload\000"
+ 5532      73546963 
+ 5532      6B536574 
+ 5532      52656C6F 
+ 5532      616400
+ 5533              	.LASF121:
+ 5534 077d 43795379 		.ascii	"CySysTickServiceCallbacks\000"
+ 5534      73546963 
+ 5534      6B536572 
+ 5534      76696365 
+ 5534      43616C6C 
+ 5535              	.LASF45:
+ 5536 0797 72657475 		.ascii	"returnValue\000"
+ 5536      726E5661 
+ 5536      6C756500 
+ 5537              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

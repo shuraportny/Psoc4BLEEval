@@ -41,100 +41,10 @@ uint8_t rcvByte;
 
 extern uint16 sleepPeriod;
 extern uint8_t sleepEnable;
-//void Stack_Handler(uint32 eventCode, void *eventParam){
-//    
-//    CYBLE_GATTS_WRITE_REQ_PARAM_T *wrReq;
-//    
-//    switch (eventCode){
-//        case CYBLE_EVT_STACK_ON:
-//            /* Enable the Skyworks SE2438T PA/LNA */
-//            CSD_Write(1);
-//            CPS_Write(1);
-//            /* Configure the Link Layer to automatically switch PA control pin P3[2] and LNA control pin P3[3] */
-//            CY_SET_XTND_REG32((void CYFAR *)(CYREG_BLE_BLESS_RF_CONFIG), 0x0331);
-//            CY_SET_XTND_REG32((void CYFAR *)(CYREG_SRSS_TST_DDFT_CTRL), 0x80000302);
-//        case CYBLE_EVT_GAP_DEVICE_DISCONNECTED:
-//            CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST);
-//            break;
-//            
-//        case CYBLE_EVT_GATT_CONNECT_IND:
-//            connectionHandle = *(CYBLE_CONN_HANDLE_T *)eventParam;
-//            bleConnected =1;
-//            updateData();
-//            break;
-//        
-//        case CYBLE_EVT_GATTS_WRITE_REQ:
-//            wrReq = (CYBLE_GATTS_WRITE_REQ_PARAM_T *)eventParam;
-//
-//            break;
-//        default:
-//            break;    
-//    }
-//    
-//    
-//    
-//}
 
-//void Ias_Handler(uint32 eventCode, void *eventParam){
-//
-//        CYBLE_IAS_CHAR_VALUE_T *param = (CYBLE_IAS_CHAR_VALUE_T * ) eventParam;
-//        
-//        if(*param->value->val == 0 )
-//            PWM_WriteCompare(0);
-//        else if (*param->value->val == 1) 
-//            PWM_WriteCompare(500);
-//        else     
-//            PWM_WriteCompare(1000);
-//}
-
-//void Nextion_SendEndOfCommand(){
-//    UART2_PutChar(0xFF);
-//    UART2_PutChar(0xFF);
-//    UART2_PutChar(0xFF);
-//}
-//
-//void Nextion_SetPage(char* id){
-//    char buf[50];
-//    memset(buf, 0 , sizeof(buf));
-//    uint32 len = sprintf(buf, "page %s",id) ;
-//    UART2_PutString(buf);
-//    Nextion_SendEndOfCommand();
-//}
-//
-//void Nextion_SendFloat(char* obj, uint32 val,  uint8 res){
-//    char buf[50];
-//    memset(buf, 0 , sizeof(buf));
-//    sprintf(buf, "%s.vvs1=%d",obj,res) ;
-//    UART2_PutString(buf);
-//    Nextion_SendEndOfCommand();
-//    memset(buf, 0 , sizeof(buf));
-//    sprintf(buf, "%s.val=%lu",obj,val) ;
-//    UART2_PutString(buf);
-//    Nextion_SendEndOfCommand();
-//}
-//
-//void Nextion_SendInt(char* obj, uint32 val){
-//    char buf[50];
-//    memset(buf, 0 , sizeof(buf));
-//    sprintf(buf, "%s.val=%lu",obj,val) ;
-//    UART2_PutString(buf);
-//    Nextion_SendEndOfCommand();
-//}
-//
-//void Nextion_SetText(char* obj,char* txt){
-//    char buf[50];
-//    memset(buf, 0 , sizeof(buf));
-//    sprintf(buf, "%s.txt=\"%s\"",obj,txt) ;
-//    UART2_PutString(buf);
-//    Nextion_SendEndOfCommand();
-//
-//}
 
 
 uint8 newM;
-
-
-
 
 int main(void)
 {   
@@ -170,10 +80,10 @@ int main(void)
     InitSystem();
     
     /* Start UART */
-    //ModbusUART_Start();
-    //isr_ModbusByteIn_StartEx(ModbusByteIn_isr);
+    ModbusUART_Start();
+    isr_ModbusByteIn_StartEx(ModbusByteIn_isr);
     
-    // UART2_Start();
+     UART2_Start();
     
     MessageTimer_Start();
     isr_NewMessage_StartEx(NewMessage_isr);

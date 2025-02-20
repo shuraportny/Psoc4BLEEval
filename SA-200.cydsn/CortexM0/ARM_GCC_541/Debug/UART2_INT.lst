@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
   28:Generated_Source\PSoC4/UART2_INT.c ****     * Function Name: UART2_RXISR
   29:Generated_Source\PSoC4/UART2_INT.c ****     ********************************************************************************
   30:Generated_Source\PSoC4/UART2_INT.c ****     *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 2
 
 
   31:Generated_Source\PSoC4/UART2_INT.c ****     * Summary:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
   68:Generated_Source\PSoC4/UART2_INT.c **** 
   69:Generated_Source\PSoC4/UART2_INT.c ****     #ifdef UART2_RXISR_ENTRY_CALLBACK
   70:Generated_Source\PSoC4/UART2_INT.c ****         UART2_RXISR_EntryCallback();
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 3
 
 
   71:Generated_Source\PSoC4/UART2_INT.c ****     #endif /* UART2_RXISR_ENTRY_CALLBACK */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
   70 0034 1B78     		ldrb	r3, [r3]
   71 0036 5BB2     		sxtb	r3, r3
   72 0038 1343     		orrs	r3, r2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 4
 
 
   73 003a 5BB2     		sxtb	r3, r3
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  137:Generated_Source\PSoC4/UART2_INT.c ****                     UART2_rxBuffer[UART2_rxBufferWrite] = readData;
  138:Generated_Source\PSoC4/UART2_INT.c ****                     increment_pointer = 1u;
  139:Generated_Source\PSoC4/UART2_INT.c ****                 }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 5
 
 
  140:Generated_Source\PSoC4/UART2_INT.c ****             #else  /* Without addressing */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  126              		.loc 1 156 0
  127 0090 104B     		ldr	r3, .L7+12
  128 0092 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 6
 
 
  129 0094 DBB2     		uxtb	r3, r3
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  183:Generated_Source\PSoC4/UART2_INT.c ****         UART2_RXISR_ExitCallback();
  184:Generated_Source\PSoC4/UART2_INT.c ****     #endif /* UART2_RXISR_EXIT_CALLBACK */
  185:Generated_Source\PSoC4/UART2_INT.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 7
 
 
  186:Generated_Source\PSoC4/UART2_INT.c ****     #if(CY_PSOC3)
@@ -396,40 +396,40 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  185 0006 00000000 		.4byte	.Ldebug_abbrev0
  186 000a 04       		.byte	0x4
  187 000b 01       		.uleb128 0x1
- 188 000c C3010000 		.4byte	.LASF25
+ 188 000c 99010000 		.4byte	.LASF25
  189 0010 0C       		.byte	0xc
- 190 0011 67010000 		.4byte	.LASF26
- 191 0015 80000000 		.4byte	.LASF27
+ 190 0011 3D010000 		.4byte	.LASF26
+ 191 0015 2D000000 		.4byte	.LASF27
  192 0019 00000000 		.4byte	.Ldebug_ranges0+0
  193 001d 00000000 		.4byte	0
  194 0021 00000000 		.4byte	.Ldebug_line0
  195 0025 02       		.uleb128 0x2
  196 0026 01       		.byte	0x1
  197 0027 06       		.byte	0x6
- 198 0028 44010000 		.4byte	.LASF0
+ 198 0028 1A010000 		.4byte	.LASF0
  199 002c 02       		.uleb128 0x2
  200 002d 01       		.byte	0x1
  201 002e 08       		.byte	0x8
- 202 002f E5000000 		.4byte	.LASF1
+ 202 002f BB000000 		.4byte	.LASF1
  203 0033 02       		.uleb128 0x2
  204 0034 02       		.byte	0x2
  205 0035 05       		.byte	0x5
- 206 0036 B9010000 		.4byte	.LASF2
+ 206 0036 8F010000 		.4byte	.LASF2
  207 003a 02       		.uleb128 0x2
  208 003b 02       		.byte	0x2
  209 003c 07       		.byte	0x7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 8
 
 
- 210 003d 31010000 		.4byte	.LASF3
+ 210 003d 07010000 		.4byte	.LASF3
  211 0041 02       		.uleb128 0x2
  212 0042 04       		.byte	0x4
  213 0043 05       		.byte	0x5
- 214 0044 16010000 		.4byte	.LASF4
+ 214 0044 EC000000 		.4byte	.LASF4
  215 0048 02       		.uleb128 0x2
  216 0049 04       		.byte	0x4
  217 004a 07       		.byte	0x7
- 218 004b 38000000 		.4byte	.LASF5
+ 218 004b 60000000 		.4byte	.LASF5
  219 004f 02       		.uleb128 0x2
  220 0050 08       		.byte	0x8
  221 0051 05       		.byte	0x5
@@ -437,7 +437,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  223 0056 02       		.uleb128 0x2
  224 0057 08       		.byte	0x8
  225 0058 07       		.byte	0x7
- 226 0059 4A000000 		.4byte	.LASF7
+ 226 0059 72000000 		.4byte	.LASF7
  227 005d 03       		.uleb128 0x3
  228 005e 04       		.byte	0x4
  229 005f 05       		.byte	0x5
@@ -447,24 +447,24 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  233 0066 07       		.byte	0x7
  234 0067 0E000000 		.4byte	.LASF8
  235 006b 04       		.uleb128 0x4
- 236 006c 32000000 		.4byte	.LASF12
+ 236 006c 5A000000 		.4byte	.LASF12
  237 0070 02       		.byte	0x2
  238 0071 FC01     		.2byte	0x1fc
  239 0073 2C000000 		.4byte	0x2c
  240 0077 02       		.uleb128 0x2
  241 0078 04       		.byte	0x4
  242 0079 04       		.byte	0x4
- 243 007a 61000000 		.4byte	.LASF9
+ 243 007a 89000000 		.4byte	.LASF9
  244 007e 02       		.uleb128 0x2
  245 007f 08       		.byte	0x8
  246 0080 04       		.byte	0x4
- 247 0081 1F010000 		.4byte	.LASF10
+ 247 0081 F5000000 		.4byte	.LASF10
  248 0085 02       		.uleb128 0x2
  249 0086 01       		.byte	0x1
  250 0087 08       		.byte	0x8
- 251 0088 FF000000 		.4byte	.LASF11
+ 251 0088 D5000000 		.4byte	.LASF11
  252 008c 04       		.uleb128 0x4
- 253 008d 2D000000 		.4byte	.LASF13
+ 253 008d 55000000 		.4byte	.LASF13
  254 0091 02       		.byte	0x2
  255 0092 A602     		.2byte	0x2a6
  256 0094 98000000 		.4byte	0x98
@@ -473,16 +473,16 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  259 009d 02       		.uleb128 0x2
  260 009e 08       		.byte	0x8
  261 009f 04       		.byte	0x4
- 262 00a0 9E010000 		.4byte	.LASF14
+ 262 00a0 74010000 		.4byte	.LASF14
  263 00a4 02       		.uleb128 0x2
  264 00a5 04       		.byte	0x4
  265 00a6 07       		.byte	0x7
- 266 00a7 5A020000 		.4byte	.LASF15
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 9
+ 266 00a7 30020000 		.4byte	.LASF15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 9
 
 
  267 00ab 06       		.uleb128 0x6
- 268 00ac F3000000 		.4byte	.LASF28
+ 268 00ac C9000000 		.4byte	.LASF28
  269 00b0 01       		.byte	0x1
  270 00b1 3B       		.byte	0x3b
  271 00b2 00000000 		.4byte	.LFB2
@@ -491,7 +491,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  274 00bb 9C       		.byte	0x9c
  275 00bc EB000000 		.4byte	0xeb
  276 00c0 07       		.uleb128 0x7
- 277 00c1 51020000 		.4byte	.LASF16
+ 277 00c1 27020000 		.4byte	.LASF16
  278 00c5 01       		.byte	0x1
  279 00c6 3D       		.byte	0x3d
  280 00c7 6B000000 		.4byte	0x6b
@@ -499,7 +499,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  282 00cc 91       		.byte	0x91
  283 00cd 75       		.sleb128 -11
  284 00ce 07       		.uleb128 0x7
- 285 00cf 26010000 		.4byte	.LASF17
+ 285 00cf FC000000 		.4byte	.LASF17
  286 00d3 01       		.byte	0x1
  287 00d4 3E       		.byte	0x3e
  288 00d5 6B000000 		.4byte	0x6b
@@ -516,7 +516,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  299 00e9 77       		.sleb128 -9
  300 00ea 00       		.byte	0
  301 00eb 08       		.uleb128 0x8
- 302 00ec 04010000 		.4byte	.LASF19
+ 302 00ec DA000000 		.4byte	.LASF19
  303 00f0 03       		.byte	0x3
  304 00f1 3D01     		.2byte	0x13d
  305 00f3 6B000000 		.4byte	0x6b
@@ -528,32 +528,32 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  311 0105 07       		.byte	0x7
  312 0106 00       		.byte	0
  313 0107 08       		.uleb128 0x8
- 314 0108 AA010000 		.4byte	.LASF20
+ 314 0108 80010000 		.4byte	.LASF20
  315 010c 03       		.byte	0x3
  316 010d 3E01     		.2byte	0x13e
  317 010f 13010000 		.4byte	0x113
  318 0113 05       		.uleb128 0x5
  319 0114 F7000000 		.4byte	0xf7
  320 0118 08       		.uleb128 0x8
- 321 0119 D2000000 		.4byte	.LASF21
+ 321 0119 A8000000 		.4byte	.LASF21
  322 011d 03       		.byte	0x3
  323 011e 3F01     		.2byte	0x13f
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 10
 
 
  324 0120 98000000 		.4byte	0x98
  325 0124 08       		.uleb128 0x8
- 326 0125 8A010000 		.4byte	.LASF22
+ 326 0125 60010000 		.4byte	.LASF22
  327 0129 03       		.byte	0x3
  328 012a 4001     		.2byte	0x140
  329 012c 98000000 		.4byte	0x98
  330 0130 08       		.uleb128 0x8
- 331 0131 67000000 		.4byte	.LASF23
+ 331 0131 8F000000 		.4byte	.LASF23
  332 0135 03       		.byte	0x3
  333 0136 4101     		.2byte	0x141
  334 0138 98000000 		.4byte	0x98
  335 013c 08       		.uleb128 0x8
- 336 013d 50010000 		.4byte	.LASF24
+ 336 013d 26010000 		.4byte	.LASF24
  337 0141 03       		.byte	0x3
  338 0142 4201     		.2byte	0x142
  339 0144 98000000 		.4byte	0x98
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  378 0023 3E       		.uleb128 0x3e
  379 0024 0B       		.uleb128 0xb
  380 0025 03       		.uleb128 0x3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 11
 
 
  381 0026 08       		.uleb128 0x8
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  435 005d 0B       		.uleb128 0xb
  436 005e 3B       		.uleb128 0x3b
  437 005f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 12
 
 
  438 0060 49       		.uleb128 0x49
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  492              		.section	.debug_ranges,"",%progbits
  493              	.Ldebug_ranges0:
  494 0000 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 13
 
 
  495 0004 E8000000 		.4byte	.LFE2
@@ -747,148 +747,143 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 1
  506      745F706F 
  506      696E7465 
  506      7200
- 507              	.LASF13:
- 508 002d 72656738 		.ascii	"reg8\000"
- 508      00
- 509              	.LASF12:
- 510 0032 75696E74 		.ascii	"uint8\000"
- 510      3800
- 511              	.LASF5:
- 512 0038 6C6F6E67 		.ascii	"long unsigned int\000"
- 512      20756E73 
- 512      69676E65 
- 512      6420696E 
- 512      7400
- 513              	.LASF7:
- 514 004a 6C6F6E67 		.ascii	"long long unsigned int\000"
- 514      206C6F6E 
- 514      6720756E 
- 514      7369676E 
- 514      65642069 
- 515              	.LASF9:
- 516 0061 666C6F61 		.ascii	"float\000"
- 516      7400
- 517              	.LASF23:
- 518 0067 55415254 		.ascii	"UART2_rxBufferLoopDetect\000"
- 518      325F7278 
- 518      42756666 
- 518      65724C6F 
- 518      6F704465 
- 519              	.LASF27:
- 520 0080 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 520      73657273 
- 520      5C616C65 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 14
+ 507              	.LASF27:
+ 508 002d 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 508      4F524B5C 
+ 508      54455354 
+ 508      735C5073 
+ 508      6F633442 
+ 509              	.LASF13:
+ 510 0055 72656738 		.ascii	"reg8\000"
+ 510      00
+ 511              	.LASF12:
+ 512 005a 75696E74 		.ascii	"uint8\000"
+ 512      3800
+ 513              	.LASF5:
+ 514 0060 6C6F6E67 		.ascii	"long unsigned int\000"
+ 514      20756E73 
+ 514      69676E65 
+ 514      6420696E 
+ 514      7400
+ 515              	.LASF7:
+ 516 0072 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 516      206C6F6E 
+ 516      6720756E 
+ 516      7369676E 
+ 516      65642069 
+ 517              	.LASF9:
+ 518 0089 666C6F61 		.ascii	"float\000"
+ 518      7400
+ 519              	.LASF23:
+ 520 008f 55415254 		.ascii	"UART2_rxBufferLoopDetect\000"
+ 520      325F7278 
+ 520      42756666 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 14
 
 
- 520      78706F72 
- 520      745C4F6E 
- 521 00b0 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 521      54735C55 
- 521      41525420 
- 521      55444220 
- 521      74657374 
- 522              	.LASF21:
- 523 00d2 55415254 		.ascii	"UART2_rxBufferRead\000"
- 523      325F7278 
- 523      42756666 
- 523      65725265 
- 523      616400
- 524              	.LASF1:
- 525 00e5 756E7369 		.ascii	"unsigned char\000"
- 525      676E6564 
- 525      20636861 
- 525      7200
- 526              	.LASF28:
- 527 00f3 55415254 		.ascii	"UART2_RXISR\000"
- 527      325F5258 
- 527      49535200 
- 528              	.LASF11:
- 529 00ff 63686172 		.ascii	"char\000"
- 529      00
- 530              	.LASF19:
- 531 0104 55415254 		.ascii	"UART2_errorStatus\000"
- 531      325F6572 
- 531      726F7253 
- 531      74617475 
- 531      7300
- 532              	.LASF4:
- 533 0116 6C6F6E67 		.ascii	"long int\000"
- 533      20696E74 
- 533      00
- 534              	.LASF10:
- 535 011f 646F7562 		.ascii	"double\000"
- 535      6C6500
- 536              	.LASF17:
- 537 0126 72656164 		.ascii	"readStatus\000"
- 537      53746174 
- 537      757300
- 538              	.LASF3:
- 539 0131 73686F72 		.ascii	"short unsigned int\000"
- 539      7420756E 
- 539      7369676E 
- 539      65642069 
- 539      6E7400
- 540              	.LASF0:
- 541 0144 7369676E 		.ascii	"signed char\000"
- 541      65642063 
- 541      68617200 
- 542              	.LASF24:
- 543 0150 55415254 		.ascii	"UART2_rxBufferOverflow\000"
- 543      325F7278 
- 543      42756666 
- 543      65724F76 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccOwZyb4.s 			page 15
+ 520      65724C6F 
+ 520      6F704465 
+ 521              	.LASF21:
+ 522 00a8 55415254 		.ascii	"UART2_rxBufferRead\000"
+ 522      325F7278 
+ 522      42756666 
+ 522      65725265 
+ 522      616400
+ 523              	.LASF1:
+ 524 00bb 756E7369 		.ascii	"unsigned char\000"
+ 524      676E6564 
+ 524      20636861 
+ 524      7200
+ 525              	.LASF28:
+ 526 00c9 55415254 		.ascii	"UART2_RXISR\000"
+ 526      325F5258 
+ 526      49535200 
+ 527              	.LASF11:
+ 528 00d5 63686172 		.ascii	"char\000"
+ 528      00
+ 529              	.LASF19:
+ 530 00da 55415254 		.ascii	"UART2_errorStatus\000"
+ 530      325F6572 
+ 530      726F7253 
+ 530      74617475 
+ 530      7300
+ 531              	.LASF4:
+ 532 00ec 6C6F6E67 		.ascii	"long int\000"
+ 532      20696E74 
+ 532      00
+ 533              	.LASF10:
+ 534 00f5 646F7562 		.ascii	"double\000"
+ 534      6C6500
+ 535              	.LASF17:
+ 536 00fc 72656164 		.ascii	"readStatus\000"
+ 536      53746174 
+ 536      757300
+ 537              	.LASF3:
+ 538 0107 73686F72 		.ascii	"short unsigned int\000"
+ 538      7420756E 
+ 538      7369676E 
+ 538      65642069 
+ 538      6E7400
+ 539              	.LASF0:
+ 540 011a 7369676E 		.ascii	"signed char\000"
+ 540      65642063 
+ 540      68617200 
+ 541              	.LASF24:
+ 542 0126 55415254 		.ascii	"UART2_rxBufferOverflow\000"
+ 542      325F7278 
+ 542      42756666 
+ 542      65724F76 
+ 542      6572666C 
+ 543              	.LASF26:
+ 544 013d 47656E65 		.ascii	"Generated_Source\\PSoC4\\UART2_INT.c\000"
+ 544      72617465 
+ 544      645F536F 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cc1Shpme.s 			page 15
 
 
- 543      6572666C 
- 544              	.LASF26:
- 545 0167 47656E65 		.ascii	"Generated_Source\\PSoC4\\UART2_INT.c\000"
- 545      72617465 
- 545      645F536F 
- 545      75726365 
- 545      5C50536F 
- 546              	.LASF22:
- 547 018a 55415254 		.ascii	"UART2_rxBufferWrite\000"
- 547      325F7278 
- 547      42756666 
- 547      65725772 
- 547      69746500 
- 548              	.LASF14:
- 549 019e 6C6F6E67 		.ascii	"long double\000"
- 549      20646F75 
- 549      626C6500 
- 550              	.LASF20:
- 551 01aa 55415254 		.ascii	"UART2_rxBuffer\000"
- 551      325F7278 
- 551      42756666 
- 551      657200
- 552              	.LASF2:
- 553 01b9 73686F72 		.ascii	"short int\000"
- 553      7420696E 
- 553      7400
- 554              	.LASF25:
- 555 01c3 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 555      43313120 
- 555      352E342E 
- 555      31203230 
- 555      31363036 
- 556 01f6 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 556      20726576 
- 556      6973696F 
- 556      6E203233 
- 556      37373135 
- 557 0229 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 557      66756E63 
- 557      74696F6E 
- 557      2D736563 
- 557      74696F6E 
- 558              	.LASF16:
- 559 0251 72656164 		.ascii	"readData\000"
- 559      44617461 
- 559      00
- 560              	.LASF15:
- 561 025a 73697A65 		.ascii	"sizetype\000"
- 561      74797065 
- 561      00
- 562              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 544      75726365 
+ 544      5C50536F 
+ 545              	.LASF22:
+ 546 0160 55415254 		.ascii	"UART2_rxBufferWrite\000"
+ 546      325F7278 
+ 546      42756666 
+ 546      65725772 
+ 546      69746500 
+ 547              	.LASF14:
+ 548 0174 6C6F6E67 		.ascii	"long double\000"
+ 548      20646F75 
+ 548      626C6500 
+ 549              	.LASF20:
+ 550 0180 55415254 		.ascii	"UART2_rxBuffer\000"
+ 550      325F7278 
+ 550      42756666 
+ 550      657200
+ 551              	.LASF2:
+ 552 018f 73686F72 		.ascii	"short int\000"
+ 552      7420696E 
+ 552      7400
+ 553              	.LASF25:
+ 554 0199 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 554      43313120 
+ 554      352E342E 
+ 554      31203230 
+ 554      31363036 
+ 555 01cc 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 555      20726576 
+ 555      6973696F 
+ 555      6E203233 
+ 555      37373135 
+ 556 01ff 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 556      66756E63 
+ 556      74696F6E 
+ 556      2D736563 
+ 556      74696F6E 
+ 557              	.LASF16:
+ 558 0227 72656164 		.ascii	"readData\000"
+ 558      44617461 
+ 558      00
+ 559              	.LASF15:
+ 560 0230 73697A65 		.ascii	"sizetype\000"
+ 560      74797065 
+ 560      00
+ 561              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

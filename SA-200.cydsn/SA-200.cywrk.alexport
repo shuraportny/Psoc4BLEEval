@@ -84,8 +84,8 @@
 <v>SA-200\SA-200\Generated_Source\PSoC4\blue</v>
 <v>SA-200\SA-200\Generated_Source\PSoC4\blue_bless_isr</v>
 <v>SA-200\SA-200\Generated_Source\PSoC4\Bootloadable</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\byteIn2</v>
 <v>SA-200\SA-200\Generated_Source\PSoC4\Clock_1</v>
-<v>SA-200\SA-200\Generated_Source\PSoC4\Clock2</v>
 <v>SA-200\SA-200\Generated_Source\PSoC4\CPS</v>
 <v>SA-200\SA-200\Generated_Source\PSoC4\CSD</v>
 <v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot</v>
@@ -139,8 +139,8 @@
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_HAL_INT.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_HAL_PVT.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Bootloadable.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\byteIn2.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock2.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CPS.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CPS_PM.lst</v>
@@ -199,23 +199,39 @@
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_tx_PM.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_UART.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_UART_BOOT.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\mosi.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\mosi_PM.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\PG_3V3.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\PG_3V3_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_10.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_10_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_2_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_3.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_3_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_4.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_4_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_5.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_5_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_6.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_6_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_7.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_7_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_8.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_8_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_9.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_9_PM.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\runtime.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\sclk.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\sclk_PM.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\sensor.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SPIM_1.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SPIM_1_INT.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SPIM_1_PM.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ss.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ss_PM.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SW.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_PM.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\TXEN.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\TXEN_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\UART2.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\UART2_BOOT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\UART2_INT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\UART2_IntClock.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\UART2_PM.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\WdtIsr.lst</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\SA-200.cyacd</v>
 <v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\SA-200.elf</v>
@@ -228,55 +244,6 @@
 <VisibleNodeIds>
 <v>SA-200</v>
 <v>SA-200\SA-200</v>
-<v>SA-200\SA-200\CortexM0</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\BLETimer.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\BLETimer_PM.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_bless_isr.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_custom.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_dis.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_eventHandler.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_gatt.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_HAL_INT.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_HAL_PVT.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Bootloadable.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock2.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CPS.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CPS_PM.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CSD.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CSD_PM.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cybootloader.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_INT.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_MASTER.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\i2c_master.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_SCBCLK.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_scl.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_scl_PM.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_sda.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_sda_PM.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\interrupts.lst</v>
-<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_BLE.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -296,9 +263,7 @@
 <v>SA-200\SA-200\System Reference Guides\cy_lfclk_v1_20</v>
 <v>SA-200\SA-200\BLE_v3_40.pdf</v>
 <v>SA-200\SA-200\Bootloadable_v1_60.pdf</v>
-<v>SA-200\SA-200\cy_clock_v2_20</v>
-<v>SA-200\SA-200\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
-<v>SA-200\SA-200\cy_constant_v1_0.pdf</v>
+<v>SA-200\SA-200\cy_clock_v2_20.pdf</v>
 <v>SA-200\SA-200\cy_gsref_v2_10.pdf</v>
 <v>SA-200\SA-200\cy_isr_v1_70.pdf</v>
 <v>SA-200\SA-200\cy_isr_v1_71</v>
@@ -307,9 +272,9 @@
 <v>SA-200\SA-200\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>SA-200\SA-200\SCB_P4_v4_0</v>
 <v>SA-200\SA-200\SCB_P4_v4_0\SCB_P4_v4_0.pdf</v>
-<v>SA-200\SA-200\SPI_Master_v2_50.pdf</v>
 <v>SA-200\SA-200\TCPWM_P4_v2_10</v>
 <v>SA-200\SA-200\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+<v>SA-200\SA-200\UART_v2_50.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>SA-200</v>
@@ -322,9 +287,7 @@
 <v>SA-200\SA-200\System Reference Guides\cy_lfclk_v1_20</v>
 <v>SA-200\SA-200\BLE_v3_40.pdf</v>
 <v>SA-200\SA-200\Bootloadable_v1_60.pdf</v>
-<v>SA-200\SA-200\cy_clock_v2_20</v>
-<v>SA-200\SA-200\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
-<v>SA-200\SA-200\cy_constant_v1_0.pdf</v>
+<v>SA-200\SA-200\cy_clock_v2_20.pdf</v>
 <v>SA-200\SA-200\cy_gsref_v2_10.pdf</v>
 <v>SA-200\SA-200\cy_isr_v1_70.pdf</v>
 <v>SA-200\SA-200\cy_isr_v1_71</v>
@@ -333,9 +296,9 @@
 <v>SA-200\SA-200\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>SA-200\SA-200\SCB_P4_v4_0</v>
 <v>SA-200\SA-200\SCB_P4_v4_0\SCB_P4_v4_0.pdf</v>
-<v>SA-200\SA-200\SPI_Master_v2_50.pdf</v>
 <v>SA-200\SA-200\TCPWM_P4_v2_10</v>
 <v>SA-200\SA-200\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+<v>SA-200\SA-200\UART_v2_50.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>

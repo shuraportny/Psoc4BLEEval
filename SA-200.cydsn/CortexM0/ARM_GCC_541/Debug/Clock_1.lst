@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
   28:Generated_Source\PSoC4/Clock_1.c **** * Summary:
   29:Generated_Source\PSoC4/Clock_1.c **** *  Starts the clock, aligned to the specified running clock.
   30:Generated_Source\PSoC4/Clock_1.c **** *
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 2
 
 
   31:Generated_Source\PSoC4/Clock_1.c **** * Parameters:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
   60 0020 BD46     		mov	sp, r7
   61 0022 02B0     		add	sp, sp, #8
   62              		@ sp needed
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 3
 
 
   63 0024 80BD     		pop	{r7, pc}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
   89:Generated_Source\PSoC4/Clock_1.c **** *  None
   90:Generated_Source\PSoC4/Clock_1.c **** *
   91:Generated_Source\PSoC4/Clock_1.c **** * Returns:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 4
 
 
   92:Generated_Source\PSoC4/Clock_1.c **** *  None
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  110 001c 00000140 		.word	1073807360
  111 0020 43000040 		.word	1073741891
  112              		.cfi_endproc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 5
 
 
  113              	.LFE1:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  142:Generated_Source\PSoC4/Clock_1.c ****     maskVal = Clock_1_DIV_REG & 
  141              		.loc 1 142 0
  142 0012 0C4B     		ldr	r3, .L10
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 6
 
 
  143 0014 1B68     		ldr	r3, [r3]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  179              		.size	Clock_1_SetFractionalDividerRegister, .-Clock_1_SetFractionalDividerRegister
  180              		.section	.text.Clock_1_GetDividerRegister,"ax",%progbits
  181              		.align	2
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 7
 
 
  182              		.global	Clock_1_GetDividerRegister
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  213 0016 C046     		.align	2
  214              	.L14:
  215 0018 0C030140 		.word	1073808140
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 8
 
 
  216              		.cfi_endproc
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  243 000a 80BD     		pop	{r7, pc}
  244              		.cfi_endproc
  245              	.LFE4:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 9
 
 
  246              		.size	Clock_1_GetFractionalDividerRegister, .-Clock_1_GetFractionalDividerRegister
@@ -494,15 +494,15 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  256 000b 01       		.uleb128 0x1
  257 000c 64000000 		.4byte	.LASF25
  258 0010 0C       		.byte	0xc
- 259 0011 1F020000 		.4byte	.LASF26
- 260 0015 F2000000 		.4byte	.LASF27
+ 259 0011 CD010000 		.4byte	.LASF26
+ 260 0015 15020000 		.4byte	.LASF27
  261 0019 00000000 		.4byte	.Ldebug_ranges0+0
  262 001d 00000000 		.4byte	0
  263 0021 00000000 		.4byte	.Ldebug_line0
  264 0025 02       		.uleb128 0x2
  265 0026 01       		.byte	0x1
  266 0027 06       		.byte	0x6
- 267 0028 40020000 		.4byte	.LASF0
+ 267 0028 EE010000 		.4byte	.LASF0
  268 002c 02       		.uleb128 0x2
  269 002d 01       		.byte	0x1
  270 002e 08       		.byte	0x8
@@ -510,7 +510,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  272 0033 02       		.uleb128 0x2
  273 0034 02       		.byte	0x2
  274 0035 05       		.byte	0x5
- 275 0036 E1010000 		.4byte	.LASF2
+ 275 0036 8F010000 		.4byte	.LASF2
  276 003a 02       		.uleb128 0x2
  277 003b 02       		.byte	0x2
  278 003c 07       		.byte	0x7
@@ -518,7 +518,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  280 0041 02       		.uleb128 0x2
  281 0042 04       		.byte	0x4
  282 0043 05       		.byte	0x5
- 283 0044 16020000 		.4byte	.LASF4
+ 283 0044 C4010000 		.4byte	.LASF4
  284 0048 02       		.uleb128 0x2
  285 0049 04       		.byte	0x4
  286 004a 07       		.byte	0x7
@@ -526,11 +526,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  288 004f 02       		.uleb128 0x2
  289 0050 08       		.byte	0x8
  290 0051 05       		.byte	0x5
- 291 0052 CE010000 		.4byte	.LASF6
+ 291 0052 7C010000 		.4byte	.LASF6
  292 0056 02       		.uleb128 0x2
  293 0057 08       		.byte	0x8
  294 0058 07       		.byte	0x7
- 295 0059 92010000 		.4byte	.LASF7
+ 295 0059 40010000 		.4byte	.LASF7
  296 005d 03       		.uleb128 0x3
  297 005e 04       		.byte	0x4
  298 005f 05       		.byte	0x5
@@ -538,22 +538,22 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  300 0064 02       		.uleb128 0x2
  301 0065 04       		.byte	0x4
  302 0066 07       		.byte	0x7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 10
 
 
- 303 0067 85010000 		.4byte	.LASF8
+ 303 0067 33010000 		.4byte	.LASF8
  304 006b 04       		.uleb128 0x4
- 305 006c EB010000 		.4byte	.LASF9
+ 305 006c 99010000 		.4byte	.LASF9
  306 0070 02       		.byte	0x2
  307 0071 FC01     		.2byte	0x1fc
  308 0073 2C000000 		.4byte	0x2c
  309 0077 04       		.uleb128 0x4
- 310 0078 77010000 		.4byte	.LASF10
+ 310 0078 25010000 		.4byte	.LASF10
  311 007c 02       		.byte	0x2
  312 007d FD01     		.2byte	0x1fd
  313 007f 3A000000 		.4byte	0x3a
  314 0083 04       		.uleb128 0x4
- 315 0084 7E010000 		.4byte	.LASF11
+ 315 0084 2C010000 		.4byte	.LASF11
  316 0088 02       		.byte	0x2
  317 0089 FE01     		.2byte	0x1fe
  318 008b 48000000 		.4byte	0x48
@@ -564,11 +564,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  323 0096 02       		.uleb128 0x2
  324 0097 08       		.byte	0x8
  325 0098 04       		.byte	0x4
- 326 0099 4F010000 		.4byte	.LASF13
+ 326 0099 FD000000 		.4byte	.LASF13
  327 009d 02       		.uleb128 0x2
  328 009e 01       		.byte	0x1
  329 009f 08       		.byte	0x8
- 330 00a0 DC010000 		.4byte	.LASF14
+ 330 00a0 8A010000 		.4byte	.LASF14
  331 00a4 04       		.uleb128 0x4
  332 00a5 00000000 		.4byte	.LASF15
  333 00a9 02       		.byte	0x2
@@ -586,7 +586,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  345 00c5 9C       		.byte	0x9c
  346 00c6 D9000000 		.4byte	0xd9
  347 00ca 07       		.uleb128 0x7
- 348 00cb 5D010000 		.4byte	.LASF18
+ 348 00cb 0B010000 		.4byte	.LASF18
  349 00cf 01       		.byte	0x1
  350 00d0 27       		.byte	0x27
  351 00d1 83000000 		.4byte	0x83
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  357 00da 24000000 		.4byte	.LASF28
  358 00de 01       		.byte	0x1
  359 00df 5F       		.byte	0x5f
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 11
 
 
  360 00e0 00000000 		.4byte	.LFB1
@@ -606,7 +606,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  362 00e8 01       		.uleb128 0x1
  363 00e9 9C       		.byte	0x9c
  364 00ea 06       		.uleb128 0x6
- 365 00eb F1010000 		.4byte	.LASF17
+ 365 00eb 9F010000 		.4byte	.LASF17
  366 00ef 01       		.byte	0x1
  367 00f0 86       		.byte	0x86
  368 00f1 00000000 		.4byte	.LFB2
@@ -615,7 +615,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  371 00fa 9C       		.byte	0x9c
  372 00fb 38010000 		.4byte	0x138
  373 00ff 07       		.uleb128 0x7
- 374 0100 44010000 		.4byte	.LASF19
+ 374 0100 F2000000 		.4byte	.LASF19
  375 0104 01       		.byte	0x1
  376 0105 86       		.byte	0x86
  377 0106 77000000 		.4byte	0x77
@@ -623,7 +623,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  379 010b 91       		.byte	0x91
  380 010c 6E       		.sleb128 -18
  381 010d 07       		.uleb128 0x7
- 382 010e 69010000 		.4byte	.LASF20
+ 382 010e 17010000 		.4byte	.LASF20
  383 0112 01       		.byte	0x1
  384 0113 86       		.byte	0x86
  385 0114 6B000000 		.4byte	0x6b
@@ -639,7 +639,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  395 0127 91       		.byte	0x91
  396 0128 74       		.sleb128 -12
  397 0129 09       		.uleb128 0x9
- 398 012a 56010000 		.4byte	.LASF22
+ 398 012a 04010000 		.4byte	.LASF22
  399 012e 01       		.byte	0x1
  400 012f 89       		.byte	0x89
  401 0130 83000000 		.4byte	0x83
@@ -648,7 +648,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  404 0136 70       		.sleb128 -16
  405 0137 00       		.byte	0
  406 0138 0A       		.uleb128 0xa
- 407 0139 4C020000 		.4byte	.LASF23
+ 407 0139 FA010000 		.4byte	.LASF23
  408 013d 01       		.byte	0x1
  409 013e B0       		.byte	0xb0
  410 013f 77000000 		.4byte	0x77
@@ -657,8 +657,8 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  413 014b 01       		.uleb128 0x1
  414 014c 9C       		.byte	0x9c
  415 014d 0A       		.uleb128 0xa
- 416 014e A9010000 		.4byte	.LASF24
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 12
+ 416 014e 57010000 		.4byte	.LASF24
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 12
 
 
  417 0152 01       		.byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  471 002c 03       		.uleb128 0x3
  472 002d 0E       		.uleb128 0xe
  473 002e 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 13
 
 
  474 002f 0B       		.uleb128 0xb
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  528 0066 08       		.uleb128 0x8
  529 0067 2E       		.uleb128 0x2e
  530 0068 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 14
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 14
 
 
  531 0069 3F       		.uleb128 0x3f
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  585 00a0 40       		.uleb128 0x40
  586 00a1 18       		.uleb128 0x18
  587 00a2 9742     		.uleb128 0x2117
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 15
 
 
  588 00a4 19       		.uleb128 0x19
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  635              	.LASF16:
  636 0014 436C6F63 		.ascii	"Clock_1_StartEx\000"
  636      6B5F315F 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 16
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 16
 
 
  636      53746172 
@@ -941,104 +941,99 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 1
  648      74696F6E 
  648      2D736563 
  648      74696F6E 
- 649              	.LASF27:
- 650 00f2 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 650      73657273 
- 650      5C616C65 
- 650      78706F72 
- 650      745C4F6E 
- 651 0122 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 651      54735C55 
- 651      41525420 
- 651      55444220 
- 651      74657374 
- 652              	.LASF19:
- 653 0144 636C6B44 		.ascii	"clkDivider\000"
- 653      69766964 
- 653      657200
- 654              	.LASF13:
- 655 014f 646F7562 		.ascii	"double\000"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 17
+ 649              	.LASF19:
+ 650 00f2 636C6B44 		.ascii	"clkDivider\000"
+ 650      69766964 
+ 650      657200
+ 651              	.LASF13:
+ 652 00fd 646F7562 		.ascii	"double\000"
+ 652      6C6500
+ 653              	.LASF22:
+ 654 0104 72656756 		.ascii	"regVal\000"
+ 654      616C00
+ 655              	.LASF18:
+ 656 010b 616C6967 		.ascii	"alignClkDiv\000"
+ 656      6E436C6B 
+ 656      44697600 
+ 657              	.LASF20:
+ 658 0117 636C6B46 		.ascii	"clkFractional\000"
+ 658      72616374 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 17
 
 
- 655      6C6500
- 656              	.LASF22:
- 657 0156 72656756 		.ascii	"regVal\000"
- 657      616C00
- 658              	.LASF18:
- 659 015d 616C6967 		.ascii	"alignClkDiv\000"
- 659      6E436C6B 
- 659      44697600 
- 660              	.LASF20:
- 661 0169 636C6B46 		.ascii	"clkFractional\000"
- 661      72616374 
- 661      696F6E61 
- 661      6C00
- 662              	.LASF10:
- 663 0177 75696E74 		.ascii	"uint16\000"
- 663      313600
- 664              	.LASF11:
- 665 017e 75696E74 		.ascii	"uint32\000"
- 665      333200
- 666              	.LASF8:
- 667 0185 756E7369 		.ascii	"unsigned int\000"
- 667      676E6564 
- 667      20696E74 
- 667      00
- 668              	.LASF7:
- 669 0192 6C6F6E67 		.ascii	"long long unsigned int\000"
- 669      206C6F6E 
- 669      6720756E 
- 669      7369676E 
- 669      65642069 
- 670              	.LASF24:
- 671 01a9 436C6F63 		.ascii	"Clock_1_GetFractionalDividerRegister\000"
- 671      6B5F315F 
- 671      47657446 
- 671      72616374 
- 671      696F6E61 
- 672              	.LASF6:
- 673 01ce 6C6F6E67 		.ascii	"long long int\000"
- 673      206C6F6E 
- 673      6720696E 
- 673      7400
- 674              	.LASF14:
- 675 01dc 63686172 		.ascii	"char\000"
- 675      00
- 676              	.LASF2:
- 677 01e1 73686F72 		.ascii	"short int\000"
- 677      7420696E 
- 677      7400
- 678              	.LASF9:
- 679 01eb 75696E74 		.ascii	"uint8\000"
- 679      3800
- 680              	.LASF17:
- 681 01f1 436C6F63 		.ascii	"Clock_1_SetFractionalDividerRegister\000"
- 681      6B5F315F 
- 681      53657446 
- 681      72616374 
- 681      696F6E61 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNgATzr.s 			page 18
+ 658      696F6E61 
+ 658      6C00
+ 659              	.LASF10:
+ 660 0125 75696E74 		.ascii	"uint16\000"
+ 660      313600
+ 661              	.LASF11:
+ 662 012c 75696E74 		.ascii	"uint32\000"
+ 662      333200
+ 663              	.LASF8:
+ 664 0133 756E7369 		.ascii	"unsigned int\000"
+ 664      676E6564 
+ 664      20696E74 
+ 664      00
+ 665              	.LASF7:
+ 666 0140 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 666      206C6F6E 
+ 666      6720756E 
+ 666      7369676E 
+ 666      65642069 
+ 667              	.LASF24:
+ 668 0157 436C6F63 		.ascii	"Clock_1_GetFractionalDividerRegister\000"
+ 668      6B5F315F 
+ 668      47657446 
+ 668      72616374 
+ 668      696F6E61 
+ 669              	.LASF6:
+ 670 017c 6C6F6E67 		.ascii	"long long int\000"
+ 670      206C6F6E 
+ 670      6720696E 
+ 670      7400
+ 671              	.LASF14:
+ 672 018a 63686172 		.ascii	"char\000"
+ 672      00
+ 673              	.LASF2:
+ 674 018f 73686F72 		.ascii	"short int\000"
+ 674      7420696E 
+ 674      7400
+ 675              	.LASF9:
+ 676 0199 75696E74 		.ascii	"uint8\000"
+ 676      3800
+ 677              	.LASF17:
+ 678 019f 436C6F63 		.ascii	"Clock_1_SetFractionalDividerRegister\000"
+ 678      6B5F315F 
+ 678      53657446 
+ 678      72616374 
+ 678      696F6E61 
+ 679              	.LASF4:
+ 680 01c4 6C6F6E67 		.ascii	"long int\000"
+ 680      20696E74 
+ 680      00
+ 681              	.LASF26:
+ 682 01cd 47656E65 		.ascii	"Generated_Source\\PSoC4\\Clock_1.c\000"
+ 682      72617465 
+ 682      645F536F 
+ 682      75726365 
+ 682      5C50536F 
+ 683              	.LASF0:
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccNvlwsI.s 			page 18
 
 
- 682              	.LASF4:
- 683 0216 6C6F6E67 		.ascii	"long int\000"
- 683      20696E74 
- 683      00
- 684              	.LASF26:
- 685 021f 47656E65 		.ascii	"Generated_Source\\PSoC4\\Clock_1.c\000"
- 685      72617465 
- 685      645F536F 
- 685      75726365 
- 685      5C50536F 
- 686              	.LASF0:
- 687 0240 7369676E 		.ascii	"signed char\000"
- 687      65642063 
- 687      68617200 
- 688              	.LASF23:
- 689 024c 436C6F63 		.ascii	"Clock_1_GetDividerRegister\000"
- 689      6B5F315F 
- 689      47657444 
- 689      69766964 
- 689      65725265 
- 690              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 684 01ee 7369676E 		.ascii	"signed char\000"
+ 684      65642063 
+ 684      68617200 
+ 685              	.LASF23:
+ 686 01fa 436C6F63 		.ascii	"Clock_1_GetDividerRegister\000"
+ 686      6B5F315F 
+ 686      47657444 
+ 686      69766964 
+ 686      65725265 
+ 687              	.LASF27:
+ 688 0215 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 688      4F524B5C 
+ 688      54455354 
+ 688      735C5073 
+ 688      6F633442 
+ 689              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
   21:Generated_Source\PSoC4/I2C_PM.c **** 
   22:Generated_Source\PSoC4/I2C_PM.c **** #if(I2C_SCB_MODE_I2C_INC)
   23:Generated_Source\PSoC4/I2C_PM.c ****     #include "I2C_I2C_PVT.h"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 2
 
 
   24:Generated_Source\PSoC4/I2C_PM.c **** #endif /* (I2C_SCB_MODE_I2C_INC) */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
   38              		@ frame_needed = 1, uses_anonymous_args = 0
   39 0000 80B5     		push	{r7, lr}
   40              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 3
 
 
   41              		.cfi_offset 7, -8
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  125:Generated_Source\PSoC4/I2C_PM.c **** 
  126:Generated_Source\PSoC4/I2C_PM.c ****     #else
  127:Generated_Source\PSoC4/I2C_PM.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 4
 
 
  128:Generated_Source\PSoC4/I2C_PM.c ****         I2C_backup.enableState = (uint8) I2C_GET_CTRL_ENABLED;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  145:Generated_Source\PSoC4/I2C_PM.c **** *  Prepares the I2C component for Active mode operation after 
  146:Generated_Source\PSoC4/I2C_PM.c **** *  Deep Sleep.
  147:Generated_Source\PSoC4/I2C_PM.c **** *  The “Enable wakeup from Deep Sleep Mode” selection has influence on this 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 5
 
 
  148:Generated_Source\PSoC4/I2C_PM.c **** *  function implementation:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  192:Generated_Source\PSoC4/I2C_PM.c ****             I2C_Enable();
  193:Generated_Source\PSoC4/I2C_PM.c ****         }
  194:Generated_Source\PSoC4/I2C_PM.c ****     }
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 6
 
 
  195:Generated_Source\PSoC4/I2C_PM.c **** 
@@ -358,40 +358,40 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  120 0006 00000000 		.4byte	.Ldebug_abbrev0
  121 000a 04       		.byte	0x4
  122 000b 01       		.uleb128 0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 7
 
 
- 123 000c 5B010000 		.4byte	.LASF20
+ 123 000c 31010000 		.4byte	.LASF20
  124 0010 0C       		.byte	0xc
- 125 0011 6E000000 		.4byte	.LASF21
- 126 0015 8E000000 		.4byte	.LASF22
+ 125 0011 96000000 		.4byte	.LASF21
+ 126 0015 39000000 		.4byte	.LASF22
  127 0019 00000000 		.4byte	.Ldebug_ranges0+0
  128 001d 00000000 		.4byte	0
  129 0021 00000000 		.4byte	.Ldebug_line0
  130 0025 02       		.uleb128 0x2
  131 0026 01       		.byte	0x1
  132 0027 06       		.byte	0x6
- 133 0028 2E010000 		.4byte	.LASF0
+ 133 0028 04010000 		.4byte	.LASF0
  134 002c 02       		.uleb128 0x2
  135 002d 01       		.byte	0x1
  136 002e 08       		.byte	0x8
- 137 002f F2000000 		.4byte	.LASF1
+ 137 002f C8000000 		.4byte	.LASF1
  138 0033 02       		.uleb128 0x2
  139 0034 02       		.byte	0x2
  140 0035 05       		.byte	0x5
- 141 0036 51010000 		.4byte	.LASF2
+ 141 0036 27010000 		.4byte	.LASF2
  142 003a 02       		.uleb128 0x2
  143 003b 02       		.byte	0x2
  144 003c 07       		.byte	0x7
- 145 003d 1B010000 		.4byte	.LASF3
+ 145 003d F1000000 		.4byte	.LASF3
  146 0041 02       		.uleb128 0x2
  147 0042 04       		.byte	0x4
  148 0043 05       		.byte	0x5
- 149 0044 05010000 		.4byte	.LASF4
+ 149 0044 DB000000 		.4byte	.LASF4
  150 0048 02       		.uleb128 0x2
  151 0049 04       		.byte	0x4
  152 004a 07       		.byte	0x7
- 153 004b 3F000000 		.4byte	.LASF5
+ 153 004b 67000000 		.4byte	.LASF5
  154 004f 02       		.uleb128 0x2
  155 0050 08       		.byte	0x8
  156 0051 05       		.byte	0x5
@@ -399,7 +399,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  158 0056 02       		.uleb128 0x2
  159 0057 08       		.byte	0x8
  160 0058 07       		.byte	0x7
- 161 0059 51000000 		.4byte	.LASF7
+ 161 0059 79000000 		.4byte	.LASF7
  162 005d 03       		.uleb128 0x3
  163 005e 04       		.byte	0x4
  164 005f 05       		.byte	0x5
@@ -409,7 +409,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  168 0066 07       		.byte	0x7
  169 0067 21000000 		.4byte	.LASF8
  170 006b 04       		.uleb128 0x4
- 171 006c 39000000 		.4byte	.LASF9
+ 171 006c 61000000 		.4byte	.LASF9
  172 0070 02       		.byte	0x2
  173 0071 FC01     		.2byte	0x1fc
  174 0073 2C000000 		.4byte	0x2c
@@ -418,23 +418,23 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  177 007c 02       		.byte	0x2
  178 007d FE01     		.2byte	0x1fe
  179 007f 48000000 		.4byte	0x48
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 8
 
 
  180 0083 02       		.uleb128 0x2
  181 0084 04       		.byte	0x4
  182 0085 04       		.byte	0x4
- 183 0086 68000000 		.4byte	.LASF11
+ 183 0086 90000000 		.4byte	.LASF11
  184 008a 02       		.uleb128 0x2
  185 008b 08       		.byte	0x8
  186 008c 04       		.byte	0x4
- 187 008d 0E010000 		.4byte	.LASF12
+ 187 008d E4000000 		.4byte	.LASF12
  188 0091 02       		.uleb128 0x2
  189 0092 01       		.byte	0x1
  190 0093 08       		.byte	0x8
- 191 0094 00010000 		.4byte	.LASF13
+ 191 0094 D6000000 		.4byte	.LASF13
  192 0098 04       		.uleb128 0x4
- 193 0099 15010000 		.4byte	.LASF14
+ 193 0099 EB000000 		.4byte	.LASF14
  194 009d 02       		.byte	0x2
  195 009e A802     		.2byte	0x2a8
  196 00a0 A4000000 		.4byte	0xa4
@@ -443,11 +443,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  199 00a9 02       		.uleb128 0x2
  200 00aa 08       		.byte	0x8
  201 00ab 04       		.byte	0x4
- 202 00ac 3A010000 		.4byte	.LASF15
+ 202 00ac 10010000 		.4byte	.LASF15
  203 00b0 02       		.uleb128 0x2
  204 00b1 04       		.byte	0x4
  205 00b2 07       		.byte	0x7
- 206 00b3 F3010000 		.4byte	.LASF16
+ 206 00b3 C9010000 		.4byte	.LASF16
  207 00b7 06       		.uleb128 0x6
  208 00b8 01       		.byte	0x1
  209 00b9 03       		.byte	0x3
@@ -461,12 +461,12 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  217 00ca 00       		.byte	0
  218 00cb 00       		.byte	0
  219 00cc 08       		.uleb128 0x8
- 220 00cd E0000000 		.4byte	.LASF17
+ 220 00cd B6000000 		.4byte	.LASF17
  221 00d1 03       		.byte	0x3
  222 00d2 63       		.byte	0x63
  223 00d3 B7000000 		.4byte	0xb7
  224 00d7 09       		.uleb128 0x9
- 225 00d8 E9010000 		.4byte	.LASF18
+ 225 00d8 BF010000 		.4byte	.LASF18
  226 00dc 01       		.byte	0x1
  227 00dd 49       		.byte	0x49
  228 00de 00000000 		.4byte	.LFB2
@@ -478,14 +478,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  234 00ed 01       		.byte	0x1
  235 00ee 9F       		.byte	0x9f
  236 00ef 00000000 		.4byte	.LFB3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 9
 
 
  237 00f3 1C000000 		.4byte	.LFE3-.LFB3
  238 00f7 01       		.uleb128 0x1
  239 00f8 9C       		.byte	0x9c
  240 00f9 0A       		.uleb128 0xa
- 241 00fa 46010000 		.4byte	.LASF24
+ 241 00fa 1C010000 		.4byte	.LASF24
  242 00fe 01       		.byte	0x1
  243 00ff 2D       		.byte	0x2d
  244 0100 CC000000 		.4byte	0xcc
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  291 0028 00       		.byte	0
  292 0029 04       		.uleb128 0x4
  293 002a 16       		.uleb128 0x16
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 10
 
 
  294 002b 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  348 0061 0B       		.uleb128 0xb
  349 0062 49       		.uleb128 0x49
  350 0063 13       		.uleb128 0x13
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 11
 
 
  351 0064 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  405 001c 1C000000 		.4byte	.LFE3-.LFB3
  406 0020 00000000 		.4byte	0
  407 0024 00000000 		.4byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 12
 
 
  408              		.section	.debug_ranges,"",%progbits
@@ -697,115 +697,110 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 1
  428 002e 4932435F 		.ascii	"I2C_Wakeup\000"
  428      57616B65 
  428      757000
- 429              	.LASF9:
- 430 0039 75696E74 		.ascii	"uint8\000"
- 430      3800
- 431              	.LASF5:
- 432 003f 6C6F6E67 		.ascii	"long unsigned int\000"
- 432      20756E73 
- 432      69676E65 
- 432      6420696E 
- 432      7400
- 433              	.LASF7:
- 434 0051 6C6F6E67 		.ascii	"long long unsigned int\000"
- 434      206C6F6E 
- 434      6720756E 
- 434      7369676E 
- 434      65642069 
- 435              	.LASF11:
- 436 0068 666C6F61 		.ascii	"float\000"
- 436      7400
- 437              	.LASF21:
- 438 006e 47656E65 		.ascii	"Generated_Source\\PSoC4\\I2C_PM.c\000"
- 438      72617465 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 13
+ 429              	.LASF22:
+ 430 0039 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 430      4F524B5C 
+ 430      54455354 
+ 430      735C5073 
+ 430      6F633442 
+ 431              	.LASF9:
+ 432 0061 75696E74 		.ascii	"uint8\000"
+ 432      3800
+ 433              	.LASF5:
+ 434 0067 6C6F6E67 		.ascii	"long unsigned int\000"
+ 434      20756E73 
+ 434      69676E65 
+ 434      6420696E 
+ 434      7400
+ 435              	.LASF7:
+ 436 0079 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 436      206C6F6E 
+ 436      6720756E 
+ 436      7369676E 
+ 436      65642069 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 13
 
 
- 438      645F536F 
- 438      75726365 
- 438      5C50536F 
- 439              	.LASF22:
- 440 008e 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 440      73657273 
- 440      5C616C65 
- 440      78706F72 
- 440      745C4F6E 
- 441 00be 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 441      54735C55 
- 441      41525420 
- 441      55444220 
- 441      74657374 
- 442              	.LASF17:
- 443 00e0 4932435F 		.ascii	"I2C_BACKUP_STRUCT\000"
- 443      4241434B 
- 443      55505F53 
- 443      54525543 
- 443      5400
- 444              	.LASF1:
- 445 00f2 756E7369 		.ascii	"unsigned char\000"
- 445      676E6564 
- 445      20636861 
- 445      7200
- 446              	.LASF13:
- 447 0100 63686172 		.ascii	"char\000"
- 447      00
- 448              	.LASF4:
- 449 0105 6C6F6E67 		.ascii	"long int\000"
- 449      20696E74 
- 449      00
- 450              	.LASF12:
- 451 010e 646F7562 		.ascii	"double\000"
- 451      6C6500
- 452              	.LASF14:
- 453 0115 72656733 		.ascii	"reg32\000"
- 453      3200
- 454              	.LASF3:
- 455 011b 73686F72 		.ascii	"short unsigned int\000"
- 455      7420756E 
- 455      7369676E 
- 455      65642069 
- 455      6E7400
- 456              	.LASF0:
- 457 012e 7369676E 		.ascii	"signed char\000"
- 457      65642063 
- 457      68617200 
- 458              	.LASF15:
- 459 013a 6C6F6E67 		.ascii	"long double\000"
- 459      20646F75 
- 459      626C6500 
- 460              	.LASF24:
- 461 0146 4932435F 		.ascii	"I2C_backup\000"
- 461      6261636B 
- 461      757000
- 462              	.LASF2:
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\cciImxx0.s 			page 14
+ 437              	.LASF11:
+ 438 0090 666C6F61 		.ascii	"float\000"
+ 438      7400
+ 439              	.LASF21:
+ 440 0096 47656E65 		.ascii	"Generated_Source\\PSoC4\\I2C_PM.c\000"
+ 440      72617465 
+ 440      645F536F 
+ 440      75726365 
+ 440      5C50536F 
+ 441              	.LASF17:
+ 442 00b6 4932435F 		.ascii	"I2C_BACKUP_STRUCT\000"
+ 442      4241434B 
+ 442      55505F53 
+ 442      54525543 
+ 442      5400
+ 443              	.LASF1:
+ 444 00c8 756E7369 		.ascii	"unsigned char\000"
+ 444      676E6564 
+ 444      20636861 
+ 444      7200
+ 445              	.LASF13:
+ 446 00d6 63686172 		.ascii	"char\000"
+ 446      00
+ 447              	.LASF4:
+ 448 00db 6C6F6E67 		.ascii	"long int\000"
+ 448      20696E74 
+ 448      00
+ 449              	.LASF12:
+ 450 00e4 646F7562 		.ascii	"double\000"
+ 450      6C6500
+ 451              	.LASF14:
+ 452 00eb 72656733 		.ascii	"reg32\000"
+ 452      3200
+ 453              	.LASF3:
+ 454 00f1 73686F72 		.ascii	"short unsigned int\000"
+ 454      7420756E 
+ 454      7369676E 
+ 454      65642069 
+ 454      6E7400
+ 455              	.LASF0:
+ 456 0104 7369676E 		.ascii	"signed char\000"
+ 456      65642063 
+ 456      68617200 
+ 457              	.LASF15:
+ 458 0110 6C6F6E67 		.ascii	"long double\000"
+ 458      20646F75 
+ 458      626C6500 
+ 459              	.LASF24:
+ 460 011c 4932435F 		.ascii	"I2C_backup\000"
+ 460      6261636B 
+ 460      757000
+ 461              	.LASF2:
+ 462 0127 73686F72 		.ascii	"short int\000"
+ 462      7420696E 
+ 462      7400
+ 463              	.LASF20:
+ 464 0131 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccQOa1dK.s 			page 14
 
 
- 463 0151 73686F72 		.ascii	"short int\000"
- 463      7420696E 
- 463      7400
- 464              	.LASF20:
- 465 015b 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 465      43313120 
- 465      352E342E 
- 465      31203230 
- 465      31363036 
- 466 018e 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 466      20726576 
- 466      6973696F 
- 466      6E203233 
- 466      37373135 
- 467 01c1 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 467      66756E63 
- 467      74696F6E 
- 467      2D736563 
- 467      74696F6E 
- 468              	.LASF18:
- 469 01e9 4932435F 		.ascii	"I2C_Sleep\000"
- 469      536C6565 
- 469      7000
- 470              	.LASF16:
- 471 01f3 73697A65 		.ascii	"sizetype\000"
- 471      74797065 
- 471      00
- 472              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 464      43313120 
+ 464      352E342E 
+ 464      31203230 
+ 464      31363036 
+ 465 0164 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 465      20726576 
+ 465      6973696F 
+ 465      6E203233 
+ 465      37373135 
+ 466 0197 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 466      66756E63 
+ 466      74696F6E 
+ 466      2D736563 
+ 466      74696F6E 
+ 467              	.LASF18:
+ 468 01bf 4932435F 		.ascii	"I2C_Sleep\000"
+ 468      536C6565 
+ 468      7000
+ 469              	.LASF16:
+ 470 01c9 73697A65 		.ascii	"sizetype\000"
+ 470      74797065 
+ 470      00
+ 471              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

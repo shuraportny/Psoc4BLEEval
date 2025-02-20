@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
   16:Generated_Source\PSoC4/I2C.c **** *******************************************************************************/
   17:Generated_Source\PSoC4/I2C.c **** 
   18:Generated_Source\PSoC4/I2C.c **** #include "I2C_PVT.h"
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 2
 
 
   19:Generated_Source\PSoC4/I2C.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
   73:Generated_Source\PSoC4/I2C.c **** *  and set to 1 the first time SCB_Start() is called. This allows 
   74:Generated_Source\PSoC4/I2C.c **** *  the component to restart without reinitialization after the first 
   75:Generated_Source\PSoC4/I2C.c **** *  call to the I2C_Start() routine.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 3
 
 
   76:Generated_Source\PSoC4/I2C.c **** *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
   45              		.cfi_def_cfa_offset 8
   46              		.cfi_offset 7, -8
   47              		.cfi_offset 14, -4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 4
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 4
 
 
   48 0002 00AF     		add	r7, sp, #0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  159:Generated_Source\PSoC4/I2C.c **** *  For I2C and EZI2C modes the interrupt is internal and mandatory for 
  160:Generated_Source\PSoC4/I2C.c **** *  operation. For SPI and UART modes the interrupt can be configured as none, 
  161:Generated_Source\PSoC4/I2C.c **** *  internal or external.
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 5
 
 
  162:Generated_Source\PSoC4/I2C.c **** *  The I2C configuration should be not changed when the component
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
   91 001a C046     		nop
   92 001c BD46     		mov	sp, r7
   93              		@ sp needed
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 6
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 6
 
 
   94 001e 80BD     		pop	{r7, pc}
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  126 000c FFF7FEFF 		bl	I2C_Init
  215:Generated_Source\PSoC4/I2C.c ****         I2C_initVar = 1u; /* Component was initialized */
  127              		.loc 1 215 0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 7
 
 
  128 0010 034B     		ldr	r3, .L7
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  157              		@ frame_needed = 1, uses_anonymous_args = 0
  158 0000 80B5     		push	{r7, lr}
  159              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 8
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 8
 
 
  160              		.cfi_offset 7, -8
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  190              	.L10:
  191 002c 00002440 		.word	1076101120
  192 0030 880F2440 		.word	1076105096
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 9
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 9
 
 
  193              		.cfi_endproc
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  286:Generated_Source\PSoC4/I2C.c ****     rxFifoCtrl |= ((uint32) (I2C_RX_FIFO_CTRL_TRIGGER_LEVEL_MASK & level));
  226              		.loc 1 286 0
  227 0016 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 10
 
 
  228 0018 0F22     		movs	r2, #15
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  263              		.cfi_def_cfa_offset 8
  264              		.cfi_offset 7, -8
  265              		.cfi_offset 14, -4
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 11
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 11
 
 
  266 0002 84B0     		sub	sp, sp, #16
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  311              	.LFB8:
  315:Generated_Source\PSoC4/I2C.c **** 
  316:Generated_Source\PSoC4/I2C.c **** 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 12
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 12
 
 
  317:Generated_Source\PSoC4/I2C.c **** #if (I2C_SCB_IRQ_INTERNAL)
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  337              	.L19:
  338 0018 00000000 		.word	I2C_customIntrHandler
  339              		.cfi_endproc
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 13
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 13
 
 
  340              	.LFE8:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  368              	.LFE9:
  369              		.size	I2C_ScbEnableIntr, .-I2C_ScbEnableIntr
  370              		.section	.text.I2C_ScbModePostEnable,"ax",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 14
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 14
 
 
  371              		.align	2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  388 0004 C046     		nop
  389 0006 BD46     		mov	sp, r7
  390              		@ sp needed
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 15
 
 
  391 0008 80BD     		pop	{r7, pc}
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  442:Generated_Source\PSoC4/I2C.c ****     }
  443:Generated_Source\PSoC4/I2C.c **** #elif (I2C_SCB_MODE_I2C_CONST_CFG)
  444:Generated_Source\PSoC4/I2C.c ****     I2C_I2CStop();
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 16
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 16
 
 
  412              		.loc 1 444 0
@@ -938,14 +938,14 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  432 000c C2000000 		.4byte	.LASF33
  433 0010 0C       		.byte	0xc
  434 0011 5C000000 		.4byte	.LASF34
- 435 0015 50010000 		.4byte	.LASF35
+ 435 0015 4F020000 		.4byte	.LASF35
  436 0019 00000000 		.4byte	.Ldebug_ranges0+0
  437 001d 00000000 		.4byte	0
  438 0021 00000000 		.4byte	.Ldebug_line0
  439 0025 02       		.uleb128 0x2
  440 0026 01       		.byte	0x1
  441 0027 06       		.byte	0x6
- 442 0028 89020000 		.4byte	.LASF0
+ 442 0028 37020000 		.4byte	.LASF0
  443 002c 02       		.uleb128 0x2
  444 002d 01       		.byte	0x1
  445 002e 08       		.byte	0x8
@@ -953,18 +953,18 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  447 0033 02       		.uleb128 0x2
  448 0034 02       		.byte	0x2
  449 0035 05       		.byte	0x5
- 450 0036 46020000 		.4byte	.LASF2
+ 450 0036 F4010000 		.4byte	.LASF2
  451 003a 02       		.uleb128 0x2
  452 003b 02       		.byte	0x2
  453 003c 07       		.byte	0x7
  454 003d 17000000 		.4byte	.LASF3
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 17
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 17
 
 
  455 0041 02       		.uleb128 0x2
  456 0042 04       		.byte	0x4
  457 0043 05       		.byte	0x5
- 458 0044 6E020000 		.4byte	.LASF4
+ 458 0044 1C020000 		.4byte	.LASF4
  459 0048 02       		.uleb128 0x2
  460 0049 04       		.byte	0x4
  461 004a 07       		.byte	0x7
@@ -972,11 +972,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  463 004f 02       		.uleb128 0x2
  464 0050 08       		.byte	0x8
  465 0051 05       		.byte	0x5
- 466 0052 33020000 		.4byte	.LASF6
+ 466 0052 E1010000 		.4byte	.LASF6
  467 0056 02       		.uleb128 0x2
  468 0057 08       		.byte	0x8
  469 0058 07       		.byte	0x7
- 470 0059 F4010000 		.4byte	.LASF7
+ 470 0059 A2010000 		.4byte	.LASF7
  471 005d 03       		.uleb128 0x3
  472 005e 04       		.byte	0x4
  473 005f 05       		.byte	0x5
@@ -984,29 +984,29 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  475 0064 02       		.uleb128 0x2
  476 0065 04       		.byte	0x4
  477 0066 07       		.byte	0x7
- 478 0067 E7010000 		.4byte	.LASF8
+ 478 0067 95010000 		.4byte	.LASF8
  479 006b 04       		.uleb128 0x4
  480 006c BC000000 		.4byte	.LASF9
  481 0070 02       		.byte	0x2
  482 0071 FC01     		.2byte	0x1fc
  483 0073 2C000000 		.4byte	0x2c
  484 0077 04       		.uleb128 0x4
- 485 0078 E0010000 		.4byte	.LASF10
+ 485 0078 8E010000 		.4byte	.LASF10
  486 007c 02       		.byte	0x2
  487 007d FE01     		.2byte	0x1fe
  488 007f 48000000 		.4byte	0x48
  489 0083 02       		.uleb128 0x2
  490 0084 04       		.byte	0x4
  491 0085 04       		.byte	0x4
- 492 0086 83020000 		.4byte	.LASF11
+ 492 0086 31020000 		.4byte	.LASF11
  493 008a 02       		.uleb128 0x2
  494 008b 08       		.byte	0x8
  495 008c 04       		.byte	0x4
- 496 008d AD010000 		.4byte	.LASF12
+ 496 008d 5B010000 		.4byte	.LASF12
  497 0091 02       		.uleb128 0x2
  498 0092 01       		.byte	0x1
  499 0093 08       		.byte	0x8
- 500 0094 41020000 		.4byte	.LASF13
+ 500 0094 EF010000 		.4byte	.LASF13
  501 0098 04       		.uleb128 0x4
  502 0099 00000000 		.4byte	.LASF14
  503 009d 02       		.byte	0x2
@@ -1018,19 +1018,19 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  509 00aa 04       		.byte	0x4
  510 00ab AF000000 		.4byte	0xaf
  511 00af 07       		.uleb128 0x7
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 18
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 18
 
 
  512 00b0 02       		.uleb128 0x2
  513 00b1 08       		.byte	0x8
  514 00b2 04       		.byte	0x4
- 515 00b3 77020000 		.4byte	.LASF15
+ 515 00b3 25020000 		.4byte	.LASF15
  516 00b7 02       		.uleb128 0x2
  517 00b8 04       		.byte	0x4
  518 00b9 07       		.byte	0x7
- 519 00ba 2A020000 		.4byte	.LASF16
+ 519 00ba D8010000 		.4byte	.LASF16
  520 00be 08       		.uleb128 0x8
- 521 00bf 21020000 		.4byte	.LASF17
+ 521 00bf CF010000 		.4byte	.LASF17
  522 00c3 01       		.byte	0x1
  523 00c4 7B       		.byte	0x7b
  524 00c5 00000000 		.4byte	.LFB2
@@ -1038,7 +1038,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  526 00cd 01       		.uleb128 0x1
  527 00ce 9C       		.byte	0x9c
  528 00cf 08       		.uleb128 0x8
- 529 00d0 A2010000 		.4byte	.LASF18
+ 529 00d0 50010000 		.4byte	.LASF18
  530 00d4 01       		.byte	0x1
  531 00d5 AB       		.byte	0xab
  532 00d6 00000000 		.4byte	.LFB3
@@ -1054,7 +1054,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  542 00ef 01       		.uleb128 0x1
  543 00f0 9C       		.byte	0x9c
  544 00f1 08       		.uleb128 0x8
- 545 00f2 D7010000 		.4byte	.LASF20
+ 545 00f2 85010000 		.4byte	.LASF20
  546 00f6 01       		.byte	0x1
  547 00f7 EF       		.byte	0xef
  548 00f8 00000000 		.4byte	.LFB5
@@ -1062,7 +1062,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  550 0100 01       		.uleb128 0x1
  551 0101 9C       		.byte	0x9c
  552 0102 09       		.uleb128 0x9
- 553 0103 50020000 		.4byte	.LASF21
+ 553 0103 FE010000 		.4byte	.LASF21
  554 0107 01       		.byte	0x1
  555 0108 1701     		.2byte	0x117
  556 010a 00000000 		.4byte	.LFB6
@@ -1078,11 +1078,11 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  566 0124 02       		.uleb128 0x2
  567 0125 91       		.byte	0x91
  568 0126 6C       		.sleb128 -20
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 19
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 19
 
 
  569 0127 0B       		.uleb128 0xb
- 570 0128 63020000 		.4byte	.LASF24
+ 570 0128 11020000 		.4byte	.LASF24
  571 012c 01       		.byte	0x1
  572 012d 1901     		.2byte	0x119
  573 012f 77000000 		.4byte	0x77
@@ -1117,7 +1117,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  602 016a 74       		.sleb128 -12
  603 016b 00       		.byte	0
  604 016c 09       		.uleb128 0x9
- 605 016d B9010000 		.4byte	.LASF26
+ 605 016d 67010000 		.4byte	.LASF26
  606 0171 01       		.byte	0x1
  607 0172 4F01     		.2byte	0x14f
  608 0174 00000000 		.4byte	.LFB8
@@ -1126,7 +1126,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  611 017d 9C       		.byte	0x9c
  612 017e 92010000 		.4byte	0x192
  613 0182 0A       		.uleb128 0xa
- 614 0183 B4010000 		.4byte	.LASF27
+ 614 0183 62010000 		.4byte	.LASF27
  615 0187 01       		.byte	0x1
  616 0188 4F01     		.2byte	0x14f
  617 018a A9000000 		.4byte	0xa9
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  623 0193 40000000 		.4byte	.LASF28
  624 0197 01       		.byte	0x1
  625 0198 6401     		.2byte	0x164
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 20
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 20
 
 
  626 019a 00000000 		.4byte	.LFB9
@@ -1146,7 +1146,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  628 01a2 01       		.uleb128 0x1
  629 01a3 9C       		.byte	0x9c
  630 01a4 0D       		.uleb128 0xd
- 631 01a5 0B020000 		.4byte	.LASF29
+ 631 01a5 B9010000 		.4byte	.LASF29
  632 01a9 01       		.byte	0x1
  633 01aa 7D01     		.2byte	0x17d
  634 01ac 00000000 		.4byte	.LFB10
@@ -1162,7 +1162,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  644 01c6 01       		.uleb128 0x1
  645 01c7 9C       		.byte	0x9c
  646 01c8 0E       		.uleb128 0xe
- 647 01c9 95020000 		.4byte	.LASF31
+ 647 01c9 43020000 		.4byte	.LASF31
  648 01cd 01       		.byte	0x1
  649 01ce 51       		.byte	0x51
  650 01cf 6B000000 		.4byte	0x6b
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  680 000f 10       		.uleb128 0x10
  681 0010 17       		.uleb128 0x17
  682 0011 00       		.byte	0
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 21
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 21
 
 
  683 0012 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  737 0048 00       		.byte	0
  738 0049 27       		.uleb128 0x27
  739 004a 19       		.uleb128 0x19
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 22
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 22
 
 
  740 004b 00       		.byte	0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  794 0083 0E       		.uleb128 0xe
  795 0084 3A       		.uleb128 0x3a
  796 0085 0B       		.uleb128 0xb
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 23
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 23
 
 
  797 0086 3B       		.uleb128 0x3b
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  851 00bd 19       		.uleb128 0x19
  852 00be 11       		.uleb128 0x11
  853 00bf 01       		.uleb128 0x1
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 24
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 24
 
 
  854 00c0 12       		.uleb128 0x12
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  908 0060 00000000 		.4byte	0
  909 0064 00000000 		.4byte	0
  910              		.section	.debug_ranges,"",%progbits
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 25
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 25
 
 
  911              	.Ldebug_ranges0:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  948      53636245 
  948      6E61626C 
  948      65496E74 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 26
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 26
 
 
  948      7200
@@ -1553,110 +1553,105 @@ ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 1
  966      74696F6E 
  966      2D736563 
  966      74696F6E 
- 967              	.LASF35:
- 968 0150 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
- 968      73657273 
- 968      5C616C65 
- 968      78706F72 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 27
+ 967              	.LASF18:
+ 968 0150 4932435F 		.ascii	"I2C_Enable\000"
+ 968      456E6162 
+ 968      6C6500
+ 969              	.LASF12:
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 27
 
 
- 968      745C4F6E 
- 969 0180 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
- 969      54735C55 
- 969      41525420 
- 969      55444220 
- 969      74657374 
- 970              	.LASF18:
- 971 01a2 4932435F 		.ascii	"I2C_Enable\000"
- 971      456E6162 
- 971      6C6500
- 972              	.LASF12:
- 973 01ad 646F7562 		.ascii	"double\000"
- 973      6C6500
- 974              	.LASF27:
- 975 01b4 66756E63 		.ascii	"func\000"
- 975      00
- 976              	.LASF26:
- 977 01b9 4932435F 		.ascii	"I2C_SetCustomInterruptHandler\000"
- 977      53657443 
- 977      7573746F 
- 977      6D496E74 
- 977      65727275 
- 978              	.LASF20:
- 979 01d7 4932435F 		.ascii	"I2C_Stop\000"
- 979      53746F70 
- 979      00
- 980              	.LASF10:
- 981 01e0 75696E74 		.ascii	"uint32\000"
- 981      333200
- 982              	.LASF8:
- 983 01e7 756E7369 		.ascii	"unsigned int\000"
- 983      676E6564 
- 983      20696E74 
- 983      00
- 984              	.LASF7:
- 985 01f4 6C6F6E67 		.ascii	"long long unsigned int\000"
- 985      206C6F6E 
- 985      6720756E 
- 985      7369676E 
- 985      65642069 
- 986              	.LASF29:
- 987 020b 4932435F 		.ascii	"I2C_ScbModePostEnable\000"
- 987      5363624D 
- 987      6F646550 
- 987      6F737445 
- 987      6E61626C 
- 988              	.LASF17:
- 989 0221 4932435F 		.ascii	"I2C_Init\000"
- 989      496E6974 
- 989      00
- 990              	.LASF16:
- 991 022a 73697A65 		.ascii	"sizetype\000"
- 991      74797065 
- 991      00
- 992              	.LASF6:
- 993 0233 6C6F6E67 		.ascii	"long long int\000"
- 993      206C6F6E 
-ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccv1FPmS.s 			page 28
+ 970 015b 646F7562 		.ascii	"double\000"
+ 970      6C6500
+ 971              	.LASF27:
+ 972 0162 66756E63 		.ascii	"func\000"
+ 972      00
+ 973              	.LASF26:
+ 974 0167 4932435F 		.ascii	"I2C_SetCustomInterruptHandler\000"
+ 974      53657443 
+ 974      7573746F 
+ 974      6D496E74 
+ 974      65727275 
+ 975              	.LASF20:
+ 976 0185 4932435F 		.ascii	"I2C_Stop\000"
+ 976      53746F70 
+ 976      00
+ 977              	.LASF10:
+ 978 018e 75696E74 		.ascii	"uint32\000"
+ 978      333200
+ 979              	.LASF8:
+ 980 0195 756E7369 		.ascii	"unsigned int\000"
+ 980      676E6564 
+ 980      20696E74 
+ 980      00
+ 981              	.LASF7:
+ 982 01a2 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 982      206C6F6E 
+ 982      6720756E 
+ 982      7369676E 
+ 982      65642069 
+ 983              	.LASF29:
+ 984 01b9 4932435F 		.ascii	"I2C_ScbModePostEnable\000"
+ 984      5363624D 
+ 984      6F646550 
+ 984      6F737445 
+ 984      6E61626C 
+ 985              	.LASF17:
+ 986 01cf 4932435F 		.ascii	"I2C_Init\000"
+ 986      496E6974 
+ 986      00
+ 987              	.LASF16:
+ 988 01d8 73697A65 		.ascii	"sizetype\000"
+ 988      74797065 
+ 988      00
+ 989              	.LASF6:
+ 990 01e1 6C6F6E67 		.ascii	"long long int\000"
+ 990      206C6F6E 
+ 990      6720696E 
+ 990      7400
+ 991              	.LASF13:
+ 992 01ef 63686172 		.ascii	"char\000"
+ 992      00
+ 993              	.LASF2:
+ 994 01f4 73686F72 		.ascii	"short int\000"
+ 994      7420696E 
+ 994      7400
+ 995              	.LASF21:
+ 996 01fe 4932435F 		.ascii	"I2C_SetRxFifoLevel\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccpB2L2J.s 			page 28
 
 
- 993      6720696E 
- 993      7400
- 994              	.LASF13:
- 995 0241 63686172 		.ascii	"char\000"
- 995      00
- 996              	.LASF2:
- 997 0246 73686F72 		.ascii	"short int\000"
- 997      7420696E 
- 997      7400
- 998              	.LASF21:
- 999 0250 4932435F 		.ascii	"I2C_SetRxFifoLevel\000"
- 999      53657452 
- 999      78466966 
- 999      6F4C6576 
- 999      656C00
- 1000              	.LASF24:
- 1001 0263 72784669 		.ascii	"rxFifoCtrl\000"
- 1001      666F4374 
- 1001      726C00
- 1002              	.LASF4:
- 1003 026e 6C6F6E67 		.ascii	"long int\000"
- 1003      20696E74 
- 1003      00
- 1004              	.LASF15:
- 1005 0277 6C6F6E67 		.ascii	"long double\000"
- 1005      20646F75 
- 1005      626C6500 
- 1006              	.LASF11:
- 1007 0283 666C6F61 		.ascii	"float\000"
- 1007      7400
- 1008              	.LASF0:
- 1009 0289 7369676E 		.ascii	"signed char\000"
- 1009      65642063 
- 1009      68617200 
- 1010              	.LASF31:
- 1011 0295 4932435F 		.ascii	"I2C_initVar\000"
- 1011      696E6974 
- 1011      56617200 
- 1012              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 996      53657452 
+ 996      78466966 
+ 996      6F4C6576 
+ 996      656C00
+ 997              	.LASF24:
+ 998 0211 72784669 		.ascii	"rxFifoCtrl\000"
+ 998      666F4374 
+ 998      726C00
+ 999              	.LASF4:
+ 1000 021c 6C6F6E67 		.ascii	"long int\000"
+ 1000      20696E74 
+ 1000      00
+ 1001              	.LASF15:
+ 1002 0225 6C6F6E67 		.ascii	"long double\000"
+ 1002      20646F75 
+ 1002      626C6500 
+ 1003              	.LASF11:
+ 1004 0231 666C6F61 		.ascii	"float\000"
+ 1004      7400
+ 1005              	.LASF0:
+ 1006 0237 7369676E 		.ascii	"signed char\000"
+ 1006      65642063 
+ 1006      68617200 
+ 1007              	.LASF31:
+ 1008 0243 4932435F 		.ascii	"I2C_initVar\000"
+ 1008      696E6974 
+ 1008      56617200 
+ 1009              	.LASF35:
+ 1010 024f 433A5C57 		.ascii	"C:\\WORK\\TESTs\\Psoc4BLEEval\\SA-200.cydsn\000"
+ 1010      4F524B5C 
+ 1010      54455354 
+ 1010      735C5073 
+ 1010      6F633442 
+ 1011              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
