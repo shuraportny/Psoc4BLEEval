@@ -44,7 +44,55 @@ extern uint8_t sleepEnable;
 
 
 
+
+void Nextion_SendEndOfCommand(){
+    UART2_PutChar(0xFF);
+    UART2_PutChar(0xFF);
+    UART2_PutChar(0xFF);
+}
+
+void Nextion_SetPage(char* id){
+    char buf[50];
+    memset(buf, 0 , sizeof(buf));
+    uint32 len = sprintf(buf, "page %s",id) ;
+    UART2_PutString(buf);
+    Nextion_SendEndOfCommand();
+}
+
+void Nextion_SendFloat(char* obj, uint32 val,  uint8 res){
+    char buf[50];
+    memset(buf, 0 , sizeof(buf));
+    sprintf(buf, "%s.vvs1=%d",obj,res) ;
+    UART2_PutString(buf);
+    Nextion_SendEndOfCommand();
+    memset(buf, 0 , sizeof(buf));
+    sprintf(buf, "%s.val=%lu",obj,val) ;
+    UART2_PutString(buf);
+    Nextion_SendEndOfCommand();
+}
+
+void Nextion_SendInt(char* obj, uint32 val){
+    char buf[50];
+    memset(buf, 0 , sizeof(buf));
+    sprintf(buf, "%s.val=%lu",obj,val) ;
+    UART2_PutString(buf);
+    Nextion_SendEndOfCommand();
+}
+
+void Nextion_SetText(char* obj,char* txt){
+    char buf[50];
+    memset(buf, 0 , sizeof(buf));
+    sprintf(buf, "%s.txt=\"%s\"",obj,txt) ;
+    UART2_PutString(buf);
+    Nextion_SendEndOfCommand();
+
+}
+
+
 uint8 newM;
+
+
+
 
 int main(void)
 {   
@@ -96,10 +144,10 @@ int main(void)
     uint8 event, event2;
     uint8 resolution=0;
    
-//    CyDelay(500);
-//    Nextion_SetPage("page0");
-//    Nextion_SetText("t1", "H2SSSS");
-//    Nextion_SetText("t2", "PPM");
+    CyDelay(500);
+    Nextion_SetPage("page0");
+    Nextion_SetText("t1", "H2SSSS");
+    Nextion_SetText("t2", "PPM");
     
     CyDelay(500);
     // END TEST AREA========================
@@ -117,25 +165,20 @@ int main(void)
            val++;
         else
            val--;   
-//        Nextion_SendFloat("page0.x0",val,resolution); 
-//        Nextion_SendInt("page0.j0", (val*100)/200);
-//            uint32 gauge;
-//            if(val<10)
-//                gauge=350+val;
-//            else if(val>0)
-//                gauge=val-10;
-            //if(!event && !event2){
+        Nextion_SendFloat("page0.x0",val,resolution); 
+        Nextion_SendInt("page0.j0", (val*100)/200);
+        uint32 gauge;
+        if(val<10)
+            gauge=350+val;
+        else if(val>0)
+            gauge=val-10;
+        
+        Nextion_SendInt("page6.z0",gauge);  
+        Nextion_SendInt("page6.n0",resolution);
+        
                 
-                //Nextion_SendInt("page6.z0",gauge);  
-                //Nextion_SendInt("page6.n0",resolution);
-                //Nextion_SendWaveToForm(val);
                 
-                //Nextion_SendFloat2("page6.x0",val,resolution);
-                //Nextion_SendInt2("page6.z0",gauge);  
-                //Nextion_SendInt2("page6.n0",resolution);
-                
-            //}
-            
+                        
         
         
         //CySysWatchdogFeed(CY_SYS_WDT_COUNTER0_MASK);
