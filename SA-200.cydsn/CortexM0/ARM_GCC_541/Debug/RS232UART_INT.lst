@@ -1,0 +1,896 @@
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"RS232UART_INT.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.RS232UART_RXISR,"ax",%progbits
+  20              		.align	2
+  21              		.global	RS232UART_RXISR
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	RS232UART_RXISR, %function
+  25              	RS232UART_RXISR:
+  26              	.LFB2:
+  27              		.file 1 "Generated_Source\\PSoC4\\RS232UART_INT.c"
+   1:Generated_Source\PSoC4/RS232UART_INT.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/RS232UART_INT.c **** * File Name: RS232UARTINT.c
+   3:Generated_Source\PSoC4/RS232UART_INT.c **** * Version 2.50
+   4:Generated_Source\PSoC4/RS232UART_INT.c **** *
+   5:Generated_Source\PSoC4/RS232UART_INT.c **** * Description:
+   6:Generated_Source\PSoC4/RS232UART_INT.c **** *  This file provides all Interrupt Service functionality of the UART component
+   7:Generated_Source\PSoC4/RS232UART_INT.c **** *
+   8:Generated_Source\PSoC4/RS232UART_INT.c **** ********************************************************************************
+   9:Generated_Source\PSoC4/RS232UART_INT.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
+  10:Generated_Source\PSoC4/RS232UART_INT.c **** * You may use this file only in accordance with the license, terms, conditions,
+  11:Generated_Source\PSoC4/RS232UART_INT.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  12:Generated_Source\PSoC4/RS232UART_INT.c **** * the software package with which this file was provided.
+  13:Generated_Source\PSoC4/RS232UART_INT.c **** *******************************************************************************/
+  14:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  15:Generated_Source\PSoC4/RS232UART_INT.c **** #include "RS232UART.h"
+  16:Generated_Source\PSoC4/RS232UART_INT.c **** #include "cyapicallbacks.h"
+  17:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  18:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  19:Generated_Source\PSoC4/RS232UART_INT.c **** /***************************************
+  20:Generated_Source\PSoC4/RS232UART_INT.c **** * Custom Declarations
+  21:Generated_Source\PSoC4/RS232UART_INT.c **** ***************************************/
+  22:Generated_Source\PSoC4/RS232UART_INT.c **** /* `#START CUSTOM_DECLARATIONS` Place your declaration here */
+  23:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  24:Generated_Source\PSoC4/RS232UART_INT.c **** /* `#END` */
+  25:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  26:Generated_Source\PSoC4/RS232UART_INT.c **** #if (RS232UART_RX_INTERRUPT_ENABLED && (RS232UART_RX_ENABLED || RS232UART_HD_ENABLED))
+  27:Generated_Source\PSoC4/RS232UART_INT.c ****     /*******************************************************************************
+  28:Generated_Source\PSoC4/RS232UART_INT.c ****     * Function Name: RS232UART_RXISR
+  29:Generated_Source\PSoC4/RS232UART_INT.c ****     ********************************************************************************
+  30:Generated_Source\PSoC4/RS232UART_INT.c ****     *
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 2
+
+
+  31:Generated_Source\PSoC4/RS232UART_INT.c ****     * Summary:
+  32:Generated_Source\PSoC4/RS232UART_INT.c ****     *  Interrupt Service Routine for RX portion of the UART
+  33:Generated_Source\PSoC4/RS232UART_INT.c ****     *
+  34:Generated_Source\PSoC4/RS232UART_INT.c ****     * Parameters:
+  35:Generated_Source\PSoC4/RS232UART_INT.c ****     *  None.
+  36:Generated_Source\PSoC4/RS232UART_INT.c ****     *
+  37:Generated_Source\PSoC4/RS232UART_INT.c ****     * Return:
+  38:Generated_Source\PSoC4/RS232UART_INT.c ****     *  None.
+  39:Generated_Source\PSoC4/RS232UART_INT.c ****     *
+  40:Generated_Source\PSoC4/RS232UART_INT.c ****     * Global Variables:
+  41:Generated_Source\PSoC4/RS232UART_INT.c ****     *  RS232UART_rxBuffer - RAM buffer pointer for save received data.
+  42:Generated_Source\PSoC4/RS232UART_INT.c ****     *  RS232UART_rxBufferWrite - cyclic index for write to rxBuffer,
+  43:Generated_Source\PSoC4/RS232UART_INT.c ****     *     increments after each byte saved to buffer.
+  44:Generated_Source\PSoC4/RS232UART_INT.c ****     *  RS232UART_rxBufferRead - cyclic index for read from rxBuffer,
+  45:Generated_Source\PSoC4/RS232UART_INT.c ****     *     checked to detect overflow condition.
+  46:Generated_Source\PSoC4/RS232UART_INT.c ****     *  RS232UART_rxBufferOverflow - software overflow flag. Set to one
+  47:Generated_Source\PSoC4/RS232UART_INT.c ****     *     when RS232UART_rxBufferWrite index overtakes
+  48:Generated_Source\PSoC4/RS232UART_INT.c ****     *     RS232UART_rxBufferRead index.
+  49:Generated_Source\PSoC4/RS232UART_INT.c ****     *  RS232UART_rxBufferLoopDetect - additional variable to detect overflow.
+  50:Generated_Source\PSoC4/RS232UART_INT.c ****     *     Set to one when RS232UART_rxBufferWrite is equal to
+  51:Generated_Source\PSoC4/RS232UART_INT.c ****     *    RS232UART_rxBufferRead
+  52:Generated_Source\PSoC4/RS232UART_INT.c ****     *  RS232UART_rxAddressMode - this variable contains the Address mode,
+  53:Generated_Source\PSoC4/RS232UART_INT.c ****     *     selected in customizer or set by UART_SetRxAddressMode() API.
+  54:Generated_Source\PSoC4/RS232UART_INT.c ****     *  RS232UART_rxAddressDetected - set to 1 when correct address received,
+  55:Generated_Source\PSoC4/RS232UART_INT.c ****     *     and analysed to store following addressed data bytes to the buffer.
+  56:Generated_Source\PSoC4/RS232UART_INT.c ****     *     When not correct address received, set to 0 to skip following data bytes.
+  57:Generated_Source\PSoC4/RS232UART_INT.c ****     *
+  58:Generated_Source\PSoC4/RS232UART_INT.c ****     *******************************************************************************/
+  59:Generated_Source\PSoC4/RS232UART_INT.c ****     CY_ISR(RS232UART_RXISR)
+  60:Generated_Source\PSoC4/RS232UART_INT.c ****     {
+  28              		.loc 1 60 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 8
+  31              		@ frame_needed = 1, uses_anonymous_args = 0
+  32 0000 80B5     		push	{r7, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 7, -8
+  35              		.cfi_offset 14, -4
+  36 0002 82B0     		sub	sp, sp, #8
+  37              		.cfi_def_cfa_offset 16
+  38 0004 00AF     		add	r7, sp, #0
+  39              		.cfi_def_cfa_register 7
+  61:Generated_Source\PSoC4/RS232UART_INT.c ****         uint8 readData;
+  62:Generated_Source\PSoC4/RS232UART_INT.c ****         uint8 readStatus;
+  63:Generated_Source\PSoC4/RS232UART_INT.c ****         uint8 increment_pointer = 0u;
+  40              		.loc 1 63 0
+  41 0006 FB1D     		adds	r3, r7, #7
+  42 0008 0022     		movs	r2, #0
+  43 000a 1A70     		strb	r2, [r3]
+  44              	.L6:
+  64:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  65:Generated_Source\PSoC4/RS232UART_INT.c ****     #if(CY_PSOC3)
+  66:Generated_Source\PSoC4/RS232UART_INT.c ****         uint8 int_en;
+  67:Generated_Source\PSoC4/RS232UART_INT.c ****     #endif /* (CY_PSOC3) */
+  68:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  69:Generated_Source\PSoC4/RS232UART_INT.c ****     #ifdef RS232UART_RXISR_ENTRY_CALLBACK
+  70:Generated_Source\PSoC4/RS232UART_INT.c ****         RS232UART_RXISR_EntryCallback();
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 3
+
+
+  71:Generated_Source\PSoC4/RS232UART_INT.c ****     #endif /* RS232UART_RXISR_ENTRY_CALLBACK */
+  72:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  73:Generated_Source\PSoC4/RS232UART_INT.c ****         /* User code required at start of ISR */
+  74:Generated_Source\PSoC4/RS232UART_INT.c ****         /* `#START RS232UART_RXISR_START` */
+  75:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  76:Generated_Source\PSoC4/RS232UART_INT.c ****         /* `#END` */
+  77:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  78:Generated_Source\PSoC4/RS232UART_INT.c ****     #if(CY_PSOC3)   /* Make sure nested interrupt is enabled */
+  79:Generated_Source\PSoC4/RS232UART_INT.c ****         int_en = EA;
+  80:Generated_Source\PSoC4/RS232UART_INT.c ****         CyGlobalIntEnable;
+  81:Generated_Source\PSoC4/RS232UART_INT.c ****     #endif /* (CY_PSOC3) */
+  82:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  83:Generated_Source\PSoC4/RS232UART_INT.c ****         do
+  84:Generated_Source\PSoC4/RS232UART_INT.c ****         {
+  85:Generated_Source\PSoC4/RS232UART_INT.c ****             /* Read receiver status register */
+  86:Generated_Source\PSoC4/RS232UART_INT.c ****             readStatus = RS232UART_RXSTATUS_REG;
+  45              		.loc 1 86 0
+  46 000c 2E4A     		ldr	r2, .L7
+  47 000e BB1D     		adds	r3, r7, #6
+  48 0010 1278     		ldrb	r2, [r2]
+  49 0012 1A70     		strb	r2, [r3]
+  87:Generated_Source\PSoC4/RS232UART_INT.c ****             /* Copy the same status to readData variable for backward compatibility support 
+  88:Generated_Source\PSoC4/RS232UART_INT.c ****             *  of the user code in RS232UART_RXISR_ERROR` section. 
+  89:Generated_Source\PSoC4/RS232UART_INT.c ****             */
+  90:Generated_Source\PSoC4/RS232UART_INT.c ****             readData = readStatus;
+  50              		.loc 1 90 0
+  51 0014 7B1D     		adds	r3, r7, #5
+  52 0016 BA1D     		adds	r2, r7, #6
+  53 0018 1278     		ldrb	r2, [r2]
+  54 001a 1A70     		strb	r2, [r3]
+  91:Generated_Source\PSoC4/RS232UART_INT.c **** 
+  92:Generated_Source\PSoC4/RS232UART_INT.c ****             if((readStatus & (RS232UART_RX_STS_BREAK | 
+  93:Generated_Source\PSoC4/RS232UART_INT.c ****                             RS232UART_RX_STS_PAR_ERROR |
+  94:Generated_Source\PSoC4/RS232UART_INT.c ****                             RS232UART_RX_STS_STOP_ERROR | 
+  95:Generated_Source\PSoC4/RS232UART_INT.c ****                             RS232UART_RX_STS_OVERRUN)) != 0u)
+  55              		.loc 1 95 0
+  56 001c BB1D     		adds	r3, r7, #6
+  57 001e 1B78     		ldrb	r3, [r3]
+  58 0020 1E22     		movs	r2, #30
+  59 0022 1340     		ands	r3, r2
+  92:Generated_Source\PSoC4/RS232UART_INT.c ****                             RS232UART_RX_STS_PAR_ERROR |
+  60              		.loc 1 92 0
+  61 0024 0DD0     		beq	.L2
+  96:Generated_Source\PSoC4/RS232UART_INT.c ****             {
+  97:Generated_Source\PSoC4/RS232UART_INT.c ****                 /* ERROR handling. */
+  98:Generated_Source\PSoC4/RS232UART_INT.c ****                 RS232UART_errorStatus |= readStatus & ( RS232UART_RX_STS_BREAK | 
+  62              		.loc 1 98 0
+  63 0026 BB1D     		adds	r3, r7, #6
+  64 0028 1B78     		ldrb	r3, [r3]
+  65 002a 5BB2     		sxtb	r3, r3
+  66 002c 1E22     		movs	r2, #30
+  67 002e 1340     		ands	r3, r2
+  68 0030 5AB2     		sxtb	r2, r3
+  69 0032 264B     		ldr	r3, .L7+4
+  70 0034 1B78     		ldrb	r3, [r3]
+  71 0036 5BB2     		sxtb	r3, r3
+  72 0038 1343     		orrs	r3, r2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 4
+
+
+  73 003a 5BB2     		sxtb	r3, r3
+  74 003c DAB2     		uxtb	r2, r3
+  75 003e 234B     		ldr	r3, .L7+4
+  76 0040 1A70     		strb	r2, [r3]
+  77              	.L2:
+  99:Generated_Source\PSoC4/RS232UART_INT.c ****                                                             RS232UART_RX_STS_PAR_ERROR | 
+ 100:Generated_Source\PSoC4/RS232UART_INT.c ****                                                             RS232UART_RX_STS_STOP_ERROR | 
+ 101:Generated_Source\PSoC4/RS232UART_INT.c ****                                                             RS232UART_RX_STS_OVERRUN);
+ 102:Generated_Source\PSoC4/RS232UART_INT.c ****                 /* `#START RS232UART_RXISR_ERROR` */
+ 103:Generated_Source\PSoC4/RS232UART_INT.c **** 
+ 104:Generated_Source\PSoC4/RS232UART_INT.c ****                 /* `#END` */
+ 105:Generated_Source\PSoC4/RS232UART_INT.c ****                 
+ 106:Generated_Source\PSoC4/RS232UART_INT.c ****             #ifdef RS232UART_RXISR_ERROR_CALLBACK
+ 107:Generated_Source\PSoC4/RS232UART_INT.c ****                 RS232UART_RXISR_ERROR_Callback();
+ 108:Generated_Source\PSoC4/RS232UART_INT.c ****             #endif /* RS232UART_RXISR_ERROR_CALLBACK */
+ 109:Generated_Source\PSoC4/RS232UART_INT.c ****             }
+ 110:Generated_Source\PSoC4/RS232UART_INT.c ****             
+ 111:Generated_Source\PSoC4/RS232UART_INT.c ****             if((readStatus & RS232UART_RX_STS_FIFO_NOTEMPTY) != 0u)
+  78              		.loc 1 111 0
+  79 0042 BB1D     		adds	r3, r7, #6
+  80 0044 1B78     		ldrb	r3, [r3]
+  81 0046 2022     		movs	r2, #32
+  82 0048 1340     		ands	r3, r2
+  83 004a 34D0     		beq	.L3
+ 112:Generated_Source\PSoC4/RS232UART_INT.c ****             {
+ 113:Generated_Source\PSoC4/RS232UART_INT.c ****                 /* Read data from the RX data register */
+ 114:Generated_Source\PSoC4/RS232UART_INT.c ****                 readData = RS232UART_RXDATA_REG;
+  84              		.loc 1 114 0
+  85 004c 204A     		ldr	r2, .L7+8
+  86 004e 7B1D     		adds	r3, r7, #5
+  87 0050 1278     		ldrb	r2, [r2]
+  88 0052 1A70     		strb	r2, [r3]
+ 115:Generated_Source\PSoC4/RS232UART_INT.c ****             #if (RS232UART_RXHW_ADDRESS_ENABLED)
+ 116:Generated_Source\PSoC4/RS232UART_INT.c ****                 if(RS232UART_rxAddressMode == (uint8)RS232UART__B_UART__AM_SW_DETECT_TO_BUFFER)
+ 117:Generated_Source\PSoC4/RS232UART_INT.c ****                 {
+ 118:Generated_Source\PSoC4/RS232UART_INT.c ****                     if((readStatus & RS232UART_RX_STS_MRKSPC) != 0u)
+ 119:Generated_Source\PSoC4/RS232UART_INT.c ****                     {
+ 120:Generated_Source\PSoC4/RS232UART_INT.c ****                         if ((readStatus & RS232UART_RX_STS_ADDR_MATCH) != 0u)
+ 121:Generated_Source\PSoC4/RS232UART_INT.c ****                         {
+ 122:Generated_Source\PSoC4/RS232UART_INT.c ****                             RS232UART_rxAddressDetected = 1u;
+ 123:Generated_Source\PSoC4/RS232UART_INT.c ****                         }
+ 124:Generated_Source\PSoC4/RS232UART_INT.c ****                         else
+ 125:Generated_Source\PSoC4/RS232UART_INT.c ****                         {
+ 126:Generated_Source\PSoC4/RS232UART_INT.c ****                             RS232UART_rxAddressDetected = 0u;
+ 127:Generated_Source\PSoC4/RS232UART_INT.c ****                         }
+ 128:Generated_Source\PSoC4/RS232UART_INT.c ****                     }
+ 129:Generated_Source\PSoC4/RS232UART_INT.c ****                     if(RS232UART_rxAddressDetected != 0u)
+ 130:Generated_Source\PSoC4/RS232UART_INT.c ****                     {   /* Store only addressed data */
+ 131:Generated_Source\PSoC4/RS232UART_INT.c ****                         RS232UART_rxBuffer[RS232UART_rxBufferWrite] = readData;
+ 132:Generated_Source\PSoC4/RS232UART_INT.c ****                         increment_pointer = 1u;
+ 133:Generated_Source\PSoC4/RS232UART_INT.c ****                     }
+ 134:Generated_Source\PSoC4/RS232UART_INT.c ****                 }
+ 135:Generated_Source\PSoC4/RS232UART_INT.c ****                 else /* Without software addressing */
+ 136:Generated_Source\PSoC4/RS232UART_INT.c ****                 {
+ 137:Generated_Source\PSoC4/RS232UART_INT.c ****                     RS232UART_rxBuffer[RS232UART_rxBufferWrite] = readData;
+ 138:Generated_Source\PSoC4/RS232UART_INT.c ****                     increment_pointer = 1u;
+ 139:Generated_Source\PSoC4/RS232UART_INT.c ****                 }
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 5
+
+
+ 140:Generated_Source\PSoC4/RS232UART_INT.c ****             #else  /* Without addressing */
+ 141:Generated_Source\PSoC4/RS232UART_INT.c ****                 RS232UART_rxBuffer[RS232UART_rxBufferWrite] = readData;
+  89              		.loc 1 141 0
+  90 0054 1F4B     		ldr	r3, .L7+12
+  91 0056 1B78     		ldrb	r3, [r3]
+  92 0058 DBB2     		uxtb	r3, r3
+  93 005a 1900     		movs	r1, r3
+  94 005c 1E4B     		ldr	r3, .L7+16
+  95 005e 7A1D     		adds	r2, r7, #5
+  96 0060 1278     		ldrb	r2, [r2]
+  97 0062 5A54     		strb	r2, [r3, r1]
+ 142:Generated_Source\PSoC4/RS232UART_INT.c ****                 increment_pointer = 1u;
+  98              		.loc 1 142 0
+  99 0064 FB1D     		adds	r3, r7, #7
+ 100 0066 0122     		movs	r2, #1
+ 101 0068 1A70     		strb	r2, [r3]
+ 143:Generated_Source\PSoC4/RS232UART_INT.c ****             #endif /* (RS232UART_RXHW_ADDRESS_ENABLED) */
+ 144:Generated_Source\PSoC4/RS232UART_INT.c **** 
+ 145:Generated_Source\PSoC4/RS232UART_INT.c ****                 /* Do not increment buffer pointer when skip not addressed data */
+ 146:Generated_Source\PSoC4/RS232UART_INT.c ****                 if(increment_pointer != 0u)
+ 102              		.loc 1 146 0
+ 103 006a FB1D     		adds	r3, r7, #7
+ 104 006c 1B78     		ldrb	r3, [r3]
+ 105 006e 002B     		cmp	r3, #0
+ 106 0070 21D0     		beq	.L3
+ 147:Generated_Source\PSoC4/RS232UART_INT.c ****                 {
+ 148:Generated_Source\PSoC4/RS232UART_INT.c ****                     if(RS232UART_rxBufferLoopDetect != 0u)
+ 107              		.loc 1 148 0
+ 108 0072 1A4B     		ldr	r3, .L7+20
+ 109 0074 1B78     		ldrb	r3, [r3]
+ 110 0076 DBB2     		uxtb	r3, r3
+ 111 0078 002B     		cmp	r3, #0
+ 112 007a 02D0     		beq	.L4
+ 149:Generated_Source\PSoC4/RS232UART_INT.c ****                     {   /* Set Software Buffer status Overflow */
+ 150:Generated_Source\PSoC4/RS232UART_INT.c ****                         RS232UART_rxBufferOverflow = 1u;
+ 113              		.loc 1 150 0
+ 114 007c 184B     		ldr	r3, .L7+24
+ 115 007e 0122     		movs	r2, #1
+ 116 0080 1A70     		strb	r2, [r3]
+ 117              	.L4:
+ 151:Generated_Source\PSoC4/RS232UART_INT.c ****                     }
+ 152:Generated_Source\PSoC4/RS232UART_INT.c ****                     /* Set next pointer. */
+ 153:Generated_Source\PSoC4/RS232UART_INT.c ****                     RS232UART_rxBufferWrite++;
+ 118              		.loc 1 153 0
+ 119 0082 144B     		ldr	r3, .L7+12
+ 120 0084 1B78     		ldrb	r3, [r3]
+ 121 0086 DBB2     		uxtb	r3, r3
+ 122 0088 0133     		adds	r3, r3, #1
+ 123 008a DAB2     		uxtb	r2, r3
+ 124 008c 114B     		ldr	r3, .L7+12
+ 125 008e 1A70     		strb	r2, [r3]
+ 154:Generated_Source\PSoC4/RS232UART_INT.c **** 
+ 155:Generated_Source\PSoC4/RS232UART_INT.c ****                     /* Check pointer for a loop condition */
+ 156:Generated_Source\PSoC4/RS232UART_INT.c ****                     if(RS232UART_rxBufferWrite >= RS232UART_RX_BUFFER_SIZE)
+ 126              		.loc 1 156 0
+ 127 0090 104B     		ldr	r3, .L7+12
+ 128 0092 1B78     		ldrb	r3, [r3]
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 6
+
+
+ 129 0094 DBB2     		uxtb	r3, r3
+ 130 0096 072B     		cmp	r3, #7
+ 131 0098 02D9     		bls	.L5
+ 157:Generated_Source\PSoC4/RS232UART_INT.c ****                     {
+ 158:Generated_Source\PSoC4/RS232UART_INT.c ****                         RS232UART_rxBufferWrite = 0u;
+ 132              		.loc 1 158 0
+ 133 009a 0E4B     		ldr	r3, .L7+12
+ 134 009c 0022     		movs	r2, #0
+ 135 009e 1A70     		strb	r2, [r3]
+ 136              	.L5:
+ 159:Generated_Source\PSoC4/RS232UART_INT.c ****                     }
+ 160:Generated_Source\PSoC4/RS232UART_INT.c **** 
+ 161:Generated_Source\PSoC4/RS232UART_INT.c ****                     /* Detect pre-overload condition and set flag */
+ 162:Generated_Source\PSoC4/RS232UART_INT.c ****                     if(RS232UART_rxBufferWrite == RS232UART_rxBufferRead)
+ 137              		.loc 1 162 0
+ 138 00a0 0C4B     		ldr	r3, .L7+12
+ 139 00a2 1B78     		ldrb	r3, [r3]
+ 140 00a4 DAB2     		uxtb	r2, r3
+ 141 00a6 0F4B     		ldr	r3, .L7+28
+ 142 00a8 1B78     		ldrb	r3, [r3]
+ 143 00aa DBB2     		uxtb	r3, r3
+ 144 00ac 9A42     		cmp	r2, r3
+ 145 00ae 02D1     		bne	.L3
+ 163:Generated_Source\PSoC4/RS232UART_INT.c ****                     {
+ 164:Generated_Source\PSoC4/RS232UART_INT.c ****                         RS232UART_rxBufferLoopDetect = 1u;
+ 146              		.loc 1 164 0
+ 147 00b0 0A4B     		ldr	r3, .L7+20
+ 148 00b2 0122     		movs	r2, #1
+ 149 00b4 1A70     		strb	r2, [r3]
+ 150              	.L3:
+ 165:Generated_Source\PSoC4/RS232UART_INT.c ****                         /* When Hardware Flow Control selected */
+ 166:Generated_Source\PSoC4/RS232UART_INT.c ****                         #if (RS232UART_FLOW_CONTROL != 0u)
+ 167:Generated_Source\PSoC4/RS232UART_INT.c ****                             /* Disable RX interrupt mask, it is enabled when user read data from th
+ 168:Generated_Source\PSoC4/RS232UART_INT.c ****                             RS232UART_RXSTATUS_MASK_REG  &= (uint8)~RS232UART_RX_STS_FIFO_NOTEMPTY;
+ 169:Generated_Source\PSoC4/RS232UART_INT.c ****                             CyIntClearPending(RS232UART_RX_VECT_NUM);
+ 170:Generated_Source\PSoC4/RS232UART_INT.c ****                             break; /* Break the reading of the FIFO loop, leave the data there for 
+ 171:Generated_Source\PSoC4/RS232UART_INT.c ****                         #endif /* (RS232UART_FLOW_CONTROL != 0u) */
+ 172:Generated_Source\PSoC4/RS232UART_INT.c ****                     }
+ 173:Generated_Source\PSoC4/RS232UART_INT.c ****                 }
+ 174:Generated_Source\PSoC4/RS232UART_INT.c ****             }
+ 175:Generated_Source\PSoC4/RS232UART_INT.c ****         }while((readStatus & RS232UART_RX_STS_FIFO_NOTEMPTY) != 0u);
+ 151              		.loc 1 175 0
+ 152 00b6 BB1D     		adds	r3, r7, #6
+ 153 00b8 1B78     		ldrb	r3, [r3]
+ 154 00ba 2022     		movs	r2, #32
+ 155 00bc 1340     		ands	r3, r2
+ 156 00be A5D1     		bne	.L6
+ 176:Generated_Source\PSoC4/RS232UART_INT.c **** 
+ 177:Generated_Source\PSoC4/RS232UART_INT.c ****         /* User code required at end of ISR (Optional) */
+ 178:Generated_Source\PSoC4/RS232UART_INT.c ****         /* `#START RS232UART_RXISR_END` */
+ 179:Generated_Source\PSoC4/RS232UART_INT.c **** 
+ 180:Generated_Source\PSoC4/RS232UART_INT.c ****         /* `#END` */
+ 181:Generated_Source\PSoC4/RS232UART_INT.c **** 
+ 182:Generated_Source\PSoC4/RS232UART_INT.c ****     #ifdef RS232UART_RXISR_EXIT_CALLBACK
+ 183:Generated_Source\PSoC4/RS232UART_INT.c ****         RS232UART_RXISR_ExitCallback();
+ 184:Generated_Source\PSoC4/RS232UART_INT.c ****     #endif /* RS232UART_RXISR_EXIT_CALLBACK */
+ 185:Generated_Source\PSoC4/RS232UART_INT.c **** 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 7
+
+
+ 186:Generated_Source\PSoC4/RS232UART_INT.c ****     #if(CY_PSOC3)
+ 187:Generated_Source\PSoC4/RS232UART_INT.c ****         EA = int_en;
+ 188:Generated_Source\PSoC4/RS232UART_INT.c ****     #endif /* (CY_PSOC3) */
+ 189:Generated_Source\PSoC4/RS232UART_INT.c ****     }
+ 157              		.loc 1 189 0
+ 158 00c0 C046     		nop
+ 159 00c2 BD46     		mov	sp, r7
+ 160 00c4 02B0     		add	sp, sp, #8
+ 161              		@ sp needed
+ 162 00c6 80BD     		pop	{r7, pc}
+ 163              	.L8:
+ 164              		.align	2
+ 165              	.L7:
+ 166 00c8 62000F40 		.word	1074724962
+ 167 00cc 00000000 		.word	RS232UART_errorStatus
+ 168 00d0 43000F40 		.word	1074724931
+ 169 00d4 00000000 		.word	RS232UART_rxBufferWrite
+ 170 00d8 00000000 		.word	RS232UART_rxBuffer
+ 171 00dc 00000000 		.word	RS232UART_rxBufferLoopDetect
+ 172 00e0 00000000 		.word	RS232UART_rxBufferOverflow
+ 173 00e4 00000000 		.word	RS232UART_rxBufferRead
+ 174              		.cfi_endproc
+ 175              	.LFE2:
+ 176              		.size	RS232UART_RXISR, .-RS232UART_RXISR
+ 177              		.text
+ 178              	.Letext0:
+ 179              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
+ 180              		.file 3 "Generated_Source\\PSoC4\\RS232UART.h"
+ 181              		.section	.debug_info,"",%progbits
+ 182              	.Ldebug_info0:
+ 183 0000 45010000 		.4byte	0x145
+ 184 0004 0400     		.2byte	0x4
+ 185 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 186 000a 04       		.byte	0x4
+ 187 000b 01       		.uleb128 0x1
+ 188 000c 2D000000 		.4byte	.LASF25
+ 189 0010 0C       		.byte	0xc
+ 190 0011 BB000000 		.4byte	.LASF26
+ 191 0015 1C010000 		.4byte	.LASF27
+ 192 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 193 001d 00000000 		.4byte	0
+ 194 0021 00000000 		.4byte	.Ldebug_line0
+ 195 0025 02       		.uleb128 0x2
+ 196 0026 01       		.byte	0x1
+ 197 0027 06       		.byte	0x6
+ 198 0028 DA010000 		.4byte	.LASF0
+ 199 002c 02       		.uleb128 0x2
+ 200 002d 01       		.byte	0x1
+ 201 002e 08       		.byte	0x8
+ 202 002f 7E010000 		.4byte	.LASF1
+ 203 0033 02       		.uleb128 0x2
+ 204 0034 02       		.byte	0x2
+ 205 0035 05       		.byte	0x5
+ 206 0036 27020000 		.4byte	.LASF2
+ 207 003a 02       		.uleb128 0x2
+ 208 003b 02       		.byte	0x2
+ 209 003c 07       		.byte	0x7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 8
+
+
+ 210 003d C7010000 		.4byte	.LASF3
+ 211 0041 02       		.uleb128 0x2
+ 212 0042 04       		.byte	0x4
+ 213 0043 05       		.byte	0x5
+ 214 0044 A7010000 		.4byte	.LASF4
+ 215 0048 02       		.uleb128 0x2
+ 216 0049 04       		.byte	0x4
+ 217 004a 07       		.byte	0x7
+ 218 004b ED000000 		.4byte	.LASF5
+ 219 004f 02       		.uleb128 0x2
+ 220 0050 08       		.byte	0x8
+ 221 0051 05       		.byte	0x5
+ 222 0052 00000000 		.4byte	.LASF6
+ 223 0056 02       		.uleb128 0x2
+ 224 0057 08       		.byte	0x8
+ 225 0058 07       		.byte	0x7
+ 226 0059 FF000000 		.4byte	.LASF7
+ 227 005d 03       		.uleb128 0x3
+ 228 005e 04       		.byte	0x4
+ 229 005f 05       		.byte	0x5
+ 230 0060 696E7400 		.ascii	"int\000"
+ 231 0064 02       		.uleb128 0x2
+ 232 0065 04       		.byte	0x4
+ 233 0066 07       		.byte	0x7
+ 234 0067 0E000000 		.4byte	.LASF8
+ 235 006b 04       		.uleb128 0x4
+ 236 006c E7000000 		.4byte	.LASF12
+ 237 0070 02       		.byte	0x2
+ 238 0071 FC01     		.2byte	0x1fc
+ 239 0073 2C000000 		.4byte	0x2c
+ 240 0077 02       		.uleb128 0x2
+ 241 0078 04       		.byte	0x4
+ 242 0079 04       		.byte	0x4
+ 243 007a 16010000 		.4byte	.LASF9
+ 244 007e 02       		.uleb128 0x2
+ 245 007f 08       		.byte	0x8
+ 246 0080 04       		.byte	0x4
+ 247 0081 C0010000 		.4byte	.LASF10
+ 248 0085 02       		.uleb128 0x2
+ 249 0086 01       		.byte	0x1
+ 250 0087 08       		.byte	0x8
+ 251 0088 8C010000 		.4byte	.LASF11
+ 252 008c 04       		.uleb128 0x4
+ 253 008d E2000000 		.4byte	.LASF13
+ 254 0091 02       		.byte	0x2
+ 255 0092 A602     		.2byte	0x2a6
+ 256 0094 98000000 		.4byte	0x98
+ 257 0098 05       		.uleb128 0x5
+ 258 0099 6B000000 		.4byte	0x6b
+ 259 009d 02       		.uleb128 0x2
+ 260 009e 08       		.byte	0x8
+ 261 009f 04       		.byte	0x4
+ 262 00a0 1B020000 		.4byte	.LASF14
+ 263 00a4 02       		.uleb128 0x2
+ 264 00a5 04       		.byte	0x4
+ 265 00a6 07       		.byte	0x7
+ 266 00a7 52020000 		.4byte	.LASF15
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 9
+
+
+ 267 00ab 06       		.uleb128 0x6
+ 268 00ac B0010000 		.4byte	.LASF28
+ 269 00b0 01       		.byte	0x1
+ 270 00b1 3B       		.byte	0x3b
+ 271 00b2 00000000 		.4byte	.LFB2
+ 272 00b6 E8000000 		.4byte	.LFE2-.LFB2
+ 273 00ba 01       		.uleb128 0x1
+ 274 00bb 9C       		.byte	0x9c
+ 275 00bc EB000000 		.4byte	0xeb
+ 276 00c0 07       		.uleb128 0x7
+ 277 00c1 49020000 		.4byte	.LASF16
+ 278 00c5 01       		.byte	0x1
+ 279 00c6 3D       		.byte	0x3d
+ 280 00c7 6B000000 		.4byte	0x6b
+ 281 00cb 02       		.uleb128 0x2
+ 282 00cc 91       		.byte	0x91
+ 283 00cd 75       		.sleb128 -11
+ 284 00ce 07       		.uleb128 0x7
+ 285 00cf 10020000 		.4byte	.LASF17
+ 286 00d3 01       		.byte	0x1
+ 287 00d4 3E       		.byte	0x3e
+ 288 00d5 6B000000 		.4byte	0x6b
+ 289 00d9 02       		.uleb128 0x2
+ 290 00da 91       		.byte	0x91
+ 291 00db 76       		.sleb128 -10
+ 292 00dc 07       		.uleb128 0x7
+ 293 00dd 1B000000 		.4byte	.LASF18
+ 294 00e1 01       		.byte	0x1
+ 295 00e2 3F       		.byte	0x3f
+ 296 00e3 6B000000 		.4byte	0x6b
+ 297 00e7 02       		.uleb128 0x2
+ 298 00e8 91       		.byte	0x91
+ 299 00e9 77       		.sleb128 -9
+ 300 00ea 00       		.byte	0
+ 301 00eb 08       		.uleb128 0x8
+ 302 00ec 91010000 		.4byte	.LASF19
+ 303 00f0 03       		.byte	0x3
+ 304 00f1 3D01     		.2byte	0x13d
+ 305 00f3 6B000000 		.4byte	0x6b
+ 306 00f7 09       		.uleb128 0x9
+ 307 00f8 98000000 		.4byte	0x98
+ 308 00fc 07010000 		.4byte	0x107
+ 309 0100 0A       		.uleb128 0xa
+ 310 0101 A4000000 		.4byte	0xa4
+ 311 0105 07       		.byte	0x7
+ 312 0106 00       		.byte	0
+ 313 0107 08       		.uleb128 0x8
+ 314 0108 FD010000 		.4byte	.LASF20
+ 315 010c 03       		.byte	0x3
+ 316 010d 3E01     		.2byte	0x13e
+ 317 010f 13010000 		.4byte	0x113
+ 318 0113 05       		.uleb128 0x5
+ 319 0114 F7000000 		.4byte	0xf7
+ 320 0118 08       		.uleb128 0x8
+ 321 0119 E6010000 		.4byte	.LASF21
+ 322 011d 03       		.byte	0x3
+ 323 011e 3F01     		.2byte	0x13f
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 10
+
+
+ 324 0120 98000000 		.4byte	0x98
+ 325 0124 08       		.uleb128 0x8
+ 326 0125 31020000 		.4byte	.LASF22
+ 327 0129 03       		.byte	0x3
+ 328 012a 4001     		.2byte	0x140
+ 329 012c 98000000 		.4byte	0x98
+ 330 0130 08       		.uleb128 0x8
+ 331 0131 61010000 		.4byte	.LASF23
+ 332 0135 03       		.byte	0x3
+ 333 0136 4101     		.2byte	0x141
+ 334 0138 98000000 		.4byte	0x98
+ 335 013c 08       		.uleb128 0x8
+ 336 013d 5B020000 		.4byte	.LASF24
+ 337 0141 03       		.byte	0x3
+ 338 0142 4201     		.2byte	0x142
+ 339 0144 98000000 		.4byte	0x98
+ 340 0148 00       		.byte	0
+ 341              		.section	.debug_abbrev,"",%progbits
+ 342              	.Ldebug_abbrev0:
+ 343 0000 01       		.uleb128 0x1
+ 344 0001 11       		.uleb128 0x11
+ 345 0002 01       		.byte	0x1
+ 346 0003 25       		.uleb128 0x25
+ 347 0004 0E       		.uleb128 0xe
+ 348 0005 13       		.uleb128 0x13
+ 349 0006 0B       		.uleb128 0xb
+ 350 0007 03       		.uleb128 0x3
+ 351 0008 0E       		.uleb128 0xe
+ 352 0009 1B       		.uleb128 0x1b
+ 353 000a 0E       		.uleb128 0xe
+ 354 000b 55       		.uleb128 0x55
+ 355 000c 17       		.uleb128 0x17
+ 356 000d 11       		.uleb128 0x11
+ 357 000e 01       		.uleb128 0x1
+ 358 000f 10       		.uleb128 0x10
+ 359 0010 17       		.uleb128 0x17
+ 360 0011 00       		.byte	0
+ 361 0012 00       		.byte	0
+ 362 0013 02       		.uleb128 0x2
+ 363 0014 24       		.uleb128 0x24
+ 364 0015 00       		.byte	0
+ 365 0016 0B       		.uleb128 0xb
+ 366 0017 0B       		.uleb128 0xb
+ 367 0018 3E       		.uleb128 0x3e
+ 368 0019 0B       		.uleb128 0xb
+ 369 001a 03       		.uleb128 0x3
+ 370 001b 0E       		.uleb128 0xe
+ 371 001c 00       		.byte	0
+ 372 001d 00       		.byte	0
+ 373 001e 03       		.uleb128 0x3
+ 374 001f 24       		.uleb128 0x24
+ 375 0020 00       		.byte	0
+ 376 0021 0B       		.uleb128 0xb
+ 377 0022 0B       		.uleb128 0xb
+ 378 0023 3E       		.uleb128 0x3e
+ 379 0024 0B       		.uleb128 0xb
+ 380 0025 03       		.uleb128 0x3
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 11
+
+
+ 381 0026 08       		.uleb128 0x8
+ 382 0027 00       		.byte	0
+ 383 0028 00       		.byte	0
+ 384 0029 04       		.uleb128 0x4
+ 385 002a 16       		.uleb128 0x16
+ 386 002b 00       		.byte	0
+ 387 002c 03       		.uleb128 0x3
+ 388 002d 0E       		.uleb128 0xe
+ 389 002e 3A       		.uleb128 0x3a
+ 390 002f 0B       		.uleb128 0xb
+ 391 0030 3B       		.uleb128 0x3b
+ 392 0031 05       		.uleb128 0x5
+ 393 0032 49       		.uleb128 0x49
+ 394 0033 13       		.uleb128 0x13
+ 395 0034 00       		.byte	0
+ 396 0035 00       		.byte	0
+ 397 0036 05       		.uleb128 0x5
+ 398 0037 35       		.uleb128 0x35
+ 399 0038 00       		.byte	0
+ 400 0039 49       		.uleb128 0x49
+ 401 003a 13       		.uleb128 0x13
+ 402 003b 00       		.byte	0
+ 403 003c 00       		.byte	0
+ 404 003d 06       		.uleb128 0x6
+ 405 003e 2E       		.uleb128 0x2e
+ 406 003f 01       		.byte	0x1
+ 407 0040 3F       		.uleb128 0x3f
+ 408 0041 19       		.uleb128 0x19
+ 409 0042 03       		.uleb128 0x3
+ 410 0043 0E       		.uleb128 0xe
+ 411 0044 3A       		.uleb128 0x3a
+ 412 0045 0B       		.uleb128 0xb
+ 413 0046 3B       		.uleb128 0x3b
+ 414 0047 0B       		.uleb128 0xb
+ 415 0048 27       		.uleb128 0x27
+ 416 0049 19       		.uleb128 0x19
+ 417 004a 11       		.uleb128 0x11
+ 418 004b 01       		.uleb128 0x1
+ 419 004c 12       		.uleb128 0x12
+ 420 004d 06       		.uleb128 0x6
+ 421 004e 40       		.uleb128 0x40
+ 422 004f 18       		.uleb128 0x18
+ 423 0050 9742     		.uleb128 0x2117
+ 424 0052 19       		.uleb128 0x19
+ 425 0053 01       		.uleb128 0x1
+ 426 0054 13       		.uleb128 0x13
+ 427 0055 00       		.byte	0
+ 428 0056 00       		.byte	0
+ 429 0057 07       		.uleb128 0x7
+ 430 0058 34       		.uleb128 0x34
+ 431 0059 00       		.byte	0
+ 432 005a 03       		.uleb128 0x3
+ 433 005b 0E       		.uleb128 0xe
+ 434 005c 3A       		.uleb128 0x3a
+ 435 005d 0B       		.uleb128 0xb
+ 436 005e 3B       		.uleb128 0x3b
+ 437 005f 0B       		.uleb128 0xb
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 12
+
+
+ 438 0060 49       		.uleb128 0x49
+ 439 0061 13       		.uleb128 0x13
+ 440 0062 02       		.uleb128 0x2
+ 441 0063 18       		.uleb128 0x18
+ 442 0064 00       		.byte	0
+ 443 0065 00       		.byte	0
+ 444 0066 08       		.uleb128 0x8
+ 445 0067 34       		.uleb128 0x34
+ 446 0068 00       		.byte	0
+ 447 0069 03       		.uleb128 0x3
+ 448 006a 0E       		.uleb128 0xe
+ 449 006b 3A       		.uleb128 0x3a
+ 450 006c 0B       		.uleb128 0xb
+ 451 006d 3B       		.uleb128 0x3b
+ 452 006e 05       		.uleb128 0x5
+ 453 006f 49       		.uleb128 0x49
+ 454 0070 13       		.uleb128 0x13
+ 455 0071 3F       		.uleb128 0x3f
+ 456 0072 19       		.uleb128 0x19
+ 457 0073 3C       		.uleb128 0x3c
+ 458 0074 19       		.uleb128 0x19
+ 459 0075 00       		.byte	0
+ 460 0076 00       		.byte	0
+ 461 0077 09       		.uleb128 0x9
+ 462 0078 01       		.uleb128 0x1
+ 463 0079 01       		.byte	0x1
+ 464 007a 49       		.uleb128 0x49
+ 465 007b 13       		.uleb128 0x13
+ 466 007c 01       		.uleb128 0x1
+ 467 007d 13       		.uleb128 0x13
+ 468 007e 00       		.byte	0
+ 469 007f 00       		.byte	0
+ 470 0080 0A       		.uleb128 0xa
+ 471 0081 21       		.uleb128 0x21
+ 472 0082 00       		.byte	0
+ 473 0083 49       		.uleb128 0x49
+ 474 0084 13       		.uleb128 0x13
+ 475 0085 2F       		.uleb128 0x2f
+ 476 0086 0B       		.uleb128 0xb
+ 477 0087 00       		.byte	0
+ 478 0088 00       		.byte	0
+ 479 0089 00       		.byte	0
+ 480              		.section	.debug_aranges,"",%progbits
+ 481 0000 1C000000 		.4byte	0x1c
+ 482 0004 0200     		.2byte	0x2
+ 483 0006 00000000 		.4byte	.Ldebug_info0
+ 484 000a 04       		.byte	0x4
+ 485 000b 00       		.byte	0
+ 486 000c 0000     		.2byte	0
+ 487 000e 0000     		.2byte	0
+ 488 0010 00000000 		.4byte	.LFB2
+ 489 0014 E8000000 		.4byte	.LFE2-.LFB2
+ 490 0018 00000000 		.4byte	0
+ 491 001c 00000000 		.4byte	0
+ 492              		.section	.debug_ranges,"",%progbits
+ 493              	.Ldebug_ranges0:
+ 494 0000 00000000 		.4byte	.LFB2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 13
+
+
+ 495 0004 E8000000 		.4byte	.LFE2
+ 496 0008 00000000 		.4byte	0
+ 497 000c 00000000 		.4byte	0
+ 498              		.section	.debug_line,"",%progbits
+ 499              	.Ldebug_line0:
+ 500 0000 8C000000 		.section	.debug_str,"MS",%progbits,1
+ 500      02005900 
+ 500      00000201 
+ 500      FB0E0D00 
+ 500      01010101 
+ 501              	.LASF6:
+ 502 0000 6C6F6E67 		.ascii	"long long int\000"
+ 502      206C6F6E 
+ 502      6720696E 
+ 502      7400
+ 503              	.LASF8:
+ 504 000e 756E7369 		.ascii	"unsigned int\000"
+ 504      676E6564 
+ 504      20696E74 
+ 504      00
+ 505              	.LASF18:
+ 506 001b 696E6372 		.ascii	"increment_pointer\000"
+ 506      656D656E 
+ 506      745F706F 
+ 506      696E7465 
+ 506      7200
+ 507              	.LASF25:
+ 508 002d 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 508      43313120 
+ 508      352E342E 
+ 508      31203230 
+ 508      31363036 
+ 509 0060 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 509      20726576 
+ 509      6973696F 
+ 509      6E203233 
+ 509      37373135 
+ 510 0093 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 510      66756E63 
+ 510      74696F6E 
+ 510      2D736563 
+ 510      74696F6E 
+ 511              	.LASF26:
+ 512 00bb 47656E65 		.ascii	"Generated_Source\\PSoC4\\RS232UART_INT.c\000"
+ 512      72617465 
+ 512      645F536F 
+ 512      75726365 
+ 512      5C50536F 
+ 513              	.LASF13:
+ 514 00e2 72656738 		.ascii	"reg8\000"
+ 514      00
+ 515              	.LASF12:
+ 516 00e7 75696E74 		.ascii	"uint8\000"
+ 516      3800
+ 517              	.LASF5:
+ 518 00ed 6C6F6E67 		.ascii	"long unsigned int\000"
+ 518      20756E73 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 14
+
+
+ 518      69676E65 
+ 518      6420696E 
+ 518      7400
+ 519              	.LASF7:
+ 520 00ff 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 520      206C6F6E 
+ 520      6720756E 
+ 520      7369676E 
+ 520      65642069 
+ 521              	.LASF9:
+ 522 0116 666C6F61 		.ascii	"float\000"
+ 522      7400
+ 523              	.LASF27:
+ 524 011c 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
+ 524      73657273 
+ 524      5C616C65 
+ 524      78706F72 
+ 524      745C4F6E 
+ 525 014c 5C53412D 		.ascii	"\\SA-1AQ\\SA-1AQ.cydsn\000"
+ 525      3141515C 
+ 525      53412D31 
+ 525      41512E63 
+ 525      7964736E 
+ 526              	.LASF23:
+ 527 0161 52533233 		.ascii	"RS232UART_rxBufferLoopDetect\000"
+ 527      32554152 
+ 527      545F7278 
+ 527      42756666 
+ 527      65724C6F 
+ 528              	.LASF1:
+ 529 017e 756E7369 		.ascii	"unsigned char\000"
+ 529      676E6564 
+ 529      20636861 
+ 529      7200
+ 530              	.LASF11:
+ 531 018c 63686172 		.ascii	"char\000"
+ 531      00
+ 532              	.LASF19:
+ 533 0191 52533233 		.ascii	"RS232UART_errorStatus\000"
+ 533      32554152 
+ 533      545F6572 
+ 533      726F7253 
+ 533      74617475 
+ 534              	.LASF4:
+ 535 01a7 6C6F6E67 		.ascii	"long int\000"
+ 535      20696E74 
+ 535      00
+ 536              	.LASF28:
+ 537 01b0 52533233 		.ascii	"RS232UART_RXISR\000"
+ 537      32554152 
+ 537      545F5258 
+ 537      49535200 
+ 538              	.LASF10:
+ 539 01c0 646F7562 		.ascii	"double\000"
+ 539      6C6500
+ 540              	.LASF3:
+ 541 01c7 73686F72 		.ascii	"short unsigned int\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\ccmG1Dek.s 			page 15
+
+
+ 541      7420756E 
+ 541      7369676E 
+ 541      65642069 
+ 541      6E7400
+ 542              	.LASF0:
+ 543 01da 7369676E 		.ascii	"signed char\000"
+ 543      65642063 
+ 543      68617200 
+ 544              	.LASF21:
+ 545 01e6 52533233 		.ascii	"RS232UART_rxBufferRead\000"
+ 545      32554152 
+ 545      545F7278 
+ 545      42756666 
+ 545      65725265 
+ 546              	.LASF20:
+ 547 01fd 52533233 		.ascii	"RS232UART_rxBuffer\000"
+ 547      32554152 
+ 547      545F7278 
+ 547      42756666 
+ 547      657200
+ 548              	.LASF17:
+ 549 0210 72656164 		.ascii	"readStatus\000"
+ 549      53746174 
+ 549      757300
+ 550              	.LASF14:
+ 551 021b 6C6F6E67 		.ascii	"long double\000"
+ 551      20646F75 
+ 551      626C6500 
+ 552              	.LASF2:
+ 553 0227 73686F72 		.ascii	"short int\000"
+ 553      7420696E 
+ 553      7400
+ 554              	.LASF22:
+ 555 0231 52533233 		.ascii	"RS232UART_rxBufferWrite\000"
+ 555      32554152 
+ 555      545F7278 
+ 555      42756666 
+ 555      65725772 
+ 556              	.LASF16:
+ 557 0249 72656164 		.ascii	"readData\000"
+ 557      44617461 
+ 557      00
+ 558              	.LASF15:
+ 559 0252 73697A65 		.ascii	"sizetype\000"
+ 559      74797065 
+ 559      00
+ 560              	.LASF24:
+ 561 025b 52533233 		.ascii	"RS232UART_rxBufferOverflow\000"
+ 561      32554152 
+ 561      545F7278 
+ 561      42756666 
+ 561      65724F76 
+ 562              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

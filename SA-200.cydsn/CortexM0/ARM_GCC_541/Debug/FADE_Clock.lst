@@ -1,0 +1,1057 @@
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"FADE_Clock.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.FADE_Clock_StartEx,"ax",%progbits
+  20              		.align	2
+  21              		.global	FADE_Clock_StartEx
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	FADE_Clock_StartEx, %function
+  25              	FADE_Clock_StartEx:
+  26              	.LFB0:
+  27              		.file 1 "Generated_Source\\PSoC4\\FADE_Clock.c"
+   1:Generated_Source\PSoC4/FADE_Clock.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/FADE_Clock.c **** * File Name: FADE_Clock.c
+   3:Generated_Source\PSoC4/FADE_Clock.c **** * Version 2.20
+   4:Generated_Source\PSoC4/FADE_Clock.c **** *
+   5:Generated_Source\PSoC4/FADE_Clock.c **** *  Description:
+   6:Generated_Source\PSoC4/FADE_Clock.c **** *   Provides system API for the clocking, interrupts and watchdog timer.
+   7:Generated_Source\PSoC4/FADE_Clock.c **** *
+   8:Generated_Source\PSoC4/FADE_Clock.c **** *  Note:
+   9:Generated_Source\PSoC4/FADE_Clock.c **** *   Documentation of the API's in this file is located in the
+  10:Generated_Source\PSoC4/FADE_Clock.c **** *   System Reference Guide provided with PSoC Creator.
+  11:Generated_Source\PSoC4/FADE_Clock.c **** *
+  12:Generated_Source\PSoC4/FADE_Clock.c **** ********************************************************************************
+  13:Generated_Source\PSoC4/FADE_Clock.c **** * Copyright 2008-2012, Cypress Semiconductor Corporation.  All rights reserved.
+  14:Generated_Source\PSoC4/FADE_Clock.c **** * You may use this file only in accordance with the license, terms, conditions,
+  15:Generated_Source\PSoC4/FADE_Clock.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  16:Generated_Source\PSoC4/FADE_Clock.c **** * the software package with which this file was provided.
+  17:Generated_Source\PSoC4/FADE_Clock.c **** *******************************************************************************/
+  18:Generated_Source\PSoC4/FADE_Clock.c **** 
+  19:Generated_Source\PSoC4/FADE_Clock.c **** #include <cydevice_trm.h>
+  20:Generated_Source\PSoC4/FADE_Clock.c **** #include "FADE_Clock.h"
+  21:Generated_Source\PSoC4/FADE_Clock.c **** 
+  22:Generated_Source\PSoC4/FADE_Clock.c **** #if defined CYREG_PERI_DIV_CMD
+  23:Generated_Source\PSoC4/FADE_Clock.c **** 
+  24:Generated_Source\PSoC4/FADE_Clock.c **** /*******************************************************************************
+  25:Generated_Source\PSoC4/FADE_Clock.c **** * Function Name: FADE_Clock_StartEx
+  26:Generated_Source\PSoC4/FADE_Clock.c **** ********************************************************************************
+  27:Generated_Source\PSoC4/FADE_Clock.c **** *
+  28:Generated_Source\PSoC4/FADE_Clock.c **** * Summary:
+  29:Generated_Source\PSoC4/FADE_Clock.c **** *  Starts the clock, aligned to the specified running clock.
+  30:Generated_Source\PSoC4/FADE_Clock.c **** *
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 2
+
+
+  31:Generated_Source\PSoC4/FADE_Clock.c **** * Parameters:
+  32:Generated_Source\PSoC4/FADE_Clock.c **** *  alignClkDiv:  The divider to which phase alignment is performed when the
+  33:Generated_Source\PSoC4/FADE_Clock.c **** *    clock is started.
+  34:Generated_Source\PSoC4/FADE_Clock.c **** *
+  35:Generated_Source\PSoC4/FADE_Clock.c **** * Returns:
+  36:Generated_Source\PSoC4/FADE_Clock.c **** *  None
+  37:Generated_Source\PSoC4/FADE_Clock.c **** *
+  38:Generated_Source\PSoC4/FADE_Clock.c **** *******************************************************************************/
+  39:Generated_Source\PSoC4/FADE_Clock.c **** void FADE_Clock_StartEx(uint32 alignClkDiv)
+  40:Generated_Source\PSoC4/FADE_Clock.c **** {
+  28              		.loc 1 40 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 8
+  31              		@ frame_needed = 1, uses_anonymous_args = 0
+  32 0000 80B5     		push	{r7, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 7, -8
+  35              		.cfi_offset 14, -4
+  36 0002 82B0     		sub	sp, sp, #8
+  37              		.cfi_def_cfa_offset 16
+  38 0004 00AF     		add	r7, sp, #0
+  39              		.cfi_def_cfa_register 7
+  40 0006 7860     		str	r0, [r7, #4]
+  41:Generated_Source\PSoC4/FADE_Clock.c ****     /* Make sure any previous start command has finished. */
+  42:Generated_Source\PSoC4/FADE_Clock.c ****     while((FADE_Clock_CMD_REG & FADE_Clock_CMD_ENABLE_MASK) != 0u)
+  41              		.loc 1 42 0
+  42 0008 C046     		nop
+  43              	.L2:
+  44              		.loc 1 42 0 is_stmt 0 discriminator 1
+  45 000a 074B     		ldr	r3, .L3
+  46 000c 1B68     		ldr	r3, [r3]
+  47 000e 002B     		cmp	r3, #0
+  48 0010 FBDB     		blt	.L2
+  43:Generated_Source\PSoC4/FADE_Clock.c ****     {
+  44:Generated_Source\PSoC4/FADE_Clock.c ****     }
+  45:Generated_Source\PSoC4/FADE_Clock.c ****     
+  46:Generated_Source\PSoC4/FADE_Clock.c ****     /* Specify the target divider and it's alignment divider, and enable. */
+  47:Generated_Source\PSoC4/FADE_Clock.c ****     FADE_Clock_CMD_REG =
+  49              		.loc 1 47 0 is_stmt 1
+  50 0012 054B     		ldr	r3, .L3
+  48:Generated_Source\PSoC4/FADE_Clock.c ****         ((uint32)FADE_Clock__DIV_ID << FADE_Clock_CMD_DIV_SHIFT)|
+  49:Generated_Source\PSoC4/FADE_Clock.c ****         (alignClkDiv << FADE_Clock_CMD_PA_DIV_SHIFT) |
+  51              		.loc 1 49 0
+  52 0014 7A68     		ldr	r2, [r7, #4]
+  53 0016 1202     		lsls	r2, r2, #8
+  54 0018 0449     		ldr	r1, .L3+4
+  55 001a 0A43     		orrs	r2, r1
+  47:Generated_Source\PSoC4/FADE_Clock.c ****         ((uint32)FADE_Clock__DIV_ID << FADE_Clock_CMD_DIV_SHIFT)|
+  56              		.loc 1 47 0
+  57 001c 1A60     		str	r2, [r3]
+  50:Generated_Source\PSoC4/FADE_Clock.c ****         (uint32)FADE_Clock_CMD_ENABLE_MASK;
+  51:Generated_Source\PSoC4/FADE_Clock.c **** }
+  58              		.loc 1 51 0
+  59 001e C046     		nop
+  60 0020 BD46     		mov	sp, r7
+  61 0022 02B0     		add	sp, sp, #8
+  62              		@ sp needed
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 3
+
+
+  63 0024 80BD     		pop	{r7, pc}
+  64              	.L4:
+  65 0026 C046     		.align	2
+  66              	.L3:
+  67 0028 00000140 		.word	1073807360
+  68 002c 80000080 		.word	-2147483520
+  69              		.cfi_endproc
+  70              	.LFE0:
+  71              		.size	FADE_Clock_StartEx, .-FADE_Clock_StartEx
+  72              		.section	.text.FADE_Clock_Stop,"ax",%progbits
+  73              		.align	2
+  74              		.global	FADE_Clock_Stop
+  75              		.code	16
+  76              		.thumb_func
+  77              		.type	FADE_Clock_Stop, %function
+  78              	FADE_Clock_Stop:
+  79              	.LFB1:
+  52:Generated_Source\PSoC4/FADE_Clock.c **** 
+  53:Generated_Source\PSoC4/FADE_Clock.c **** #else
+  54:Generated_Source\PSoC4/FADE_Clock.c **** 
+  55:Generated_Source\PSoC4/FADE_Clock.c **** /*******************************************************************************
+  56:Generated_Source\PSoC4/FADE_Clock.c **** * Function Name: FADE_Clock_Start
+  57:Generated_Source\PSoC4/FADE_Clock.c **** ********************************************************************************
+  58:Generated_Source\PSoC4/FADE_Clock.c **** *
+  59:Generated_Source\PSoC4/FADE_Clock.c **** * Summary:
+  60:Generated_Source\PSoC4/FADE_Clock.c **** *  Starts the clock.
+  61:Generated_Source\PSoC4/FADE_Clock.c **** *
+  62:Generated_Source\PSoC4/FADE_Clock.c **** * Parameters:
+  63:Generated_Source\PSoC4/FADE_Clock.c **** *  None
+  64:Generated_Source\PSoC4/FADE_Clock.c **** *
+  65:Generated_Source\PSoC4/FADE_Clock.c **** * Returns:
+  66:Generated_Source\PSoC4/FADE_Clock.c **** *  None
+  67:Generated_Source\PSoC4/FADE_Clock.c **** *
+  68:Generated_Source\PSoC4/FADE_Clock.c **** *******************************************************************************/
+  69:Generated_Source\PSoC4/FADE_Clock.c **** 
+  70:Generated_Source\PSoC4/FADE_Clock.c **** void FADE_Clock_Start(void)
+  71:Generated_Source\PSoC4/FADE_Clock.c **** {
+  72:Generated_Source\PSoC4/FADE_Clock.c ****     /* Set the bit to enable the clock. */
+  73:Generated_Source\PSoC4/FADE_Clock.c ****     FADE_Clock_ENABLE_REG |= FADE_Clock__ENABLE_MASK;
+  74:Generated_Source\PSoC4/FADE_Clock.c **** }
+  75:Generated_Source\PSoC4/FADE_Clock.c **** 
+  76:Generated_Source\PSoC4/FADE_Clock.c **** #endif /* CYREG_PERI_DIV_CMD */
+  77:Generated_Source\PSoC4/FADE_Clock.c **** 
+  78:Generated_Source\PSoC4/FADE_Clock.c **** 
+  79:Generated_Source\PSoC4/FADE_Clock.c **** /*******************************************************************************
+  80:Generated_Source\PSoC4/FADE_Clock.c **** * Function Name: FADE_Clock_Stop
+  81:Generated_Source\PSoC4/FADE_Clock.c **** ********************************************************************************
+  82:Generated_Source\PSoC4/FADE_Clock.c **** *
+  83:Generated_Source\PSoC4/FADE_Clock.c **** * Summary:
+  84:Generated_Source\PSoC4/FADE_Clock.c **** *  Stops the clock and returns immediately. This API does not require the
+  85:Generated_Source\PSoC4/FADE_Clock.c **** *  source clock to be running but may return before the hardware is actually
+  86:Generated_Source\PSoC4/FADE_Clock.c **** *  disabled.
+  87:Generated_Source\PSoC4/FADE_Clock.c **** *
+  88:Generated_Source\PSoC4/FADE_Clock.c **** * Parameters:
+  89:Generated_Source\PSoC4/FADE_Clock.c **** *  None
+  90:Generated_Source\PSoC4/FADE_Clock.c **** *
+  91:Generated_Source\PSoC4/FADE_Clock.c **** * Returns:
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 4
+
+
+  92:Generated_Source\PSoC4/FADE_Clock.c **** *  None
+  93:Generated_Source\PSoC4/FADE_Clock.c **** *
+  94:Generated_Source\PSoC4/FADE_Clock.c **** *******************************************************************************/
+  95:Generated_Source\PSoC4/FADE_Clock.c **** void FADE_Clock_Stop(void)
+  96:Generated_Source\PSoC4/FADE_Clock.c **** {
+  80              		.loc 1 96 0
+  81              		.cfi_startproc
+  82              		@ args = 0, pretend = 0, frame = 0
+  83              		@ frame_needed = 1, uses_anonymous_args = 0
+  84 0000 80B5     		push	{r7, lr}
+  85              		.cfi_def_cfa_offset 8
+  86              		.cfi_offset 7, -8
+  87              		.cfi_offset 14, -4
+  88 0002 00AF     		add	r7, sp, #0
+  89              		.cfi_def_cfa_register 7
+  97:Generated_Source\PSoC4/FADE_Clock.c **** #if defined CYREG_PERI_DIV_CMD
+  98:Generated_Source\PSoC4/FADE_Clock.c **** 
+  99:Generated_Source\PSoC4/FADE_Clock.c ****     /* Make sure any previous start command has finished. */
+ 100:Generated_Source\PSoC4/FADE_Clock.c ****     while((FADE_Clock_CMD_REG & FADE_Clock_CMD_ENABLE_MASK) != 0u)
+  90              		.loc 1 100 0
+  91 0004 C046     		nop
+  92              	.L6:
+  93              		.loc 1 100 0 is_stmt 0 discriminator 1
+  94 0006 054B     		ldr	r3, .L7
+  95 0008 1B68     		ldr	r3, [r3]
+  96 000a 002B     		cmp	r3, #0
+  97 000c FBDB     		blt	.L6
+ 101:Generated_Source\PSoC4/FADE_Clock.c ****     {
+ 102:Generated_Source\PSoC4/FADE_Clock.c ****     }
+ 103:Generated_Source\PSoC4/FADE_Clock.c ****     
+ 104:Generated_Source\PSoC4/FADE_Clock.c ****     /* Specify the target divider and it's alignment divider, and disable. */
+ 105:Generated_Source\PSoC4/FADE_Clock.c ****     FADE_Clock_CMD_REG =
+  98              		.loc 1 105 0 is_stmt 1
+  99 000e 034B     		ldr	r3, .L7
+ 100 0010 034A     		ldr	r2, .L7+4
+ 101 0012 1A60     		str	r2, [r3]
+ 106:Generated_Source\PSoC4/FADE_Clock.c ****         ((uint32)FADE_Clock__DIV_ID << FADE_Clock_CMD_DIV_SHIFT)|
+ 107:Generated_Source\PSoC4/FADE_Clock.c ****         ((uint32)FADE_Clock_CMD_DISABLE_MASK);
+ 108:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 109:Generated_Source\PSoC4/FADE_Clock.c **** #else
+ 110:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 111:Generated_Source\PSoC4/FADE_Clock.c ****     /* Clear the bit to disable the clock. */
+ 112:Generated_Source\PSoC4/FADE_Clock.c ****     FADE_Clock_ENABLE_REG &= (uint32)(~FADE_Clock__ENABLE_MASK);
+ 113:Generated_Source\PSoC4/FADE_Clock.c ****     
+ 114:Generated_Source\PSoC4/FADE_Clock.c **** #endif /* CYREG_PERI_DIV_CMD */
+ 115:Generated_Source\PSoC4/FADE_Clock.c **** }
+ 102              		.loc 1 115 0
+ 103 0014 C046     		nop
+ 104 0016 BD46     		mov	sp, r7
+ 105              		@ sp needed
+ 106 0018 80BD     		pop	{r7, pc}
+ 107              	.L8:
+ 108 001a C046     		.align	2
+ 109              	.L7:
+ 110 001c 00000140 		.word	1073807360
+ 111 0020 80000040 		.word	1073741952
+ 112              		.cfi_endproc
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 5
+
+
+ 113              	.LFE1:
+ 114              		.size	FADE_Clock_Stop, .-FADE_Clock_Stop
+ 115              		.section	.text.FADE_Clock_SetFractionalDividerRegister,"ax",%progbits
+ 116              		.align	2
+ 117              		.global	FADE_Clock_SetFractionalDividerRegister
+ 118              		.code	16
+ 119              		.thumb_func
+ 120              		.type	FADE_Clock_SetFractionalDividerRegister, %function
+ 121              	FADE_Clock_SetFractionalDividerRegister:
+ 122              	.LFB2:
+ 116:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 117:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 118:Generated_Source\PSoC4/FADE_Clock.c **** /*******************************************************************************
+ 119:Generated_Source\PSoC4/FADE_Clock.c **** * Function Name: FADE_Clock_SetFractionalDividerRegister
+ 120:Generated_Source\PSoC4/FADE_Clock.c **** ********************************************************************************
+ 121:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 122:Generated_Source\PSoC4/FADE_Clock.c **** * Summary:
+ 123:Generated_Source\PSoC4/FADE_Clock.c **** *  Modifies the clock divider and the fractional divider.
+ 124:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 125:Generated_Source\PSoC4/FADE_Clock.c **** * Parameters:
+ 126:Generated_Source\PSoC4/FADE_Clock.c **** *  clkDivider:  Divider register value (0-65535). This value is NOT the
+ 127:Generated_Source\PSoC4/FADE_Clock.c **** *    divider; the clock hardware divides by clkDivider plus one. For example,
+ 128:Generated_Source\PSoC4/FADE_Clock.c **** *    to divide the clock by 2, this parameter should be set to 1.
+ 129:Generated_Source\PSoC4/FADE_Clock.c **** *  fracDivider:  Fractional Divider register value (0-31).
+ 130:Generated_Source\PSoC4/FADE_Clock.c **** * Returns:
+ 131:Generated_Source\PSoC4/FADE_Clock.c **** *  None
+ 132:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 133:Generated_Source\PSoC4/FADE_Clock.c **** *******************************************************************************/
+ 134:Generated_Source\PSoC4/FADE_Clock.c **** void FADE_Clock_SetFractionalDividerRegister(uint16 clkDivider, uint8 clkFractional)
+ 135:Generated_Source\PSoC4/FADE_Clock.c **** {
+ 123              		.loc 1 135 0
+ 124              		.cfi_startproc
+ 125              		@ args = 0, pretend = 0, frame = 16
+ 126              		@ frame_needed = 1, uses_anonymous_args = 0
+ 127 0000 80B5     		push	{r7, lr}
+ 128              		.cfi_def_cfa_offset 8
+ 129              		.cfi_offset 7, -8
+ 130              		.cfi_offset 14, -4
+ 131 0002 84B0     		sub	sp, sp, #16
+ 132              		.cfi_def_cfa_offset 24
+ 133 0004 00AF     		add	r7, sp, #0
+ 134              		.cfi_def_cfa_register 7
+ 135 0006 0200     		movs	r2, r0
+ 136 0008 BB1D     		adds	r3, r7, #6
+ 137 000a 1A80     		strh	r2, [r3]
+ 138 000c 7B1D     		adds	r3, r7, #5
+ 139 000e 0A1C     		adds	r2, r1, #0
+ 140 0010 1A70     		strb	r2, [r3]
+ 136:Generated_Source\PSoC4/FADE_Clock.c ****     uint32 maskVal;
+ 137:Generated_Source\PSoC4/FADE_Clock.c ****     uint32 regVal;
+ 138:Generated_Source\PSoC4/FADE_Clock.c ****     
+ 139:Generated_Source\PSoC4/FADE_Clock.c **** #if defined (FADE_Clock__FRAC_MASK) || defined (CYREG_PERI_DIV_CMD)
+ 140:Generated_Source\PSoC4/FADE_Clock.c ****     
+ 141:Generated_Source\PSoC4/FADE_Clock.c **** 	/* get all but divider bits */
+ 142:Generated_Source\PSoC4/FADE_Clock.c ****     maskVal = FADE_Clock_DIV_REG & 
+ 141              		.loc 1 142 0
+ 142 0012 0C4B     		ldr	r3, .L10
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 6
+
+
+ 143 0014 1B68     		ldr	r3, [r3]
+ 144 0016 0722     		movs	r2, #7
+ 145 0018 1340     		ands	r3, r2
+ 146 001a FB60     		str	r3, [r7, #12]
+ 143:Generated_Source\PSoC4/FADE_Clock.c ****                     (uint32)(~(uint32)(FADE_Clock_DIV_INT_MASK | FADE_Clock_DIV_FRAC_MASK)); 
+ 144:Generated_Source\PSoC4/FADE_Clock.c **** 	/* combine mask and new divider vals into 32-bit value */
+ 145:Generated_Source\PSoC4/FADE_Clock.c ****     regVal = maskVal |
+ 146:Generated_Source\PSoC4/FADE_Clock.c ****         ((uint32)((uint32)clkDivider <<  FADE_Clock_DIV_INT_SHIFT) & FADE_Clock_DIV_INT_MASK) |
+ 147              		.loc 1 146 0
+ 148 001c BB1D     		adds	r3, r7, #6
+ 149 001e 1B88     		ldrh	r3, [r3]
+ 150 0020 1A02     		lsls	r2, r3, #8
+ 145:Generated_Source\PSoC4/FADE_Clock.c ****         ((uint32)((uint32)clkDivider <<  FADE_Clock_DIV_INT_SHIFT) & FADE_Clock_DIV_INT_MASK) |
+ 151              		.loc 1 145 0
+ 152 0022 FB68     		ldr	r3, [r7, #12]
+ 153 0024 1A43     		orrs	r2, r3
+ 147:Generated_Source\PSoC4/FADE_Clock.c ****         ((uint32)((uint32)clkFractional << FADE_Clock_DIV_FRAC_SHIFT) & FADE_Clock_DIV_FRAC_MASK);
+ 154              		.loc 1 147 0
+ 155 0026 7B1D     		adds	r3, r7, #5
+ 156 0028 1B78     		ldrb	r3, [r3]
+ 157 002a DB00     		lsls	r3, r3, #3
+ 158 002c FF21     		movs	r1, #255
+ 159 002e 0B40     		ands	r3, r1
+ 145:Generated_Source\PSoC4/FADE_Clock.c ****         ((uint32)((uint32)clkDivider <<  FADE_Clock_DIV_INT_SHIFT) & FADE_Clock_DIV_INT_MASK) |
+ 160              		.loc 1 145 0
+ 161 0030 1343     		orrs	r3, r2
+ 162 0032 BB60     		str	r3, [r7, #8]
+ 148:Generated_Source\PSoC4/FADE_Clock.c ****     
+ 149:Generated_Source\PSoC4/FADE_Clock.c **** #else
+ 150:Generated_Source\PSoC4/FADE_Clock.c ****     /* get all but integer divider bits */
+ 151:Generated_Source\PSoC4/FADE_Clock.c ****     maskVal = FADE_Clock_DIV_REG & (uint32)(~(uint32)FADE_Clock__DIVIDER_MASK);
+ 152:Generated_Source\PSoC4/FADE_Clock.c ****     /* combine mask and new divider val into 32-bit value */
+ 153:Generated_Source\PSoC4/FADE_Clock.c ****     regVal = clkDivider | maskVal;
+ 154:Generated_Source\PSoC4/FADE_Clock.c ****     
+ 155:Generated_Source\PSoC4/FADE_Clock.c **** #endif /* FADE_Clock__FRAC_MASK || CYREG_PERI_DIV_CMD */
+ 156:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 157:Generated_Source\PSoC4/FADE_Clock.c ****     FADE_Clock_DIV_REG = regVal;
+ 163              		.loc 1 157 0
+ 164 0034 034B     		ldr	r3, .L10
+ 165 0036 BA68     		ldr	r2, [r7, #8]
+ 166 0038 1A60     		str	r2, [r3]
+ 158:Generated_Source\PSoC4/FADE_Clock.c **** }
+ 167              		.loc 1 158 0
+ 168 003a C046     		nop
+ 169 003c BD46     		mov	sp, r7
+ 170 003e 04B0     		add	sp, sp, #16
+ 171              		@ sp needed
+ 172 0040 80BD     		pop	{r7, pc}
+ 173              	.L11:
+ 174 0042 C046     		.align	2
+ 175              	.L10:
+ 176 0044 00040140 		.word	1073808384
+ 177              		.cfi_endproc
+ 178              	.LFE2:
+ 179              		.size	FADE_Clock_SetFractionalDividerRegister, .-FADE_Clock_SetFractionalDividerRegister
+ 180              		.section	.text.FADE_Clock_GetDividerRegister,"ax",%progbits
+ 181              		.align	2
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 7
+
+
+ 182              		.global	FADE_Clock_GetDividerRegister
+ 183              		.code	16
+ 184              		.thumb_func
+ 185              		.type	FADE_Clock_GetDividerRegister, %function
+ 186              	FADE_Clock_GetDividerRegister:
+ 187              	.LFB3:
+ 159:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 160:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 161:Generated_Source\PSoC4/FADE_Clock.c **** /*******************************************************************************
+ 162:Generated_Source\PSoC4/FADE_Clock.c **** * Function Name: FADE_Clock_GetDividerRegister
+ 163:Generated_Source\PSoC4/FADE_Clock.c **** ********************************************************************************
+ 164:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 165:Generated_Source\PSoC4/FADE_Clock.c **** * Summary:
+ 166:Generated_Source\PSoC4/FADE_Clock.c **** *  Gets the clock divider register value.
+ 167:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 168:Generated_Source\PSoC4/FADE_Clock.c **** * Parameters:
+ 169:Generated_Source\PSoC4/FADE_Clock.c **** *  None
+ 170:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 171:Generated_Source\PSoC4/FADE_Clock.c **** * Returns:
+ 172:Generated_Source\PSoC4/FADE_Clock.c **** *  Divide value of the clock minus 1. For example, if the clock is set to
+ 173:Generated_Source\PSoC4/FADE_Clock.c **** *  divide by 2, the return value will be 1.
+ 174:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 175:Generated_Source\PSoC4/FADE_Clock.c **** *******************************************************************************/
+ 176:Generated_Source\PSoC4/FADE_Clock.c **** uint16 FADE_Clock_GetDividerRegister(void)
+ 177:Generated_Source\PSoC4/FADE_Clock.c **** {
+ 188              		.loc 1 177 0
+ 189              		.cfi_startproc
+ 190              		@ args = 0, pretend = 0, frame = 0
+ 191              		@ frame_needed = 1, uses_anonymous_args = 0
+ 192 0000 80B5     		push	{r7, lr}
+ 193              		.cfi_def_cfa_offset 8
+ 194              		.cfi_offset 7, -8
+ 195              		.cfi_offset 14, -4
+ 196 0002 00AF     		add	r7, sp, #0
+ 197              		.cfi_def_cfa_register 7
+ 178:Generated_Source\PSoC4/FADE_Clock.c ****     return (uint16)((FADE_Clock_DIV_REG & FADE_Clock_DIV_INT_MASK)
+ 198              		.loc 1 178 0
+ 199 0004 044B     		ldr	r3, .L14
+ 200 0006 1B68     		ldr	r3, [r3]
+ 201 0008 FF22     		movs	r2, #255
+ 202 000a 9343     		bics	r3, r2
+ 179:Generated_Source\PSoC4/FADE_Clock.c ****         >> FADE_Clock_DIV_INT_SHIFT);
+ 203              		.loc 1 179 0
+ 204 000c 1B0A     		lsrs	r3, r3, #8
+ 178:Generated_Source\PSoC4/FADE_Clock.c ****     return (uint16)((FADE_Clock_DIV_REG & FADE_Clock_DIV_INT_MASK)
+ 205              		.loc 1 178 0
+ 206 000e 9BB2     		uxth	r3, r3
+ 180:Generated_Source\PSoC4/FADE_Clock.c **** }
+ 207              		.loc 1 180 0
+ 208 0010 1800     		movs	r0, r3
+ 209 0012 BD46     		mov	sp, r7
+ 210              		@ sp needed
+ 211 0014 80BD     		pop	{r7, pc}
+ 212              	.L15:
+ 213 0016 C046     		.align	2
+ 214              	.L14:
+ 215 0018 00040140 		.word	1073808384
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 8
+
+
+ 216              		.cfi_endproc
+ 217              	.LFE3:
+ 218              		.size	FADE_Clock_GetDividerRegister, .-FADE_Clock_GetDividerRegister
+ 219              		.section	.text.FADE_Clock_GetFractionalDividerRegister,"ax",%progbits
+ 220              		.align	2
+ 221              		.global	FADE_Clock_GetFractionalDividerRegister
+ 222              		.code	16
+ 223              		.thumb_func
+ 224              		.type	FADE_Clock_GetFractionalDividerRegister, %function
+ 225              	FADE_Clock_GetFractionalDividerRegister:
+ 226              	.LFB4:
+ 181:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 182:Generated_Source\PSoC4/FADE_Clock.c **** 
+ 183:Generated_Source\PSoC4/FADE_Clock.c **** /*******************************************************************************
+ 184:Generated_Source\PSoC4/FADE_Clock.c **** * Function Name: FADE_Clock_GetFractionalDividerRegister
+ 185:Generated_Source\PSoC4/FADE_Clock.c **** ********************************************************************************
+ 186:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 187:Generated_Source\PSoC4/FADE_Clock.c **** * Summary:
+ 188:Generated_Source\PSoC4/FADE_Clock.c **** *  Gets the clock fractional divider register value.
+ 189:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 190:Generated_Source\PSoC4/FADE_Clock.c **** * Parameters:
+ 191:Generated_Source\PSoC4/FADE_Clock.c **** *  None
+ 192:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 193:Generated_Source\PSoC4/FADE_Clock.c **** * Returns:
+ 194:Generated_Source\PSoC4/FADE_Clock.c **** *  Fractional Divide value of the clock
+ 195:Generated_Source\PSoC4/FADE_Clock.c **** *  0 if the fractional divider is not in use.
+ 196:Generated_Source\PSoC4/FADE_Clock.c **** *
+ 197:Generated_Source\PSoC4/FADE_Clock.c **** *******************************************************************************/
+ 198:Generated_Source\PSoC4/FADE_Clock.c **** uint8 FADE_Clock_GetFractionalDividerRegister(void)
+ 199:Generated_Source\PSoC4/FADE_Clock.c **** {
+ 227              		.loc 1 199 0
+ 228              		.cfi_startproc
+ 229              		@ args = 0, pretend = 0, frame = 0
+ 230              		@ frame_needed = 1, uses_anonymous_args = 0
+ 231 0000 80B5     		push	{r7, lr}
+ 232              		.cfi_def_cfa_offset 8
+ 233              		.cfi_offset 7, -8
+ 234              		.cfi_offset 14, -4
+ 235 0002 00AF     		add	r7, sp, #0
+ 236              		.cfi_def_cfa_register 7
+ 200:Generated_Source\PSoC4/FADE_Clock.c **** #if defined (FADE_Clock__FRAC_MASK)
+ 201:Generated_Source\PSoC4/FADE_Clock.c ****     /* return fractional divider bits */
+ 202:Generated_Source\PSoC4/FADE_Clock.c ****     return (uint8)((FADE_Clock_DIV_REG & FADE_Clock_DIV_FRAC_MASK)
+ 237              		.loc 1 202 0
+ 238 0004 044B     		ldr	r3, .L18
+ 239 0006 1B68     		ldr	r3, [r3]
+ 240 0008 F822     		movs	r2, #248
+ 241 000a 1340     		ands	r3, r2
+ 203:Generated_Source\PSoC4/FADE_Clock.c ****         >> FADE_Clock_DIV_FRAC_SHIFT);
+ 242              		.loc 1 203 0
+ 243 000c DB08     		lsrs	r3, r3, #3
+ 202:Generated_Source\PSoC4/FADE_Clock.c ****         >> FADE_Clock_DIV_FRAC_SHIFT);
+ 244              		.loc 1 202 0
+ 245 000e DBB2     		uxtb	r3, r3
+ 204:Generated_Source\PSoC4/FADE_Clock.c **** #else
+ 205:Generated_Source\PSoC4/FADE_Clock.c ****     return 0u;
+ 206:Generated_Source\PSoC4/FADE_Clock.c **** #endif /* FADE_Clock__FRAC_MASK */
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 9
+
+
+ 207:Generated_Source\PSoC4/FADE_Clock.c **** }
+ 246              		.loc 1 207 0
+ 247 0010 1800     		movs	r0, r3
+ 248 0012 BD46     		mov	sp, r7
+ 249              		@ sp needed
+ 250 0014 80BD     		pop	{r7, pc}
+ 251              	.L19:
+ 252 0016 C046     		.align	2
+ 253              	.L18:
+ 254 0018 00040140 		.word	1073808384
+ 255              		.cfi_endproc
+ 256              	.LFE4:
+ 257              		.size	FADE_Clock_GetFractionalDividerRegister, .-FADE_Clock_GetFractionalDividerRegister
+ 258              		.text
+ 259              	.Letext0:
+ 260              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
+ 261              		.section	.debug_info,"",%progbits
+ 262              	.Ldebug_info0:
+ 263 0000 5F010000 		.4byte	0x15f
+ 264 0004 0400     		.2byte	0x4
+ 265 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 266 000a 04       		.byte	0x4
+ 267 000b 01       		.uleb128 0x1
+ 268 000c 9C000000 		.4byte	.LASF25
+ 269 0010 0C       		.byte	0xc
+ 270 0011 3F000000 		.4byte	.LASF26
+ 271 0015 2A010000 		.4byte	.LASF27
+ 272 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 273 001d 00000000 		.4byte	0
+ 274 0021 00000000 		.4byte	.Ldebug_line0
+ 275 0025 02       		.uleb128 0x2
+ 276 0026 01       		.byte	0x1
+ 277 0027 06       		.byte	0x6
+ 278 0028 6D020000 		.4byte	.LASF0
+ 279 002c 02       		.uleb128 0x2
+ 280 002d 01       		.byte	0x1
+ 281 002e 08       		.byte	0x8
+ 282 002f 69000000 		.4byte	.LASF1
+ 283 0033 02       		.uleb128 0x2
+ 284 0034 02       		.byte	0x2
+ 285 0035 05       		.byte	0x5
+ 286 0036 54020000 		.4byte	.LASF2
+ 287 003a 02       		.uleb128 0x2
+ 288 003b 02       		.byte	0x2
+ 289 003c 07       		.byte	0x7
+ 290 003d 89000000 		.4byte	.LASF3
+ 291 0041 02       		.uleb128 0x2
+ 292 0042 04       		.byte	0x4
+ 293 0043 05       		.byte	0x5
+ 294 0044 64020000 		.4byte	.LASF4
+ 295 0048 02       		.uleb128 0x2
+ 296 0049 04       		.byte	0x4
+ 297 004a 07       		.byte	0x7
+ 298 004b 77000000 		.4byte	.LASF5
+ 299 004f 02       		.uleb128 0x2
+ 300 0050 08       		.byte	0x8
+ 301 0051 05       		.byte	0x5
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 10
+
+
+ 302 0052 19020000 		.4byte	.LASF6
+ 303 0056 02       		.uleb128 0x2
+ 304 0057 08       		.byte	0x8
+ 305 0058 07       		.byte	0x7
+ 306 0059 02020000 		.4byte	.LASF7
+ 307 005d 03       		.uleb128 0x3
+ 308 005e 04       		.byte	0x4
+ 309 005f 05       		.byte	0x5
+ 310 0060 696E7400 		.ascii	"int\000"
+ 311 0064 02       		.uleb128 0x2
+ 312 0065 04       		.byte	0x4
+ 313 0066 07       		.byte	0x7
+ 314 0067 CD010000 		.4byte	.LASF8
+ 315 006b 04       		.uleb128 0x4
+ 316 006c 5E020000 		.4byte	.LASF9
+ 317 0070 02       		.byte	0x2
+ 318 0071 FC01     		.2byte	0x1fc
+ 319 0073 2C000000 		.4byte	0x2c
+ 320 0077 04       		.uleb128 0x4
+ 321 0078 BF010000 		.4byte	.LASF10
+ 322 007c 02       		.byte	0x2
+ 323 007d FD01     		.2byte	0x1fd
+ 324 007f 3A000000 		.4byte	0x3a
+ 325 0083 04       		.uleb128 0x4
+ 326 0084 C6010000 		.4byte	.LASF11
+ 327 0088 02       		.byte	0x2
+ 328 0089 FE01     		.2byte	0x1fe
+ 329 008b 48000000 		.4byte	0x48
+ 330 008f 02       		.uleb128 0x2
+ 331 0090 04       		.byte	0x4
+ 332 0091 04       		.byte	0x4
+ 333 0092 63000000 		.4byte	.LASF12
+ 334 0096 02       		.uleb128 0x2
+ 335 0097 08       		.byte	0x8
+ 336 0098 04       		.byte	0x4
+ 337 0099 87010000 		.4byte	.LASF13
+ 338 009d 02       		.uleb128 0x2
+ 339 009e 01       		.byte	0x1
+ 340 009f 08       		.byte	0x8
+ 341 00a0 27020000 		.4byte	.LASF14
+ 342 00a4 04       		.uleb128 0x4
+ 343 00a5 00000000 		.4byte	.LASF15
+ 344 00a9 02       		.byte	0x2
+ 345 00aa A802     		.2byte	0x2a8
+ 346 00ac B0000000 		.4byte	0xb0
+ 347 00b0 05       		.uleb128 0x5
+ 348 00b1 83000000 		.4byte	0x83
+ 349 00b5 06       		.uleb128 0x6
+ 350 00b6 0E000000 		.4byte	.LASF16
+ 351 00ba 01       		.byte	0x1
+ 352 00bb 27       		.byte	0x27
+ 353 00bc 00000000 		.4byte	.LFB0
+ 354 00c0 30000000 		.4byte	.LFE0-.LFB0
+ 355 00c4 01       		.uleb128 0x1
+ 356 00c5 9C       		.byte	0x9c
+ 357 00c6 D9000000 		.4byte	0xd9
+ 358 00ca 07       		.uleb128 0x7
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 11
+
+
+ 359 00cb 95010000 		.4byte	.LASF18
+ 360 00cf 01       		.byte	0x1
+ 361 00d0 27       		.byte	0x27
+ 362 00d1 83000000 		.4byte	0x83
+ 363 00d5 02       		.uleb128 0x2
+ 364 00d6 91       		.byte	0x91
+ 365 00d7 74       		.sleb128 -12
+ 366 00d8 00       		.byte	0
+ 367 00d9 08       		.uleb128 0x8
+ 368 00da AF010000 		.4byte	.LASF28
+ 369 00de 01       		.byte	0x1
+ 370 00df 5F       		.byte	0x5f
+ 371 00e0 00000000 		.4byte	.LFB1
+ 372 00e4 24000000 		.4byte	.LFE1-.LFB1
+ 373 00e8 01       		.uleb128 0x1
+ 374 00e9 9C       		.byte	0x9c
+ 375 00ea 06       		.uleb128 0x6
+ 376 00eb 2C020000 		.4byte	.LASF17
+ 377 00ef 01       		.byte	0x1
+ 378 00f0 86       		.byte	0x86
+ 379 00f1 00000000 		.4byte	.LFB2
+ 380 00f5 48000000 		.4byte	.LFE2-.LFB2
+ 381 00f9 01       		.uleb128 0x1
+ 382 00fa 9C       		.byte	0x9c
+ 383 00fb 38010000 		.4byte	0x138
+ 384 00ff 07       		.uleb128 0x7
+ 385 0100 7C010000 		.4byte	.LASF19
+ 386 0104 01       		.byte	0x1
+ 387 0105 86       		.byte	0x86
+ 388 0106 77000000 		.4byte	0x77
+ 389 010a 02       		.uleb128 0x2
+ 390 010b 91       		.byte	0x91
+ 391 010c 6E       		.sleb128 -18
+ 392 010d 07       		.uleb128 0x7
+ 393 010e A1010000 		.4byte	.LASF20
+ 394 0112 01       		.byte	0x1
+ 395 0113 86       		.byte	0x86
+ 396 0114 6B000000 		.4byte	0x6b
+ 397 0118 02       		.uleb128 0x2
+ 398 0119 91       		.byte	0x91
+ 399 011a 6D       		.sleb128 -19
+ 400 011b 09       		.uleb128 0x9
+ 401 011c 06000000 		.4byte	.LASF21
+ 402 0120 01       		.byte	0x1
+ 403 0121 88       		.byte	0x88
+ 404 0122 83000000 		.4byte	0x83
+ 405 0126 02       		.uleb128 0x2
+ 406 0127 91       		.byte	0x91
+ 407 0128 74       		.sleb128 -12
+ 408 0129 09       		.uleb128 0x9
+ 409 012a 8E010000 		.4byte	.LASF22
+ 410 012e 01       		.byte	0x1
+ 411 012f 89       		.byte	0x89
+ 412 0130 83000000 		.4byte	0x83
+ 413 0134 02       		.uleb128 0x2
+ 414 0135 91       		.byte	0x91
+ 415 0136 70       		.sleb128 -16
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 12
+
+
+ 416 0137 00       		.byte	0
+ 417 0138 0A       		.uleb128 0xa
+ 418 0139 21000000 		.4byte	.LASF23
+ 419 013d 01       		.byte	0x1
+ 420 013e B0       		.byte	0xb0
+ 421 013f 77000000 		.4byte	0x77
+ 422 0143 00000000 		.4byte	.LFB3
+ 423 0147 1C000000 		.4byte	.LFE3-.LFB3
+ 424 014b 01       		.uleb128 0x1
+ 425 014c 9C       		.byte	0x9c
+ 426 014d 0A       		.uleb128 0xa
+ 427 014e DA010000 		.4byte	.LASF24
+ 428 0152 01       		.byte	0x1
+ 429 0153 C6       		.byte	0xc6
+ 430 0154 6B000000 		.4byte	0x6b
+ 431 0158 00000000 		.4byte	.LFB4
+ 432 015c 1C000000 		.4byte	.LFE4-.LFB4
+ 433 0160 01       		.uleb128 0x1
+ 434 0161 9C       		.byte	0x9c
+ 435 0162 00       		.byte	0
+ 436              		.section	.debug_abbrev,"",%progbits
+ 437              	.Ldebug_abbrev0:
+ 438 0000 01       		.uleb128 0x1
+ 439 0001 11       		.uleb128 0x11
+ 440 0002 01       		.byte	0x1
+ 441 0003 25       		.uleb128 0x25
+ 442 0004 0E       		.uleb128 0xe
+ 443 0005 13       		.uleb128 0x13
+ 444 0006 0B       		.uleb128 0xb
+ 445 0007 03       		.uleb128 0x3
+ 446 0008 0E       		.uleb128 0xe
+ 447 0009 1B       		.uleb128 0x1b
+ 448 000a 0E       		.uleb128 0xe
+ 449 000b 55       		.uleb128 0x55
+ 450 000c 17       		.uleb128 0x17
+ 451 000d 11       		.uleb128 0x11
+ 452 000e 01       		.uleb128 0x1
+ 453 000f 10       		.uleb128 0x10
+ 454 0010 17       		.uleb128 0x17
+ 455 0011 00       		.byte	0
+ 456 0012 00       		.byte	0
+ 457 0013 02       		.uleb128 0x2
+ 458 0014 24       		.uleb128 0x24
+ 459 0015 00       		.byte	0
+ 460 0016 0B       		.uleb128 0xb
+ 461 0017 0B       		.uleb128 0xb
+ 462 0018 3E       		.uleb128 0x3e
+ 463 0019 0B       		.uleb128 0xb
+ 464 001a 03       		.uleb128 0x3
+ 465 001b 0E       		.uleb128 0xe
+ 466 001c 00       		.byte	0
+ 467 001d 00       		.byte	0
+ 468 001e 03       		.uleb128 0x3
+ 469 001f 24       		.uleb128 0x24
+ 470 0020 00       		.byte	0
+ 471 0021 0B       		.uleb128 0xb
+ 472 0022 0B       		.uleb128 0xb
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 13
+
+
+ 473 0023 3E       		.uleb128 0x3e
+ 474 0024 0B       		.uleb128 0xb
+ 475 0025 03       		.uleb128 0x3
+ 476 0026 08       		.uleb128 0x8
+ 477 0027 00       		.byte	0
+ 478 0028 00       		.byte	0
+ 479 0029 04       		.uleb128 0x4
+ 480 002a 16       		.uleb128 0x16
+ 481 002b 00       		.byte	0
+ 482 002c 03       		.uleb128 0x3
+ 483 002d 0E       		.uleb128 0xe
+ 484 002e 3A       		.uleb128 0x3a
+ 485 002f 0B       		.uleb128 0xb
+ 486 0030 3B       		.uleb128 0x3b
+ 487 0031 05       		.uleb128 0x5
+ 488 0032 49       		.uleb128 0x49
+ 489 0033 13       		.uleb128 0x13
+ 490 0034 00       		.byte	0
+ 491 0035 00       		.byte	0
+ 492 0036 05       		.uleb128 0x5
+ 493 0037 35       		.uleb128 0x35
+ 494 0038 00       		.byte	0
+ 495 0039 49       		.uleb128 0x49
+ 496 003a 13       		.uleb128 0x13
+ 497 003b 00       		.byte	0
+ 498 003c 00       		.byte	0
+ 499 003d 06       		.uleb128 0x6
+ 500 003e 2E       		.uleb128 0x2e
+ 501 003f 01       		.byte	0x1
+ 502 0040 3F       		.uleb128 0x3f
+ 503 0041 19       		.uleb128 0x19
+ 504 0042 03       		.uleb128 0x3
+ 505 0043 0E       		.uleb128 0xe
+ 506 0044 3A       		.uleb128 0x3a
+ 507 0045 0B       		.uleb128 0xb
+ 508 0046 3B       		.uleb128 0x3b
+ 509 0047 0B       		.uleb128 0xb
+ 510 0048 27       		.uleb128 0x27
+ 511 0049 19       		.uleb128 0x19
+ 512 004a 11       		.uleb128 0x11
+ 513 004b 01       		.uleb128 0x1
+ 514 004c 12       		.uleb128 0x12
+ 515 004d 06       		.uleb128 0x6
+ 516 004e 40       		.uleb128 0x40
+ 517 004f 18       		.uleb128 0x18
+ 518 0050 9742     		.uleb128 0x2117
+ 519 0052 19       		.uleb128 0x19
+ 520 0053 01       		.uleb128 0x1
+ 521 0054 13       		.uleb128 0x13
+ 522 0055 00       		.byte	0
+ 523 0056 00       		.byte	0
+ 524 0057 07       		.uleb128 0x7
+ 525 0058 05       		.uleb128 0x5
+ 526 0059 00       		.byte	0
+ 527 005a 03       		.uleb128 0x3
+ 528 005b 0E       		.uleb128 0xe
+ 529 005c 3A       		.uleb128 0x3a
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 14
+
+
+ 530 005d 0B       		.uleb128 0xb
+ 531 005e 3B       		.uleb128 0x3b
+ 532 005f 0B       		.uleb128 0xb
+ 533 0060 49       		.uleb128 0x49
+ 534 0061 13       		.uleb128 0x13
+ 535 0062 02       		.uleb128 0x2
+ 536 0063 18       		.uleb128 0x18
+ 537 0064 00       		.byte	0
+ 538 0065 00       		.byte	0
+ 539 0066 08       		.uleb128 0x8
+ 540 0067 2E       		.uleb128 0x2e
+ 541 0068 00       		.byte	0
+ 542 0069 3F       		.uleb128 0x3f
+ 543 006a 19       		.uleb128 0x19
+ 544 006b 03       		.uleb128 0x3
+ 545 006c 0E       		.uleb128 0xe
+ 546 006d 3A       		.uleb128 0x3a
+ 547 006e 0B       		.uleb128 0xb
+ 548 006f 3B       		.uleb128 0x3b
+ 549 0070 0B       		.uleb128 0xb
+ 550 0071 27       		.uleb128 0x27
+ 551 0072 19       		.uleb128 0x19
+ 552 0073 11       		.uleb128 0x11
+ 553 0074 01       		.uleb128 0x1
+ 554 0075 12       		.uleb128 0x12
+ 555 0076 06       		.uleb128 0x6
+ 556 0077 40       		.uleb128 0x40
+ 557 0078 18       		.uleb128 0x18
+ 558 0079 9742     		.uleb128 0x2117
+ 559 007b 19       		.uleb128 0x19
+ 560 007c 00       		.byte	0
+ 561 007d 00       		.byte	0
+ 562 007e 09       		.uleb128 0x9
+ 563 007f 34       		.uleb128 0x34
+ 564 0080 00       		.byte	0
+ 565 0081 03       		.uleb128 0x3
+ 566 0082 0E       		.uleb128 0xe
+ 567 0083 3A       		.uleb128 0x3a
+ 568 0084 0B       		.uleb128 0xb
+ 569 0085 3B       		.uleb128 0x3b
+ 570 0086 0B       		.uleb128 0xb
+ 571 0087 49       		.uleb128 0x49
+ 572 0088 13       		.uleb128 0x13
+ 573 0089 02       		.uleb128 0x2
+ 574 008a 18       		.uleb128 0x18
+ 575 008b 00       		.byte	0
+ 576 008c 00       		.byte	0
+ 577 008d 0A       		.uleb128 0xa
+ 578 008e 2E       		.uleb128 0x2e
+ 579 008f 00       		.byte	0
+ 580 0090 3F       		.uleb128 0x3f
+ 581 0091 19       		.uleb128 0x19
+ 582 0092 03       		.uleb128 0x3
+ 583 0093 0E       		.uleb128 0xe
+ 584 0094 3A       		.uleb128 0x3a
+ 585 0095 0B       		.uleb128 0xb
+ 586 0096 3B       		.uleb128 0x3b
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 15
+
+
+ 587 0097 0B       		.uleb128 0xb
+ 588 0098 27       		.uleb128 0x27
+ 589 0099 19       		.uleb128 0x19
+ 590 009a 49       		.uleb128 0x49
+ 591 009b 13       		.uleb128 0x13
+ 592 009c 11       		.uleb128 0x11
+ 593 009d 01       		.uleb128 0x1
+ 594 009e 12       		.uleb128 0x12
+ 595 009f 06       		.uleb128 0x6
+ 596 00a0 40       		.uleb128 0x40
+ 597 00a1 18       		.uleb128 0x18
+ 598 00a2 9742     		.uleb128 0x2117
+ 599 00a4 19       		.uleb128 0x19
+ 600 00a5 00       		.byte	0
+ 601 00a6 00       		.byte	0
+ 602 00a7 00       		.byte	0
+ 603              		.section	.debug_aranges,"",%progbits
+ 604 0000 3C000000 		.4byte	0x3c
+ 605 0004 0200     		.2byte	0x2
+ 606 0006 00000000 		.4byte	.Ldebug_info0
+ 607 000a 04       		.byte	0x4
+ 608 000b 00       		.byte	0
+ 609 000c 0000     		.2byte	0
+ 610 000e 0000     		.2byte	0
+ 611 0010 00000000 		.4byte	.LFB0
+ 612 0014 30000000 		.4byte	.LFE0-.LFB0
+ 613 0018 00000000 		.4byte	.LFB1
+ 614 001c 24000000 		.4byte	.LFE1-.LFB1
+ 615 0020 00000000 		.4byte	.LFB2
+ 616 0024 48000000 		.4byte	.LFE2-.LFB2
+ 617 0028 00000000 		.4byte	.LFB3
+ 618 002c 1C000000 		.4byte	.LFE3-.LFB3
+ 619 0030 00000000 		.4byte	.LFB4
+ 620 0034 1C000000 		.4byte	.LFE4-.LFB4
+ 621 0038 00000000 		.4byte	0
+ 622 003c 00000000 		.4byte	0
+ 623              		.section	.debug_ranges,"",%progbits
+ 624              	.Ldebug_ranges0:
+ 625 0000 00000000 		.4byte	.LFB0
+ 626 0004 30000000 		.4byte	.LFE0
+ 627 0008 00000000 		.4byte	.LFB1
+ 628 000c 24000000 		.4byte	.LFE1
+ 629 0010 00000000 		.4byte	.LFB2
+ 630 0014 48000000 		.4byte	.LFE2
+ 631 0018 00000000 		.4byte	.LFB3
+ 632 001c 1C000000 		.4byte	.LFE3
+ 633 0020 00000000 		.4byte	.LFB4
+ 634 0024 1C000000 		.4byte	.LFE4
+ 635 0028 00000000 		.4byte	0
+ 636 002c 00000000 		.4byte	0
+ 637              		.section	.debug_line,"",%progbits
+ 638              	.Ldebug_line0:
+ 639 0000 C5000000 		.section	.debug_str,"MS",%progbits,1
+ 639      02004700 
+ 639      00000201 
+ 639      FB0E0D00 
+ 639      01010101 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 16
+
+
+ 640              	.LASF15:
+ 641 0000 72656733 		.ascii	"reg32\000"
+ 641      3200
+ 642              	.LASF21:
+ 643 0006 6D61736B 		.ascii	"maskVal\000"
+ 643      56616C00 
+ 644              	.LASF16:
+ 645 000e 46414445 		.ascii	"FADE_Clock_StartEx\000"
+ 645      5F436C6F 
+ 645      636B5F53 
+ 645      74617274 
+ 645      457800
+ 646              	.LASF23:
+ 647 0021 46414445 		.ascii	"FADE_Clock_GetDividerRegister\000"
+ 647      5F436C6F 
+ 647      636B5F47 
+ 647      65744469 
+ 647      76696465 
+ 648              	.LASF26:
+ 649 003f 47656E65 		.ascii	"Generated_Source\\PSoC4\\FADE_Clock.c\000"
+ 649      72617465 
+ 649      645F536F 
+ 649      75726365 
+ 649      5C50536F 
+ 650              	.LASF12:
+ 651 0063 666C6F61 		.ascii	"float\000"
+ 651      7400
+ 652              	.LASF1:
+ 653 0069 756E7369 		.ascii	"unsigned char\000"
+ 653      676E6564 
+ 653      20636861 
+ 653      7200
+ 654              	.LASF5:
+ 655 0077 6C6F6E67 		.ascii	"long unsigned int\000"
+ 655      20756E73 
+ 655      69676E65 
+ 655      6420696E 
+ 655      7400
+ 656              	.LASF3:
+ 657 0089 73686F72 		.ascii	"short unsigned int\000"
+ 657      7420756E 
+ 657      7369676E 
+ 657      65642069 
+ 657      6E7400
+ 658              	.LASF25:
+ 659 009c 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 659      43313120 
+ 659      352E342E 
+ 659      31203230 
+ 659      31363036 
+ 660 00cf 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 660      20726576 
+ 660      6973696F 
+ 660      6E203233 
+ 660      37373135 
+ 661 0102 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 661      66756E63 
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 17
+
+
+ 661      74696F6E 
+ 661      2D736563 
+ 661      74696F6E 
+ 662              	.LASF27:
+ 663 012a 433A5C55 		.ascii	"C:\\Users\\alexport\\OneDrive - Safeguard Analytics"
+ 663      73657273 
+ 663      5C616C65 
+ 663      78706F72 
+ 663      745C4F6E 
+ 664 015a 5C544553 		.ascii	"\\TESTs\\UART UDB test\\SA-200.cydsn\000"
+ 664      54735C55 
+ 664      41525420 
+ 664      55444220 
+ 664      74657374 
+ 665              	.LASF19:
+ 666 017c 636C6B44 		.ascii	"clkDivider\000"
+ 666      69766964 
+ 666      657200
+ 667              	.LASF13:
+ 668 0187 646F7562 		.ascii	"double\000"
+ 668      6C6500
+ 669              	.LASF22:
+ 670 018e 72656756 		.ascii	"regVal\000"
+ 670      616C00
+ 671              	.LASF18:
+ 672 0195 616C6967 		.ascii	"alignClkDiv\000"
+ 672      6E436C6B 
+ 672      44697600 
+ 673              	.LASF20:
+ 674 01a1 636C6B46 		.ascii	"clkFractional\000"
+ 674      72616374 
+ 674      696F6E61 
+ 674      6C00
+ 675              	.LASF28:
+ 676 01af 46414445 		.ascii	"FADE_Clock_Stop\000"
+ 676      5F436C6F 
+ 676      636B5F53 
+ 676      746F7000 
+ 677              	.LASF10:
+ 678 01bf 75696E74 		.ascii	"uint16\000"
+ 678      313600
+ 679              	.LASF11:
+ 680 01c6 75696E74 		.ascii	"uint32\000"
+ 680      333200
+ 681              	.LASF8:
+ 682 01cd 756E7369 		.ascii	"unsigned int\000"
+ 682      676E6564 
+ 682      20696E74 
+ 682      00
+ 683              	.LASF24:
+ 684 01da 46414445 		.ascii	"FADE_Clock_GetFractionalDividerRegister\000"
+ 684      5F436C6F 
+ 684      636B5F47 
+ 684      65744672 
+ 684      61637469 
+ 685              	.LASF7:
+ 686 0202 6C6F6E67 		.ascii	"long long unsigned int\000"
+ARM GAS  C:\Users\alexport\AppData\Local\Temp\cculLGSd.s 			page 18
+
+
+ 686      206C6F6E 
+ 686      6720756E 
+ 686      7369676E 
+ 686      65642069 
+ 687              	.LASF6:
+ 688 0219 6C6F6E67 		.ascii	"long long int\000"
+ 688      206C6F6E 
+ 688      6720696E 
+ 688      7400
+ 689              	.LASF14:
+ 690 0227 63686172 		.ascii	"char\000"
+ 690      00
+ 691              	.LASF17:
+ 692 022c 46414445 		.ascii	"FADE_Clock_SetFractionalDividerRegister\000"
+ 692      5F436C6F 
+ 692      636B5F53 
+ 692      65744672 
+ 692      61637469 
+ 693              	.LASF2:
+ 694 0254 73686F72 		.ascii	"short int\000"
+ 694      7420696E 
+ 694      7400
+ 695              	.LASF9:
+ 696 025e 75696E74 		.ascii	"uint8\000"
+ 696      3800
+ 697              	.LASF4:
+ 698 0264 6C6F6E67 		.ascii	"long int\000"
+ 698      20696E74 
+ 698      00
+ 699              	.LASF0:
+ 700 026d 7369676E 		.ascii	"signed char\000"
+ 700      65642063 
+ 700      68617200 
+ 701              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

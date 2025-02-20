@@ -1,0 +1,6 @@
+C:\Users\alexport\OneDrive - Safeguard Analytics\TESTs\UART UDB test\SA-200.cydsn\SA-200.cyprj|b9a94c00-ad22-4e05-b4d0-f7f3d443a735
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|41993e59-3112-4c89-a2bc-64ec27a628a2
+C:\Users\alexport\OneDrive - Safeguard Analytics\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|fe8ae314-e677-4c06-9150-6d9ee2bfdc29
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|96195d4d-a42b-4a47-ab1d-4e0c0280ece7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|0d863d3b-478a-48f3-9852-9015862f43be
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|3f3eda98-8ba3-4884-922e-4e50374d7a16

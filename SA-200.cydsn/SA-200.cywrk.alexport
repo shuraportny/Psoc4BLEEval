@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SA-200\SA-200\TopDesign">
+<ExpandedNodeIds>
+<v>SA-200</v>
+<v>SA-200\SA-200</v>
+<v>SA-200\SA-200\TopDesign</v>
+<v>SA-200\SA-200\SA-200.cydwr</v>
+<v>SA-200\SA-200\SA-200.cydwr\Pins</v>
+<v>SA-200\SA-200\SA-200.cydwr\Analog</v>
+<v>SA-200\SA-200\SA-200.cydwr\DMA</v>
+<v>SA-200\SA-200\SA-200.cydwr\Clocks</v>
+<v>SA-200\SA-200\SA-200.cydwr\Interrupts</v>
+<v>SA-200\SA-200\SA-200.cydwr\System</v>
+<v>SA-200\SA-200\SA-200.cydwr\Directives</v>
+<v>SA-200\SA-200\SA-200.cydwr\Flash Security</v>
+<v>SA-200\SA-200\Header Files</v>
+<v>SA-200\SA-200\Header Files\cyapicallbacks.h</v>
+<v>SA-200\SA-200\Header Files\i2c_master.h</v>
+<v>SA-200\SA-200\Header Files\interrupts.h</v>
+<v>SA-200\SA-200\Header Files\modbus.h</v>
+<v>SA-200\SA-200\Header Files\runtime.h</v>
+<v>SA-200\SA-200\Header Files\sensor.h</v>
+<v>SA-200\SA-200\Source Files</v>
+<v>SA-200\SA-200\Source Files\i2c_master.c</v>
+<v>SA-200\SA-200\Source Files\interrupts.c</v>
+<v>SA-200\SA-200\Source Files\main.c</v>
+<v>SA-200\SA-200\Source Files\modbus.c</v>
+<v>SA-200\SA-200\Source Files\runtime.c</v>
+<v>SA-200\SA-200\Source Files\sensor.c</v>
+<v>SA-200\SA-200\Generated_Source</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_lfclk</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>SA-200</v>
+<v>SA-200\SA-200</v>
+<v>SA-200\SA-200\TopDesign</v>
+<v>SA-200\SA-200\SA-200.cydwr</v>
+<v>SA-200\SA-200\SA-200.cydwr\Pins</v>
+<v>SA-200\SA-200\SA-200.cydwr\Analog</v>
+<v>SA-200\SA-200\SA-200.cydwr\DMA</v>
+<v>SA-200\SA-200\SA-200.cydwr\Clocks</v>
+<v>SA-200\SA-200\SA-200.cydwr\Interrupts</v>
+<v>SA-200\SA-200\SA-200.cydwr\System</v>
+<v>SA-200\SA-200\SA-200.cydwr\Directives</v>
+<v>SA-200\SA-200\SA-200.cydwr\Flash Security</v>
+<v>SA-200\SA-200\Header Files</v>
+<v>SA-200\SA-200\Header Files\cyapicallbacks.h</v>
+<v>SA-200\SA-200\Header Files\i2c_master.h</v>
+<v>SA-200\SA-200\Header Files\interrupts.h</v>
+<v>SA-200\SA-200\Header Files\modbus.h</v>
+<v>SA-200\SA-200\Header Files\runtime.h</v>
+<v>SA-200\SA-200\Header Files\sensor.h</v>
+<v>SA-200\SA-200\Source Files</v>
+<v>SA-200\SA-200\Source Files\i2c_master.c</v>
+<v>SA-200\SA-200\Source Files\interrupts.c</v>
+<v>SA-200\SA-200\Source Files\main.c</v>
+<v>SA-200\SA-200\Source Files\modbus.c</v>
+<v>SA-200\SA-200\Source Files\runtime.c</v>
+<v>SA-200\SA-200\Source Files\sensor.c</v>
+<v>SA-200\SA-200\Generated_Source</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\BLETimer</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\blue</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\blue_bless_isr</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\Bootloadable</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\Clock_1</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\Clock2</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\CPS</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\CSD</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\cmsis_compiler.h</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>SA-200\SA-200\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>SA-200</v>
+<v>SA-200\SA-200</v>
+<v>SA-200\SA-200\TopDesign</v>
+<v>SA-200\SA-200\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>SA-200</v>
+<v>SA-200\SA-200</v>
+<v>SA-200\SA-200\TopDesign</v>
+<v>SA-200\SA-200\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>SA-200</v>
+<v>SA-200\SA-200</v>
+<v>SA-200\SA-200\CortexM0</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\BLETimer.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\BLETimer_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_bless_isr.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_custom.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_dis.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_eventHandler.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_gatt.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_HAL_INT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_HAL_PVT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Bootloadable.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock2.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CPS.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CPS_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CSD.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CSD_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cybootloader.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_MASTER.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\i2c_master.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_scl.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_sda.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\interrupts.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_BLE.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_ModbusByteIn.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_NewMessage.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_SW.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\LED2.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\LED2_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\LED3.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\LED3_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\MessageTimer.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\MessageTimer_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\modbus.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_BOOT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_rx_wake.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_rx_wake_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_RX_WAKEUP_IRQ.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_SCBCLK.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_SPI_UART.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_SPI_UART_INT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_tx.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_tx_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_UART.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ModbusUART_UART_BOOT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\mosi.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\mosi_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\PG_3V3.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\PG_3V3_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\runtime.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\sclk.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\sclk_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\sensor.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SPIM_1.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SPIM_1_INT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SPIM_1_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ss.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\ss_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SW.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\TXEN.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\TXEN_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\WdtIsr.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\SA-200.cyacd</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\SA-200.elf</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\SA-200.hex</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\SA-200.map</v>
+<v>SA-200\SA-200\SA-200.gpdsc</v>
+<v>SA-200\SA-200\SA-200.rpt</v>
+<v>SA-200\SA-200\SA-200_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>SA-200</v>
+<v>SA-200\SA-200</v>
+<v>SA-200\SA-200\CortexM0</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\BLETimer.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\BLETimer_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_bless_isr.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_custom.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_dis.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_eventHandler.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_gatt.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_HAL_INT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\blue_HAL_PVT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Bootloadable.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock2.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CPS.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CPS_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CSD.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CSD_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cybootloader.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_BOOT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_BOOT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_INT.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_I2C_MASTER.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\i2c_master.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_SCB_IRQ.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_SCBCLK.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_scl.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_scl_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_sda.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\I2C_sda_PM.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\interrupts.lst</v>
+<v>SA-200\SA-200\CortexM0\ARM_GCC_541\Debug\Listing Files\isr_BLE.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SA-200">
+<ExpandedNodeIds>
+<v>SA-200</v>
+<v>SA-200\SA-200</v>
+<v>SA-200\SA-200\PSoC 4 Architecture TRM</v>
+<v>SA-200\SA-200\PSoC 4200 BLE Family Datasheet</v>
+<v>SA-200\SA-200\System Reference Guides</v>
+<v>SA-200\SA-200\System Reference Guides\cy_boot_v6_10</v>
+<v>SA-200\SA-200\System Reference Guides\cy_dmac_v1_10</v>
+<v>SA-200\SA-200\System Reference Guides\cy_lfclk_v1_20</v>
+<v>SA-200\SA-200\BLE_v3_40.pdf</v>
+<v>SA-200\SA-200\Bootloadable_v1_60.pdf</v>
+<v>SA-200\SA-200\cy_clock_v2_20</v>
+<v>SA-200\SA-200\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>SA-200\SA-200\cy_constant_v1_0.pdf</v>
+<v>SA-200\SA-200\cy_gsref_v2_10.pdf</v>
+<v>SA-200\SA-200\cy_isr_v1_70.pdf</v>
+<v>SA-200\SA-200\cy_isr_v1_71</v>
+<v>SA-200\SA-200\cy_isr_v1_71\cy_isr_v1_71.pdf</v>
+<v>SA-200\SA-200\cy_pins_v2_20</v>
+<v>SA-200\SA-200\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>SA-200\SA-200\SCB_P4_v4_0</v>
+<v>SA-200\SA-200\SCB_P4_v4_0\SCB_P4_v4_0.pdf</v>
+<v>SA-200\SA-200\SPI_Master_v2_50.pdf</v>
+<v>SA-200\SA-200\TCPWM_P4_v2_10</v>
+<v>SA-200\SA-200\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>SA-200</v>
+<v>SA-200\SA-200</v>
+<v>SA-200\SA-200\PSoC 4 Architecture TRM</v>
+<v>SA-200\SA-200\PSoC 4200 BLE Family Datasheet</v>
+<v>SA-200\SA-200\System Reference Guides</v>
+<v>SA-200\SA-200\System Reference Guides\cy_boot_v6_10</v>
+<v>SA-200\SA-200\System Reference Guides\cy_dmac_v1_10</v>
+<v>SA-200\SA-200\System Reference Guides\cy_lfclk_v1_20</v>
+<v>SA-200\SA-200\BLE_v3_40.pdf</v>
+<v>SA-200\SA-200\Bootloadable_v1_60.pdf</v>
+<v>SA-200\SA-200\cy_clock_v2_20</v>
+<v>SA-200\SA-200\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>SA-200\SA-200\cy_constant_v1_0.pdf</v>
+<v>SA-200\SA-200\cy_gsref_v2_10.pdf</v>
+<v>SA-200\SA-200\cy_isr_v1_70.pdf</v>
+<v>SA-200\SA-200\cy_isr_v1_71</v>
+<v>SA-200\SA-200\cy_isr_v1_71\cy_isr_v1_71.pdf</v>
+<v>SA-200\SA-200\cy_pins_v2_20</v>
+<v>SA-200\SA-200\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>SA-200\SA-200\SCB_P4_v4_0</v>
+<v>SA-200\SA-200\SCB_P4_v4_0\SCB_P4_v4_0.pdf</v>
+<v>SA-200\SA-200\SPI_Master_v2_50.pdf</v>
+<v>SA-200\SA-200\TCPWM_P4_v2_10</v>
+<v>SA-200\SA-200\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\main.c" />
+<name v=".\runtime.h" />
+<name v=".\interrupts.c" />
+<name v=".\runtime.c" />
+<name v=".\SA-200.cydwr" />
+<name v=".\i2c_master.h" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1270, 751" SelectedTabbedMdiWindow="d51c5e5f-255c-47d4-87cc-43ee096a4f0b"><DocumentWindow Key="C:\Users\alexport\OneDrive - Safeguard Analytics\TESTs\UART UDB test\SA-200.cydsn\TopDesign\TopDesign.cysch" Guid="d51c5e5f-255c-47d4-87cc-43ee096a4f0b" /><DocumentWindow Key="C:\Users\alexport\OneDrive - Safeguard Analytics\TESTs\UART UDB test\SA-200.cydsn\main.c" Guid="16024e36-2d39-4802-a120-70f79cc62fc5" /><DocumentWindow Key="C:\Users\alexport\OneDrive - Safeguard Analytics\TESTs\UART UDB test\SA-200.cydsn\runtime.h" Guid="c42fa6b7-22b0-4a5d-b99a-88b762f92920" /><DocumentWindow Key="C:\Users\alexport\OneDrive - Safeguard Analytics\TESTs\UART UDB test\SA-200.cydsn\interrupts.c" Guid="7bf783c3-84ac-4737-876a-81f0c70c00f7" /><DocumentWindow Key="C:\Users\alexport\OneDrive - Safeguard Analytics\TESTs\UART UDB test\SA-200.cydsn\runtime.c" Guid="1d4f177a-5f97-47e4-a0b4-94b331b98fe7" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="17dae064-43ff-45c8-9579-19b7054875b9" /><DocumentWindow Key="C:\Users\alexport\OneDrive - Safeguard Analytics\TESTs\UART UDB test\SA-200.cydsn\SA-200.cydwr" Guid="5a805b43-b7e5-467f-ad69-d4bb2a83ba7e" /><DocumentWindow Key="C:\Users\alexport\OneDrive - Safeguard Analytics\TESTs\UART UDB test\SA-200.cydsn\i2c_master.h" Guid="9b8494e5-4715-4808-91c4-2174b0502a77" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
